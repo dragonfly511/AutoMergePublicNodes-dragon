@@ -11,6 +11,9 @@
 # ============================================================
 
 sources:
+- url: https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt
+  name: dragon
+  kind: url
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
   name: Au1rxx-base64
   kind: url
@@ -461,8 +464,3 @@ sources:
   name: tg-redfree8
   kind: url
   max_nodes: 200
-
-- url: https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt
-  name: dragon
-  kind: url
-  max_nodes: 3000
