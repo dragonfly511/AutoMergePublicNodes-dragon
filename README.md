@@ -60,38 +60,38 @@ https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/o
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-10-23 20:11（北京时间） |
-| 订阅源（可用/总数） | 89/108 |
-| 原始节点 → 去重后 | 105776 → 34793 |
-| 送入测试 → 探活通过 → 真测通过 | 3000 → 337 → 267 |
-| 国内可达 / 不可达 / 未知 | 131 / 136 / 0 |
-| 国内检查缓存命中 | 225 |
+| 更新时间 | 2026-10-30 09:58（北京时间） |
+| 订阅源（可用/总数） | 87/108 |
+| 原始节点 → 去重后 | 109307 → 35026 |
+| 送入测试 → 探活通过 → 真测通过 | 3000 → 451 → 287 |
+| 国内可达 / 不可达 / 未知 | 56 / 144 / 87 |
+| 国内检查缓存命中 | 0 |
 | **verified 输出** | 131 |
-| **global 输出** | 274 |
-| all 全量池 | 34793 |
-| 本轮耗时 | 290.7 秒 |
+| **global 输出** | 291 |
+| all 全量池 | 35026 |
+| 本轮耗时 | 311.8 秒 |
 
-> 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
+> 输出保护：verified。完整报告见 `output/health_report.md`、`output/stats.json`。
 
 ### Top 节点评分
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 88.2 | http | 253.3 | ermaozi |
-| 85.63 | http | 343.9 | ermaozi |
-| 85.33 | hysteria2 | 233.0 | dragon |
-| 84.95 | vless | 295.1 | Au1rxx-base64 |
-| 83.22 | http | 436.0 | ermaozi |
+| 83.53 | shadowsocks | 210.3 | dragon |
+| 83.36 | shadowsocks | 218.1 | dragon |
+| 83.33 | http | 378.7 | ermaozi |
+| 83.25 | http | 295.0 | ermaozi |
+| 82.24 | shadowsocks | 261.6 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| ermaozi | 0.986 | 103 | prefer |
-| Au1rxx-base64 | 0.863 | 124 | prefer |
-| mheidari-all | 0.734 | 50 | prefer |
+| dragon | 1.0 | 53 | prefer |
+| ermaozi | 0.975 | 20 | prefer |
+| Au1rxx-base64 | 0.921 | 93 | prefer |
 | Surfboard-tg-mixed | 0.718 | 45 | prefer |
-| dragon | 0.401 | 7 | observe |
+| mheidari-all | 0.525 | 234 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
