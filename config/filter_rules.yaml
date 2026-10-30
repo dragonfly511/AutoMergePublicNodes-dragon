@@ -37,7 +37,7 @@ blocked:
     - h2
 
   # 可选：按协议整体屏蔽，例如 ["http", "socks"]。
-  protocols: []
+  protocols: [http]
 
 suspicious:
   # 当前只作为配置文档保留；真实测试低延迟过滤仍由 --min-latency 控制。
