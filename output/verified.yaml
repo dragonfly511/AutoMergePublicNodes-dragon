@@ -2,14 +2,40 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[200.3ms +/-1ms] ProxyRift 131'
+- name: 🇺🇸 [466.6ms +/-2ms] 4Kian-2c5a8e2260
+  server: 199.181.197.99
+  port: 443
+  type: trojan
+  password: 70756c73-0000-4000-8000-650000000000
+  sni: parsa-panel-u48we.wotic15356.workers.dev
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: '[277.8ms +/-1ms] ProxyRift 131'
   server: 88.216.195.188
   port: 443
   type: hysteria2
   password: 63e1b9462d708b56d5d5a0267cffecdc
   sni: promo3.goonars.com
   skip-cert-verify: true
-- name: '[494.6ms +/-8ms] 4Jadi-c2e6ff7722'
+- name: 🇻🇬 [603.7ms +/-2ms] 4FreeIran-4c06e360a8
+  server: 104.234.239.139
+  port: 443
+  type: trojan
+  password: 70756c73-0000-4000-8000-650000000000
+  sni: parsa-panel-u48we.wotic15356.workers.dev
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: '[704.4ms +/-8ms] 4Jadi-c2e6ff7722'
   server: 104.18.37.228
   port: 443
   type: trojan
@@ -22,59 +48,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '[528.3ms +/-18ms] @Vip_Security'
-  server: 104.19.64.105
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇦🇹 [502.5ms +/-43ms] ->FR+(@DeamNet_Proxy) (102)
-  server: 212.183.88.136
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇸🇨 [504.6ms +/-41ms] 4FreeIran-0d4214d2c4
-  server: 45.130.125.190
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[502.8ms +/-29ms] 4Jadi-e9e54a67be'
-  server: 104.18.19.2
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: '[571.8ms +/-40ms] 4Kian-1c86882a96'
+- name: '[717.7ms +/-44ms] 4Kian-1c86882a96'
   server: 172.64.150.28
   port: 443
   type: trojan
@@ -87,15 +61,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: 🇮🇹 [516.2ms +/-63ms] @DeltaKroneckerGithub
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[534.3ms +/-27ms] 4Jadi-c430fd7f94'
-  server: 104.17.175.201
+- name: 🇸🇨 [701.7ms +/-26ms] 4FreeIran-0d4214d2c4
+  server: 45.130.125.190
   port: 443
   type: trojan
   password: humanity
@@ -107,21 +74,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: 🇦🇪 [554.0ms +/-12ms] 4Jadi-96350f313a
-  server: 46.174.142.238
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: '[522.4ms +/-94ms] 4Jadi-362b39a19c'
-  server: 162.159.140.245
+- name: '[712.1ms +/-49ms] @Vip_Security'
+  server: 104.19.64.105
   port: 443
   type: trojan
   password: humanity
@@ -133,28 +87,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: '[523.8ms +/-3ms] 4Sarina-3d523c487f'
-  server: 172.64.190.13
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: 🇮🇹 [489.5ms +/-4ms] 🇮🇹IT-202.50.253.54-0121
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[485.1ms +/-71ms] ProxyRift 029'
-  server: 172.67.162.58
+- name: 🇦🇹 [767.3ms +/-37ms] ->FR+(@DeamNet_Proxy) (102)
+  server: 212.183.88.136
   port: 443
   type: trojan
   password: humanity
@@ -163,23 +97,10 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: 🇨🇦 [618.1ms +/-2ms] @DeltaKroneckerGithub
-  server: 108.162.194.134
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
-- name: '[689.0ms +/-27ms] 4Mohsen-031e941fd4'
+      Host: www.calmlunch.com
+- name: '[742.3ms +/-4ms] 4Mohsen-031e941fd4'
   server: 172.64.231.133
   port: 443
   type: trojan
@@ -192,8 +113,112 @@ proxies:
     path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: '[525.0ms +/-0ms] @DeltaKroneckerGithub'
-  server: 104.27.203.207
+- name: '[734.5ms +/-65ms] 4Jadi-362b39a19c'
+  server: 162.159.140.245
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[700.6ms +/-100ms] 4Jadi-e9e54a67be'
+  server: 104.18.19.2
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[704.4ms +/-78ms] 4Jadi-c430fd7f94'
+  server: 104.17.175.201
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[737.4ms +/-58ms] 🔒'
+  server: 104.17.121.9
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: '[870.8ms +/-103ms] @DeltaKroneckerGithub'
+  server: 104.27.21.22
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.volumeroot.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: '[669.8ms +/-68ms] 🔒'
+  server: 172.64.153.61
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇦🇪 [923.4ms +/-67ms] 4Jadi-96350f313a
+  server: 46.174.142.238
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇬🇧 [1006.6ms +/-31ms] @DeltaKroneckerGithub
+  server: 167.172.61.197
+  port: 443
+  type: trojan
+  password: humanity
+  sni: wWw.Volumeroot.cOm.
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumerOot.coM.
+- name: '[867.3ms +/-55ms] 4Sarina-3d523c487f'
+  server: 172.64.190.13
   port: 443
   type: trojan
   password: humanity
@@ -205,7 +230,20 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[633.5ms +/-3ms] 4Nika-79988bbd71'
+- name: 🇱🇹 [807.9ms +/-43ms] 🔒
+  server: 88.216.69.253
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[917.1ms +/-55ms] 4Nika-79988bbd71'
   server: 172.66.1.36
   port: 443
   type: trojan
@@ -218,70 +256,168 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: 🇮🇹 [548.1ms +/-54ms] 🇮🇹IT-202.50.253.81-0124
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[731.1ms +/-189ms] 🔒'
+  server: 104.25.0.1
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: true
   udp: true
-- name: 🇮🇹 [516.9ms +/-17ms] 🇮🇹IT-202.50.253.27-0225
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 🇨🇦 [889.5ms +/-271ms] @DeltaKroneckerGithub
+  server: 108.162.194.134
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
   udp: true
-- name: 🇮🇹 [499.7ms +/-30ms] 🇮🇹IT-202.50.253.18-0120
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: 🇨🇦 [386.1ms +/-2ms] 4Jadi-e012125bd8
+  server: 151.101.65.242
+  port: 443
+  type: vless
+  uuid: 0d03e44f-f60f-41b6-8ad7-13445af164fd
   udp: true
-- name: '[561.8ms +/-7ms] 香港(yudou99.com 玉豆分享)'
-  server: 56481.df6h451rh.xin
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: '[980.3ms +/-123ms] 🔒'
+  server: 188.114.97.1
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[799.1ms +/-23ms] 台湾(yudou99.com 玉豆分享)'
+  server: 684616s4.df6h451rh.xin
   port: 443
   type: anytls
   password: 0324fbc29561
-  sni: images.ctfassets.net
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: 🇮🇹 [653.7ms +/-42ms] 🇮🇹IT-202.50.253.99-0152
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦 [488.4ms +/-1ms] 4FreeIran-9a3c2d8062
+  server: 151.101.193.242
+  port: 443
+  type: vless
+  uuid: 056d58b7-2577-4f82-b7a8-2473202419c2
   udp: true
-- name: 🇮🇹 [750.5ms +/-11ms] 🇮🇹IT-202.50.253.36-0453
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [904.4ms +/-11ms] 🇮🇹IT-202.50.253.72-0131
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [712.9ms +/-208ms] 🇮🇹IT-202.50.253.90-0198
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[683.1ms +/-8ms] 4Sarina-a20cb408c2'
+  tls: true
+  servername: piracy-android.video-streams.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: '[641.8ms +/-13ms] 4Mohsen-07cb3995b0'
   server: 217.60.73.56
   port: 443
   type: hysteria2
   password: 69e41e64-a832-471a-b740-94577ca85520
   sni: forshynewh.duckdns.org
   skip-cert-verify: true
-- name: '[709.5ms +/-10ms] @v2ray_phoenix'
+- name: '[465.5ms +/-1ms] 🇳🇱204470 | ⚡️Telegram = t.me(…)'
+  server: 84.245.18.209
+  port: 443
+  type: hysteria2
+  password: e48078c8-21ae-4d27-9438-b85492972894
+  sni: hy.gerqix.autos
+  skip-cert-verify: true
+- name: '[810.4ms +/-50ms] 4Sarina-a474d3c6d9'
+  server: 208.68.180.204
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: '[662.4ms +/-3ms] @VPsave'
+  server: 104.17.108.213
+  port: 443
+  type: vless
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  udp: true
+  tls: true
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
+- name: '[1170.0ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: '[1046.9ms +/-493ms] 4Kian-d73503480f'
+  server: 188.42.145.180
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.volumeroot.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: '[1420.9ms +/-299ms] @DeltaKroneckerGithub'
+  server: 104.27.203.207
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: '[947.3ms +/-51ms] 4Sarina-55c0b84e68'
+  server: 23.246.154.144
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: '[907.8ms +/-228ms] @v2ray_phoenix'
   server: 8.47.69.0
   port: 443
   type: trojan
@@ -294,158 +430,175 @@ proxies:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: '[1083.6ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
-  server: er8u54dh.df6h451rh.xin
+- name: '[931.8ms +/-207ms] vless-1854335913'
+  server: 104.16.10.104
   port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: '[1166.4ms +/-15ms] 台湾(yudou99.com 玉豆分享)'
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: '[778.4ms +/-1ms] @tootffarangi🍓'
-  server: 172.67.118.45
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[1032.7ms +/-2ms] @ICV2RAY'
-  server: 104.18.45.38
+      Host: jp3.yohototo.top
+- name: '[1191.9ms +/-310ms] vless-1853654571'
+  server: 104.21.70.21
   port: 443
-  type: trojan
-  password: humanity
-  sni: www.pleadcourt.org
-  skip-cert-verify: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /assignment
+    path: /tyxyws
     headers:
-      Host: www.pleadcourt.org
+      Host: jp3.yohototo.top
+- name: '[1084.3ms +/-579ms] vless-1828374596'
+  server: 104.21.33.59
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - 🇮🇹 其他
-  - '[200.3ms +/-1ms] ProxyRift 131'
-  - '[494.6ms +/-8ms] 4Jadi-c2e6ff7722'
-  - '[528.3ms +/-18ms] @Vip_Security'
-  - 🇦🇹 [502.5ms +/-43ms] ->FR+(@DeamNet_Proxy) (102)
-  - 🇸🇨 [504.6ms +/-41ms] 4FreeIran-0d4214d2c4
-  - '[502.8ms +/-29ms] 4Jadi-e9e54a67be'
-  - '[571.8ms +/-40ms] 4Kian-1c86882a96'
-  - 🇮🇹 [516.2ms +/-63ms] @DeltaKroneckerGithub
-  - '[534.3ms +/-27ms] 4Jadi-c430fd7f94'
-  - 🇦🇪 [554.0ms +/-12ms] 4Jadi-96350f313a
-  - '[522.4ms +/-94ms] 4Jadi-362b39a19c'
-  - '[523.8ms +/-3ms] 4Sarina-3d523c487f'
-  - 🇮🇹 [489.5ms +/-4ms] 🇮🇹IT-202.50.253.54-0121
-  - '[485.1ms +/-71ms] ProxyRift 029'
-  - 🇨🇦 [618.1ms +/-2ms] @DeltaKroneckerGithub
-  - '[689.0ms +/-27ms] 4Mohsen-031e941fd4'
-  - '[525.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[633.5ms +/-3ms] 4Nika-79988bbd71'
-  - 🇮🇹 [548.1ms +/-54ms] 🇮🇹IT-202.50.253.81-0124
-  - 🇮🇹 [516.9ms +/-17ms] 🇮🇹IT-202.50.253.27-0225
-  - 🇮🇹 [499.7ms +/-30ms] 🇮🇹IT-202.50.253.18-0120
-  - '[561.8ms +/-7ms] 香港(yudou99.com 玉豆分享)'
-  - 🇮🇹 [653.7ms +/-42ms] 🇮🇹IT-202.50.253.99-0152
-  - 🇮🇹 [750.5ms +/-11ms] 🇮🇹IT-202.50.253.36-0453
-  - 🇮🇹 [904.4ms +/-11ms] 🇮🇹IT-202.50.253.72-0131
-  - 🇮🇹 [712.9ms +/-208ms] 🇮🇹IT-202.50.253.90-0198
-  - '[683.1ms +/-8ms] 4Sarina-a20cb408c2'
-  - '[709.5ms +/-10ms] @v2ray_phoenix'
-  - '[1083.6ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
-  - '[1166.4ms +/-15ms] 台湾(yudou99.com 玉豆分享)'
-  - '[778.4ms +/-1ms] @tootffarangi🍓'
-  - '[1032.7ms +/-2ms] @ICV2RAY'
+  - 🇨🇦 加拿大
+  - 🇺🇸 [466.6ms +/-2ms] 4Kian-2c5a8e2260
+  - '[277.8ms +/-1ms] ProxyRift 131'
+  - 🇻🇬 [603.7ms +/-2ms] 4FreeIran-4c06e360a8
+  - '[704.4ms +/-8ms] 4Jadi-c2e6ff7722'
+  - '[717.7ms +/-44ms] 4Kian-1c86882a96'
+  - 🇸🇨 [701.7ms +/-26ms] 4FreeIran-0d4214d2c4
+  - '[712.1ms +/-49ms] @Vip_Security'
+  - 🇦🇹 [767.3ms +/-37ms] ->FR+(@DeamNet_Proxy) (102)
+  - '[742.3ms +/-4ms] 4Mohsen-031e941fd4'
+  - '[734.5ms +/-65ms] 4Jadi-362b39a19c'
+  - '[700.6ms +/-100ms] 4Jadi-e9e54a67be'
+  - '[704.4ms +/-78ms] 4Jadi-c430fd7f94'
+  - '[737.4ms +/-58ms] 🔒'
+  - '[870.8ms +/-103ms] @DeltaKroneckerGithub'
+  - '[669.8ms +/-68ms] 🔒'
+  - 🇦🇪 [923.4ms +/-67ms] 4Jadi-96350f313a
+  - 🇬🇧 [1006.6ms +/-31ms] @DeltaKroneckerGithub
+  - '[867.3ms +/-55ms] 4Sarina-3d523c487f'
+  - 🇱🇹 [807.9ms +/-43ms] 🔒
+  - '[917.1ms +/-55ms] 4Nika-79988bbd71'
+  - '[731.1ms +/-189ms] 🔒'
+  - 🇨🇦 [889.5ms +/-271ms] @DeltaKroneckerGithub
+  - 🇨🇦 [386.1ms +/-2ms] 4Jadi-e012125bd8
+  - '[980.3ms +/-123ms] 🔒'
+  - '[799.1ms +/-23ms] 台湾(yudou99.com 玉豆分享)'
+  - 🇨🇦 [488.4ms +/-1ms] 4FreeIran-9a3c2d8062
+  - '[641.8ms +/-13ms] 4Mohsen-07cb3995b0'
+  - '[465.5ms +/-1ms] 🇳🇱204470 | ⚡️Telegram = t.me(…)'
+  - '[810.4ms +/-50ms] 4Sarina-a474d3c6d9'
+  - '[662.4ms +/-3ms] @VPsave'
+  - '[1170.0ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
+  - '[1046.9ms +/-493ms] 4Kian-d73503480f'
+  - '[1420.9ms +/-299ms] @DeltaKroneckerGithub'
+  - '[947.3ms +/-51ms] 4Sarina-55c0b84e68'
+  - '[907.8ms +/-228ms] @v2ray_phoenix'
+  - '[931.8ms +/-207ms] vless-1854335913'
+  - '[1191.9ms +/-310ms] vless-1853654571'
+  - '[1084.3ms +/-579ms] vless-1828374596'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[200.3ms +/-1ms] ProxyRift 131'
-  - '[494.6ms +/-8ms] 4Jadi-c2e6ff7722'
-  - '[528.3ms +/-18ms] @Vip_Security'
-  - 🇦🇹 [502.5ms +/-43ms] ->FR+(@DeamNet_Proxy) (102)
-  - 🇸🇨 [504.6ms +/-41ms] 4FreeIran-0d4214d2c4
-  - '[502.8ms +/-29ms] 4Jadi-e9e54a67be'
-  - '[571.8ms +/-40ms] 4Kian-1c86882a96'
-  - 🇮🇹 [516.2ms +/-63ms] @DeltaKroneckerGithub
-  - '[534.3ms +/-27ms] 4Jadi-c430fd7f94'
-  - 🇦🇪 [554.0ms +/-12ms] 4Jadi-96350f313a
-  - '[522.4ms +/-94ms] 4Jadi-362b39a19c'
-  - '[523.8ms +/-3ms] 4Sarina-3d523c487f'
-  - 🇮🇹 [489.5ms +/-4ms] 🇮🇹IT-202.50.253.54-0121
-  - '[485.1ms +/-71ms] ProxyRift 029'
-  - 🇨🇦 [618.1ms +/-2ms] @DeltaKroneckerGithub
-  - '[689.0ms +/-27ms] 4Mohsen-031e941fd4'
-  - '[525.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[633.5ms +/-3ms] 4Nika-79988bbd71'
-  - 🇮🇹 [548.1ms +/-54ms] 🇮🇹IT-202.50.253.81-0124
-  - 🇮🇹 [516.9ms +/-17ms] 🇮🇹IT-202.50.253.27-0225
-  - 🇮🇹 [499.7ms +/-30ms] 🇮🇹IT-202.50.253.18-0120
-  - '[561.8ms +/-7ms] 香港(yudou99.com 玉豆分享)'
-  - 🇮🇹 [653.7ms +/-42ms] 🇮🇹IT-202.50.253.99-0152
-  - 🇮🇹 [750.5ms +/-11ms] 🇮🇹IT-202.50.253.36-0453
-  - 🇮🇹 [904.4ms +/-11ms] 🇮🇹IT-202.50.253.72-0131
-  - 🇮🇹 [712.9ms +/-208ms] 🇮🇹IT-202.50.253.90-0198
-  - '[683.1ms +/-8ms] 4Sarina-a20cb408c2'
-  - '[709.5ms +/-10ms] @v2ray_phoenix'
-  - '[1083.6ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
-  - '[1166.4ms +/-15ms] 台湾(yudou99.com 玉豆分享)'
-  - '[778.4ms +/-1ms] @tootffarangi🍓'
-  - '[1032.7ms +/-2ms] @ICV2RAY'
+  - 🇺🇸 [466.6ms +/-2ms] 4Kian-2c5a8e2260
+  - '[277.8ms +/-1ms] ProxyRift 131'
+  - 🇻🇬 [603.7ms +/-2ms] 4FreeIran-4c06e360a8
+  - '[704.4ms +/-8ms] 4Jadi-c2e6ff7722'
+  - '[717.7ms +/-44ms] 4Kian-1c86882a96'
+  - 🇸🇨 [701.7ms +/-26ms] 4FreeIran-0d4214d2c4
+  - '[712.1ms +/-49ms] @Vip_Security'
+  - 🇦🇹 [767.3ms +/-37ms] ->FR+(@DeamNet_Proxy) (102)
+  - '[742.3ms +/-4ms] 4Mohsen-031e941fd4'
+  - '[734.5ms +/-65ms] 4Jadi-362b39a19c'
+  - '[700.6ms +/-100ms] 4Jadi-e9e54a67be'
+  - '[704.4ms +/-78ms] 4Jadi-c430fd7f94'
+  - '[737.4ms +/-58ms] 🔒'
+  - '[870.8ms +/-103ms] @DeltaKroneckerGithub'
+  - '[669.8ms +/-68ms] 🔒'
+  - 🇦🇪 [923.4ms +/-67ms] 4Jadi-96350f313a
+  - 🇬🇧 [1006.6ms +/-31ms] @DeltaKroneckerGithub
+  - '[867.3ms +/-55ms] 4Sarina-3d523c487f'
+  - 🇱🇹 [807.9ms +/-43ms] 🔒
+  - '[917.1ms +/-55ms] 4Nika-79988bbd71'
+  - '[731.1ms +/-189ms] 🔒'
+  - 🇨🇦 [889.5ms +/-271ms] @DeltaKroneckerGithub
+  - 🇨🇦 [386.1ms +/-2ms] 4Jadi-e012125bd8
+  - '[980.3ms +/-123ms] 🔒'
+  - '[799.1ms +/-23ms] 台湾(yudou99.com 玉豆分享)'
+  - 🇨🇦 [488.4ms +/-1ms] 4FreeIran-9a3c2d8062
+  - '[641.8ms +/-13ms] 4Mohsen-07cb3995b0'
+  - '[465.5ms +/-1ms] 🇳🇱204470 | ⚡️Telegram = t.me(…)'
+  - '[810.4ms +/-50ms] 4Sarina-a474d3c6d9'
+  - '[662.4ms +/-3ms] @VPsave'
+  - '[1170.0ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
+  - '[1046.9ms +/-493ms] 4Kian-d73503480f'
+  - '[1420.9ms +/-299ms] @DeltaKroneckerGithub'
+  - '[947.3ms +/-51ms] 4Sarina-55c0b84e68'
+  - '[907.8ms +/-228ms] @v2ray_phoenix'
+  - '[931.8ms +/-207ms] vless-1854335913'
+  - '[1191.9ms +/-310ms] vless-1853654571'
+  - '[1084.3ms +/-579ms] vless-1828374596'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[200.3ms +/-1ms] ProxyRift 131'
-  - '[494.6ms +/-8ms] 4Jadi-c2e6ff7722'
-  - '[528.3ms +/-18ms] @Vip_Security'
-  - '[502.8ms +/-29ms] 4Jadi-e9e54a67be'
-  - '[571.8ms +/-40ms] 4Kian-1c86882a96'
-  - '[534.3ms +/-27ms] 4Jadi-c430fd7f94'
-  - '[522.4ms +/-94ms] 4Jadi-362b39a19c'
-  - '[523.8ms +/-3ms] 4Sarina-3d523c487f'
-  - '[485.1ms +/-71ms] ProxyRift 029'
-  - '[689.0ms +/-27ms] 4Mohsen-031e941fd4'
-  - '[525.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[633.5ms +/-3ms] 4Nika-79988bbd71'
-  - '[561.8ms +/-7ms] 香港(yudou99.com 玉豆分享)'
-  - '[683.1ms +/-8ms] 4Sarina-a20cb408c2'
-  - '[709.5ms +/-10ms] @v2ray_phoenix'
-  - '[1083.6ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
-  - '[1166.4ms +/-15ms] 台湾(yudou99.com 玉豆分享)'
-  - '[778.4ms +/-1ms] @tootffarangi🍓'
-  - '[1032.7ms +/-2ms] @ICV2RAY'
+  - '[277.8ms +/-1ms] ProxyRift 131'
+  - '[704.4ms +/-8ms] 4Jadi-c2e6ff7722'
+  - '[717.7ms +/-44ms] 4Kian-1c86882a96'
+  - '[712.1ms +/-49ms] @Vip_Security'
+  - '[742.3ms +/-4ms] 4Mohsen-031e941fd4'
+  - '[734.5ms +/-65ms] 4Jadi-362b39a19c'
+  - '[700.6ms +/-100ms] 4Jadi-e9e54a67be'
+  - '[704.4ms +/-78ms] 4Jadi-c430fd7f94'
+  - '[737.4ms +/-58ms] 🔒'
+  - '[870.8ms +/-103ms] @DeltaKroneckerGithub'
+  - '[669.8ms +/-68ms] 🔒'
+  - '[867.3ms +/-55ms] 4Sarina-3d523c487f'
+  - '[917.1ms +/-55ms] 4Nika-79988bbd71'
+  - '[731.1ms +/-189ms] 🔒'
+  - '[980.3ms +/-123ms] 🔒'
+  - '[799.1ms +/-23ms] 台湾(yudou99.com 玉豆分享)'
+  - '[641.8ms +/-13ms] 4Mohsen-07cb3995b0'
+  - '[465.5ms +/-1ms] 🇳🇱204470 | ⚡️Telegram = t.me(…)'
+  - '[810.4ms +/-50ms] 4Sarina-a474d3c6d9'
+  - '[662.4ms +/-3ms] @VPsave'
+  - '[1170.0ms +/-1ms] 台湾(yudou99.com 玉豆分享)'
+  - '[1046.9ms +/-493ms] 4Kian-d73503480f'
+  - '[1420.9ms +/-299ms] @DeltaKroneckerGithub'
+  - '[947.3ms +/-51ms] 4Sarina-55c0b84e68'
+  - '[907.8ms +/-228ms] @v2ray_phoenix'
+  - '[931.8ms +/-207ms] vless-1854335913'
+  - '[1191.9ms +/-310ms] vless-1853654571'
+  - '[1084.3ms +/-579ms] vless-1828374596'
   url: https://www.gstatic.com/generate_204
   interval: 600
-- name: 🇮🇹 其他
+- name: 🇨🇦 加拿大
   type: url-test
   proxies:
-  - 🇮🇹 [516.2ms +/-63ms] @DeltaKroneckerGithub
-  - 🇮🇹 [489.5ms +/-4ms] 🇮🇹IT-202.50.253.54-0121
-  - 🇮🇹 [548.1ms +/-54ms] 🇮🇹IT-202.50.253.81-0124
-  - 🇮🇹 [516.9ms +/-17ms] 🇮🇹IT-202.50.253.27-0225
-  - 🇮🇹 [499.7ms +/-30ms] 🇮🇹IT-202.50.253.18-0120
-  - 🇮🇹 [653.7ms +/-42ms] 🇮🇹IT-202.50.253.99-0152
-  - 🇮🇹 [750.5ms +/-11ms] 🇮🇹IT-202.50.253.36-0453
-  - 🇮🇹 [904.4ms +/-11ms] 🇮🇹IT-202.50.253.72-0131
-  - 🇮🇹 [712.9ms +/-208ms] 🇮🇹IT-202.50.253.90-0198
+  - 🇨🇦 [889.5ms +/-271ms] @DeltaKroneckerGithub
+  - 🇨🇦 [386.1ms +/-2ms] 4Jadi-e012125bd8
+  - 🇨🇦 [488.4ms +/-1ms] 4FreeIran-9a3c2d8062
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
