@@ -60,38 +60,38 @@ https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/o
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-11-01 14:32（北京时间） |
+| 更新时间 | 2026-11-02 02:04（北京时间） |
 | 订阅源（可用/总数） | 90/108 |
-| 原始节点 → 去重后 | 90500 → 33136 |
-| 送入测试 → 探活通过 → 真测通过 | 3000 → 154 → 134 |
-| 国内可达 / 不可达 / 未知 | 38 / 93 / 3 |
-| 国内检查缓存命中 | 64 |
+| 原始节点 → 去重后 | 92878 → 33661 |
+| 送入测试 → 探活通过 → 真测通过 | 3000 → 87 → 62 |
+| 国内可达 / 不可达 / 未知 | 1 / 60 / 1 |
+| 国内检查缓存命中 | 35 |
 | **verified 输出** | 38 |
 | **global 输出** | 136 |
-| all 全量池 | 33136 |
-| 本轮耗时 | 269.7 秒 |
+| all 全量池 | 33661 |
+| 本轮耗时 | 273.0 秒 |
 
-> 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
+> 输出保护：verified, global。完整报告见 `output/health_report.md`、`output/stats.json`。
 
 ### Top 节点评分
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 96.26 | trojan | 243.4 | dragon |
-| 94.29 | trojan | 241.3 | dragon |
-| 93.87 | trojan | 240.8 | dragon |
-| 93.39 | trojan | 266.8 | dragon |
-| 92.46 | trojan | 239.7 | dragon |
+| 92.74 | trojan | 271.7 | dragon |
+| 90.78 | trojan | 286.9 | dragon |
+| 90.67 | trojan | 288.4 | dragon |
+| 86.8 | trojan | 270.6 | dragon |
+| 86.27 | trojan | 237.8 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon | 0.998 | 96 | prefer |
-| Au1rxx-base64 | 0.956 | 33 | prefer |
-| mheidari-all | 0.698 | 13 | observe |
-| Surfboard-tg-mixed | 0.4 | 4 | observe |
-| ermaozi-get_subscribe | 0.277 | 1 | observe |
+| Au1rxx-base64 | 0.896 | 21 | prefer |
+| dragon | 0.775 | 57 | prefer |
+| mheidari-all | 0.421 | 6 | observe |
+| 10ium-ScrapeCategorize-Vless | 0.255 | 0 | observe |
+| DeltaKronecker-all | 0.255 | 0 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
