@@ -1,37 +1,7 @@
 {
-  "updated_at": "2026-11-03 07:04:41",
+  "updated_at": "2026-11-03 19:43:34",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-19 04:59:03",
-      "duration_sec": 342.2,
-      "nodes_raw": 97393,
-      "nodes_dedup": 27778,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 511,
-      "nodes_verified_output": 118,
-      "nodes_global_output": 300,
-      "nodes_global_extra_from_cn_block": 4,
-      "real_test_errors": {
-        "speed": 16,
-        "cn-block": 8,
-        "test_one_timeout": 117,
-        "204": 10,
-        "geo": 23
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 143,
-          "proposed_count": 118
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 300,
-          "proposed_count": 300
-        }
-      }
-    },
     {
       "timestamp": "2026-10-19 13:41:42",
       "duration_sec": 310.1,
@@ -905,6 +875,35 @@
           "preserved": false,
           "previous_count": 112,
           "proposed_count": 82
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-03 19:43:34",
+      "duration_sec": 246.9,
+      "nodes_raw": 93456,
+      "nodes_dedup": 34229,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 173,
+      "nodes_verified_output": 11,
+      "nodes_global_output": 174,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "204": 17,
+        "cn-block": 3,
+        "test_one_timeout": 13,
+        "geo": 1
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 9,
+          "proposed_count": 11
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 82,
+          "proposed_count": 174
         }
       }
     }
