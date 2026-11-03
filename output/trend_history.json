@@ -1,40 +1,7 @@
 {
-  "updated_at": "2026-11-02 21:54:19",
+  "updated_at": "2026-11-03 07:04:41",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-18 20:58:50",
-      "duration_sec": 294.9,
-      "nodes_raw": 97460,
-      "nodes_dedup": 27664,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 347,
-      "nodes_verified_output": 143,
-      "nodes_global_output": 300,
-      "nodes_global_extra_from_cn_block": 5,
-      "real_test_errors": {
-        "speed": 14,
-        "geo": 8,
-        "204": 12,
-        "cn-block": 8,
-        "test_one_timeout": 40
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": true,
-          "preserved_streak": 2,
-          "reason": "min_retain_ratio",
-          "previous_count": 143,
-          "proposed_count": 56,
-          "min_retain_ratio": 0.5
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 300,
-          "proposed_count": 300
-        }
-      }
-    },
     {
       "timestamp": "2026-10-19 04:59:03",
       "duration_sec": 342.2,
@@ -912,14 +879,35 @@
           "proposed_count": 112
         }
       }
+    },
+    {
+      "timestamp": "2026-11-03 07:04:41",
+      "duration_sec": 268.9,
+      "nodes_raw": 91802,
+      "nodes_dedup": 34092,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 81,
+      "nodes_verified_output": 9,
+      "nodes_global_output": 82,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "204": 3,
+        "cn-block": 3,
+        "test_one_timeout": 44
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 7,
+          "proposed_count": 9
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 112,
+          "proposed_count": 82
+        }
+      }
     }
   ],
-  "alerts": [
-    {
-      "type": "verified_drop_50pct",
-      "message": "verified output dropped from 38 to 7",
-      "previous": 38,
-      "current": 7
-    }
-  ]
+  "alerts": []
 }

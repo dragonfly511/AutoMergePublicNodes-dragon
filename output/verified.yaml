@@ -2,49 +2,56 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[635.8ms +/-139ms] 🇺🇸 美国 | USA 13'
-  server: 217.60.73.56
+- name: '[305.3ms +/-0ms] 🔒'
+  server: 169.197.140.218
   port: 443
-  type: hysteria2
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  sni: forshynewh.duckdns.org
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   skip-cert-verify: true
-- name: '[658.0ms +/-1ms] 瑞典(mibei77.com 米贝节点分享)'
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: '[613.7ms +/-54ms] ProxyRift 100'
-  server: forshynewh.duckdns.org
-  port: 443
-  type: hysteria2
-  password: 69e41e64-a832-471a-b740-94577ca85520
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: true
-- name: '[721.0ms +/-3ms] TW台湾(mibei77.com 米贝节点分享)'
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: '[757.8ms +/-7ms] HK香港(mibei77.com 米贝节点分享)'
-  server: 56481.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
-- name: '[397.3ms +/-0ms] ⏳1@oneclickvpnkeys'
+  udp: true
+- name: '[357.1ms +/-8ms] ProxyRift 142'
   server: 141.0.187.15
   port: 443
   type: hysteria2
   password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
   sni: crt.onecloudstream.com
   skip-cert-verify: true
-- name: '[915.8ms +/-165ms] @ConfigV2RayNG'
+- name: '[693.9ms +/-1ms] 4Sarina-aae5f8fc1e'
+  server: 172.67.118.45
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[732.0ms +/-13ms] HK香港(mibei77.com 米贝节点分享)'
+  server: 56481.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: '[910.5ms +/-2ms] TW台湾(mibei77.com 米贝节点分享)'
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: '[1268.7ms +/-6ms] 瑞典(mibei77.com 米贝节点分享)'
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: '[839.6ms +/-1ms] @ConfigV2RayNG'
   server: 104.21.91.49
   port: 443
   type: vless
@@ -58,41 +65,68 @@ proxies:
     path: /vlessws
     headers:
       Host: vpn.cintaku.qzz.io
+- name: '[1133.2ms +/-396ms] 4Sarina-a20cb408c2'
+  server: 217.60.73.56
+  port: 443
+  type: hysteria2
+  password: 69e41e64-a832-471a-b740-94577ca85520
+  sni: forshynewh.duckdns.org
+  skip-cert-verify: true
+- name: '[1897.9ms +/-388ms] vless-1863468525'
+  server: 104.19.33.25
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[635.8ms +/-139ms] 🇺🇸 美国 | USA 13'
-  - '[658.0ms +/-1ms] 瑞典(mibei77.com 米贝节点分享)'
-  - '[613.7ms +/-54ms] ProxyRift 100'
-  - '[721.0ms +/-3ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[757.8ms +/-7ms] HK香港(mibei77.com 米贝节点分享)'
-  - '[397.3ms +/-0ms] ⏳1@oneclickvpnkeys'
-  - '[915.8ms +/-165ms] @ConfigV2RayNG'
+  - '[305.3ms +/-0ms] 🔒'
+  - '[357.1ms +/-8ms] ProxyRift 142'
+  - '[693.9ms +/-1ms] 4Sarina-aae5f8fc1e'
+  - '[732.0ms +/-13ms] HK香港(mibei77.com 米贝节点分享)'
+  - '[910.5ms +/-2ms] TW台湾(mibei77.com 米贝节点分享)'
+  - '[1268.7ms +/-6ms] 瑞典(mibei77.com 米贝节点分享)'
+  - '[839.6ms +/-1ms] @ConfigV2RayNG'
+  - '[1133.2ms +/-396ms] 4Sarina-a20cb408c2'
+  - '[1897.9ms +/-388ms] vless-1863468525'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[635.8ms +/-139ms] 🇺🇸 美国 | USA 13'
-  - '[658.0ms +/-1ms] 瑞典(mibei77.com 米贝节点分享)'
-  - '[613.7ms +/-54ms] ProxyRift 100'
-  - '[721.0ms +/-3ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[757.8ms +/-7ms] HK香港(mibei77.com 米贝节点分享)'
-  - '[397.3ms +/-0ms] ⏳1@oneclickvpnkeys'
-  - '[915.8ms +/-165ms] @ConfigV2RayNG'
+  - '[305.3ms +/-0ms] 🔒'
+  - '[357.1ms +/-8ms] ProxyRift 142'
+  - '[693.9ms +/-1ms] 4Sarina-aae5f8fc1e'
+  - '[732.0ms +/-13ms] HK香港(mibei77.com 米贝节点分享)'
+  - '[910.5ms +/-2ms] TW台湾(mibei77.com 米贝节点分享)'
+  - '[1268.7ms +/-6ms] 瑞典(mibei77.com 米贝节点分享)'
+  - '[839.6ms +/-1ms] @ConfigV2RayNG'
+  - '[1133.2ms +/-396ms] 4Sarina-a20cb408c2'
+  - '[1897.9ms +/-388ms] vless-1863468525'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[635.8ms +/-139ms] 🇺🇸 美国 | USA 13'
-  - '[658.0ms +/-1ms] 瑞典(mibei77.com 米贝节点分享)'
-  - '[613.7ms +/-54ms] ProxyRift 100'
-  - '[721.0ms +/-3ms] TW台湾(mibei77.com 米贝节点分享)'
-  - '[757.8ms +/-7ms] HK香港(mibei77.com 米贝节点分享)'
-  - '[397.3ms +/-0ms] ⏳1@oneclickvpnkeys'
-  - '[915.8ms +/-165ms] @ConfigV2RayNG'
+  - '[305.3ms +/-0ms] 🔒'
+  - '[357.1ms +/-8ms] ProxyRift 142'
+  - '[693.9ms +/-1ms] 4Sarina-aae5f8fc1e'
+  - '[732.0ms +/-13ms] HK香港(mibei77.com 米贝节点分享)'
+  - '[910.5ms +/-2ms] TW台湾(mibei77.com 米贝节点分享)'
+  - '[1268.7ms +/-6ms] 瑞典(mibei77.com 米贝节点分享)'
+  - '[839.6ms +/-1ms] @ConfigV2RayNG'
+  - '[1133.2ms +/-396ms] 4Sarina-a20cb408c2'
+  - '[1897.9ms +/-388ms] vless-1863468525'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
