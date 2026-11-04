@@ -2,357 +2,15 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[221.5ms +/-2ms] XX-002 96@oneclickvpnkeys'
-  server: 88.216.195.188
-  port: 443
-  type: hysteria2
-  password: 63e1b9462d708b56d5d5a0267cffecdc
-  sni: promo3.goonars.com
-  skip-cert-verify: true
-- name: 🇺🇸 [232.9ms +/-1ms] US-067 US_40 1.2MB/s A004(…)
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[276.5ms +/-0ms] 🇺🇸 [227.4ms +/-0ms] hysteria(…)'
-  server: 129.213.91.185
-  port: 35013
-  type: hysteria2
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  sni: 129.213.91.185
-  skip-cert-verify: true
-- name: 🇺🇸 [260.5ms +/-1ms] US-082 US_85 1.2MB/s [2b3(…)
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[269.6ms +/-1ms] @DeltaKroneckerGithub'
-  server: 216.152.155.158
+- name: '[202.0ms +/-2ms] trojan-66.163.112.242'
+  server: 66.163.112.242
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 216.152.155.158
+  sni: 66.163.112.242
   skip-cert-verify: true
   udp: true
-- name: '[354.4ms +/-1ms] @DeltaKroneckerGithub'
-  server: 170.101.101.53
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [290.6ms +/-1ms] US-066 US_315 1.1MB/s [44(…)
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 [271.2ms +/-1ms] US-068 US_196 1.2MB/s [60(…)
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 [294.3ms +/-1ms] US-064 US_26 1.0MB/s A004(…)
-  server: 37.19.198.236
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 [288.7ms +/-0ms] US-057 US_2 2.1MB/s A004-(…)
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 [280.3ms +/-1ms] US-040 US_156 1.4MB/s [09(…)
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[242.5ms +/-0ms] @DeltaKroneckerGithub'
-  server: 66.163.114.132
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [291.1ms +/-1ms] US-052 US_1 1.4MB/s [de8a(…)
-  server: 37.19.198.243
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[263.0ms +/-1ms] trojan-216.152.155.59'
-  server: 216.152.155.59
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-  udp: true
-- name: '[263.6ms +/-1ms] trojan-216.152.155.131'
-  server: 216.152.155.131
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-  udp: true
-- name: '[292.3ms +/-0ms] 🇺🇸'
-  server: 185.215.132.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[297.5ms +/-8ms] 🇺🇸 [327.9ms +/-5ms] hysteria(…)'
-  server: 66.94.121.46
-  port: 443
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 66.94.121.46
-  skip-cert-verify: true
-- name: '[258.7ms +/-2ms] [375.1ms +/-12ms] 4Mohsen-05(…)'
-  server: 67.216.207.144
-  port: 443
-  type: hysteria2
-  password: 740f1a75659256a8c0e2a5686d573496b2a2
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 5eec7c480dc2af8a7cfdd7beb90ee911da11
-- name: '[294.0ms +/-3ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
-  server: 167.17.67.171
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[300.6ms +/-0ms] trojan-170.101.101.211'
-  server: 170.101.101.211
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[264.6ms +/-1ms] trojan-216.152.155.23'
-  server: 216.152.155.23
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [264.6ms +/-2ms] trojan-66.163.114.45
-  server: 66.163.114.45
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-  udp: true
-- name: '[301.7ms +/-1ms] 🇺🇸'
-  server: 185.215.132.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[304.0ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [307.8ms +/-2ms] 🇺🇸
-  server: 216.9.225.189
-  port: 443
-  type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo=
-  udp: true
-- name: '[334.7ms +/-0ms] trojan-216.152.147.74'
-  server: 216.152.147.74
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  udp: true
-- name: '[248.3ms +/-1ms] trojan-66.163.114.245'
-  server: 66.163.114.245
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-  udp: true
-- name: '[307.5ms +/-0ms] 🇺🇸 [280.4ms +/-18ms] 4Nika-7(…)'
-  server: 15.204.233.41
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[353.3ms +/-2ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
-  server: 103.11.76.248
-  port: 28679
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: NzJlOTQ5NWYtM2ZkYi00Cg==
-  udp: true
-- name: '[324.7ms +/-0ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[299.0ms +/-1ms] US-043 US_367 1.9MB/s B007-2(…)'
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[313.5ms +/-1ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
-  server: 167.88.62.56
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[301.6ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
-  server: 173.244.56.6
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[332.5ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[323.8ms +/-1ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[358.9ms +/-0ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
-  server: 149.40.57.135
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[296.6ms +/-3ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
-  server: 38.121.43.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇦 [300.9ms +/-1ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
-  server: 149.22.95.183
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[345.5ms +/-1ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[368.2ms +/-1ms] [383.1ms +/-0ms] 4FreeIran-d(…)'
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[252.8ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
-  server: 38.145.220.193
-  port: 8443
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: jUbDNsFamcyDfpm+rI3Zyw==
-  udp: true
-- name: '[350.8ms +/-0ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
-  server: 38.121.43.231
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[249.7ms +/-1ms] trojan-66.163.114.106'
-  server: 66.163.114.106
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-  udp: true
-- name: '[301.2ms +/-2ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
-  server: 38.64.138.135
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[370.8ms +/-1ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
-  server: 167.88.63.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[383.0ms +/-0ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
-  server: 38.22.17.214
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [595.3ms +/-3ms] trojan-66.23.203.21
-  server: 66.23.203.21
-  port: 59689
-  type: trojan
-  password: ae7eb4dwyaz25pxwgq59
-  sni: 66.23.203.21
-  skip-cert-verify: true
-  udp: true
-- name: '[358.7ms +/-0ms] [363.8ms +/-7ms] 4Jadi-6b0d0(…)'
-  server: 149.40.57.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [311.6ms +/-2ms] trojan-66.163.112.142
+- name: 🇺🇸 [204.2ms +/-3ms] trojan-66.163.112.142
   server: 66.163.112.142
   port: 443
   type: trojan
@@ -360,28 +18,669 @@ proxies:
   sni: cdn.unlockyourfuturefindyourperfectcareer.com
   skip-cert-verify: true
   udp: true
-- name: '[379.0ms +/-1ms] [353.9ms +/-0ms] 4Jadi-69976(…)'
-  server: 38.22.17.139
+- name: '[205.5ms +/-2ms] 🇺🇸US-66.163.112.121-0250'
+  server: 66.163.112.121
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: true
+  udp: true
+- name: '[205.9ms +/-5ms] trojan-66.163.112.76'
+  server: 66.163.112.76
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: api.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: true
+  udp: true
+- name: '[191.4ms +/-2ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
+  server: 95.215.201.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[355.5ms +/-5ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
+- name: '[263.5ms +/-1ms] US-082 US_85 1.2MB/s [2b322b(…)'
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[261.1ms +/-3ms] US-068 US_196 1.2MB/s [60b18(…)'
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[201.3ms +/-0ms] trojan-66.163.112.171'
+  server: 66.163.112.171
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: true
+  udp: true
+- name: '[209.0ms +/-1ms] trojan-66.163.112.147'
+  server: 66.163.112.147
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: true
+  udp: true
+- name: '[193.9ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
+  server: 38.145.220.193
+  port: 8443
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: jUbDNsFamcyDfpm+rI3Zyw==
+  udp: true
+- name: '[363.5ms +/-2ms] US-067 US_40 1.2MB/s A004-26(…)'
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[249.7ms +/-3ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
   server: 23.150.152.38
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[377.7ms +/-1ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
+- name: 🇺🇸 [379.1ms +/-5ms] trojan-66.23.203.21
+  server: 66.23.203.21
+  port: 59689
+  type: trojan
+  password: ae7eb4dwyaz25pxwgq59
+  sni: 66.23.203.21
+  skip-cert-verify: true
+  udp: true
+- name: '[294.4ms +/-2ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇦 [264.5ms +/-2ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
+  server: 149.22.95.183
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[267.3ms +/-35ms] 🇺🇸 [327.9ms +/-5ms] hysteri(…)'
+  server: 66.94.121.46
+  port: 443
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: 66.94.121.46
+  skip-cert-verify: true
+- name: '[271.2ms +/-4ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
+  server: 167.17.67.171
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[290.4ms +/-2ms] XX-002 96@oneclickvpnkeys'
+  server: 88.216.195.188
+  port: 443
+  type: hysteria2
+  password: 63e1b9462d708b56d5d5a0267cffecdc
+  sni: promo3.goonars.com
+  skip-cert-verify: true
+- name: '[325.9ms +/-1ms] 🇺🇸'
+  server: 185.215.132.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[330.1ms +/-0ms] 🇺🇸'
+  server: 185.215.132.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[338.3ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[344.7ms +/-1ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[271.7ms +/-8ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
+  server: 167.88.62.56
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[338.5ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
+  server: 173.244.56.6
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 [365.4ms +/-3ms] US-052 US_1 1.4MB/s [de8a(…)
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 [280.0ms +/-0ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
+  server: 149.22.87.240
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[360.6ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[265.8ms +/-3ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
+  server: 103.11.76.248
+  port: 28679
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+- name: 🇺🇸 [379.9ms +/-3ms] US-040 US_156 1.4MB/s [09(…)
+  server: 37.19.198.160
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[302.8ms +/-1ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
+  server: 149.22.87.204
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[336.9ms +/-21ms] 🇺🇸 [227.4ms +/-0ms] hysteri(…)'
+  server: 129.213.91.185
+  port: 35013
+  type: hysteria2
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  sni: 129.213.91.185
+  skip-cert-verify: true
+- name: '[449.2ms +/-3ms] 🇺🇸US-216.152.155.54-0168'
+  server: 216.152.155.54
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.nextjobopportunityandclaimyouridealrole.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 [280.3ms +/-209ms] US-066 US_315 1.1MB/s [(…)
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[365.0ms +/-4ms] 🇺🇸US-216.152.155.176-0152'
+  server: 216.152.155.176
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  skip-cert-verify: true
+  udp: true
+- name: '[433.4ms +/-4ms] US-043 US_367 1.9MB/s B007-2(…)'
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[300.3ms +/-0ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
+  server: 149.22.87.241
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[337.5ms +/-9ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[584.8ms +/-4ms] @DeltaKroneckerGithub'
+  server: 154.90.62.70
+  port: 56127
+  type: trojan
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
+  sni: 154.90.62.70
+  skip-cert-verify: true
+  udp: true
+- name: '[340.8ms +/-2ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
+  server: 149.40.57.138
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[241.0ms +/-5ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
   server: 137.184.89.151
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇳🇱 [470.0ms +/-0ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
+- name: '[352.8ms +/-0ms] 🇯🇵JP-167.179.108.225-5986'
+  server: 167.179.108.225
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 167.179.108.225
+  skip-cert-verify: true
+  udp: true
+- name: '[346.6ms +/-1ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
+  server: 169.197.140.247
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[550.5ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
+  server: 82.38.31.208
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[346.6ms +/-6ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
+  server: 38.91.107.57
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[353.1ms +/-3ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[405.8ms +/-5ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[376.5ms +/-0ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
+  server: 38.121.43.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[394.9ms +/-1ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
+  server: 38.64.138.135
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[406.9ms +/-4ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[401.5ms +/-3ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[401.5ms +/-3ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
+  server: 38.91.107.19
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇦🇺 [528.1ms +/-2ms] 🇦🇺AU-45.63.30.142-0202
+  server: 45.63.30.142
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: connectwithemployerstohireyouridealteam.com
+  skip-cert-verify: true
+  udp: true
+- name: '[437.6ms +/-2ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
+  server: 141.0.187.15
+  port: 443
+  type: hysteria2
+  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
+  sni: crt.onecloudstream.com
+  skip-cert-verify: true
+- name: '[615.9ms +/-10ms] 🇳🇱'
+  server: 193.29.139.234
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: '[601.7ms +/-11ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen(…)'
+  server: 82.38.31.191
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[433.4ms +/-2ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
+  server: 66.163.125.120
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 [542.4ms +/-5ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
+  server: 82.38.31.165
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 [541.0ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
+  server: 193.29.139.202
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[433.2ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
+  server: 158.51.121.221
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 [369.9ms +/-213ms] US-057 US_2 2.1MB/s A00(…)
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[453.0ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
+  server: 149.88.107.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[484.5ms +/-1ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
+  server: 62.210.124.146
+  port: 22000
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: '[530.8ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
+  server: 158.173.20.208
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[553.2ms +/-5ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
+  server: 82.38.31.39
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[567.0ms +/-2ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
+  server: 185.176.204.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[587.7ms +/-1ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[589.0ms +/-1ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
+  server: 82.38.31.159
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[582.6ms +/-1ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
+  server: 82.38.31.192
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[579.4ms +/-0ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
+  server: 82.38.31.155
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[577.4ms +/-4ms] 🇬🇬'
+  server: 82.38.31.217
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 [581.3ms +/-2ms] 🇬🇬
+  server: 82.38.31.215
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[582.7ms +/-4ms] 🇬🇬'
+  server: 82.38.31.42
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[588.2ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
+  server: 82.38.31.47
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[582.4ms +/-7ms] 🇳🇱 [488.0ms +/-6ms] shadowso(…)'
+  server: 82.38.31.49
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 [586.8ms +/-1ms] 🇳🇱 [493.3ms +/-5ms] shado(…)
+  server: 193.29.139.235
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 [590.6ms +/-2ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
+  server: 193.29.139.179
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[591.1ms +/-0ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
+  server: 82.38.31.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[593.7ms +/-1ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
+  server: 82.38.31.34
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[488.5ms +/-1ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[598.0ms +/-6ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
+  server: 185.176.206.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[625.2ms +/-23ms] 🇳🇱 [731.3ms +/-50ms] shadow(…)'
+  server: 82.38.31.149
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[585.5ms +/-2ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[521.7ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
+  server: 67.220.73.178
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[586.4ms +/-7ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[548.5ms +/-32ms] 🇬🇬'
+  server: 82.38.31.7
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[597.4ms +/-6ms] 🇬🇬'
+  server: 82.38.31.157
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[602.9ms +/-3ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
+  server: 82.38.31.193
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[606.3ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[614.0ms +/-1ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
+  server: 82.38.31.48
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[595.2ms +/-12ms] 🇬🇬'
+  server: 82.38.31.35
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[623.2ms +/-0ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
+  server: 193.29.139.151
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[517.2ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
+  server: 151.241.19.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[730.2ms +/-26ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
+  server: 193.29.139.147
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[448.0ms +/-22ms] 🇺🇸US-169.197.140.218-1980'
+  server: 169.197.140.218
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 [621.6ms +/-1ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
+  server: 141.98.101.181
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 [590.4ms +/-1ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
   server: 130.49.161.70
   port: 443
   type: hysteria2
@@ -390,487 +689,21 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: '[322.8ms +/-1ms] @DeltaKroneckerGithub'
-  server: 66.163.112.31
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[301.5ms +/-4ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
-  server: 149.40.57.138
+- name: '[566.9ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
+  server: 138.199.55.243
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[309.0ms +/-0ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [319.4ms +/-2ms] trojan-216.152.156.81
-  server: 216.152.156.81
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
-  udp: true
-- name: '[343.1ms +/-0ms] trojan-169.197.140.169'
-  server: 169.197.140.169
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 169.197.140.169
-  skip-cert-verify: true
-  udp: true
-- name: '[316.3ms +/-1ms] US-081 US_736 106KB/s M003-2(…)'
-  server: 138.197.89.234
-  port: 28960
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: DZRy4Q3QH0jUGfKFl2jDCZ
-  udp: true
-- name: 🇺🇸 [345.3ms +/-0ms] trojan-169.197.140.171
-  server: 169.197.140.171
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[329.9ms +/-1ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
-  server: 38.91.107.57
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[331.3ms +/-0ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[318.4ms +/-0ms] trojan-66.163.112.76'
-  server: 66.163.112.76
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[339.5ms +/-3ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
-  server: 149.22.87.241
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[341.3ms +/-2ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
-  server: 149.22.87.204
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[441.1ms +/-5ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
-  server: 62.210.124.146
-  port: 22000
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: '[317.1ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
-  server: 67.220.73.178
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[328.0ms +/-0ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
-  server: 169.197.140.247
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[276.8ms +/-3ms] trojan-170.101.101.112'
-  server: 170.101.101.112
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[347.7ms +/-0ms] trojan-169.197.140.214'
-  server: 169.197.140.214
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[325.2ms +/-0ms] trojan-66.163.112.242'
-  server: 66.163.112.242
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 66.163.112.242
-  skip-cert-verify: true
-  udp: true
-- name: '[457.5ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
-  server: 82.38.31.47
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[340.2ms +/-3ms] US-044 US_465 73KB/s [266d71(…)'
+- name: '[573.1ms +/-23ms] US-044 US_465 73KB/s [266d7(…)'
   server: 198.98.53.130
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: eDfN7SODQceIOmIAbtJJtK
   udp: true
-- name: '[471.5ms +/-0ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen-(…)'
-  server: 82.38.31.191
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇯🇵 [365.9ms +/-1ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
-  server: 149.22.87.240
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[406.3ms +/-2ms] trojan-169.197.140.245'
-  server: 169.197.140.245
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[359.1ms +/-4ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  server: 51.222.155.113
-  port: 5601
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: '[475.7ms +/-0ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
-  server: 141.0.187.15
-  port: 443
-  type: hysteria2
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  sni: crt.onecloudstream.com
-  skip-cert-verify: true
-- name: '[376.0ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
-  server: 158.51.121.221
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[527.1ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
-  server: 82.38.31.208
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[316.2ms +/-1ms] trojan-66.163.112.147'
-  server: 66.163.112.147
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[308.5ms +/-0ms] trojan-216.152.156.49'
-  server: 216.152.156.49
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
-  udp: true
-- name: '[417.1ms +/-2ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
-  server: 172.111.38.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[347.0ms +/-0ms] trojan-169.197.140.224'
-  server: 169.197.140.224
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[324.7ms +/-1ms] @DeltaKroneckerGithub'
-  server: 216.152.147.93
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  udp: true
-- name: '[281.8ms +/-223ms] trojan-66.163.114.126'
-  server: 66.163.114.126
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.findconnectwithemployersandbuildprofessionalnetwork.com
-  skip-cert-verify: true
-  udp: true
-- name: '[415.8ms +/-0ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
-  server: 38.91.107.19
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[317.6ms +/-1ms] @DeltaKroneckerGithub'
-  server: 170.101.101.131
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[423.1ms +/-3ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
-  server: 66.163.125.120
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[307.1ms +/-0ms] trojan-66.163.112.171'
-  server: 66.163.112.171
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[388.6ms +/-1ms] trojan-216.238.80.100'
-  server: 216.238.80.100
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectwithtopemployersandfindidealjobs.com
-  skip-cert-verify: true
-  udp: true
-- name: '[492.3ms +/-1ms] 🇳🇱 [516.8ms +/-3ms] shadowso(…)'
-  server: 82.38.31.26
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[521.6ms +/-1ms] 🇳🇱'
-  server: 193.29.139.234
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: '[471.6ms +/-5ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
-  server: 82.38.31.61
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[538.2ms +/-2ms] 🇳🇱 [510.1ms +/-26ms] shadows(…)'
-  server: 82.38.31.214
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[421.5ms +/-0ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
-  server: 38.91.107.188
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[427.2ms +/-1ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
-  server: 162.251.62.31
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[568.5ms +/-4ms] 🇳🇱 [731.3ms +/-50ms] shadows(…)'
-  server: 82.38.31.149
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[555.1ms +/-3ms] 🇳🇱 [600.4ms +/-108ms] shadow(…)'
-  server: 82.38.31.171
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[306.7ms +/-0ms] trojan-216.152.156.212'
-  server: 216.152.156.212
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.healthcarejobshubenhancemedicalprofessionalskillstoday.com
-  skip-cert-verify: true
-  udp: true
-- name: '[380.7ms +/-3ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  server: 51.79.64.198
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: '[473.0ms +/-17ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
-  server: 82.38.31.170
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[483.2ms +/-0ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
-  server: 82.38.31.66
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 [482.8ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
-  server: 193.29.139.202
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[473.4ms +/-6ms] 🇬🇬'
-  server: 82.38.31.42
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 [484.6ms +/-1ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
-  server: 82.38.31.165
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[484.1ms +/-1ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
-  server: 193.29.139.151
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 [484.4ms +/-0ms] 🇬🇬
-  server: 82.38.31.215
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[493.1ms +/-2ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
-  server: 178.83.185.156
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[486.1ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
-  server: 158.173.20.208
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[487.4ms +/-6ms] 🇬🇬'
-  server: 82.38.31.157
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 [489.7ms +/-2ms] 🇳🇱 [451.8ms +/-12ms] shad(…)
-  server: 82.38.31.185
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[496.4ms +/-2ms] 🇬🇬'
-  server: 82.38.31.195
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[526.8ms +/-3ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
-  server: 82.38.31.62
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[494.4ms +/-2ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
-  server: 82.38.31.48
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[523.5ms +/-7ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
-  server: 82.38.31.34
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[469.3ms +/-3ms] 🇬🇧 GB | SS | @father_vpn #1 (…)'
-  server: 82.38.31.176
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 [496.2ms +/-6ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
-  server: 193.29.139.179
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[493.0ms +/-2ms] 🇳🇱 [449.7ms +/-10ms] shadows(…)'
-  server: 82.38.31.213
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[597.6ms +/-3ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
+- name: '[577.0ms +/-1ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
   server: 162.249.125.133
   port: 443
   type: hysteria2
@@ -879,869 +712,552 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: c1b4086fea89914496c7e10967a419216566
-- name: '[526.4ms +/-2ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
-  server: 82.38.31.159
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[617.2ms +/-29ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
-  server: 193.29.139.147
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[539.3ms +/-0ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
-  server: 82.38.31.162
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[515.5ms +/-1ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
-  server: 82.38.31.39
+- name: '[648.2ms +/-7ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
+  server: 82.38.31.61
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '[348.8ms +/-4ms] trojan-216.106.186.66'
-  server: 216.106.186.66
-  port: 443
-  type: trojan
-  password: 242a3d8eee5e4ed1a6bfa4141d549a25
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇳🇱 [479.3ms +/-12ms] 🇳🇱 [493.3ms +/-5ms] shad(…)
-  server: 193.29.139.235
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[520.3ms +/-2ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
-  server: 82.38.31.156
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[535.9ms +/-2ms] 🇳🇱 [488.7ms +/-5ms] shadowso(…)'
-  server: 82.38.31.202
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[534.8ms +/-1ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
-  server: 82.38.31.155
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[622.1ms +/-0ms] [355.8ms +/-1ms] 4Jadi-f68d3(…)'
-  server: 38.121.43.225
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[214.7ms +/-4ms] 4Mohsen-6f2d318579'
-  server: promo3.goonars.com
-  port: 443
-  type: hysteria2
-  password: 63e1b9462d708b56d5d5a0267cffecdc
-  sni: promo3.goonars.com
-  skip-cert-verify: true
-- name: 🇳🇱 [533.4ms +/-1ms] 🇳🇱
-  server: 193.29.139.168
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  udp: true
-- name: '[567.0ms +/-15ms] 🇳🇱 [487.6ms +/-38ms] shadow(…)'
-  server: 104.239.12.81
-  port: 43385
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  udp: true
-- name: 🇬🇧 [567.1ms +/-3ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
-  server: 141.98.101.181
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[591.2ms +/-2ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
-  server: 82.38.31.192
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[536.7ms +/-1ms] 🇬🇬'
-  server: 82.38.31.199
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[619.6ms +/-2ms] 🇵🇱 [594.4ms +/-206ms] shadow(…)'
-  server: 54.36.174.134
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
-  udp: true
-- name: '[588.7ms +/-0ms] 🇵🇱 [525.4ms +/-0ms] shadowso(…)'
-  server: 54.36.174.140
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
-  udp: true
-- name: '[575.4ms +/-5ms] 🇬🇧 GB | SS | @orange_vpns #1(…)'
-  server: 82.38.31.3
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[581.4ms +/-0ms] 🇮🇹'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[515.4ms +/-1ms] [455.0ms +/-3ms] 4Kian-6bd81(…)'
-  server: 167.17.64.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[567.5ms +/-2ms] 🇬🇬'
-  server: 82.38.31.186
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[513.3ms +/-1ms] US-036 美国 298'
-  server: 67.220.85.46
-  port: 18000
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: aes-128-gcm
-  udp: true
-- name: 🇮🇹 [583.5ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shado(…)
-  server: 185.164.175.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[615.0ms +/-1ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
-  server: 185.176.206.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[581.0ms +/-15ms] 🇬🇬'
-  server: 82.38.31.207
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[769.3ms +/-6ms] 🇩🇪 [720.0ms +/-49ms] 4Mohsen(…)'
-  server: 185.226.172.8
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: '[645.1ms +/-26ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[604.8ms +/-3ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
-  server: 185.176.204.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[600.6ms +/-4ms] 🇬🇬'
-  server: 82.38.31.180
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[543.0ms +/-1ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
-  server: 193.108.119.2
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[534.9ms +/-0ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
-  server: 193.108.116.98
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[588.4ms +/-1ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
-  server: 82.38.31.193
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[519.2ms +/-10ms] [533.2ms +/-2ms] 4Kian-46d1(…)'
-  server: 193.108.119.3
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[618.6ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
-  server: 82.110.60.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[626.0ms +/-0ms] [527.9ms +/-4ms] shadowsocks(…)'
-  server: pl140.vpnbook.com
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
-  udp: true
-- name: '[547.4ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
-  server: 151.241.19.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[544.5ms +/-0ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
-  server: 79.127.184.104
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[622.9ms +/-2ms] 🇬🇬'
-  server: 82.38.31.198
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[639.1ms +/-5ms] 🇬🇬'
-  server: 82.38.31.217
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[653.2ms +/-49ms] 🇺🇸 [492.5ms +/-45ms] 4Sarin(…)'
-  server: 15.204.246.132
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: '[557.8ms +/-1ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
-  server: 186.190.215.251
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[635.6ms +/-0ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
+- name: '[590.5ms +/-1ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
   server: 23.157.88.43
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[548.8ms +/-3ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
-  server: 193.108.117.84
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[564.9ms +/-0ms] [556.9ms +/-9ms] 4Sarina-292(…)'
-  server: 198.244.202.215
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[678.8ms +/-0ms] 🇩🇪205708'
-  server: 45.32.157.84
-  port: 443
-  type: trojan
-  password: Tg3RnK7Xp8B1
-  sni: ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com
-  skip-cert-verify: true
-  udp: true
-- name: '[569.2ms +/-1ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
-  server: 149.50.215.234
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[658.5ms +/-3ms] 🇮🇹'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[668.9ms +/-9ms] 🇬🇬'
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[583.8ms +/-1ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
-  server: 62.93.179.117
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[625.5ms +/-0ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
-  server: 79.127.139.242
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[574.7ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
-  server: 149.88.107.74
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[585.3ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
-  server: 138.199.55.243
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[644.1ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
-  server: 23.166.88.127
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[610.8ms +/-0ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
-  server: 38.109.228.110
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[623.7ms +/-0ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
-  server: 62.93.179.97
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[593.6ms +/-20ms] [519.7ms +/-2ms] 4Sarina-d4(…)'
-  server: 167.17.64.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[693.7ms +/-20ms] 🇳🇱 [488.0ms +/-6ms] shadows(…)'
-  server: 82.38.31.49
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[645.4ms +/-0ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
-  server: 198.244.201.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[665.4ms +/-1ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
-  server: 57.129.76.233
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[605.6ms +/-3ms] 未知 SS-08 | free-nodes'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[690.0ms +/-1ms] 🇬🇬'
-  server: 82.38.31.35
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[650.0ms +/-0ms] [507.4ms +/-4ms] 4Jadi-35138(…)'
-  server: 79.137.99.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[668.3ms +/-5ms] 𔒰‎ ＳＥＧＡＲＯ'
-  server: 141.193.213.21
-  port: 2083
-  type: vless
-  uuid: 36592d47-b9f5-4e8f-949e-45ac05472aab
-  udp: true
-  tls: true
-  servername: site.check-looks.space
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: site.check-looks.space
-- name: '[482.7ms +/-2ms] 🇳🇱'
-  server: dns27.m3hrzd.ir
-  port: 8044
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-  udp: true
-- name: '[579.6ms +/-1ms] [521.0ms +/-8ms] 4Jadi-95598(…)'
-  server: 152.53.1.57
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
-- name: '[478.6ms +/-2ms] @DeltaKroneckerGithub'
-  server: 82.38.31.189
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[526.2ms +/-0ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
-  server: 193.29.139.198
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[521.1ms +/-2ms] 🇬🇬'
-  server: 82.38.31.190
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[651.2ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
-  server: 57.129.83.85
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[672.4ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
-  server: 142.202.51.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[516.8ms +/-4ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
-  server: 82.38.31.28
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[615.2ms +/-6ms] trojan-66.163.118.62'
-  server: 66.163.118.62
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 66.163.118.62
-  skip-cert-verify: true
-  udp: true
-- name: '[693.5ms +/-0ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
-  server: 23.166.88.189
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[730.2ms +/-0ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
-  server: 193.108.118.247
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[633.4ms +/-1ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
-  server: 84.20.27.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[638.9ms +/-2ms] [587.4ms +/-1ms] shadowsocks(…)'
-  server: pl134.vpnbook.com
+- name: '[670.8ms +/-2ms] [527.9ms +/-4ms] shadowsocks(…)'
+  server: pl140.vpnbook.com
   port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
   password: 6heexyz
   udp: true
-- name: '[792.1ms +/-3ms] 🇳🇱 [534.6ms +/-2ms] shadowso(…)'
-  server: 82.38.31.187
+- name: '[542.0ms +/-2ms] 🇳🇱 [905.4ms +/-25ms] shadows(…)'
+  server: 82.38.31.179
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '[700.8ms +/-4ms] [505.4ms +/-0ms] 4Sarina-a7e(…)'
-  server: 167.17.71.167
+- name: '[620.2ms +/-2ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
+  server: 149.40.57.135
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[626.2ms +/-38ms] 🇮🇹 [500.7ms +/-11ms] shadow(…)'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[572.5ms +/-12ms] 🇳🇱'
-  server: dns24.m3hrzd.ir
-  port: 8044
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-  udp: true
-- name: '[748.4ms +/-44ms] 🇬🇬'
-  server: 82.38.31.203
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[660.8ms +/-13ms] [542.9ms +/-13ms] shadowsoc(…)'
-  server: sql.popmintxo.cc
-  port: 43385
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  udp: true
-- name: '[828.1ms +/-73ms] 🇨🇦[www.v2nodes.com] ss-CA-1(…)'
-  server: 51.222.200.165
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: '[497.7ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  server: 152.67.115.203
-  port: 443
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: '[795.6ms +/-37ms] 🇬🇬'
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[746.3ms +/-2ms] 未知 SS-06 | free-nodes'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[661.5ms +/-0ms] 🏳[www.v2nodes.com] ss- #4'
-  server: 94.156.250.148
-  port: 7001
-  type: ss
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: '[784.2ms +/-41ms] 🇯🇵'
-  server: 84.247.155.196
-  port: 443
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: '[653.6ms +/-4ms] 🇬🇧 GB | SS | @beshkan #1 [fast]'
-  server: 82.38.31.212
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[583.3ms +/-123ms] trojan-70.34.207.14'
-  server: 70.34.207.14
+- name: '[704.2ms +/-1ms] 🇨🇱CL-64.176.7.205-0540'
+  server: 64.176.7.205
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
+  sni: 64.176.7.205
   skip-cert-verify: true
   udp: true
-- name: '[835.4ms +/-1ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
-  server: 193.108.117.111
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[658.4ms +/-19ms] 🇮🇹'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[941.9ms +/-1ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
-  server: 102.133.165.160
-  port: 16233
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: '[881.9ms +/-0ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
+- name: '[591.6ms +/-1ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
   server: 38.114.120.221
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[929.0ms +/-5ms] 🇮🇹'
-  server: 202.50.253.81
+- name: '[610.4ms +/-51ms] 🇳🇱 [516.8ms +/-3ms] shadows(…)'
+  server: 82.38.31.26
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[584.7ms +/-3ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
+  server: 193.108.116.98
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[689.1ms +/-81ms] 🇮🇹'
+- name: '[647.1ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
+  server: 142.202.51.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[713.7ms +/-0ms] 🇵🇱PL-70.34.252.255-0189'
+  server: 70.34.252.255
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
+  udp: true
+- name: '[619.2ms +/-1ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
+  server: 23.166.88.189
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[568.8ms +/-20ms] [455.0ms +/-3ms] 4Kian-6bd8(…)'
+  server: 167.17.64.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[632.6ms +/-0ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
+  server: 57.129.76.233
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[644.7ms +/-1ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
+  server: 193.108.117.84
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[634.5ms +/-2ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
+  server: 62.93.179.117
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[699.4ms +/-16ms] 🇬🇬'
+  server: 82.38.31.210
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[621.7ms +/-7ms] 🇮🇹'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇴 [848.7ms +/-64ms] 🇨🇴[www.v2nodes.com] ss-C(…)
-  server: 149.104.107.41
-  port: 8090
-  type: ss
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: '[451.1ms +/-122ms] 🇯🇵 [492.5ms +/-12ms] troja(…)'
-  server: 43.167.186.78
-  port: 8443
-  type: trojan
-  password: 9646699a-18b0-4ebc-9f53-453cc1c8e637
-  sni: 43.167.186.78
-  skip-cert-verify: true
-  udp: true
-- name: 🇵🇱 [728.9ms +/-0ms] 🇫🇷
-  server: 51.83.192.80
-  port: 8388
-  type: ss
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: '[888.6ms +/-25ms] 🇬🇬'
-  server: 82.38.31.7
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[725.5ms +/-167ms] 🇩🇪'
-  server: 213.202.208.199
-  port: 5000
-  type: ss
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: '[804.9ms +/-59ms] 🇮🇹'
-  server: 202.50.253.90
+- name: '[654.2ms +/-2ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
+  server: 216.106.178.169
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[872.5ms +/-15ms] 🔒'
-  server: 172.67.118.45
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[750.6ms +/-12ms] 🏳[www.v2nodes.com] ss- #13'
-  server: 185.213.23.63
-  port: 990
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-- name: 🇳🇱 [687.7ms +/-123ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
-  server: 82.38.31.10
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇨🇭 [766.0ms +/-45ms] @DeltaKroneckerGithub
-  server: 208.69.78.208
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  udp: true
-- name: '[489.4ms +/-4ms] shadowsocks-1827146388'
-  server: 82.38.31.184
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: '[485.7ms +/-7ms] Channel'
-  server: 45.207.207.25
-  port: 443
+- name: '[656.4ms +/-3ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
+  server: 198.244.201.129
+  port: 19999
   type: ss
   cipher: aes-256-gcm
-  password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[420.0ms +/-33ms] تو'
-  server: 15.204.247.124
-  port: 2375
+- name: '[663.1ms +/-35ms] 🇮🇹'
+  server: 202.50.253.72
+  port: 19999
   type: ss
   cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1039.1ms +/-10ms] @DeltaKroneckerGithub'
-  server: 154.90.62.70
-  port: 56127
-  type: trojan
-  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-  sni: 154.90.62.70
-  skip-cert-verify: true
-  udp: true
-- name: '[700.9ms +/-1ms] shadowsocks-1827146892'
-  server: 82.38.31.206
-  port: 8080
+- name: '[614.6ms +/-8ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
+  server: 186.190.215.251
+  port: 19999
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1085.4ms +/-3ms] 🇵🇭'
+- name: '[637.2ms +/-4ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
+  server: 79.127.139.242
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[642.9ms +/-2ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
+  server: 62.93.179.97
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[623.1ms +/-2ms] [519.7ms +/-2ms] 4Sarina-d4f(…)'
+  server: 167.17.64.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[645.2ms +/-7ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
+  server: 193.108.118.247
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[657.4ms +/-7ms] [556.9ms +/-9ms] 4Sarina-292(…)'
+  server: 198.244.202.215
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[702.7ms +/-1ms] 🇵🇭'
   server: 149.104.109.252
   port: 8882
   type: ss
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: '[940.5ms +/-54ms] 🔒'
-  server: 104.24.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
+- name: '[735.0ms +/-4ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
+  server: 82.38.31.66
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[935.1ms +/-107ms] CA-015 CA_15 1.4MB/s B007-(…)'
-  server: 51.222.136.236
-  port: 8882
+- name: '[606.0ms +/-9ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
+  server: 193.108.119.2
+  port: 19999
   type: ss
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1155.5ms +/-57ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-(…)'
+- name: '[617.7ms +/-2ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
+  server: 193.29.139.198
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[680.5ms +/-5ms] [533.2ms +/-2ms] 4Kian-46d1e(…)'
+  server: 193.108.119.3
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[641.6ms +/-6ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
+  server: 38.109.228.110
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[693.3ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
+  server: 23.166.88.127
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[613.8ms +/-6ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
+  server: 79.127.184.104
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[707.6ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
+  server: 57.129.83.85
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[716.1ms +/-2ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
+  server: 84.20.27.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[451.1ms +/-1ms] 🇺🇸US-🚀@VPNine1'
+  server: 149.40.57.134
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[708.7ms +/-2ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
+  server: 149.50.215.234
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[766.4ms +/-44ms] 🇳🇱 [449.7ms +/-10ms] shadow(…)'
+  server: 82.38.31.213
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[708.3ms +/-0ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
+  server: 82.38.31.28
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[903.6ms +/-10ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-d(…)'
   server: 82.38.31.9
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 [523.9ms +/-4ms] shadowsocks-1827146118
+- name: '[598.4ms +/-22ms] 🇳🇱'
+  server: dns24.m3hrzd.ir
+  port: 8044
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
+  udp: true
+- name: '[886.9ms +/-54ms] 🇩🇪 [720.0ms +/-49ms] 4Mohse(…)'
+  server: 185.226.172.8
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: '[544.8ms +/-1ms] @FarazV2ray'
+  server: 82.38.31.211
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[715.1ms +/-16ms] [507.4ms +/-4ms] 4Jadi-3513(…)'
+  server: 79.137.99.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[750.8ms +/-5ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
+  server: 193.108.117.111
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[873.7ms +/-0ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
+  server: 102.133.165.160
+  port: 16233
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  udp: true
+- name: '[870.7ms +/-1ms] 🇿🇦 [847.7ms +/-6ms] shadowso(…)'
+  server: 102.37.156.224
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: '[563.4ms +/-2ms] T.me/Vpn_Mafia'
+  server: 82.38.31.216
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[930.4ms +/-1ms] 🇬🇬'
+  server: 82.38.31.207
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[728.2ms +/-5ms] 🇮🇹'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[913.2ms +/-40ms] 🇳🇱 [600.4ms +/-108ms] shado(…)'
+  server: 82.38.31.171
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[955.6ms +/-3ms] 🇬🇬'
+  server: 82.38.31.180
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[662.1ms +/-190ms] 🇬🇬'
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[202.6ms +/-2ms] 🇺🇸 美国 | USA'
+  server: 156.229.167.109
+  port: 8443
+  type: vless
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  udp: true
+  tls: true
+  servername: github.githubassets.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  client-fingerprint: chrome
+- name: '[961.2ms +/-18ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
+  server: 82.38.31.170
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[703.7ms +/-195ms] 🇬🇬'
+  server: 82.38.31.198
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[751.2ms +/-167ms] 🇩🇪'
+  server: 213.202.208.199
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: '[1035.8ms +/-0ms] 🇧🇷BR-216.238.104.154-0532'
+  server: 216.238.104.154
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 216.238.104.154
+  skip-cert-verify: true
+  udp: true
+- name: '[726.7ms +/-2ms] @FarazV2ray'
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[532.7ms +/-0ms] @FXxNET⚡️'
+  server: 151.241.19.29
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[738.5ms +/-1ms] @FarazV2ray'
+  server: 82.38.31.220
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇯🇵 [420.0ms +/-0ms] hysteria2-1827145159
+  server: 8.209.247.109
+  port: 443
+  type: hysteria2
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: '[773.2ms +/-183ms] 🇯🇵'
+  server: 84.247.155.196
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: '[946.3ms +/-67ms] CA-015 CA_15 1.4MB/s B007-2(…)'
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: '[589.7ms +/-0ms] 🇸🇬SG-🚀@VPNine1'
+  server: 149.88.106.73
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1066.2ms +/-25ms] 🇮🇹'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[467.8ms +/-1ms] vless-1939847007'
+  server: 152.69.226.63
+  port: 25555
+  type: vless
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: '[901.1ms +/-145ms] 🇬🇧 GB | SS | @orange_vpns (…)'
+  server: 82.38.31.3
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[886.0ms +/-57ms] 🏳[www.v2nodes.com] ss- #4'
+  server: 94.156.250.148
+  port: 7001
+  type: ss
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇳🇱 [697.8ms +/-9ms] shadowsocks-1827146118
   server: 193.29.139.132
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: '[493.1ms +/-26ms] shadowsocks-1827146148'
-  server: 82.38.31.2
-  port: 8080
+- name: 🇮🇹 [1326.4ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shad(…)
+  server: 185.164.175.81
+  port: 19999
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇳🇱 [543.2ms +/-253ms] 🇬🇬
-  server: 82.38.31.182
-  port: 8080
+- name: 🇺🇸 [1398.7ms +/-2ms] 🇺🇸 [350.2ms +/-1ms] shad(…)
+  server: 173.244.56.9
+  port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: '[913.9ms +/-59ms] CA'
+- name: '[1652.2ms +/-21ms] CA'
   server: 104.18.0.1
   port: 2053
   type: trojan
@@ -1754,7 +1270,65 @@ proxies:
     path: /
     headers:
       Host: marvdasht.phonecomparisonblog.org
-- name: '[980.5ms +/-91ms] 🔒'
+- name: '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1166.7ms +/-44ms] 🇳🇱 [510.1ms +/-26ms] shado(…)'
+  server: 82.38.31.214
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[904.0ms +/-216ms] 🇬🇬'
+  server: 82.38.31.186
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[1663.0ms +/-4ms] [383.1ms +/-0ms] 4FreeIran-(…)'
+  server: 172.111.36.123
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1577.6ms +/-0ms] [353.9ms +/-0ms] 4Jadi-6997(…)'
+  server: 38.22.17.139
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1626.9ms +/-2ms] [355.8ms +/-1ms] 4Jadi-f68d(…)'
+  server: 38.121.43.225
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[473.8ms +/-107ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  server: 152.67.115.203
+  port: 443
+  type: hysteria2
+  password: 633bc3be486b646190661ac2387c150a
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+- name: 🇳🇱 [1153.0ms +/-99ms] 🇳🇱 [451.8ms +/-12ms] sh(…)
+  server: 82.38.31.185
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[1516.5ms +/-8ms] 🔒'
   server: 172.66.0.1
   port: 2053
   type: trojan
@@ -1767,87 +1341,55 @@ proxies:
     path: /
     headers:
       Host: marvdasht.phonecomparisonblog.org
-- name: '[1227.1ms +/-45ms] 🇿🇦 [847.7ms +/-6ms] shadow(…)'
-  server: 102.37.156.224
-  port: 443
+- name: '[1285.6ms +/-38ms] 🇮🇹'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[731.8ms +/-148ms] shadowsocks-1827146388'
+  server: 82.38.31.184
+  port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 [525.5ms +/-3ms] vless-1853341249
-  server: 51.158.206.8
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '[1568.6ms +/-37ms] 🇳🇱 [487.6ms +/-38ms] shado(…)'
+  server: 104.239.12.81
+  port: 43385
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: '[625.2ms +/-220ms] 🔒'
-  server: 179.254.115.189
-  port: 25267
+- name: '[1649.7ms +/-25ms] 🔒'
+  server: 172.67.118.45
+  port: 2053
   type: trojan
-  password: happybirthdaydaniel
-  sni: 179.254.115.189
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
   skip-cert-verify: true
   udp: true
-- name: '[581.0ms +/-10ms] vless-1853340230'
-  server: 51.158.206.93
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[613.5ms +/-153ms] shadowsocks-1827146148'
+  server: 82.38.31.2
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: '[534.1ms +/-1ms] 🇳🇱01'
-  server: 151.241.19.29
+- name: '[743.6ms +/-254ms] [363.8ms +/-7ms] 4Jadi-6b0(…)'
+  server: 149.40.57.133
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[600.1ms +/-1ms] @FXxNET⚡️'
-  server: 193.108.119.83
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[662.0ms +/-2ms] @FXxNET⚡️'
-  server: 185.22.153.192
-  port: 18443
-  type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  udp: true
-- name: '[1323.4ms +/-10ms] 🔒'
-  server: 108.61.177.57
-  port: 16778
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: 108.61.177.57
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇭 [814.5ms +/-374ms] 🔒
-  server: 208.69.78.222
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-  udp: true
-- name: '[1550.3ms +/-10ms] vless-1927724275'
+- name: '[1356.9ms +/-4ms] vless-1927724275'
   server: 195.123.240.65
   port: 443
   type: vless
@@ -1861,118 +1403,104 @@ proxies:
     public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
     short-id: 19296c9f1bf9c7b1
   client-fingerprint: chrome
-- name: '[1685.8ms +/-35ms] vless-1934551297'
-  server: 138.124.125.193
-  port: 10444
-  type: vless
-  uuid: e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ads.x5.ru
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
-    short-id: 8debcf36f1cc69ff
-  client-fingerprint: random
-- name: '[591.3ms +/-340ms] shadowsocks-1827145981'
-  server: 82.38.31.201
+- name: 🇳🇱 [1196.3ms +/-67ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
+  server: 82.38.31.10
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '[1011.6ms +/-5ms] 🇳🇱01'
-  server: 185.4.115.147
-  port: 8044
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-  udp: true
-- name: '[932.6ms +/-134ms] 🇺🇸'
-  server: 15.204.247.175
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: '[1904.6ms +/-4ms] vless-1849679539'
-  server: 45.132.75.213
-  port: 2053
+- name: '[786.0ms +/-7ms] vless-1920323172'
+  server: 178.212.35.198
+  port: 443
   type: vless
-  uuid: f46182d1-e13b-47d3-97e2-fa5426a93e7c
+  uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
   tls: true
   servername: www.cloudflare.com
   skip-cert-verify: true
   reality-opts:
-    public-key: TpWeZocgNOygOhMo0l7oJawPu7STkn9D-SOa0UppcyY
-    short-id: cd7e85995ae2afc9
+    public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
+    short-id: 6bdc8320
   client-fingerprint: firefox
-- name: '[830.0ms +/-211ms] vless-1853489197'
-  server: 152.69.200.216
+- name: '[1136.3ms +/-146ms] 🇳🇱 [534.6ms +/-2ms] shado(…)'
+  server: 82.38.31.187
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  server: starlink-ft.251313.xyz
   port: 443
+  type: hysteria2
+  password: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[386.0ms +/-5ms] 🇯🇵 日本 | JPN'
+  server: 45.192.248.29
+  port: 8443
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
   udp: true
   tls: true
-  servername: jp3.yohototo.top
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: '[1240.6ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  server: 199.68.156.250
-  port: 2087
-  type: trojan
-  password: 7bpe9s002exll38s
-  sni: nexoshop.netvia.ir
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: nexoshop.netvia.ir
-- name: '[1816.1ms +/-109ms] vless-1853341457'
-  server: 51.158.206.25
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
+  servername: github.githubassets.com
   skip-cert-verify: true
   reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: ''
-  client-fingerprint: random
-- name: 🇺🇸 [1062.1ms +/-268ms] shadowsocks-1827147591
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
+  client-fingerprint: chrome
+- name: '[1306.1ms +/-131ms] 🇬🇧 GB | SS | @beshkan #1 (…)'
+  server: 82.38.31.212
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇺🇸 [904.8ms +/-192ms] shadowsocks-1827147591
   server: 15.204.247.206
   port: 4444
   type: ss
   cipher: aes-256-gcm
   password: pKEW8JPByTVTLtM
   udp: true
-- name: '[1126.2ms +/-174ms] vless-1853654571'
-  server: 104.21.70.21
+- name: '[978.7ms +/-493ms] 🇵🇱 [525.4ms +/-0ms] shadow(…)'
+  server: 54.36.174.140
   port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
   udp: true
-  tls: true
-  servername: jp3.yohototo.top
+- name: '[1298.9ms +/-131ms] 🏳[www.v2nodes.com] ss- #13'
+  server: 185.213.23.63
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: '[1137.8ms +/-456ms] 🇵🇱 [594.4ms +/-206ms] sha(…)'
+  server: 54.36.174.134
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
+- name: '[1495.2ms +/-190ms] 🇨🇦[www.v2nodes.com] ss-CA(…)'
+  server: 51.79.64.198
+  port: 8119
+  type: ss
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: '[1759.0ms +/-48ms] 4Jadi-103ba851f5'
+  server: 179.255.103.55
+  port: 443
+  type: hysteria2
+  password: 92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8
+  sni: n02.jinggai.online
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇳🇱 [240.6ms +/-1ms] vless-1853340978
-  server: 51.158.206.86
+- name: 🇺🇸 [ 74.2ms +/-1ms] vless-1853340423
+  server: 15.204.97.206
   port: 23576
   type: vless
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
@@ -1985,851 +1513,680 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: '[243.7ms +/-17ms] >>@oneclickvpnkeys::NL'
-  server: 51.158.206.98
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '[101.4ms +/-2ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
+  server: 38.22.17.214
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
+- name: '[296.2ms +/-5ms] 🇩🇪DE-193.108.119.29-0207'
+  server: 193.108.119.29
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.iloverussia2026.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
-- name: 🇫🇷 [255.4ms +/-5ms] vless-1853341185
-  server: 62.210.91.10
-  port: 23576
-  type: vless
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fuck.rkn
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  client-fingerprint: chrome
+- name: '[525.8ms +/-187ms] 未知 SS-08 | free-nodes'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - 🇨🇭 其他
+  - 🇯🇵 日本
   - 🇳🇱 荷兰
   - 🇺🇸 美国
-  - '[221.5ms +/-2ms] XX-002 96@oneclickvpnkeys'
-  - 🇺🇸 [232.9ms +/-1ms] US-067 US_40 1.2MB/s A004(…)
-  - '[276.5ms +/-0ms] 🇺🇸 [227.4ms +/-0ms] hysteria(…)'
-  - 🇺🇸 [260.5ms +/-1ms] US-082 US_85 1.2MB/s [2b3(…)
-  - '[269.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[354.4ms +/-1ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [290.6ms +/-1ms] US-066 US_315 1.1MB/s [44(…)
-  - 🇺🇸 [271.2ms +/-1ms] US-068 US_196 1.2MB/s [60(…)
-  - 🇺🇸 [294.3ms +/-1ms] US-064 US_26 1.0MB/s A004(…)
-  - 🇺🇸 [288.7ms +/-0ms] US-057 US_2 2.1MB/s A004-(…)
-  - 🇺🇸 [280.3ms +/-1ms] US-040 US_156 1.4MB/s [09(…)
-  - '[242.5ms +/-0ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [291.1ms +/-1ms] US-052 US_1 1.4MB/s [de8a(…)
-  - '[263.0ms +/-1ms] trojan-216.152.155.59'
-  - '[263.6ms +/-1ms] trojan-216.152.155.131'
-  - '[292.3ms +/-0ms] 🇺🇸'
-  - '[297.5ms +/-8ms] 🇺🇸 [327.9ms +/-5ms] hysteria(…)'
-  - '[258.7ms +/-2ms] [375.1ms +/-12ms] 4Mohsen-05(…)'
-  - '[294.0ms +/-3ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
-  - '[300.6ms +/-0ms] trojan-170.101.101.211'
-  - '[264.6ms +/-1ms] trojan-216.152.155.23'
-  - 🇺🇸 [264.6ms +/-2ms] trojan-66.163.114.45
-  - '[301.7ms +/-1ms] 🇺🇸'
-  - '[304.0ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
-  - 🇺🇸 [307.8ms +/-2ms] 🇺🇸
-  - '[334.7ms +/-0ms] trojan-216.152.147.74'
-  - '[248.3ms +/-1ms] trojan-66.163.114.245'
-  - '[307.5ms +/-0ms] 🇺🇸 [280.4ms +/-18ms] 4Nika-7(…)'
-  - '[353.3ms +/-2ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
-  - '[324.7ms +/-0ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
-  - '[299.0ms +/-1ms] US-043 US_367 1.9MB/s B007-2(…)'
-  - '[313.5ms +/-1ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
-  - '[301.6ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
-  - '[332.5ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
-  - '[323.8ms +/-1ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
-  - '[358.9ms +/-0ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
-  - '[296.6ms +/-3ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
-  - 🇨🇦 [300.9ms +/-1ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
-  - '[345.5ms +/-1ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
-  - '[368.2ms +/-1ms] [383.1ms +/-0ms] 4FreeIran-d(…)'
-  - '[252.8ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
-  - '[350.8ms +/-0ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
-  - '[249.7ms +/-1ms] trojan-66.163.114.106'
-  - '[301.2ms +/-2ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
-  - '[370.8ms +/-1ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
-  - '[383.0ms +/-0ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
-  - 🇺🇸 [595.3ms +/-3ms] trojan-66.23.203.21
-  - '[358.7ms +/-0ms] [363.8ms +/-7ms] 4Jadi-6b0d0(…)'
-  - 🇺🇸 [311.6ms +/-2ms] trojan-66.163.112.142
-  - '[379.0ms +/-1ms] [353.9ms +/-0ms] 4Jadi-69976(…)'
-  - '[355.5ms +/-5ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
-  - '[377.7ms +/-1ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
-  - 🇳🇱 [470.0ms +/-0ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
-  - '[322.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[301.5ms +/-4ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
-  - '[309.0ms +/-0ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
-  - 🇺🇸 [319.4ms +/-2ms] trojan-216.152.156.81
-  - '[343.1ms +/-0ms] trojan-169.197.140.169'
-  - '[316.3ms +/-1ms] US-081 US_736 106KB/s M003-2(…)'
-  - 🇺🇸 [345.3ms +/-0ms] trojan-169.197.140.171
-  - '[329.9ms +/-1ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
-  - '[331.3ms +/-0ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
-  - '[318.4ms +/-0ms] trojan-66.163.112.76'
-  - '[339.5ms +/-3ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
-  - '[341.3ms +/-2ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
-  - '[441.1ms +/-5ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
-  - '[317.1ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
-  - '[328.0ms +/-0ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
-  - '[276.8ms +/-3ms] trojan-170.101.101.112'
-  - '[347.7ms +/-0ms] trojan-169.197.140.214'
-  - '[325.2ms +/-0ms] trojan-66.163.112.242'
-  - '[457.5ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
-  - '[340.2ms +/-3ms] US-044 US_465 73KB/s [266d71(…)'
-  - '[471.5ms +/-0ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen-(…)'
-  - 🇯🇵 [365.9ms +/-1ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
-  - '[406.3ms +/-2ms] trojan-169.197.140.245'
-  - '[359.1ms +/-4ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[475.7ms +/-0ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
-  - '[376.0ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
-  - '[527.1ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
-  - '[316.2ms +/-1ms] trojan-66.163.112.147'
-  - '[308.5ms +/-0ms] trojan-216.152.156.49'
-  - '[417.1ms +/-2ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
-  - '[347.0ms +/-0ms] trojan-169.197.140.224'
-  - '[324.7ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.8ms +/-223ms] trojan-66.163.114.126'
-  - '[415.8ms +/-0ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
-  - '[317.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[423.1ms +/-3ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
-  - '[307.1ms +/-0ms] trojan-66.163.112.171'
-  - '[388.6ms +/-1ms] trojan-216.238.80.100'
-  - '[492.3ms +/-1ms] 🇳🇱 [516.8ms +/-3ms] shadowso(…)'
-  - '[521.6ms +/-1ms] 🇳🇱'
-  - '[471.6ms +/-5ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
-  - '[538.2ms +/-2ms] 🇳🇱 [510.1ms +/-26ms] shadows(…)'
-  - '[421.5ms +/-0ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
-  - '[427.2ms +/-1ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
-  - '[568.5ms +/-4ms] 🇳🇱 [731.3ms +/-50ms] shadows(…)'
-  - '[555.1ms +/-3ms] 🇳🇱 [600.4ms +/-108ms] shadow(…)'
-  - '[306.7ms +/-0ms] trojan-216.152.156.212'
-  - '[380.7ms +/-3ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[473.0ms +/-17ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
-  - '[483.2ms +/-0ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
-  - 🇳🇱 [482.8ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
-  - '[473.4ms +/-6ms] 🇬🇬'
-  - 🇳🇱 [484.6ms +/-1ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
-  - '[484.1ms +/-1ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
-  - 🇳🇱 [484.4ms +/-0ms] 🇬🇬
-  - '[493.1ms +/-2ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
-  - '[486.1ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
-  - '[487.4ms +/-6ms] 🇬🇬'
-  - 🇳🇱 [489.7ms +/-2ms] 🇳🇱 [451.8ms +/-12ms] shad(…)
-  - '[496.4ms +/-2ms] 🇬🇬'
-  - '[526.8ms +/-3ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
-  - '[494.4ms +/-2ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
-  - '[523.5ms +/-7ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
-  - '[469.3ms +/-3ms] 🇬🇧 GB | SS | @father_vpn #1 (…)'
-  - 🇳🇱 [496.2ms +/-6ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
-  - '[493.0ms +/-2ms] 🇳🇱 [449.7ms +/-10ms] shadows(…)'
-  - '[597.6ms +/-3ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
-  - '[526.4ms +/-2ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
-  - '[617.2ms +/-29ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
-  - '[539.3ms +/-0ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
-  - '[515.5ms +/-1ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
-  - '[348.8ms +/-4ms] trojan-216.106.186.66'
-  - 🇳🇱 [479.3ms +/-12ms] 🇳🇱 [493.3ms +/-5ms] shad(…)
-  - '[520.3ms +/-2ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
-  - '[535.9ms +/-2ms] 🇳🇱 [488.7ms +/-5ms] shadowso(…)'
-  - '[534.8ms +/-1ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
-  - '[622.1ms +/-0ms] [355.8ms +/-1ms] 4Jadi-f68d3(…)'
-  - '[214.7ms +/-4ms] 4Mohsen-6f2d318579'
-  - 🇳🇱 [533.4ms +/-1ms] 🇳🇱
-  - '[567.0ms +/-15ms] 🇳🇱 [487.6ms +/-38ms] shadow(…)'
-  - 🇬🇧 [567.1ms +/-3ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
-  - '[591.2ms +/-2ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
-  - '[536.7ms +/-1ms] 🇬🇬'
-  - '[619.6ms +/-2ms] 🇵🇱 [594.4ms +/-206ms] shadow(…)'
-  - '[588.7ms +/-0ms] 🇵🇱 [525.4ms +/-0ms] shadowso(…)'
-  - '[575.4ms +/-5ms] 🇬🇧 GB | SS | @orange_vpns #1(…)'
-  - '[581.4ms +/-0ms] 🇮🇹'
-  - '[515.4ms +/-1ms] [455.0ms +/-3ms] 4Kian-6bd81(…)'
-  - '[567.5ms +/-2ms] 🇬🇬'
-  - '[513.3ms +/-1ms] US-036 美国 298'
-  - 🇮🇹 [583.5ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shado(…)
-  - '[615.0ms +/-1ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
-  - '[581.0ms +/-15ms] 🇬🇬'
-  - '[769.3ms +/-6ms] 🇩🇪 [720.0ms +/-49ms] 4Mohsen(…)'
-  - '[645.1ms +/-26ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[604.8ms +/-3ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
-  - '[600.6ms +/-4ms] 🇬🇬'
-  - '[543.0ms +/-1ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
-  - '[534.9ms +/-0ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
-  - '[588.4ms +/-1ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
-  - '[519.2ms +/-10ms] [533.2ms +/-2ms] 4Kian-46d1(…)'
-  - '[618.6ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
-  - '[626.0ms +/-0ms] [527.9ms +/-4ms] shadowsocks(…)'
-  - '[547.4ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
-  - '[544.5ms +/-0ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
-  - '[622.9ms +/-2ms] 🇬🇬'
-  - '[639.1ms +/-5ms] 🇬🇬'
-  - '[653.2ms +/-49ms] 🇺🇸 [492.5ms +/-45ms] 4Sarin(…)'
-  - '[557.8ms +/-1ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
-  - '[635.6ms +/-0ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
-  - '[548.8ms +/-3ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
-  - '[564.9ms +/-0ms] [556.9ms +/-9ms] 4Sarina-292(…)'
-  - '[678.8ms +/-0ms] 🇩🇪205708'
-  - '[569.2ms +/-1ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
-  - '[658.5ms +/-3ms] 🇮🇹'
-  - '[668.9ms +/-9ms] 🇬🇬'
-  - '[583.8ms +/-1ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
-  - '[625.5ms +/-0ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
-  - '[574.7ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
-  - '[585.3ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
-  - '[644.1ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
-  - '[610.8ms +/-0ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
-  - '[623.7ms +/-0ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
-  - '[593.6ms +/-20ms] [519.7ms +/-2ms] 4Sarina-d4(…)'
-  - '[693.7ms +/-20ms] 🇳🇱 [488.0ms +/-6ms] shadows(…)'
-  - '[645.4ms +/-0ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
-  - '[665.4ms +/-1ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
-  - '[605.6ms +/-3ms] 未知 SS-08 | free-nodes'
-  - '[690.0ms +/-1ms] 🇬🇬'
-  - '[650.0ms +/-0ms] [507.4ms +/-4ms] 4Jadi-35138(…)'
-  - '[668.3ms +/-5ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[482.7ms +/-2ms] 🇳🇱'
-  - '[579.6ms +/-1ms] [521.0ms +/-8ms] 4Jadi-95598(…)'
-  - '[478.6ms +/-2ms] @DeltaKroneckerGithub'
-  - '[526.2ms +/-0ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
-  - '[521.1ms +/-2ms] 🇬🇬'
-  - '[651.2ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
-  - '[672.4ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
-  - '[516.8ms +/-4ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
-  - '[615.2ms +/-6ms] trojan-66.163.118.62'
-  - '[693.5ms +/-0ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
-  - '[730.2ms +/-0ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
-  - '[633.4ms +/-1ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
-  - '[638.9ms +/-2ms] [587.4ms +/-1ms] shadowsocks(…)'
-  - '[792.1ms +/-3ms] 🇳🇱 [534.6ms +/-2ms] shadowso(…)'
-  - '[700.8ms +/-4ms] [505.4ms +/-0ms] 4Sarina-a7e(…)'
-  - '[626.2ms +/-38ms] 🇮🇹 [500.7ms +/-11ms] shadow(…)'
-  - '[572.5ms +/-12ms] 🇳🇱'
-  - '[748.4ms +/-44ms] 🇬🇬'
-  - '[660.8ms +/-13ms] [542.9ms +/-13ms] shadowsoc(…)'
-  - '[828.1ms +/-73ms] 🇨🇦[www.v2nodes.com] ss-CA-1(…)'
-  - '[497.7ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[795.6ms +/-37ms] 🇬🇬'
-  - '[746.3ms +/-2ms] 未知 SS-06 | free-nodes'
-  - '[661.5ms +/-0ms] 🏳[www.v2nodes.com] ss- #4'
-  - '[784.2ms +/-41ms] 🇯🇵'
-  - '[653.6ms +/-4ms] 🇬🇧 GB | SS | @beshkan #1 [fast]'
-  - '[583.3ms +/-123ms] trojan-70.34.207.14'
-  - '[835.4ms +/-1ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
-  - '[658.4ms +/-19ms] 🇮🇹'
-  - '[941.9ms +/-1ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
-  - '[881.9ms +/-0ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
-  - '[929.0ms +/-5ms] 🇮🇹'
-  - '[689.1ms +/-81ms] 🇮🇹'
-  - 🇨🇴 [848.7ms +/-64ms] 🇨🇴[www.v2nodes.com] ss-C(…)
-  - '[451.1ms +/-122ms] 🇯🇵 [492.5ms +/-12ms] troja(…)'
-  - 🇵🇱 [728.9ms +/-0ms] 🇫🇷
-  - '[888.6ms +/-25ms] 🇬🇬'
-  - '[725.5ms +/-167ms] 🇩🇪'
-  - '[804.9ms +/-59ms] 🇮🇹'
-  - '[872.5ms +/-15ms] 🔒'
-  - '[750.6ms +/-12ms] 🏳[www.v2nodes.com] ss- #13'
-  - 🇳🇱 [687.7ms +/-123ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
-  - 🇨🇭 [766.0ms +/-45ms] @DeltaKroneckerGithub
-  - '[489.4ms +/-4ms] shadowsocks-1827146388'
-  - '[485.7ms +/-7ms] Channel'
-  - '[420.0ms +/-33ms] تو'
-  - '[1039.1ms +/-10ms] @DeltaKroneckerGithub'
-  - '[700.9ms +/-1ms] shadowsocks-1827146892'
-  - '[1085.4ms +/-3ms] 🇵🇭'
-  - '[940.5ms +/-54ms] 🔒'
-  - '[935.1ms +/-107ms] CA-015 CA_15 1.4MB/s B007-(…)'
-  - '[1155.5ms +/-57ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-(…)'
-  - 🇳🇱 [523.9ms +/-4ms] shadowsocks-1827146118
-  - '[493.1ms +/-26ms] shadowsocks-1827146148'
-  - 🇳🇱 [543.2ms +/-253ms] 🇬🇬
-  - '[913.9ms +/-59ms] CA'
-  - '[980.5ms +/-91ms] 🔒'
-  - '[1227.1ms +/-45ms] 🇿🇦 [847.7ms +/-6ms] shadow(…)'
-  - 🇳🇱 [525.5ms +/-3ms] vless-1853341249
-  - '[625.2ms +/-220ms] 🔒'
-  - '[581.0ms +/-10ms] vless-1853340230'
-  - '[534.1ms +/-1ms] 🇳🇱01'
-  - '[600.1ms +/-1ms] @FXxNET⚡️'
-  - '[662.0ms +/-2ms] @FXxNET⚡️'
-  - '[1323.4ms +/-10ms] 🔒'
-  - 🇨🇭 [814.5ms +/-374ms] 🔒
-  - '[1550.3ms +/-10ms] vless-1927724275'
-  - '[1685.8ms +/-35ms] vless-1934551297'
-  - '[591.3ms +/-340ms] shadowsocks-1827145981'
-  - '[1011.6ms +/-5ms] 🇳🇱01'
-  - '[932.6ms +/-134ms] 🇺🇸'
-  - '[1904.6ms +/-4ms] vless-1849679539'
-  - '[830.0ms +/-211ms] vless-1853489197'
-  - '[1240.6ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1816.1ms +/-109ms] vless-1853341457'
-  - 🇺🇸 [1062.1ms +/-268ms] shadowsocks-1827147591
-  - '[1126.2ms +/-174ms] vless-1853654571'
-  - 🇳🇱 [240.6ms +/-1ms] vless-1853340978
-  - '[243.7ms +/-17ms] >>@oneclickvpnkeys::NL'
-  - 🇫🇷 [255.4ms +/-5ms] vless-1853341185
+  - '[202.0ms +/-2ms] trojan-66.163.112.242'
+  - 🇺🇸 [204.2ms +/-3ms] trojan-66.163.112.142
+  - '[205.5ms +/-2ms] 🇺🇸US-66.163.112.121-0250'
+  - '[205.9ms +/-5ms] trojan-66.163.112.76'
+  - '[191.4ms +/-2ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
+  - '[263.5ms +/-1ms] US-082 US_85 1.2MB/s [2b322b(…)'
+  - '[261.1ms +/-3ms] US-068 US_196 1.2MB/s [60b18(…)'
+  - '[201.3ms +/-0ms] trojan-66.163.112.171'
+  - '[209.0ms +/-1ms] trojan-66.163.112.147'
+  - '[193.9ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
+  - '[363.5ms +/-2ms] US-067 US_40 1.2MB/s A004-26(…)'
+  - '[249.7ms +/-3ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
+  - 🇺🇸 [379.1ms +/-5ms] trojan-66.23.203.21
+  - '[294.4ms +/-2ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
+  - 🇨🇦 [264.5ms +/-2ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
+  - '[267.3ms +/-35ms] 🇺🇸 [327.9ms +/-5ms] hysteri(…)'
+  - '[271.2ms +/-4ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
+  - '[290.4ms +/-2ms] XX-002 96@oneclickvpnkeys'
+  - '[325.9ms +/-1ms] 🇺🇸'
+  - '[330.1ms +/-0ms] 🇺🇸'
+  - '[338.3ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
+  - '[344.7ms +/-1ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
+  - '[271.7ms +/-8ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
+  - '[338.5ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
+  - 🇺🇸 [365.4ms +/-3ms] US-052 US_1 1.4MB/s [de8a(…)
+  - 🇯🇵 [280.0ms +/-0ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
+  - '[360.6ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
+  - '[265.8ms +/-3ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
+  - 🇺🇸 [379.9ms +/-3ms] US-040 US_156 1.4MB/s [09(…)
+  - '[302.8ms +/-1ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
+  - '[336.9ms +/-21ms] 🇺🇸 [227.4ms +/-0ms] hysteri(…)'
+  - '[449.2ms +/-3ms] 🇺🇸US-216.152.155.54-0168'
+  - 🇺🇸 [280.3ms +/-209ms] US-066 US_315 1.1MB/s [(…)
+  - '[365.0ms +/-4ms] 🇺🇸US-216.152.155.176-0152'
+  - '[433.4ms +/-4ms] US-043 US_367 1.9MB/s B007-2(…)'
+  - '[300.3ms +/-0ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
+  - '[337.5ms +/-9ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
+  - '[584.8ms +/-4ms] @DeltaKroneckerGithub'
+  - '[340.8ms +/-2ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
+  - '[241.0ms +/-5ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
+  - '[352.8ms +/-0ms] 🇯🇵JP-167.179.108.225-5986'
+  - '[346.6ms +/-1ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
+  - '[550.5ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
+  - '[346.6ms +/-6ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
+  - '[353.1ms +/-3ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
+  - '[405.8ms +/-5ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
+  - '[376.5ms +/-0ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
+  - '[394.9ms +/-1ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
+  - '[406.9ms +/-4ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
+  - '[401.5ms +/-3ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
+  - '[401.5ms +/-3ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
+  - 🇦🇺 [528.1ms +/-2ms] 🇦🇺AU-45.63.30.142-0202
+  - '[437.6ms +/-2ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
+  - '[615.9ms +/-10ms] 🇳🇱'
+  - '[601.7ms +/-11ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen(…)'
+  - '[433.4ms +/-2ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
+  - 🇳🇱 [542.4ms +/-5ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
+  - 🇳🇱 [541.0ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
+  - '[433.2ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
+  - 🇺🇸 [369.9ms +/-213ms] US-057 US_2 2.1MB/s A00(…)
+  - '[453.0ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
+  - '[484.5ms +/-1ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
+  - '[530.8ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
+  - '[553.2ms +/-5ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
+  - '[567.0ms +/-2ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
+  - '[587.7ms +/-1ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
+  - '[589.0ms +/-1ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
+  - '[582.6ms +/-1ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
+  - '[579.4ms +/-0ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
+  - '[577.4ms +/-4ms] 🇬🇬'
+  - 🇳🇱 [581.3ms +/-2ms] 🇬🇬
+  - '[582.7ms +/-4ms] 🇬🇬'
+  - '[588.2ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
+  - '[582.4ms +/-7ms] 🇳🇱 [488.0ms +/-6ms] shadowso(…)'
+  - 🇳🇱 [586.8ms +/-1ms] 🇳🇱 [493.3ms +/-5ms] shado(…)
+  - 🇳🇱 [590.6ms +/-2ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
+  - '[591.1ms +/-0ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
+  - '[593.7ms +/-1ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
+  - '[488.5ms +/-1ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
+  - '[598.0ms +/-6ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
+  - '[625.2ms +/-23ms] 🇳🇱 [731.3ms +/-50ms] shadow(…)'
+  - '[585.5ms +/-2ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
+  - '[521.7ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
+  - '[586.4ms +/-7ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
+  - '[548.5ms +/-32ms] 🇬🇬'
+  - '[597.4ms +/-6ms] 🇬🇬'
+  - '[602.9ms +/-3ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
+  - '[606.3ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
+  - '[614.0ms +/-1ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
+  - '[595.2ms +/-12ms] 🇬🇬'
+  - '[623.2ms +/-0ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
+  - '[517.2ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
+  - '[730.2ms +/-26ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
+  - '[448.0ms +/-22ms] 🇺🇸US-169.197.140.218-1980'
+  - 🇬🇧 [621.6ms +/-1ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
+  - 🇳🇱 [590.4ms +/-1ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
+  - '[566.9ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
+  - '[573.1ms +/-23ms] US-044 US_465 73KB/s [266d7(…)'
+  - '[577.0ms +/-1ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
+  - '[648.2ms +/-7ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
+  - '[590.5ms +/-1ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
+  - '[670.8ms +/-2ms] [527.9ms +/-4ms] shadowsocks(…)'
+  - '[542.0ms +/-2ms] 🇳🇱 [905.4ms +/-25ms] shadows(…)'
+  - '[620.2ms +/-2ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
+  - '[704.2ms +/-1ms] 🇨🇱CL-64.176.7.205-0540'
+  - '[591.6ms +/-1ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
+  - '[610.4ms +/-51ms] 🇳🇱 [516.8ms +/-3ms] shadows(…)'
+  - '[584.7ms +/-3ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
+  - '[647.1ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
+  - '[713.7ms +/-0ms] 🇵🇱PL-70.34.252.255-0189'
+  - '[619.2ms +/-1ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
+  - '[568.8ms +/-20ms] [455.0ms +/-3ms] 4Kian-6bd8(…)'
+  - '[632.6ms +/-0ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
+  - '[644.7ms +/-1ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
+  - '[634.5ms +/-2ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
+  - '[699.4ms +/-16ms] 🇬🇬'
+  - '[621.7ms +/-7ms] 🇮🇹'
+  - '[654.2ms +/-2ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
+  - '[656.4ms +/-3ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
+  - '[663.1ms +/-35ms] 🇮🇹'
+  - '[614.6ms +/-8ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
+  - '[637.2ms +/-4ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
+  - '[642.9ms +/-2ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
+  - '[623.1ms +/-2ms] [519.7ms +/-2ms] 4Sarina-d4f(…)'
+  - '[645.2ms +/-7ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
+  - '[657.4ms +/-7ms] [556.9ms +/-9ms] 4Sarina-292(…)'
+  - '[702.7ms +/-1ms] 🇵🇭'
+  - '[735.0ms +/-4ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
+  - '[606.0ms +/-9ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
+  - '[617.7ms +/-2ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
+  - '[680.5ms +/-5ms] [533.2ms +/-2ms] 4Kian-46d1e(…)'
+  - '[641.6ms +/-6ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
+  - '[693.3ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
+  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
+  - '[613.8ms +/-6ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
+  - '[707.6ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
+  - '[716.1ms +/-2ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
+  - '[451.1ms +/-1ms] 🇺🇸US-🚀@VPNine1'
+  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
+  - '[708.7ms +/-2ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
+  - '[766.4ms +/-44ms] 🇳🇱 [449.7ms +/-10ms] shadow(…)'
+  - '[708.3ms +/-0ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
+  - '[903.6ms +/-10ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-d(…)'
+  - '[598.4ms +/-22ms] 🇳🇱'
+  - '[886.9ms +/-54ms] 🇩🇪 [720.0ms +/-49ms] 4Mohse(…)'
+  - '[544.8ms +/-1ms] @FarazV2ray'
+  - '[715.1ms +/-16ms] [507.4ms +/-4ms] 4Jadi-3513(…)'
+  - '[750.8ms +/-5ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
+  - '[873.7ms +/-0ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
+  - '[870.7ms +/-1ms] 🇿🇦 [847.7ms +/-6ms] shadowso(…)'
+  - '[563.4ms +/-2ms] T.me/Vpn_Mafia'
+  - '[930.4ms +/-1ms] 🇬🇬'
+  - '[728.2ms +/-5ms] 🇮🇹'
+  - '[913.2ms +/-40ms] 🇳🇱 [600.4ms +/-108ms] shado(…)'
+  - '[955.6ms +/-3ms] 🇬🇬'
+  - '[662.1ms +/-190ms] 🇬🇬'
+  - '[202.6ms +/-2ms] 🇺🇸 美国 | USA'
+  - '[961.2ms +/-18ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
+  - '[703.7ms +/-195ms] 🇬🇬'
+  - '[751.2ms +/-167ms] 🇩🇪'
+  - '[1035.8ms +/-0ms] 🇧🇷BR-216.238.104.154-0532'
+  - '[726.7ms +/-2ms] @FarazV2ray'
+  - '[532.7ms +/-0ms] @FXxNET⚡️'
+  - '[738.5ms +/-1ms] @FarazV2ray'
+  - 🇯🇵 [420.0ms +/-0ms] hysteria2-1827145159
+  - '[773.2ms +/-183ms] 🇯🇵'
+  - '[946.3ms +/-67ms] CA-015 CA_15 1.4MB/s B007-2(…)'
+  - '[589.7ms +/-0ms] 🇸🇬SG-🚀@VPNine1'
+  - '[1066.2ms +/-25ms] 🇮🇹'
+  - '[467.8ms +/-1ms] vless-1939847007'
+  - '[901.1ms +/-145ms] 🇬🇧 GB | SS | @orange_vpns (…)'
+  - '[886.0ms +/-57ms] 🏳[www.v2nodes.com] ss- #4'
+  - 🇳🇱 [697.8ms +/-9ms] shadowsocks-1827146118
+  - 🇮🇹 [1326.4ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shad(…)
+  - 🇺🇸 [1398.7ms +/-2ms] 🇺🇸 [350.2ms +/-1ms] shad(…)
+  - '[1652.2ms +/-21ms] CA'
+  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
+  - '[1166.7ms +/-44ms] 🇳🇱 [510.1ms +/-26ms] shado(…)'
+  - '[904.0ms +/-216ms] 🇬🇬'
+  - '[1663.0ms +/-4ms] [383.1ms +/-0ms] 4FreeIran-(…)'
+  - '[1577.6ms +/-0ms] [353.9ms +/-0ms] 4Jadi-6997(…)'
+  - '[1626.9ms +/-2ms] [355.8ms +/-1ms] 4Jadi-f68d(…)'
+  - '[473.8ms +/-107ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - 🇳🇱 [1153.0ms +/-99ms] 🇳🇱 [451.8ms +/-12ms] sh(…)
+  - '[1516.5ms +/-8ms] 🔒'
+  - '[1285.6ms +/-38ms] 🇮🇹'
+  - '[731.8ms +/-148ms] shadowsocks-1827146388'
+  - '[1568.6ms +/-37ms] 🇳🇱 [487.6ms +/-38ms] shado(…)'
+  - '[1649.7ms +/-25ms] 🔒'
+  - '[613.5ms +/-153ms] shadowsocks-1827146148'
+  - '[743.6ms +/-254ms] [363.8ms +/-7ms] 4Jadi-6b0(…)'
+  - '[1356.9ms +/-4ms] vless-1927724275'
+  - 🇳🇱 [1196.3ms +/-67ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
+  - '[786.0ms +/-7ms] vless-1920323172'
+  - '[1136.3ms +/-146ms] 🇳🇱 [534.6ms +/-2ms] shado(…)'
+  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[386.0ms +/-5ms] 🇯🇵 日本 | JPN'
+  - '[1306.1ms +/-131ms] 🇬🇧 GB | SS | @beshkan #1 (…)'
+  - 🇺🇸 [904.8ms +/-192ms] shadowsocks-1827147591
+  - '[978.7ms +/-493ms] 🇵🇱 [525.4ms +/-0ms] shadow(…)'
+  - '[1298.9ms +/-131ms] 🏳[www.v2nodes.com] ss- #13'
+  - '[1137.8ms +/-456ms] 🇵🇱 [594.4ms +/-206ms] sha(…)'
+  - '[1495.2ms +/-190ms] 🇨🇦[www.v2nodes.com] ss-CA(…)'
+  - '[1759.0ms +/-48ms] 4Jadi-103ba851f5'
+  - 🇺🇸 [ 74.2ms +/-1ms] vless-1853340423
+  - '[101.4ms +/-2ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
+  - '[296.2ms +/-5ms] 🇩🇪DE-193.108.119.29-0207'
+  - '[525.8ms +/-187ms] 未知 SS-08 | free-nodes'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[221.5ms +/-2ms] XX-002 96@oneclickvpnkeys'
-  - 🇺🇸 [232.9ms +/-1ms] US-067 US_40 1.2MB/s A004(…)
-  - '[276.5ms +/-0ms] 🇺🇸 [227.4ms +/-0ms] hysteria(…)'
-  - 🇺🇸 [260.5ms +/-1ms] US-082 US_85 1.2MB/s [2b3(…)
-  - '[269.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[354.4ms +/-1ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [290.6ms +/-1ms] US-066 US_315 1.1MB/s [44(…)
-  - 🇺🇸 [271.2ms +/-1ms] US-068 US_196 1.2MB/s [60(…)
-  - 🇺🇸 [294.3ms +/-1ms] US-064 US_26 1.0MB/s A004(…)
-  - 🇺🇸 [288.7ms +/-0ms] US-057 US_2 2.1MB/s A004-(…)
-  - 🇺🇸 [280.3ms +/-1ms] US-040 US_156 1.4MB/s [09(…)
-  - '[242.5ms +/-0ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [291.1ms +/-1ms] US-052 US_1 1.4MB/s [de8a(…)
-  - '[263.0ms +/-1ms] trojan-216.152.155.59'
-  - '[263.6ms +/-1ms] trojan-216.152.155.131'
-  - '[292.3ms +/-0ms] 🇺🇸'
-  - '[297.5ms +/-8ms] 🇺🇸 [327.9ms +/-5ms] hysteria(…)'
-  - '[258.7ms +/-2ms] [375.1ms +/-12ms] 4Mohsen-05(…)'
-  - '[294.0ms +/-3ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
-  - '[300.6ms +/-0ms] trojan-170.101.101.211'
-  - '[264.6ms +/-1ms] trojan-216.152.155.23'
-  - 🇺🇸 [264.6ms +/-2ms] trojan-66.163.114.45
-  - '[301.7ms +/-1ms] 🇺🇸'
-  - '[304.0ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
-  - 🇺🇸 [307.8ms +/-2ms] 🇺🇸
-  - '[334.7ms +/-0ms] trojan-216.152.147.74'
-  - '[248.3ms +/-1ms] trojan-66.163.114.245'
-  - '[307.5ms +/-0ms] 🇺🇸 [280.4ms +/-18ms] 4Nika-7(…)'
-  - '[353.3ms +/-2ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
-  - '[324.7ms +/-0ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
-  - '[299.0ms +/-1ms] US-043 US_367 1.9MB/s B007-2(…)'
-  - '[313.5ms +/-1ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
-  - '[301.6ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
-  - '[332.5ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
-  - '[323.8ms +/-1ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
-  - '[358.9ms +/-0ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
-  - '[296.6ms +/-3ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
-  - 🇨🇦 [300.9ms +/-1ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
-  - '[345.5ms +/-1ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
-  - '[368.2ms +/-1ms] [383.1ms +/-0ms] 4FreeIran-d(…)'
-  - '[252.8ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
-  - '[350.8ms +/-0ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
-  - '[249.7ms +/-1ms] trojan-66.163.114.106'
-  - '[301.2ms +/-2ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
-  - '[370.8ms +/-1ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
-  - '[383.0ms +/-0ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
-  - 🇺🇸 [595.3ms +/-3ms] trojan-66.23.203.21
-  - '[358.7ms +/-0ms] [363.8ms +/-7ms] 4Jadi-6b0d0(…)'
-  - 🇺🇸 [311.6ms +/-2ms] trojan-66.163.112.142
-  - '[379.0ms +/-1ms] [353.9ms +/-0ms] 4Jadi-69976(…)'
-  - '[355.5ms +/-5ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
-  - '[377.7ms +/-1ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
-  - 🇳🇱 [470.0ms +/-0ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
-  - '[322.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[301.5ms +/-4ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
-  - '[309.0ms +/-0ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
-  - 🇺🇸 [319.4ms +/-2ms] trojan-216.152.156.81
-  - '[343.1ms +/-0ms] trojan-169.197.140.169'
-  - '[316.3ms +/-1ms] US-081 US_736 106KB/s M003-2(…)'
-  - 🇺🇸 [345.3ms +/-0ms] trojan-169.197.140.171
-  - '[329.9ms +/-1ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
-  - '[331.3ms +/-0ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
-  - '[318.4ms +/-0ms] trojan-66.163.112.76'
-  - '[339.5ms +/-3ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
-  - '[341.3ms +/-2ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
-  - '[441.1ms +/-5ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
-  - '[317.1ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
-  - '[328.0ms +/-0ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
-  - '[276.8ms +/-3ms] trojan-170.101.101.112'
-  - '[347.7ms +/-0ms] trojan-169.197.140.214'
-  - '[325.2ms +/-0ms] trojan-66.163.112.242'
-  - '[457.5ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
-  - '[340.2ms +/-3ms] US-044 US_465 73KB/s [266d71(…)'
-  - '[471.5ms +/-0ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen-(…)'
-  - 🇯🇵 [365.9ms +/-1ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
-  - '[406.3ms +/-2ms] trojan-169.197.140.245'
-  - '[359.1ms +/-4ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[475.7ms +/-0ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
-  - '[376.0ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
-  - '[527.1ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
-  - '[316.2ms +/-1ms] trojan-66.163.112.147'
-  - '[308.5ms +/-0ms] trojan-216.152.156.49'
-  - '[417.1ms +/-2ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
-  - '[347.0ms +/-0ms] trojan-169.197.140.224'
-  - '[324.7ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.8ms +/-223ms] trojan-66.163.114.126'
-  - '[415.8ms +/-0ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
-  - '[317.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[423.1ms +/-3ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
-  - '[307.1ms +/-0ms] trojan-66.163.112.171'
-  - '[388.6ms +/-1ms] trojan-216.238.80.100'
-  - '[492.3ms +/-1ms] 🇳🇱 [516.8ms +/-3ms] shadowso(…)'
-  - '[521.6ms +/-1ms] 🇳🇱'
-  - '[471.6ms +/-5ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
-  - '[538.2ms +/-2ms] 🇳🇱 [510.1ms +/-26ms] shadows(…)'
-  - '[421.5ms +/-0ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
-  - '[427.2ms +/-1ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
-  - '[568.5ms +/-4ms] 🇳🇱 [731.3ms +/-50ms] shadows(…)'
-  - '[555.1ms +/-3ms] 🇳🇱 [600.4ms +/-108ms] shadow(…)'
-  - '[306.7ms +/-0ms] trojan-216.152.156.212'
-  - '[380.7ms +/-3ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[473.0ms +/-17ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
-  - '[483.2ms +/-0ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
-  - 🇳🇱 [482.8ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
-  - '[473.4ms +/-6ms] 🇬🇬'
-  - 🇳🇱 [484.6ms +/-1ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
-  - '[484.1ms +/-1ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
-  - 🇳🇱 [484.4ms +/-0ms] 🇬🇬
-  - '[493.1ms +/-2ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
-  - '[486.1ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
-  - '[487.4ms +/-6ms] 🇬🇬'
-  - 🇳🇱 [489.7ms +/-2ms] 🇳🇱 [451.8ms +/-12ms] shad(…)
-  - '[496.4ms +/-2ms] 🇬🇬'
-  - '[526.8ms +/-3ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
-  - '[494.4ms +/-2ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
-  - '[523.5ms +/-7ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
-  - '[469.3ms +/-3ms] 🇬🇧 GB | SS | @father_vpn #1 (…)'
-  - 🇳🇱 [496.2ms +/-6ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
-  - '[493.0ms +/-2ms] 🇳🇱 [449.7ms +/-10ms] shadows(…)'
-  - '[597.6ms +/-3ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
-  - '[526.4ms +/-2ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
-  - '[617.2ms +/-29ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
-  - '[539.3ms +/-0ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
-  - '[515.5ms +/-1ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
-  - '[348.8ms +/-4ms] trojan-216.106.186.66'
-  - 🇳🇱 [479.3ms +/-12ms] 🇳🇱 [493.3ms +/-5ms] shad(…)
-  - '[520.3ms +/-2ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
-  - '[535.9ms +/-2ms] 🇳🇱 [488.7ms +/-5ms] shadowso(…)'
-  - '[534.8ms +/-1ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
-  - '[622.1ms +/-0ms] [355.8ms +/-1ms] 4Jadi-f68d3(…)'
-  - '[214.7ms +/-4ms] 4Mohsen-6f2d318579'
-  - 🇳🇱 [533.4ms +/-1ms] 🇳🇱
-  - '[567.0ms +/-15ms] 🇳🇱 [487.6ms +/-38ms] shadow(…)'
-  - 🇬🇧 [567.1ms +/-3ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
-  - '[591.2ms +/-2ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
-  - '[536.7ms +/-1ms] 🇬🇬'
-  - '[619.6ms +/-2ms] 🇵🇱 [594.4ms +/-206ms] shadow(…)'
-  - '[588.7ms +/-0ms] 🇵🇱 [525.4ms +/-0ms] shadowso(…)'
-  - '[575.4ms +/-5ms] 🇬🇧 GB | SS | @orange_vpns #1(…)'
-  - '[581.4ms +/-0ms] 🇮🇹'
-  - '[515.4ms +/-1ms] [455.0ms +/-3ms] 4Kian-6bd81(…)'
-  - '[567.5ms +/-2ms] 🇬🇬'
-  - '[513.3ms +/-1ms] US-036 美国 298'
-  - 🇮🇹 [583.5ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shado(…)
-  - '[615.0ms +/-1ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
-  - '[581.0ms +/-15ms] 🇬🇬'
-  - '[769.3ms +/-6ms] 🇩🇪 [720.0ms +/-49ms] 4Mohsen(…)'
-  - '[645.1ms +/-26ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[604.8ms +/-3ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
-  - '[600.6ms +/-4ms] 🇬🇬'
-  - '[543.0ms +/-1ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
-  - '[534.9ms +/-0ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
-  - '[588.4ms +/-1ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
-  - '[519.2ms +/-10ms] [533.2ms +/-2ms] 4Kian-46d1(…)'
-  - '[618.6ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
-  - '[626.0ms +/-0ms] [527.9ms +/-4ms] shadowsocks(…)'
-  - '[547.4ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
-  - '[544.5ms +/-0ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
-  - '[622.9ms +/-2ms] 🇬🇬'
-  - '[639.1ms +/-5ms] 🇬🇬'
-  - '[653.2ms +/-49ms] 🇺🇸 [492.5ms +/-45ms] 4Sarin(…)'
-  - '[557.8ms +/-1ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
-  - '[635.6ms +/-0ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
-  - '[548.8ms +/-3ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
-  - '[564.9ms +/-0ms] [556.9ms +/-9ms] 4Sarina-292(…)'
-  - '[678.8ms +/-0ms] 🇩🇪205708'
-  - '[569.2ms +/-1ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
-  - '[658.5ms +/-3ms] 🇮🇹'
-  - '[668.9ms +/-9ms] 🇬🇬'
-  - '[583.8ms +/-1ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
-  - '[625.5ms +/-0ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
-  - '[574.7ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
-  - '[585.3ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
-  - '[644.1ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
-  - '[610.8ms +/-0ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
-  - '[623.7ms +/-0ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
-  - '[593.6ms +/-20ms] [519.7ms +/-2ms] 4Sarina-d4(…)'
-  - '[693.7ms +/-20ms] 🇳🇱 [488.0ms +/-6ms] shadows(…)'
-  - '[645.4ms +/-0ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
-  - '[665.4ms +/-1ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
-  - '[605.6ms +/-3ms] 未知 SS-08 | free-nodes'
-  - '[690.0ms +/-1ms] 🇬🇬'
-  - '[650.0ms +/-0ms] [507.4ms +/-4ms] 4Jadi-35138(…)'
-  - '[668.3ms +/-5ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[482.7ms +/-2ms] 🇳🇱'
-  - '[579.6ms +/-1ms] [521.0ms +/-8ms] 4Jadi-95598(…)'
-  - '[478.6ms +/-2ms] @DeltaKroneckerGithub'
-  - '[526.2ms +/-0ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
-  - '[521.1ms +/-2ms] 🇬🇬'
-  - '[651.2ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
-  - '[672.4ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
-  - '[516.8ms +/-4ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
-  - '[615.2ms +/-6ms] trojan-66.163.118.62'
-  - '[693.5ms +/-0ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
-  - '[730.2ms +/-0ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
-  - '[633.4ms +/-1ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
-  - '[638.9ms +/-2ms] [587.4ms +/-1ms] shadowsocks(…)'
-  - '[792.1ms +/-3ms] 🇳🇱 [534.6ms +/-2ms] shadowso(…)'
-  - '[700.8ms +/-4ms] [505.4ms +/-0ms] 4Sarina-a7e(…)'
-  - '[626.2ms +/-38ms] 🇮🇹 [500.7ms +/-11ms] shadow(…)'
-  - '[572.5ms +/-12ms] 🇳🇱'
-  - '[748.4ms +/-44ms] 🇬🇬'
-  - '[660.8ms +/-13ms] [542.9ms +/-13ms] shadowsoc(…)'
-  - '[828.1ms +/-73ms] 🇨🇦[www.v2nodes.com] ss-CA-1(…)'
-  - '[497.7ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[795.6ms +/-37ms] 🇬🇬'
-  - '[746.3ms +/-2ms] 未知 SS-06 | free-nodes'
-  - '[661.5ms +/-0ms] 🏳[www.v2nodes.com] ss- #4'
-  - '[784.2ms +/-41ms] 🇯🇵'
-  - '[653.6ms +/-4ms] 🇬🇧 GB | SS | @beshkan #1 [fast]'
-  - '[583.3ms +/-123ms] trojan-70.34.207.14'
-  - '[835.4ms +/-1ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
-  - '[658.4ms +/-19ms] 🇮🇹'
-  - '[941.9ms +/-1ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
-  - '[881.9ms +/-0ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
-  - '[929.0ms +/-5ms] 🇮🇹'
-  - '[689.1ms +/-81ms] 🇮🇹'
-  - 🇨🇴 [848.7ms +/-64ms] 🇨🇴[www.v2nodes.com] ss-C(…)
-  - '[451.1ms +/-122ms] 🇯🇵 [492.5ms +/-12ms] troja(…)'
-  - 🇵🇱 [728.9ms +/-0ms] 🇫🇷
-  - '[888.6ms +/-25ms] 🇬🇬'
-  - '[725.5ms +/-167ms] 🇩🇪'
-  - '[804.9ms +/-59ms] 🇮🇹'
-  - '[872.5ms +/-15ms] 🔒'
-  - '[750.6ms +/-12ms] 🏳[www.v2nodes.com] ss- #13'
-  - 🇳🇱 [687.7ms +/-123ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
-  - 🇨🇭 [766.0ms +/-45ms] @DeltaKroneckerGithub
-  - '[489.4ms +/-4ms] shadowsocks-1827146388'
-  - '[485.7ms +/-7ms] Channel'
-  - '[420.0ms +/-33ms] تو'
-  - '[1039.1ms +/-10ms] @DeltaKroneckerGithub'
-  - '[700.9ms +/-1ms] shadowsocks-1827146892'
-  - '[1085.4ms +/-3ms] 🇵🇭'
-  - '[940.5ms +/-54ms] 🔒'
-  - '[935.1ms +/-107ms] CA-015 CA_15 1.4MB/s B007-(…)'
-  - '[1155.5ms +/-57ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-(…)'
-  - 🇳🇱 [523.9ms +/-4ms] shadowsocks-1827146118
-  - '[493.1ms +/-26ms] shadowsocks-1827146148'
-  - 🇳🇱 [543.2ms +/-253ms] 🇬🇬
-  - '[913.9ms +/-59ms] CA'
-  - '[980.5ms +/-91ms] 🔒'
-  - '[1227.1ms +/-45ms] 🇿🇦 [847.7ms +/-6ms] shadow(…)'
-  - 🇳🇱 [525.5ms +/-3ms] vless-1853341249
-  - '[625.2ms +/-220ms] 🔒'
-  - '[581.0ms +/-10ms] vless-1853340230'
-  - '[534.1ms +/-1ms] 🇳🇱01'
-  - '[600.1ms +/-1ms] @FXxNET⚡️'
-  - '[662.0ms +/-2ms] @FXxNET⚡️'
-  - '[1323.4ms +/-10ms] 🔒'
-  - 🇨🇭 [814.5ms +/-374ms] 🔒
-  - '[1550.3ms +/-10ms] vless-1927724275'
-  - '[1685.8ms +/-35ms] vless-1934551297'
-  - '[591.3ms +/-340ms] shadowsocks-1827145981'
-  - '[1011.6ms +/-5ms] 🇳🇱01'
-  - '[932.6ms +/-134ms] 🇺🇸'
-  - '[1904.6ms +/-4ms] vless-1849679539'
-  - '[830.0ms +/-211ms] vless-1853489197'
-  - '[1240.6ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1816.1ms +/-109ms] vless-1853341457'
-  - 🇺🇸 [1062.1ms +/-268ms] shadowsocks-1827147591
-  - '[1126.2ms +/-174ms] vless-1853654571'
-  - 🇳🇱 [240.6ms +/-1ms] vless-1853340978
-  - '[243.7ms +/-17ms] >>@oneclickvpnkeys::NL'
-  - 🇫🇷 [255.4ms +/-5ms] vless-1853341185
+  - '[202.0ms +/-2ms] trojan-66.163.112.242'
+  - 🇺🇸 [204.2ms +/-3ms] trojan-66.163.112.142
+  - '[205.5ms +/-2ms] 🇺🇸US-66.163.112.121-0250'
+  - '[205.9ms +/-5ms] trojan-66.163.112.76'
+  - '[191.4ms +/-2ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
+  - '[263.5ms +/-1ms] US-082 US_85 1.2MB/s [2b322b(…)'
+  - '[261.1ms +/-3ms] US-068 US_196 1.2MB/s [60b18(…)'
+  - '[201.3ms +/-0ms] trojan-66.163.112.171'
+  - '[209.0ms +/-1ms] trojan-66.163.112.147'
+  - '[193.9ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
+  - '[363.5ms +/-2ms] US-067 US_40 1.2MB/s A004-26(…)'
+  - '[249.7ms +/-3ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
+  - 🇺🇸 [379.1ms +/-5ms] trojan-66.23.203.21
+  - '[294.4ms +/-2ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
+  - 🇨🇦 [264.5ms +/-2ms] 🇨🇦 [349.5ms +/-6ms] shado(…)
+  - '[267.3ms +/-35ms] 🇺🇸 [327.9ms +/-5ms] hysteri(…)'
+  - '[271.2ms +/-4ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
+  - '[290.4ms +/-2ms] XX-002 96@oneclickvpnkeys'
+  - '[325.9ms +/-1ms] 🇺🇸'
+  - '[330.1ms +/-0ms] 🇺🇸'
+  - '[338.3ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
+  - '[344.7ms +/-1ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
+  - '[271.7ms +/-8ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
+  - '[338.5ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
+  - 🇺🇸 [365.4ms +/-3ms] US-052 US_1 1.4MB/s [de8a(…)
+  - 🇯🇵 [280.0ms +/-0ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
+  - '[360.6ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
+  - '[265.8ms +/-3ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
+  - 🇺🇸 [379.9ms +/-3ms] US-040 US_156 1.4MB/s [09(…)
+  - '[302.8ms +/-1ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
+  - '[336.9ms +/-21ms] 🇺🇸 [227.4ms +/-0ms] hysteri(…)'
+  - '[449.2ms +/-3ms] 🇺🇸US-216.152.155.54-0168'
+  - 🇺🇸 [280.3ms +/-209ms] US-066 US_315 1.1MB/s [(…)
+  - '[365.0ms +/-4ms] 🇺🇸US-216.152.155.176-0152'
+  - '[433.4ms +/-4ms] US-043 US_367 1.9MB/s B007-2(…)'
+  - '[300.3ms +/-0ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
+  - '[337.5ms +/-9ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
+  - '[584.8ms +/-4ms] @DeltaKroneckerGithub'
+  - '[340.8ms +/-2ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
+  - '[241.0ms +/-5ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
+  - '[352.8ms +/-0ms] 🇯🇵JP-167.179.108.225-5986'
+  - '[346.6ms +/-1ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
+  - '[550.5ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
+  - '[346.6ms +/-6ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
+  - '[353.1ms +/-3ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
+  - '[405.8ms +/-5ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
+  - '[376.5ms +/-0ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
+  - '[394.9ms +/-1ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
+  - '[406.9ms +/-4ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
+  - '[401.5ms +/-3ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
+  - '[401.5ms +/-3ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
+  - 🇦🇺 [528.1ms +/-2ms] 🇦🇺AU-45.63.30.142-0202
+  - '[437.6ms +/-2ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
+  - '[615.9ms +/-10ms] 🇳🇱'
+  - '[601.7ms +/-11ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen(…)'
+  - '[433.4ms +/-2ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
+  - 🇳🇱 [542.4ms +/-5ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
+  - 🇳🇱 [541.0ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
+  - '[433.2ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
+  - 🇺🇸 [369.9ms +/-213ms] US-057 US_2 2.1MB/s A00(…)
+  - '[453.0ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
+  - '[484.5ms +/-1ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
+  - '[530.8ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
+  - '[553.2ms +/-5ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
+  - '[567.0ms +/-2ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
+  - '[587.7ms +/-1ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
+  - '[589.0ms +/-1ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
+  - '[582.6ms +/-1ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
+  - '[579.4ms +/-0ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
+  - '[577.4ms +/-4ms] 🇬🇬'
+  - 🇳🇱 [581.3ms +/-2ms] 🇬🇬
+  - '[582.7ms +/-4ms] 🇬🇬'
+  - '[588.2ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
+  - '[582.4ms +/-7ms] 🇳🇱 [488.0ms +/-6ms] shadowso(…)'
+  - 🇳🇱 [586.8ms +/-1ms] 🇳🇱 [493.3ms +/-5ms] shado(…)
+  - 🇳🇱 [590.6ms +/-2ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
+  - '[591.1ms +/-0ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
+  - '[593.7ms +/-1ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
+  - '[488.5ms +/-1ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
+  - '[598.0ms +/-6ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
+  - '[625.2ms +/-23ms] 🇳🇱 [731.3ms +/-50ms] shadow(…)'
+  - '[585.5ms +/-2ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
+  - '[521.7ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
+  - '[586.4ms +/-7ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
+  - '[548.5ms +/-32ms] 🇬🇬'
+  - '[597.4ms +/-6ms] 🇬🇬'
+  - '[602.9ms +/-3ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
+  - '[606.3ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
+  - '[614.0ms +/-1ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
+  - '[595.2ms +/-12ms] 🇬🇬'
+  - '[623.2ms +/-0ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
+  - '[517.2ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
+  - '[730.2ms +/-26ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
+  - '[448.0ms +/-22ms] 🇺🇸US-169.197.140.218-1980'
+  - 🇬🇧 [621.6ms +/-1ms] 🇬🇧 [497.0ms +/-1ms] shado(…)
+  - 🇳🇱 [590.4ms +/-1ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
+  - '[566.9ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
+  - '[573.1ms +/-23ms] US-044 US_465 73KB/s [266d7(…)'
+  - '[577.0ms +/-1ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
+  - '[648.2ms +/-7ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
+  - '[590.5ms +/-1ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
+  - '[670.8ms +/-2ms] [527.9ms +/-4ms] shadowsocks(…)'
+  - '[542.0ms +/-2ms] 🇳🇱 [905.4ms +/-25ms] shadows(…)'
+  - '[620.2ms +/-2ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
+  - '[704.2ms +/-1ms] 🇨🇱CL-64.176.7.205-0540'
+  - '[591.6ms +/-1ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
+  - '[610.4ms +/-51ms] 🇳🇱 [516.8ms +/-3ms] shadows(…)'
+  - '[584.7ms +/-3ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
+  - '[647.1ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
+  - '[713.7ms +/-0ms] 🇵🇱PL-70.34.252.255-0189'
+  - '[619.2ms +/-1ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
+  - '[568.8ms +/-20ms] [455.0ms +/-3ms] 4Kian-6bd8(…)'
+  - '[632.6ms +/-0ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
+  - '[644.7ms +/-1ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
+  - '[634.5ms +/-2ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
+  - '[699.4ms +/-16ms] 🇬🇬'
+  - '[621.7ms +/-7ms] 🇮🇹'
+  - '[654.2ms +/-2ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
+  - '[656.4ms +/-3ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
+  - '[663.1ms +/-35ms] 🇮🇹'
+  - '[614.6ms +/-8ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
+  - '[637.2ms +/-4ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
+  - '[642.9ms +/-2ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
+  - '[623.1ms +/-2ms] [519.7ms +/-2ms] 4Sarina-d4f(…)'
+  - '[645.2ms +/-7ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
+  - '[657.4ms +/-7ms] [556.9ms +/-9ms] 4Sarina-292(…)'
+  - '[702.7ms +/-1ms] 🇵🇭'
+  - '[735.0ms +/-4ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
+  - '[606.0ms +/-9ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
+  - '[617.7ms +/-2ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
+  - '[680.5ms +/-5ms] [533.2ms +/-2ms] 4Kian-46d1e(…)'
+  - '[641.6ms +/-6ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
+  - '[693.3ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
+  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
+  - '[613.8ms +/-6ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
+  - '[707.6ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
+  - '[716.1ms +/-2ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
+  - '[451.1ms +/-1ms] 🇺🇸US-🚀@VPNine1'
+  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
+  - '[708.7ms +/-2ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
+  - '[766.4ms +/-44ms] 🇳🇱 [449.7ms +/-10ms] shadow(…)'
+  - '[708.3ms +/-0ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
+  - '[903.6ms +/-10ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-d(…)'
+  - '[598.4ms +/-22ms] 🇳🇱'
+  - '[886.9ms +/-54ms] 🇩🇪 [720.0ms +/-49ms] 4Mohse(…)'
+  - '[544.8ms +/-1ms] @FarazV2ray'
+  - '[715.1ms +/-16ms] [507.4ms +/-4ms] 4Jadi-3513(…)'
+  - '[750.8ms +/-5ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
+  - '[873.7ms +/-0ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
+  - '[870.7ms +/-1ms] 🇿🇦 [847.7ms +/-6ms] shadowso(…)'
+  - '[563.4ms +/-2ms] T.me/Vpn_Mafia'
+  - '[930.4ms +/-1ms] 🇬🇬'
+  - '[728.2ms +/-5ms] 🇮🇹'
+  - '[913.2ms +/-40ms] 🇳🇱 [600.4ms +/-108ms] shado(…)'
+  - '[955.6ms +/-3ms] 🇬🇬'
+  - '[662.1ms +/-190ms] 🇬🇬'
+  - '[202.6ms +/-2ms] 🇺🇸 美国 | USA'
+  - '[961.2ms +/-18ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
+  - '[703.7ms +/-195ms] 🇬🇬'
+  - '[751.2ms +/-167ms] 🇩🇪'
+  - '[1035.8ms +/-0ms] 🇧🇷BR-216.238.104.154-0532'
+  - '[726.7ms +/-2ms] @FarazV2ray'
+  - '[532.7ms +/-0ms] @FXxNET⚡️'
+  - '[738.5ms +/-1ms] @FarazV2ray'
+  - 🇯🇵 [420.0ms +/-0ms] hysteria2-1827145159
+  - '[773.2ms +/-183ms] 🇯🇵'
+  - '[946.3ms +/-67ms] CA-015 CA_15 1.4MB/s B007-2(…)'
+  - '[589.7ms +/-0ms] 🇸🇬SG-🚀@VPNine1'
+  - '[1066.2ms +/-25ms] 🇮🇹'
+  - '[467.8ms +/-1ms] vless-1939847007'
+  - '[901.1ms +/-145ms] 🇬🇧 GB | SS | @orange_vpns (…)'
+  - '[886.0ms +/-57ms] 🏳[www.v2nodes.com] ss- #4'
+  - 🇳🇱 [697.8ms +/-9ms] shadowsocks-1827146118
+  - 🇮🇹 [1326.4ms +/-1ms] 🇮🇹 [525.8ms +/-1ms] shad(…)
+  - 🇺🇸 [1398.7ms +/-2ms] 🇺🇸 [350.2ms +/-1ms] shad(…)
+  - '[1652.2ms +/-21ms] CA'
+  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
+  - '[1166.7ms +/-44ms] 🇳🇱 [510.1ms +/-26ms] shado(…)'
+  - '[904.0ms +/-216ms] 🇬🇬'
+  - '[1663.0ms +/-4ms] [383.1ms +/-0ms] 4FreeIran-(…)'
+  - '[1577.6ms +/-0ms] [353.9ms +/-0ms] 4Jadi-6997(…)'
+  - '[1626.9ms +/-2ms] [355.8ms +/-1ms] 4Jadi-f68d(…)'
+  - '[473.8ms +/-107ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - 🇳🇱 [1153.0ms +/-99ms] 🇳🇱 [451.8ms +/-12ms] sh(…)
+  - '[1516.5ms +/-8ms] 🔒'
+  - '[1285.6ms +/-38ms] 🇮🇹'
+  - '[731.8ms +/-148ms] shadowsocks-1827146388'
+  - '[1568.6ms +/-37ms] 🇳🇱 [487.6ms +/-38ms] shado(…)'
+  - '[1649.7ms +/-25ms] 🔒'
+  - '[613.5ms +/-153ms] shadowsocks-1827146148'
+  - '[743.6ms +/-254ms] [363.8ms +/-7ms] 4Jadi-6b0(…)'
+  - '[1356.9ms +/-4ms] vless-1927724275'
+  - 🇳🇱 [1196.3ms +/-67ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
+  - '[786.0ms +/-7ms] vless-1920323172'
+  - '[1136.3ms +/-146ms] 🇳🇱 [534.6ms +/-2ms] shado(…)'
+  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[386.0ms +/-5ms] 🇯🇵 日本 | JPN'
+  - '[1306.1ms +/-131ms] 🇬🇧 GB | SS | @beshkan #1 (…)'
+  - 🇺🇸 [904.8ms +/-192ms] shadowsocks-1827147591
+  - '[978.7ms +/-493ms] 🇵🇱 [525.4ms +/-0ms] shadow(…)'
+  - '[1298.9ms +/-131ms] 🏳[www.v2nodes.com] ss- #13'
+  - '[1137.8ms +/-456ms] 🇵🇱 [594.4ms +/-206ms] sha(…)'
+  - '[1495.2ms +/-190ms] 🇨🇦[www.v2nodes.com] ss-CA(…)'
+  - '[1759.0ms +/-48ms] 4Jadi-103ba851f5'
+  - 🇺🇸 [ 74.2ms +/-1ms] vless-1853340423
+  - '[101.4ms +/-2ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
+  - '[296.2ms +/-5ms] 🇩🇪DE-193.108.119.29-0207'
+  - '[525.8ms +/-187ms] 未知 SS-08 | free-nodes'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[221.5ms +/-2ms] XX-002 96@oneclickvpnkeys'
-  - '[276.5ms +/-0ms] 🇺🇸 [227.4ms +/-0ms] hysteria(…)'
-  - '[269.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[354.4ms +/-1ms] @DeltaKroneckerGithub'
-  - '[242.5ms +/-0ms] @DeltaKroneckerGithub'
-  - '[263.0ms +/-1ms] trojan-216.152.155.59'
-  - '[263.6ms +/-1ms] trojan-216.152.155.131'
-  - '[292.3ms +/-0ms] 🇺🇸'
-  - '[297.5ms +/-8ms] 🇺🇸 [327.9ms +/-5ms] hysteria(…)'
-  - '[258.7ms +/-2ms] [375.1ms +/-12ms] 4Mohsen-05(…)'
-  - '[294.0ms +/-3ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
-  - '[300.6ms +/-0ms] trojan-170.101.101.211'
-  - '[264.6ms +/-1ms] trojan-216.152.155.23'
-  - '[301.7ms +/-1ms] 🇺🇸'
-  - '[304.0ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
-  - '[334.7ms +/-0ms] trojan-216.152.147.74'
-  - '[248.3ms +/-1ms] trojan-66.163.114.245'
-  - '[307.5ms +/-0ms] 🇺🇸 [280.4ms +/-18ms] 4Nika-7(…)'
-  - '[353.3ms +/-2ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
-  - '[324.7ms +/-0ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
-  - '[299.0ms +/-1ms] US-043 US_367 1.9MB/s B007-2(…)'
-  - '[313.5ms +/-1ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
-  - '[301.6ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
-  - '[332.5ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
-  - '[323.8ms +/-1ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
-  - '[358.9ms +/-0ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
-  - '[296.6ms +/-3ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
-  - '[345.5ms +/-1ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
-  - '[368.2ms +/-1ms] [383.1ms +/-0ms] 4FreeIran-d(…)'
-  - '[252.8ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
-  - '[350.8ms +/-0ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
-  - '[249.7ms +/-1ms] trojan-66.163.114.106'
-  - '[301.2ms +/-2ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
-  - '[370.8ms +/-1ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
-  - '[383.0ms +/-0ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
-  - '[358.7ms +/-0ms] [363.8ms +/-7ms] 4Jadi-6b0d0(…)'
-  - '[379.0ms +/-1ms] [353.9ms +/-0ms] 4Jadi-69976(…)'
-  - '[355.5ms +/-5ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
-  - '[377.7ms +/-1ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
-  - '[322.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[301.5ms +/-4ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
-  - '[309.0ms +/-0ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
-  - '[343.1ms +/-0ms] trojan-169.197.140.169'
-  - '[316.3ms +/-1ms] US-081 US_736 106KB/s M003-2(…)'
-  - '[329.9ms +/-1ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
-  - '[331.3ms +/-0ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
-  - '[318.4ms +/-0ms] trojan-66.163.112.76'
-  - '[339.5ms +/-3ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
-  - '[341.3ms +/-2ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
-  - '[441.1ms +/-5ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
-  - '[317.1ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
-  - '[328.0ms +/-0ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
-  - '[276.8ms +/-3ms] trojan-170.101.101.112'
-  - '[347.7ms +/-0ms] trojan-169.197.140.214'
-  - '[325.2ms +/-0ms] trojan-66.163.112.242'
-  - '[457.5ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
-  - '[340.2ms +/-3ms] US-044 US_465 73KB/s [266d71(…)'
-  - '[471.5ms +/-0ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen-(…)'
-  - '[406.3ms +/-2ms] trojan-169.197.140.245'
-  - '[359.1ms +/-4ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[475.7ms +/-0ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
-  - '[376.0ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
-  - '[527.1ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
-  - '[316.2ms +/-1ms] trojan-66.163.112.147'
-  - '[308.5ms +/-0ms] trojan-216.152.156.49'
-  - '[417.1ms +/-2ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
-  - '[347.0ms +/-0ms] trojan-169.197.140.224'
-  - '[324.7ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.8ms +/-223ms] trojan-66.163.114.126'
-  - '[415.8ms +/-0ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
-  - '[317.6ms +/-1ms] @DeltaKroneckerGithub'
-  - '[423.1ms +/-3ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
-  - '[307.1ms +/-0ms] trojan-66.163.112.171'
-  - '[388.6ms +/-1ms] trojan-216.238.80.100'
-  - '[492.3ms +/-1ms] 🇳🇱 [516.8ms +/-3ms] shadowso(…)'
-  - '[521.6ms +/-1ms] 🇳🇱'
-  - '[471.6ms +/-5ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
-  - '[538.2ms +/-2ms] 🇳🇱 [510.1ms +/-26ms] shadows(…)'
-  - '[421.5ms +/-0ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
-  - '[427.2ms +/-1ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
-  - '[568.5ms +/-4ms] 🇳🇱 [731.3ms +/-50ms] shadows(…)'
-  - '[555.1ms +/-3ms] 🇳🇱 [600.4ms +/-108ms] shadow(…)'
-  - '[306.7ms +/-0ms] trojan-216.152.156.212'
-  - '[380.7ms +/-3ms] 🇨🇦[www.v2nodes.com] ss-CA-15(…)'
-  - '[473.0ms +/-17ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
-  - '[483.2ms +/-0ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
-  - '[473.4ms +/-6ms] 🇬🇬'
-  - '[484.1ms +/-1ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
-  - '[493.1ms +/-2ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
-  - '[486.1ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
-  - '[487.4ms +/-6ms] 🇬🇬'
-  - '[496.4ms +/-2ms] 🇬🇬'
-  - '[526.8ms +/-3ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
-  - '[494.4ms +/-2ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
-  - '[523.5ms +/-7ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
-  - '[469.3ms +/-3ms] 🇬🇧 GB | SS | @father_vpn #1 (…)'
-  - '[493.0ms +/-2ms] 🇳🇱 [449.7ms +/-10ms] shadows(…)'
-  - '[597.6ms +/-3ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
-  - '[526.4ms +/-2ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
-  - '[617.2ms +/-29ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
-  - '[539.3ms +/-0ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
-  - '[515.5ms +/-1ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
-  - '[348.8ms +/-4ms] trojan-216.106.186.66'
-  - '[520.3ms +/-2ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
-  - '[535.9ms +/-2ms] 🇳🇱 [488.7ms +/-5ms] shadowso(…)'
-  - '[534.8ms +/-1ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
-  - '[622.1ms +/-0ms] [355.8ms +/-1ms] 4Jadi-f68d3(…)'
-  - '[214.7ms +/-4ms] 4Mohsen-6f2d318579'
-  - '[567.0ms +/-15ms] 🇳🇱 [487.6ms +/-38ms] shadow(…)'
-  - '[591.2ms +/-2ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
-  - '[536.7ms +/-1ms] 🇬🇬'
-  - '[619.6ms +/-2ms] 🇵🇱 [594.4ms +/-206ms] shadow(…)'
-  - '[588.7ms +/-0ms] 🇵🇱 [525.4ms +/-0ms] shadowso(…)'
-  - '[575.4ms +/-5ms] 🇬🇧 GB | SS | @orange_vpns #1(…)'
-  - '[581.4ms +/-0ms] 🇮🇹'
-  - '[515.4ms +/-1ms] [455.0ms +/-3ms] 4Kian-6bd81(…)'
-  - '[567.5ms +/-2ms] 🇬🇬'
-  - '[513.3ms +/-1ms] US-036 美国 298'
-  - '[615.0ms +/-1ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
-  - '[581.0ms +/-15ms] 🇬🇬'
-  - '[769.3ms +/-6ms] 🇩🇪 [720.0ms +/-49ms] 4Mohsen(…)'
-  - '[645.1ms +/-26ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[604.8ms +/-3ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
-  - '[600.6ms +/-4ms] 🇬🇬'
-  - '[543.0ms +/-1ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
-  - '[534.9ms +/-0ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
-  - '[588.4ms +/-1ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
-  - '[519.2ms +/-10ms] [533.2ms +/-2ms] 4Kian-46d1(…)'
-  - '[618.6ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
-  - '[626.0ms +/-0ms] [527.9ms +/-4ms] shadowsocks(…)'
-  - '[547.4ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
-  - '[544.5ms +/-0ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
-  - '[622.9ms +/-2ms] 🇬🇬'
-  - '[639.1ms +/-5ms] 🇬🇬'
-  - '[653.2ms +/-49ms] 🇺🇸 [492.5ms +/-45ms] 4Sarin(…)'
-  - '[557.8ms +/-1ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
-  - '[635.6ms +/-0ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
-  - '[548.8ms +/-3ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
-  - '[564.9ms +/-0ms] [556.9ms +/-9ms] 4Sarina-292(…)'
-  - '[678.8ms +/-0ms] 🇩🇪205708'
-  - '[569.2ms +/-1ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
-  - '[658.5ms +/-3ms] 🇮🇹'
-  - '[668.9ms +/-9ms] 🇬🇬'
-  - '[583.8ms +/-1ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
-  - '[625.5ms +/-0ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
-  - '[574.7ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
-  - '[585.3ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
-  - '[644.1ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
-  - '[610.8ms +/-0ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
-  - '[623.7ms +/-0ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
-  - '[593.6ms +/-20ms] [519.7ms +/-2ms] 4Sarina-d4(…)'
-  - '[693.7ms +/-20ms] 🇳🇱 [488.0ms +/-6ms] shadows(…)'
-  - '[645.4ms +/-0ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
-  - '[665.4ms +/-1ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
-  - '[605.6ms +/-3ms] 未知 SS-08 | free-nodes'
-  - '[690.0ms +/-1ms] 🇬🇬'
-  - '[650.0ms +/-0ms] [507.4ms +/-4ms] 4Jadi-35138(…)'
-  - '[668.3ms +/-5ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[482.7ms +/-2ms] 🇳🇱'
-  - '[579.6ms +/-1ms] [521.0ms +/-8ms] 4Jadi-95598(…)'
-  - '[478.6ms +/-2ms] @DeltaKroneckerGithub'
-  - '[526.2ms +/-0ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
-  - '[521.1ms +/-2ms] 🇬🇬'
-  - '[651.2ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
-  - '[672.4ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
-  - '[516.8ms +/-4ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
-  - '[615.2ms +/-6ms] trojan-66.163.118.62'
-  - '[693.5ms +/-0ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
-  - '[730.2ms +/-0ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
-  - '[633.4ms +/-1ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
-  - '[638.9ms +/-2ms] [587.4ms +/-1ms] shadowsocks(…)'
-  - '[792.1ms +/-3ms] 🇳🇱 [534.6ms +/-2ms] shadowso(…)'
-  - '[700.8ms +/-4ms] [505.4ms +/-0ms] 4Sarina-a7e(…)'
-  - '[626.2ms +/-38ms] 🇮🇹 [500.7ms +/-11ms] shadow(…)'
-  - '[572.5ms +/-12ms] 🇳🇱'
-  - '[748.4ms +/-44ms] 🇬🇬'
-  - '[660.8ms +/-13ms] [542.9ms +/-13ms] shadowsoc(…)'
-  - '[828.1ms +/-73ms] 🇨🇦[www.v2nodes.com] ss-CA-1(…)'
-  - '[497.7ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[795.6ms +/-37ms] 🇬🇬'
-  - '[746.3ms +/-2ms] 未知 SS-06 | free-nodes'
-  - '[661.5ms +/-0ms] 🏳[www.v2nodes.com] ss- #4'
-  - '[784.2ms +/-41ms] 🇯🇵'
-  - '[653.6ms +/-4ms] 🇬🇧 GB | SS | @beshkan #1 [fast]'
-  - '[583.3ms +/-123ms] trojan-70.34.207.14'
-  - '[835.4ms +/-1ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
-  - '[658.4ms +/-19ms] 🇮🇹'
-  - '[941.9ms +/-1ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
-  - '[881.9ms +/-0ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
-  - '[929.0ms +/-5ms] 🇮🇹'
-  - '[689.1ms +/-81ms] 🇮🇹'
-  - '[451.1ms +/-122ms] 🇯🇵 [492.5ms +/-12ms] troja(…)'
-  - '[888.6ms +/-25ms] 🇬🇬'
-  - '[725.5ms +/-167ms] 🇩🇪'
-  - '[804.9ms +/-59ms] 🇮🇹'
-  - '[872.5ms +/-15ms] 🔒'
-  - '[750.6ms +/-12ms] 🏳[www.v2nodes.com] ss- #13'
-  - '[489.4ms +/-4ms] shadowsocks-1827146388'
-  - '[485.7ms +/-7ms] Channel'
-  - '[420.0ms +/-33ms] تو'
-  - '[1039.1ms +/-10ms] @DeltaKroneckerGithub'
-  - '[700.9ms +/-1ms] shadowsocks-1827146892'
-  - '[1085.4ms +/-3ms] 🇵🇭'
-  - '[940.5ms +/-54ms] 🔒'
-  - '[935.1ms +/-107ms] CA-015 CA_15 1.4MB/s B007-(…)'
-  - '[1155.5ms +/-57ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-(…)'
-  - '[493.1ms +/-26ms] shadowsocks-1827146148'
-  - '[913.9ms +/-59ms] CA'
-  - '[980.5ms +/-91ms] 🔒'
-  - '[1227.1ms +/-45ms] 🇿🇦 [847.7ms +/-6ms] shadow(…)'
-  - '[625.2ms +/-220ms] 🔒'
-  - '[581.0ms +/-10ms] vless-1853340230'
-  - '[534.1ms +/-1ms] 🇳🇱01'
-  - '[600.1ms +/-1ms] @FXxNET⚡️'
-  - '[662.0ms +/-2ms] @FXxNET⚡️'
-  - '[1323.4ms +/-10ms] 🔒'
-  - '[1550.3ms +/-10ms] vless-1927724275'
-  - '[1685.8ms +/-35ms] vless-1934551297'
-  - '[591.3ms +/-340ms] shadowsocks-1827145981'
-  - '[1011.6ms +/-5ms] 🇳🇱01'
-  - '[932.6ms +/-134ms] 🇺🇸'
-  - '[1904.6ms +/-4ms] vless-1849679539'
-  - '[830.0ms +/-211ms] vless-1853489197'
-  - '[1240.6ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1816.1ms +/-109ms] vless-1853341457'
-  - '[1126.2ms +/-174ms] vless-1853654571'
-  - '[243.7ms +/-17ms] >>@oneclickvpnkeys::NL'
+  - '[202.0ms +/-2ms] trojan-66.163.112.242'
+  - '[205.5ms +/-2ms] 🇺🇸US-66.163.112.121-0250'
+  - '[205.9ms +/-5ms] trojan-66.163.112.76'
+  - '[191.4ms +/-2ms] 🇺🇸 [352.7ms +/-3ms] shadowso(…)'
+  - '[263.5ms +/-1ms] US-082 US_85 1.2MB/s [2b322b(…)'
+  - '[261.1ms +/-3ms] US-068 US_196 1.2MB/s [60b18(…)'
+  - '[201.3ms +/-0ms] trojan-66.163.112.171'
+  - '[209.0ms +/-1ms] trojan-66.163.112.147'
+  - '[193.9ms +/-1ms] [292.7ms +/-0ms] 4Kian-04fd1(…)'
+  - '[363.5ms +/-2ms] US-067 US_40 1.2MB/s A004-26(…)'
+  - '[249.7ms +/-3ms] [378.8ms +/-0ms] 4Nika-dd234(…)'
+  - '[294.4ms +/-2ms] [420.8ms +/-1ms] 4Jadi-4c6ec(…)'
+  - '[267.3ms +/-35ms] 🇺🇸 [327.9ms +/-5ms] hysteri(…)'
+  - '[271.2ms +/-4ms] [301.7ms +/-84ms] 4Mohsen-bf(…)'
+  - '[290.4ms +/-2ms] XX-002 96@oneclickvpnkeys'
+  - '[325.9ms +/-1ms] 🇺🇸'
+  - '[330.1ms +/-0ms] 🇺🇸'
+  - '[338.3ms +/-1ms] 🇺🇸 [295.2ms +/-0ms] shadowso(…)'
+  - '[344.7ms +/-1ms] 🇺🇸 [361.7ms +/-10ms] shadows(…)'
+  - '[271.7ms +/-8ms] [342.5ms +/-0ms] 4Kian-dd9cf(…)'
+  - '[338.5ms +/-1ms] 🇺🇸 [395.9ms +/-1ms] shadowso(…)'
+  - '[360.6ms +/-1ms] 🇺🇸 [248.9ms +/-9ms] shadowso(…)'
+  - '[265.8ms +/-3ms] 🇺🇸 [365.8ms +/-1ms] 🇺🇸205959'
+  - '[302.8ms +/-1ms] 🇯🇵 [427.5ms +/-1ms] shadowso(…)'
+  - '[336.9ms +/-21ms] 🇺🇸 [227.4ms +/-0ms] hysteri(…)'
+  - '[449.2ms +/-3ms] 🇺🇸US-216.152.155.54-0168'
+  - '[365.0ms +/-4ms] 🇺🇸US-216.152.155.176-0152'
+  - '[433.4ms +/-4ms] US-043 US_367 1.9MB/s B007-2(…)'
+  - '[300.3ms +/-0ms] 🇯🇵 [414.7ms +/-2ms] shadowso(…)'
+  - '[337.5ms +/-9ms] [436.0ms +/-3ms] 4FreeIran-6(…)'
+  - '[584.8ms +/-4ms] @DeltaKroneckerGithub'
+  - '[340.8ms +/-2ms] [316.3ms +/-0ms] 4Kian-059b4(…)'
+  - '[241.0ms +/-5ms] [374.1ms +/-3ms] 4Mohsen-e55(…)'
+  - '[352.8ms +/-0ms] 🇯🇵JP-167.179.108.225-5986'
+  - '[346.6ms +/-1ms] [300.7ms +/-1ms] 4Kian-c5544(…)'
+  - '[550.5ms +/-1ms] 🇳🇱 [698.8ms +/-38ms] shadows(…)'
+  - '[346.6ms +/-6ms] [379.3ms +/-3ms] 4Nika-9d8f1(…)'
+  - '[353.1ms +/-3ms] [241.4ms +/-2ms] 4Kian-e9f52(…)'
+  - '[405.8ms +/-5ms] [380.4ms +/-0ms] 4Jadi-97a8f(…)'
+  - '[376.5ms +/-0ms] [354.9ms +/-1ms] 4Sarina-e65(…)'
+  - '[394.9ms +/-1ms] [391.5ms +/-4ms] 4Nika-9ef56(…)'
+  - '[406.9ms +/-4ms] [377.4ms +/-1ms] 4Jadi-8b196(…)'
+  - '[401.5ms +/-3ms] [322.9ms +/-7ms] 4Sarina-ffb(…)'
+  - '[401.5ms +/-3ms] [405.3ms +/-1ms] 4FreeIran-d(…)'
+  - '[437.6ms +/-2ms] 🇪🇪 [352.2ms +/-4ms] ⏳1@onecl(…)'
+  - '[615.9ms +/-10ms] 🇳🇱'
+  - '[601.7ms +/-11ms] 🇳🇱 [473.5ms +/-0ms] 4Mohsen(…)'
+  - '[433.4ms +/-2ms] [369.8ms +/-8ms] 4Mohsen-b24(…)'
+  - '[433.2ms +/-0ms] [344.9ms +/-2ms] 4Mohsen-af7(…)'
+  - '[453.0ms +/-1ms] [526.0ms +/-1ms] 4Mohsen-cd1(…)'
+  - '[484.5ms +/-1ms] [370.0ms +/-4ms] 4Nika-da14d(…)'
+  - '[530.8ms +/-1ms] 🇳🇱 [398.9ms +/-8ms] shadowso(…)'
+  - '[553.2ms +/-5ms] 🇳🇱 [523.3ms +/-130ms] shadow(…)'
+  - '[567.0ms +/-2ms] 🇩🇪 [514.7ms +/-3ms] shadowso(…)'
+  - '[587.7ms +/-1ms] 🇳🇱 [462.2ms +/-0ms] shadowso(…)'
+  - '[589.0ms +/-1ms] 🇳🇱 [488.6ms +/-8ms] shadowso(…)'
+  - '[582.6ms +/-1ms] 🇳🇱 [486.2ms +/-2ms] shadowso(…)'
+  - '[579.4ms +/-0ms] 🇳🇱 [425.2ms +/-1ms] shadowso(…)'
+  - '[577.4ms +/-4ms] 🇬🇬'
+  - '[582.7ms +/-4ms] 🇬🇬'
+  - '[588.2ms +/-1ms] 🇳🇱 [575.1ms +/-160ms] shadow(…)'
+  - '[582.4ms +/-7ms] 🇳🇱 [488.0ms +/-6ms] shadowso(…)'
+  - '[591.1ms +/-0ms] 🇳🇱 [491.0ms +/-6ms] shadowso(…)'
+  - '[593.7ms +/-1ms] 🇳🇱 [488.7ms +/-168ms] shadow(…)'
+  - '[488.5ms +/-1ms] [254.3ms +/-1ms] 4FreeIran-9(…)'
+  - '[598.0ms +/-6ms] 🇬🇧 [547.0ms +/-3ms] shadowso(…)'
+  - '[625.2ms +/-23ms] 🇳🇱 [731.3ms +/-50ms] shadow(…)'
+  - '[585.5ms +/-2ms] 🇳🇱 [516.8ms +/-157ms] shadow(…)'
+  - '[521.7ms +/-0ms] [402.2ms +/-4ms] 4Sarina-3a0(…)'
+  - '[586.4ms +/-7ms] 🇳🇱 [444.0ms +/-8ms] shadowso(…)'
+  - '[548.5ms +/-32ms] 🇬🇬'
+  - '[597.4ms +/-6ms] 🇬🇬'
+  - '[602.9ms +/-3ms] 🇳🇱 [555.7ms +/-23ms] shadows(…)'
+  - '[606.3ms +/-3ms] 🇬🇧 [506.5ms +/-2ms] shadowso(…)'
+  - '[614.0ms +/-1ms] 🇳🇱 [435.2ms +/-6ms] shadowso(…)'
+  - '[595.2ms +/-12ms] 🇬🇬'
+  - '[623.2ms +/-0ms] 🇳🇱 [486.5ms +/-1ms] shadowso(…)'
+  - '[517.2ms +/-1ms] [461.8ms +/-1ms] 4Kian-97a2d(…)'
+  - '[730.2ms +/-26ms] 🇳🇱 [683.5ms +/-40ms] 4Jadi-(…)'
+  - '[448.0ms +/-22ms] 🇺🇸US-169.197.140.218-1980'
+  - '[566.9ms +/-0ms] [535.3ms +/-2ms] 4Sarina-c6a(…)'
+  - '[573.1ms +/-23ms] US-044 US_465 73KB/s [266d7(…)'
+  - '[577.0ms +/-1ms] [443.1ms +/-2ms] 4FreeIran-6(…)'
+  - '[648.2ms +/-7ms] 🇳🇱 [519.6ms +/-182ms] shadow(…)'
+  - '[590.5ms +/-1ms] [606.7ms +/-1ms] 4Jadi-67b42(…)'
+  - '[670.8ms +/-2ms] [527.9ms +/-4ms] shadowsocks(…)'
+  - '[542.0ms +/-2ms] 🇳🇱 [905.4ms +/-25ms] shadows(…)'
+  - '[620.2ms +/-2ms] [494.0ms +/-7ms] 4Sarina-7d9(…)'
+  - '[704.2ms +/-1ms] 🇨🇱CL-64.176.7.205-0540'
+  - '[591.6ms +/-1ms] [477.1ms +/-3ms] 4Sarina-4b0(…)'
+  - '[610.4ms +/-51ms] 🇳🇱 [516.8ms +/-3ms] shadows(…)'
+  - '[584.7ms +/-3ms] [464.5ms +/-1ms] 4FreeIran-f(…)'
+  - '[647.1ms +/-0ms] [548.6ms +/-3ms] 4Kian-5cc05(…)'
+  - '[713.7ms +/-0ms] 🇵🇱PL-70.34.252.255-0189'
+  - '[619.2ms +/-1ms] [573.4ms +/-1ms] 4Jadi-93c8c(…)'
+  - '[568.8ms +/-20ms] [455.0ms +/-3ms] 4Kian-6bd8(…)'
+  - '[632.6ms +/-0ms] [561.3ms +/-5ms] 4Kian-b7208(…)'
+  - '[644.7ms +/-1ms] [535.5ms +/-2ms] 4Mohsen-5c9(…)'
+  - '[634.5ms +/-2ms] [528.6ms +/-5ms] 4Sarina-d78(…)'
+  - '[699.4ms +/-16ms] 🇬🇬'
+  - '[621.7ms +/-7ms] 🇮🇹'
+  - '[654.2ms +/-2ms] [327.2ms +/-1ms] 4Jadi-ec647(…)'
+  - '[656.4ms +/-3ms] [553.2ms +/-4ms] 4Jadi-e88a4(…)'
+  - '[663.1ms +/-35ms] 🇮🇹'
+  - '[614.6ms +/-8ms] [503.7ms +/-6ms] 4FreeIran-c(…)'
+  - '[637.2ms +/-4ms] [539.3ms +/-9ms] 4Mohsen-5dd(…)'
+  - '[642.9ms +/-2ms] [529.8ms +/-9ms] 4Sarina-d05(…)'
+  - '[623.1ms +/-2ms] [519.7ms +/-2ms] 4Sarina-d4f(…)'
+  - '[645.2ms +/-7ms] [599.2ms +/-5ms] 4FreeIran-4(…)'
+  - '[657.4ms +/-7ms] [556.9ms +/-9ms] 4Sarina-292(…)'
+  - '[702.7ms +/-1ms] 🇵🇭'
+  - '[735.0ms +/-4ms] 🇳🇱 [437.7ms +/-5ms] shadowso(…)'
+  - '[606.0ms +/-9ms] [496.0ms +/-2ms] 4Sarina-4dd(…)'
+  - '[617.7ms +/-2ms] 🇳🇱 [443.2ms +/-0ms] shadowso(…)'
+  - '[680.5ms +/-5ms] [533.2ms +/-2ms] 4Kian-46d1e(…)'
+  - '[641.6ms +/-6ms] [485.0ms +/-6ms] 4Nika-c7c9a(…)'
+  - '[693.3ms +/-0ms] [604.0ms +/-0ms] 4FreeIran-1(…)'
+  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
+  - '[613.8ms +/-6ms] [489.7ms +/-0ms] 4Jadi-b95cb(…)'
+  - '[707.6ms +/-1ms] [529.5ms +/-9ms] 4Nika-ea937(…)'
+  - '[716.1ms +/-2ms] [498.3ms +/-0ms] 4Sarina-bd3(…)'
+  - '[451.1ms +/-1ms] 🇺🇸US-🚀@VPNine1'
+  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
+  - '[708.7ms +/-2ms] [519.1ms +/-8ms] 4FreeIran-0(…)'
+  - '[766.4ms +/-44ms] 🇳🇱 [449.7ms +/-10ms] shadow(…)'
+  - '[708.3ms +/-0ms] 🇳🇱 [423.3ms +/-6ms] shadowso(…)'
+  - '[903.6ms +/-10ms] 🇳🇱 [491.9ms +/-7ms] 4Kian-d(…)'
+  - '[598.4ms +/-22ms] 🇳🇱'
+  - '[886.9ms +/-54ms] 🇩🇪 [720.0ms +/-49ms] 4Mohse(…)'
+  - '[544.8ms +/-1ms] @FarazV2ray'
+  - '[715.1ms +/-16ms] [507.4ms +/-4ms] 4Jadi-3513(…)'
+  - '[750.8ms +/-5ms] [468.6ms +/-1ms] 4Sarina-0be(…)'
+  - '[873.7ms +/-0ms] 🇿🇦 [804.4ms +/-24ms] shadows(…)'
+  - '[870.7ms +/-1ms] 🇿🇦 [847.7ms +/-6ms] shadowso(…)'
+  - '[563.4ms +/-2ms] T.me/Vpn_Mafia'
+  - '[930.4ms +/-1ms] 🇬🇬'
+  - '[728.2ms +/-5ms] 🇮🇹'
+  - '[913.2ms +/-40ms] 🇳🇱 [600.4ms +/-108ms] shado(…)'
+  - '[955.6ms +/-3ms] 🇬🇬'
+  - '[662.1ms +/-190ms] 🇬🇬'
+  - '[202.6ms +/-2ms] 🇺🇸 美国 | USA'
+  - '[961.2ms +/-18ms] 🇳🇱 [546.0ms +/-39ms] shadow(…)'
+  - '[703.7ms +/-195ms] 🇬🇬'
+  - '[751.2ms +/-167ms] 🇩🇪'
+  - '[1035.8ms +/-0ms] 🇧🇷BR-216.238.104.154-0532'
+  - '[726.7ms +/-2ms] @FarazV2ray'
+  - '[532.7ms +/-0ms] @FXxNET⚡️'
+  - '[738.5ms +/-1ms] @FarazV2ray'
+  - '[773.2ms +/-183ms] 🇯🇵'
+  - '[946.3ms +/-67ms] CA-015 CA_15 1.4MB/s B007-2(…)'
+  - '[589.7ms +/-0ms] 🇸🇬SG-🚀@VPNine1'
+  - '[1066.2ms +/-25ms] 🇮🇹'
+  - '[467.8ms +/-1ms] vless-1939847007'
+  - '[901.1ms +/-145ms] 🇬🇧 GB | SS | @orange_vpns (…)'
+  - '[886.0ms +/-57ms] 🏳[www.v2nodes.com] ss- #4'
+  - '[1652.2ms +/-21ms] CA'
+  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
+  - '[1166.7ms +/-44ms] 🇳🇱 [510.1ms +/-26ms] shado(…)'
+  - '[904.0ms +/-216ms] 🇬🇬'
+  - '[1663.0ms +/-4ms] [383.1ms +/-0ms] 4FreeIran-(…)'
+  - '[1577.6ms +/-0ms] [353.9ms +/-0ms] 4Jadi-6997(…)'
+  - '[1626.9ms +/-2ms] [355.8ms +/-1ms] 4Jadi-f68d(…)'
+  - '[473.8ms +/-107ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - '[1516.5ms +/-8ms] 🔒'
+  - '[1285.6ms +/-38ms] 🇮🇹'
+  - '[731.8ms +/-148ms] shadowsocks-1827146388'
+  - '[1568.6ms +/-37ms] 🇳🇱 [487.6ms +/-38ms] shado(…)'
+  - '[1649.7ms +/-25ms] 🔒'
+  - '[613.5ms +/-153ms] shadowsocks-1827146148'
+  - '[743.6ms +/-254ms] [363.8ms +/-7ms] 4Jadi-6b0(…)'
+  - '[1356.9ms +/-4ms] vless-1927724275'
+  - '[786.0ms +/-7ms] vless-1920323172'
+  - '[1136.3ms +/-146ms] 🇳🇱 [534.6ms +/-2ms] shado(…)'
+  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[386.0ms +/-5ms] 🇯🇵 日本 | JPN'
+  - '[1306.1ms +/-131ms] 🇬🇧 GB | SS | @beshkan #1 (…)'
+  - '[978.7ms +/-493ms] 🇵🇱 [525.4ms +/-0ms] shadow(…)'
+  - '[1298.9ms +/-131ms] 🏳[www.v2nodes.com] ss- #13'
+  - '[1137.8ms +/-456ms] 🇵🇱 [594.4ms +/-206ms] sha(…)'
+  - '[1495.2ms +/-190ms] 🇨🇦[www.v2nodes.com] ss-CA(…)'
+  - '[1759.0ms +/-48ms] 4Jadi-103ba851f5'
+  - '[101.4ms +/-2ms] [379.5ms +/-6ms] 4Nika-780a0(…)'
+  - '[296.2ms +/-5ms] 🇩🇪DE-193.108.119.29-0207'
+  - '[525.8ms +/-187ms] 未知 SS-08 | free-nodes'
   url: https://www.gstatic.com/generate_204
   interval: 600
-- name: 🇨🇭 其他
+- name: 🇯🇵 日本
   type: url-test
   proxies:
-  - 🇨🇭 [766.0ms +/-45ms] @DeltaKroneckerGithub
-  - 🇨🇭 [814.5ms +/-374ms] 🔒
+  - 🇯🇵 [280.0ms +/-0ms] 🇯🇵 [405.8ms +/-3ms] shado(…)
+  - 🇯🇵 [420.0ms +/-0ms] hysteria2-1827145159
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇳🇱 荷兰
   type: url-test
   proxies:
-  - 🇳🇱 [470.0ms +/-0ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
-  - 🇳🇱 [482.8ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
-  - 🇳🇱 [484.6ms +/-1ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
-  - 🇳🇱 [484.4ms +/-0ms] 🇬🇬
-  - 🇳🇱 [489.7ms +/-2ms] 🇳🇱 [451.8ms +/-12ms] shad(…)
-  - 🇳🇱 [496.2ms +/-6ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
-  - 🇳🇱 [479.3ms +/-12ms] 🇳🇱 [493.3ms +/-5ms] shad(…)
-  - 🇳🇱 [533.4ms +/-1ms] 🇳🇱
-  - 🇳🇱 [687.7ms +/-123ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
-  - 🇳🇱 [523.9ms +/-4ms] shadowsocks-1827146118
-  - 🇳🇱 [543.2ms +/-253ms] 🇬🇬
-  - 🇳🇱 [525.5ms +/-3ms] vless-1853341249
-  - 🇳🇱 [240.6ms +/-1ms] vless-1853340978
+  - 🇳🇱 [542.4ms +/-5ms] 🇳🇱 [438.1ms +/-11ms] shad(…)
+  - 🇳🇱 [541.0ms +/-2ms] 🇳🇱 [541.4ms +/-2ms] shado(…)
+  - 🇳🇱 [581.3ms +/-2ms] 🇬🇬
+  - 🇳🇱 [586.8ms +/-1ms] 🇳🇱 [493.3ms +/-5ms] shado(…)
+  - 🇳🇱 [590.6ms +/-2ms] 🇳🇱 [428.6ms +/-12ms] shad(…)
+  - 🇳🇱 [590.4ms +/-1ms] 🇳🇱 [462.1ms +/-1ms] @conf(…)
+  - 🇳🇱 [697.8ms +/-9ms] shadowsocks-1827146118
+  - 🇳🇱 [1153.0ms +/-99ms] 🇳🇱 [451.8ms +/-12ms] sh(…)
+  - 🇳🇱 [1196.3ms +/-67ms] 🇳🇱 [487.9ms +/-2ms] sha(…)
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇺🇸 美国
   type: url-test
   proxies:
-  - 🇺🇸 [232.9ms +/-1ms] US-067 US_40 1.2MB/s A004(…)
-  - 🇺🇸 [260.5ms +/-1ms] US-082 US_85 1.2MB/s [2b3(…)
-  - 🇺🇸 [290.6ms +/-1ms] US-066 US_315 1.1MB/s [44(…)
-  - 🇺🇸 [271.2ms +/-1ms] US-068 US_196 1.2MB/s [60(…)
-  - 🇺🇸 [294.3ms +/-1ms] US-064 US_26 1.0MB/s A004(…)
-  - 🇺🇸 [288.7ms +/-0ms] US-057 US_2 2.1MB/s A004-(…)
-  - 🇺🇸 [280.3ms +/-1ms] US-040 US_156 1.4MB/s [09(…)
-  - 🇺🇸 [291.1ms +/-1ms] US-052 US_1 1.4MB/s [de8a(…)
-  - 🇺🇸 [264.6ms +/-2ms] trojan-66.163.114.45
-  - 🇺🇸 [307.8ms +/-2ms] 🇺🇸
-  - 🇺🇸 [595.3ms +/-3ms] trojan-66.23.203.21
-  - 🇺🇸 [311.6ms +/-2ms] trojan-66.163.112.142
-  - 🇺🇸 [319.4ms +/-2ms] trojan-216.152.156.81
-  - 🇺🇸 [345.3ms +/-0ms] trojan-169.197.140.171
-  - 🇺🇸 [1062.1ms +/-268ms] shadowsocks-1827147591
+  - 🇺🇸 [204.2ms +/-3ms] trojan-66.163.112.142
+  - 🇺🇸 [379.1ms +/-5ms] trojan-66.23.203.21
+  - 🇺🇸 [365.4ms +/-3ms] US-052 US_1 1.4MB/s [de8a(…)
+  - 🇺🇸 [379.9ms +/-3ms] US-040 US_156 1.4MB/s [09(…)
+  - 🇺🇸 [280.3ms +/-209ms] US-066 US_315 1.1MB/s [(…)
+  - 🇺🇸 [369.9ms +/-213ms] US-057 US_2 2.1MB/s A00(…)
+  - 🇺🇸 [1398.7ms +/-2ms] 🇺🇸 [350.2ms +/-1ms] shad(…)
+  - 🇺🇸 [904.8ms +/-192ms] shadowsocks-1827147591
+  - 🇺🇸 [ 74.2ms +/-1ms] vless-1853340423
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
