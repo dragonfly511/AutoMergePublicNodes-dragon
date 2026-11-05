@@ -2,89 +2,56 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[621.7ms +/-7ms] 🇮🇹'
-  server: 202.50.253.18
+- name: '[579.1ms +/-2ms] 🇮🇹IT-202.50.253.81-0189'
+  server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[663.1ms +/-35ms] 🇮🇹'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
+- name: '[587.0ms +/-21ms] 🇮🇹IT-202.50.253.27-0182'
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[728.2ms +/-5ms] 🇮🇹'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[1066.2ms +/-25ms] 🇮🇹'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[1652.2ms +/-21ms] CA'
-  server: 104.18.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
+- name: '[603.6ms +/-36ms] 🇮🇹IT-202.50.253.63-0493'
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1516.5ms +/-8ms] 🔒'
-  server: 172.66.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[1285.6ms +/-38ms] 🇮🇹'
+- name: '[672.9ms +/-1ms] 🇮🇹IT-202.50.253.54-0190'
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1649.7ms +/-25ms] 🔒'
+- name: '[626.7ms +/-21ms] 🇮🇹IT-202.50.253.18-0176'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[655.6ms +/-5ms] 🇮🇹IT-202.50.253.36-0195'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[607.0ms +/-4ms] 🇮🇹IT-202.50.253.99-0200'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1000.6ms +/-2ms] 🔒'
   server: 172.67.118.45
   port: 2053
   type: trojan
@@ -97,63 +64,118 @@ proxies:
     path: /
     headers:
       Host: marvdasht.phonecomparisonblog.org
-- name: '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  sni: xship.top
+- name: '[980.1ms +/-3ms] 🔒'
+  server: 172.66.0.1
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
   skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[1005.4ms +/-3ms] 🔒'
+  server: 104.16.186.130
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[1023.8ms +/-4ms] US'
+  server: sclass-00.catcat321.com
+  port: 20123
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
+- name: '[950.1ms +/-1ms] 🇮🇹IT-202.50.253.45-0185'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[652.6ms +/-8ms] 🇭🇰 香港 | HKG 6'
+  server: 56481.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
+  skip-cert-verify: true
+- name: '[993.9ms +/-74ms] United States_None_trojan_1(…)'
+  server: Sclass-00.catcat321.com
+  port: 20123
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[621.7ms +/-7ms] 🇮🇹'
-  - '[663.1ms +/-35ms] 🇮🇹'
-  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
-  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[728.2ms +/-5ms] 🇮🇹'
-  - '[1066.2ms +/-25ms] 🇮🇹'
-  - '[1652.2ms +/-21ms] CA'
-  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
-  - '[1516.5ms +/-8ms] 🔒'
-  - '[1285.6ms +/-38ms] 🇮🇹'
-  - '[1649.7ms +/-25ms] 🔒'
-  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[579.1ms +/-2ms] 🇮🇹IT-202.50.253.81-0189'
+  - '[587.0ms +/-21ms] 🇮🇹IT-202.50.253.27-0182'
+  - '[603.6ms +/-36ms] 🇮🇹IT-202.50.253.63-0493'
+  - '[672.9ms +/-1ms] 🇮🇹IT-202.50.253.54-0190'
+  - '[626.7ms +/-21ms] 🇮🇹IT-202.50.253.18-0176'
+  - '[655.6ms +/-5ms] 🇮🇹IT-202.50.253.36-0195'
+  - '[607.0ms +/-4ms] 🇮🇹IT-202.50.253.99-0200'
+  - '[1000.6ms +/-2ms] 🔒'
+  - '[980.1ms +/-3ms] 🔒'
+  - '[1005.4ms +/-3ms] 🔒'
+  - '[1023.8ms +/-4ms] US'
+  - '[950.1ms +/-1ms] 🇮🇹IT-202.50.253.45-0185'
+  - '[652.6ms +/-8ms] 🇭🇰 香港 | HKG 6'
+  - '[993.9ms +/-74ms] United States_None_trojan_1(…)'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[621.7ms +/-7ms] 🇮🇹'
-  - '[663.1ms +/-35ms] 🇮🇹'
-  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
-  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[728.2ms +/-5ms] 🇮🇹'
-  - '[1066.2ms +/-25ms] 🇮🇹'
-  - '[1652.2ms +/-21ms] CA'
-  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
-  - '[1516.5ms +/-8ms] 🔒'
-  - '[1285.6ms +/-38ms] 🇮🇹'
-  - '[1649.7ms +/-25ms] 🔒'
-  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[579.1ms +/-2ms] 🇮🇹IT-202.50.253.81-0189'
+  - '[587.0ms +/-21ms] 🇮🇹IT-202.50.253.27-0182'
+  - '[603.6ms +/-36ms] 🇮🇹IT-202.50.253.63-0493'
+  - '[672.9ms +/-1ms] 🇮🇹IT-202.50.253.54-0190'
+  - '[626.7ms +/-21ms] 🇮🇹IT-202.50.253.18-0176'
+  - '[655.6ms +/-5ms] 🇮🇹IT-202.50.253.36-0195'
+  - '[607.0ms +/-4ms] 🇮🇹IT-202.50.253.99-0200'
+  - '[1000.6ms +/-2ms] 🔒'
+  - '[980.1ms +/-3ms] 🔒'
+  - '[1005.4ms +/-3ms] 🔒'
+  - '[1023.8ms +/-4ms] US'
+  - '[950.1ms +/-1ms] 🇮🇹IT-202.50.253.45-0185'
+  - '[652.6ms +/-8ms] 🇭🇰 香港 | HKG 6'
+  - '[993.9ms +/-74ms] United States_None_trojan_1(…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[621.7ms +/-7ms] 🇮🇹'
-  - '[663.1ms +/-35ms] 🇮🇹'
-  - '[644.4ms +/-22ms] 未知 SS-06 | free-nodes'
-  - '[871.9ms +/-23ms] 🇮🇹 [914.9ms +/-62ms] shadow(…)'
-  - '[728.2ms +/-5ms] 🇮🇹'
-  - '[1066.2ms +/-25ms] 🇮🇹'
-  - '[1652.2ms +/-21ms] CA'
-  - '[1041.9ms +/-96ms] 🇮🇹 [500.7ms +/-11ms] shado(…)'
-  - '[1516.5ms +/-8ms] 🔒'
-  - '[1285.6ms +/-38ms] 🇮🇹'
-  - '[1649.7ms +/-25ms] 🔒'
-  - '[1101.4ms +/-2ms] 美国+V2CROSS.COM'
+  - '[579.1ms +/-2ms] 🇮🇹IT-202.50.253.81-0189'
+  - '[587.0ms +/-21ms] 🇮🇹IT-202.50.253.27-0182'
+  - '[603.6ms +/-36ms] 🇮🇹IT-202.50.253.63-0493'
+  - '[672.9ms +/-1ms] 🇮🇹IT-202.50.253.54-0190'
+  - '[626.7ms +/-21ms] 🇮🇹IT-202.50.253.18-0176'
+  - '[655.6ms +/-5ms] 🇮🇹IT-202.50.253.36-0195'
+  - '[607.0ms +/-4ms] 🇮🇹IT-202.50.253.99-0200'
+  - '[1000.6ms +/-2ms] 🔒'
+  - '[980.1ms +/-3ms] 🔒'
+  - '[1005.4ms +/-3ms] 🔒'
+  - '[1023.8ms +/-4ms] US'
+  - '[950.1ms +/-1ms] 🇮🇹IT-202.50.253.45-0185'
+  - '[652.6ms +/-8ms] 🇭🇰 香港 | HKG 6'
+  - '[993.9ms +/-74ms] United States_None_trojan_1(…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
