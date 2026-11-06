@@ -15,6 +15,10 @@ sources:
   name: dragon
   kind: url
   max_nodes: 10000
+- url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs_base64.txt?utm_source=chatgpt.com
+  name: dragon2
+  kind: url
+  max_nodes: 10000
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
   name: Au1rxx-base64
   kind: url
