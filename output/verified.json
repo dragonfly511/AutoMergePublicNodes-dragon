@@ -38,35 +38,26 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182",
-        "[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493",
-        "[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195",
-        "[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190",
-        "[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176",
-        "[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185",
-        "[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200",
-        "[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180",
-        "[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187",
-        "[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1",
-        "[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)"
+        "🇺🇸 美国",
+        "🇺🇸 [488.2ms +/-80ms] 🔒",
+        "🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8",
+        "🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0",
+        "[450.3ms +/-4ms] @V2rayNGVPN",
+        "[628.8ms +/-7ms] shadowsocks-1875023019",
+        "[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]"
       ],
-      "default": "[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182"
+      "default": "🇺🇸 [488.2ms +/-80ms] 🔒"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182",
-        "[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493",
-        "[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195",
-        "[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190",
-        "[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176",
-        "[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185",
-        "[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200",
-        "[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180",
-        "[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187",
-        "[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1",
-        "[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)"
+        "🇺🇸 [488.2ms +/-80ms] 🔒",
+        "🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8",
+        "🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0",
+        "[450.3ms +/-4ms] @V2rayNGVPN",
+        "[628.8ms +/-7ms] shadowsocks-1875023019",
+        "[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -75,118 +66,107 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182",
-        "[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493",
-        "[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195",
-        "[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190",
-        "[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176",
-        "[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185",
-        "[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200",
-        "[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180",
-        "[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187",
-        "[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1",
-        "[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)"
+        "[450.3ms +/-4ms] @V2rayNGVPN",
+        "[628.8ms +/-7ms] shadowsocks-1875023019",
+        "[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
     },
     {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182",
-      "server": "202.50.253.27",
-      "server_port": 19999
+      "type": "url-test",
+      "tag": "🇺🇸 美国",
+      "outbounds": [
+        "🇺🇸 [488.2ms +/-80ms] 🔒",
+        "🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": 600
     },
     {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493",
-      "server": "202.50.253.63",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195",
-      "server": "202.50.253.36",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190",
-      "server": "202.50.253.54",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176",
-      "server": "202.50.253.18",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185",
-      "server": "202.50.253.45",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200",
-      "server": "202.50.253.99",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180",
-      "server": "202.50.253.72",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187",
-      "server": "202.50.253.90",
-      "server_port": 19999
-    },
-    {
-      "uuid": "33751cb1-43ea-458c-8dc5-0b8993746bce",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "community.fastly.steamstatic.com",
+        "server_name": "cdn.searchnationwidecareerchangehelperandguidancetoday.com",
+        "insecure": true
+      },
+      "type": "trojan",
+      "tag": "🇺🇸 [488.2ms +/-80ms] 🔒",
+      "server": "66.163.122.25",
+      "server_port": 443
+    },
+    {
+      "password": "70756c73-0000-4000-8000-650000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "parsa-panel-u48we.wotic15356.workers.dev",
         "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/pulse",
         "headers": {
-          "Host": "copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net."
+          "Host": "parsa-panel-u48we.wotic15356.workers.dev"
         }
       },
-      "type": "vless",
-      "tag": "[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1",
-      "server": "199.232.249.131",
+      "type": "trojan",
+      "tag": "🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8",
+      "server": "104.234.239.139",
       "server_port": 443
     },
     {
-      "uuid": "a7b17df0-446e-4e45-ad11-43ff5ee04a75",
+      "password": "70756c73-0000-4000-8000-650000000000",
+      "tls": {
+        "enabled": true,
+        "server_name": "parsa-panel-u48we.wotic15356.workers.dev",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pulse",
+        "headers": {
+          "Host": "parsa-panel-u48we.wotic15356.workers.dev"
+        }
+      },
+      "type": "trojan",
+      "tag": "🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0",
+      "server": "199.181.197.99",
+      "server_port": 443
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[450.3ms +/-4ms] @V2rayNGVPN",
+      "server": "185.215.132.18",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[628.8ms +/-7ms] shadowsocks-1875023019",
+      "server": "202.50.253.63",
+      "server_port": 19999
+    },
+    {
+      "uuid": "981c7ccc-2b17-473c-8358-7fd1d6eec1b4",
+      "tls": {
+        "enabled": true,
+        "server_name": "lte-v2-ws.gacvpn.site",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/static/js/runtime.9d03c7.js",
+        "headers": {
+          "Host": "lte-v2-ws.gacvpn.site"
+        }
+      },
       "type": "vless",
-      "tag": "[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)",
-      "server": "31.56.196.199",
-      "server_port": 41783
+      "tag": "[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]",
+      "server": "lte-v2-ws.gacvpn.site",
+      "server_port": 8443
     },
     {
       "type": "direct",

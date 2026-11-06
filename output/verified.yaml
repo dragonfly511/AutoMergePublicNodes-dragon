@@ -2,136 +2,105 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182'
-  server: 202.50.253.27
+- name: 🇺🇸 [488.2ms +/-80ms] 🔒
+  server: 66.163.122.25
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
+  server: 104.234.239.139
+  port: 443
+  type: trojan
+  password: 70756c73-0000-4000-8000-650000000000
+  sni: parsa-panel-u48we.wotic15356.workers.dev
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
+  server: 199.181.197.99
+  port: 443
+  type: trojan
+  password: 70756c73-0000-4000-8000-650000000000
+  sni: parsa-panel-u48we.wotic15356.workers.dev
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: '[450.3ms +/-4ms] @V2rayNGVPN'
+  server: 185.215.132.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493'
+- name: '[628.8ms +/-7ms] shadowsocks-1875023019'
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1'
-  server: 199.232.249.131
-  port: 443
+- name: '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
+  server: lte-v2-ws.gacvpn.site
+  port: 8443
   type: vless
-  uuid: 33751cb1-43ea-458c-8dc5-0b8993746bce
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
   udp: true
   tls: true
-  servername: community.fastly.steamstatic.com
+  servername: lte-v2-ws.gacvpn.site
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /static/js/runtime.9d03c7.js
     headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-- name: '[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)'
-  server: 31.56.196.199
-  port: 41783
-  type: vless
-  uuid: a7b17df0-446e-4e45-ad11-43ff5ee04a75
-  udp: true
+      Host: lte-v2-ws.gacvpn.site
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182'
-  - '[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493'
-  - '[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195'
-  - '[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190'
-  - '[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176'
-  - '[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185'
-  - '[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200'
-  - '[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180'
-  - '[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187'
-  - '[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1'
-  - '[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)'
+  - 🇺🇸 美国
+  - 🇺🇸 [488.2ms +/-80ms] 🔒
+  - 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
+  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
+  - '[450.3ms +/-4ms] @V2rayNGVPN'
+  - '[628.8ms +/-7ms] shadowsocks-1875023019'
+  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182'
-  - '[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493'
-  - '[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195'
-  - '[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190'
-  - '[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176'
-  - '[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185'
-  - '[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200'
-  - '[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180'
-  - '[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187'
-  - '[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1'
-  - '[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)'
+  - 🇺🇸 [488.2ms +/-80ms] 🔒
+  - 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
+  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
+  - '[450.3ms +/-4ms] @V2rayNGVPN'
+  - '[628.8ms +/-7ms] shadowsocks-1875023019'
+  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[600.5ms +/-16ms] 🇮🇹IT-202.50.253.27-0182'
-  - '[625.5ms +/-17ms] 🇮🇹IT-202.50.253.63-0493'
-  - '[661.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0195'
-  - '[674.6ms +/-8ms] 🇮🇹IT-202.50.253.54-0190'
-  - '[613.0ms +/-47ms] 🇮🇹IT-202.50.253.18-0176'
-  - '[660.7ms +/-19ms] 🇮🇹IT-202.50.253.45-0185'
-  - '[577.0ms +/-28ms] 🇮🇹IT-202.50.253.99-0200'
-  - '[633.9ms +/-208ms] 🇮🇹IT-202.50.253.72-0180'
-  - '[859.8ms +/-199ms] 🇮🇹IT-202.50.253.90-0187'
-  - '[862.7ms +/-8ms] 🇺🇸US-🚀@VPNine1'
-  - '[872.5ms +/-150ms] 🇱🇻207510 | ⚡️Telegram = t.(…)'
+  - '[450.3ms +/-4ms] @V2rayNGVPN'
+  - '[628.8ms +/-7ms] shadowsocks-1875023019'
+  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇺🇸 美国
+  type: url-test
+  proxies:
+  - 🇺🇸 [488.2ms +/-80ms] 🔒
+  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
