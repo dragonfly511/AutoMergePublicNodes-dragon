@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06 18:35:12",
+  "generated_at": "2026-11-06 18:53:01",
   "min_tested": 5,
   "disable_dead_threshold": 2,
   "summary": {
-    "disable": 13,
+    "disable": 17,
     "downweight": 0,
-    "prefer": 1,
-    "observe": 95
+    "prefer": 3,
+    "observe": 90
   },
   "suggestions": {
     "disable": [
@@ -18,7 +18,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 403,
+        "consecutive_dead": 404,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -29,7 +29,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 398,
+        "consecutive_dead": 399,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -40,7 +40,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 281,
+        "consecutive_dead": 282,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -51,7 +51,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 259,
+        "consecutive_dead": 260,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -62,7 +62,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 258,
+        "consecutive_dead": 259,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -73,7 +73,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 250,
+        "consecutive_dead": 251,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -84,7 +84,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 228,
+        "consecutive_dead": 229,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -95,7 +95,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 223,
+        "consecutive_dead": 224,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -106,7 +106,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 147,
+        "consecutive_dead": 148,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -117,7 +117,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 134,
+        "consecutive_dead": 135,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -128,7 +128,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 128,
+        "consecutive_dead": 129,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -139,7 +139,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 70,
+        "consecutive_dead": 71,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -150,19 +150,85 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 32,
+        "consecutive_dead": 33,
+        "reason": "连续死亡次数 >= 2"
+      },
+      {
+        "name": "Barabama-we",
+        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt",
+        "score": 0.0,
+        "recommendation": "observe",
+        "tested": 0,
+        "pass_rate": null,
+        "parsed_nodes": 0,
+        "consecutive_dead": 20,
+        "reason": "连续死亡次数 >= 2"
+      },
+      {
+        "name": "Barabama-yudou",
+        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
+        "score": 0.0,
+        "recommendation": "observe",
+        "tested": 0,
+        "pass_rate": null,
+        "parsed_nodes": 0,
+        "consecutive_dead": 20,
+        "reason": "连续死亡次数 >= 2"
+      },
+      {
+        "name": "barabama-nodefree",
+        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml",
+        "score": 0.0,
+        "recommendation": "observe",
+        "tested": 0,
+        "pass_rate": null,
+        "parsed_nodes": 0,
+        "consecutive_dead": 20,
+        "reason": "连续死亡次数 >= 2"
+      },
+      {
+        "name": "barabama-yudou66",
+        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml",
+        "score": 0.0,
+        "recommendation": "observe",
+        "tested": 0,
+        "pass_rate": null,
+        "parsed_nodes": 0,
+        "consecutive_dead": 20,
         "reason": "连续死亡次数 >= 2"
       }
     ],
     "downweight": [],
     "prefer": [
       {
+        "name": "dragon3",
+        "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt?utm_source=chatgpt.com",
+        "score": 0.975,
+        "recommendation": "prefer",
+        "tested": 32,
+        "pass_rate": 1.0,
+        "parsed_nodes": 100,
+        "consecutive_dead": 0,
+        "reason": "源评分较高"
+      },
+      {
         "name": "dragon2",
         "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs_base64.txt?utm_source=chatgpt.com",
-        "score": 0.905,
+        "score": 0.843,
         "recommendation": "prefer",
-        "tested": 38,
-        "pass_rate": 0.842,
+        "tested": 336,
+        "pass_rate": 0.765,
+        "parsed_nodes": 10000,
+        "consecutive_dead": 0,
+        "reason": "源评分较高"
+      },
+      {
+        "name": "dragon",
+        "url": "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt",
+        "score": 0.72,
+        "recommendation": "prefer",
+        "tested": 15,
+        "pass_rate": 0.8,
         "parsed_nodes": 10000,
         "consecutive_dead": 0,
         "reason": "源评分较高"
@@ -211,28 +277,6 @@
         "pass_rate": null,
         "parsed_nodes": 1751,
         "consecutive_dead": 0,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "Barabama-we",
-        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt",
-        "score": 0.025,
-        "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 0,
-        "consecutive_dead": 1,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "Barabama-yudou",
-        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt",
-        "score": 0.025,
-        "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 0,
-        "consecutive_dead": 1,
         "reason": "证据不足或评分中性"
       },
       {
@@ -315,10 +359,10 @@
       {
         "name": "Surfboard-tg-mixed",
         "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
-        "score": 0.352,
+        "score": 0.489,
         "recommendation": "observe",
         "tested": 6,
-        "pass_rate": 0.5,
+        "pass_rate": 0.833,
         "parsed_nodes": 8758,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -332,28 +376,6 @@
         "pass_rate": null,
         "parsed_nodes": 6135,
         "consecutive_dead": 0,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "barabama-nodefree",
-        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/nodefree.yaml",
-        "score": 0.025,
-        "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 0,
-        "consecutive_dead": 1,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "barabama-yudou66",
-        "url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.yaml",
-        "score": 0.025,
-        "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 0,
-        "consecutive_dead": 1,
         "reason": "证据不足或评分中性"
       },
       {
@@ -397,17 +419,6 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 208,
-        "consecutive_dead": 0,
-        "reason": "证据不足或评分中性"
-      },
-      {
-        "name": "dragon",
-        "url": "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt",
-        "score": 0.697,
-        "recommendation": "observe",
-        "tested": 58,
-        "pass_rate": 0.621,
-        "parsed_nodes": 10000,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -825,7 +836,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 66,
+        "parsed_nodes": 72,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1034,7 +1045,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 19,
+        "parsed_nodes": 20,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1195,10 +1206,10 @@
       {
         "name": "xiaoji235-airport-v2ray-all",
         "url": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt",
-        "score": 0.287,
+        "score": 0.391,
         "recommendation": "observe",
         "tested": 2,
-        "pass_rate": 0.5,
+        "pass_rate": 1.0,
         "parsed_nodes": 6752,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"

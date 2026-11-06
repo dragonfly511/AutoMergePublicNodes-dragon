@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-11-06 18:35:12
+生成时间：2026-11-06 18:53:01
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
-| 已评分订阅源总数 | 96 |
-| 建议优先 | 1 |
-| 继续观察 | 95 |
+| 已评分订阅源总数 | 93 |
+| 建议优先 | 3 |
+| 继续观察 | 90 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,7 +16,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon2 | 0.905 | prefer | 38 | 32 | 6 | 0.842 | 10000 | 0 |
+| dragon3 | 0.975 | prefer | 32 | 32 | 0 | 1.0 | 100 | 0 |
+| dragon2 | 0.843 | prefer | 336 | 257 | 79 | 0.765 | 10000 | 0 |
+| dragon | 0.72 | prefer | 15 | 12 | 3 | 0.8 | 10000 | 0 |
 
 ## 建议降权
 
@@ -30,11 +32,12 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| dragon2 | 0.905 | prefer | 38 | 32 | 6 | 0.842 | 10000 | 0 |
-| dragon | 0.697 | observe | 58 | 36 | 22 | 0.621 | 10000 | 0 |
+| dragon3 | 0.975 | prefer | 32 | 32 | 0 | 1.0 | 100 | 0 |
+| dragon2 | 0.843 | prefer | 336 | 257 | 79 | 0.765 | 10000 | 0 |
+| dragon | 0.72 | prefer | 15 | 12 | 3 | 0.8 | 10000 | 0 |
 | mheidari-all | 0.507 | observe | 8 | 6 | 2 | 0.75 | 14184 | 0 |
-| Surfboard-tg-mixed | 0.352 | observe | 6 | 3 | 3 | 0.5 | 8758 | 0 |
-| xiaoji235-airport-v2ray-all | 0.287 | observe | 2 | 1 | 1 | 0.5 | 6752 | 0 |
+| Surfboard-tg-mixed | 0.489 | observe | 6 | 5 | 1 | 0.833 | 8758 | 0 |
+| xiaoji235-airport-v2ray-all | 0.391 | observe | 2 | 2 | 0 | 1.0 | 6752 | 0 |
 | tg-LonUp_M | 0.262 | observe | 1 | 1 | 0 | 1.0 | 176 | 0 |
 | SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 10962 | 0 |
 | barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6479 | 0 |
@@ -59,17 +62,12 @@
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-Outline_Vpn | 0.182 | observe | 0 | 0 | 0 | None | 185 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Barabama-we | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
-| Barabama-yudou | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | Epodonios-all | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
-| barabama-nodefree | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
-| barabama-yudou66 | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-ConfigWireguard | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-ShadowsocksM | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | Mr8AHAL | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
@@ -95,6 +93,10 @@
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
 | tg-CryptoGuardVPN | 0.176 | observe | 0 | 0 | 0 | None | 16 | 0 |
 | tg-DirectVPN | 0.176 | observe | 0 | 0 | 0 | None | 16 | 0 |
+| tg-PrivateVPNs | 0.176 | observe | 0 | 0 | 0 | None | 16 | 0 |
+| tg-VlessConfig | 0.176 | observe | 0 | 0 | 0 | None | 16 | 0 |
+| tg-V2SayFree | 0.176 | observe | 0 | 0 | 0 | None | 17 | 0 |
+| tg-freedomofinfor | 0.176 | observe | 0 | 0 | 0 | None | 17 | 0 |
 
 ## 说明
 
