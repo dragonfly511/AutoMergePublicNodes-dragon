@@ -2,105 +2,74 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: 🇺🇸 [488.2ms +/-80ms] 🔒
-  server: 66.163.122.25
+- name: '[260.7ms +/-6ms] 🔒'
+  server: 23.106.44.14
   port: 443
   type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  sni: sj6.freeguard.org
   skip-cert-verify: true
   udp: true
-- name: 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
-  server: 104.234.239.139
-  port: 443
-  type: trojan
-  password: 70756c73-0000-4000-8000-650000000000
-  sni: parsa-panel-u48we.wotic15356.workers.dev
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pulse
-    headers:
-      Host: parsa-panel-u48we.wotic15356.workers.dev
-- name: 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
-  server: 199.181.197.99
-  port: 443
-  type: trojan
-  password: 70756c73-0000-4000-8000-650000000000
-  sni: parsa-panel-u48we.wotic15356.workers.dev
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /pulse
-    headers:
-      Host: parsa-panel-u48we.wotic15356.workers.dev
-- name: '[450.3ms +/-4ms] @V2rayNGVPN'
+- name: '[366.3ms +/-4ms] US'
   server: 185.215.132.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[628.8ms +/-7ms] shadowsocks-1875023019'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
-  server: lte-v2-ws.gacvpn.site
-  port: 8443
-  type: vless
-  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
-  udp: true
-  tls: true
-  servername: lte-v2-ws.gacvpn.site
+- name: '[851.6ms +/-2ms] @FXxNET⚡️'
+  server: 66.81.247.8
+  port: 2087
+  type: trojan
+  password: em6lOI9zhk
+  sni: t0f.tupn.org
   skip-cert-verify: true
+  udp: true
   network: ws
   ws-opts:
-    path: /static/js/runtime.9d03c7.js
+    path: /2087
     headers:
-      Host: lte-v2-ws.gacvpn.site
+      Host: t0f.tupn.org
+- name: '[792.4ms +/-2ms] 🇬🇧01'
+  server: 178.214.109.1
+  port: 443
+  type: vless
+  uuid: 40a86b1b-239d-455e-b53f-4c270788ba6e
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: promo-digital.wb.ru
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
+    short-id: 1cfa55abe4d2dc7a
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - 🇺🇸 美国
-  - 🇺🇸 [488.2ms +/-80ms] 🔒
-  - 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
-  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
-  - '[450.3ms +/-4ms] @V2rayNGVPN'
-  - '[628.8ms +/-7ms] shadowsocks-1875023019'
-  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
+  - '[260.7ms +/-6ms] 🔒'
+  - '[366.3ms +/-4ms] US'
+  - '[851.6ms +/-2ms] @FXxNET⚡️'
+  - '[792.4ms +/-2ms] 🇬🇧01'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇺🇸 [488.2ms +/-80ms] 🔒
-  - 🇻🇬 [565.0ms +/-6ms] 4FreeIran-4c06e360a8
-  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
-  - '[450.3ms +/-4ms] @V2rayNGVPN'
-  - '[628.8ms +/-7ms] shadowsocks-1875023019'
-  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
+  - '[260.7ms +/-6ms] 🔒'
+  - '[366.3ms +/-4ms] US'
+  - '[851.6ms +/-2ms] @FXxNET⚡️'
+  - '[792.4ms +/-2ms] 🇬🇧01'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[450.3ms +/-4ms] @V2rayNGVPN'
-  - '[628.8ms +/-7ms] shadowsocks-1875023019'
-  - '[1252.5ms +/-7ms] 🇵🇱[openproxylist.com]'
-  url: https://www.gstatic.com/generate_204
-  interval: 600
-- name: 🇺🇸 美国
-  type: url-test
-  proxies:
-  - 🇺🇸 [488.2ms +/-80ms] 🔒
-  - 🇺🇸 [544.9ms +/-1ms] 4Nika-1fab105ff0
+  - '[260.7ms +/-6ms] 🔒'
+  - '[366.3ms +/-4ms] US'
+  - '[851.6ms +/-2ms] @FXxNET⚡️'
+  - '[792.4ms +/-2ms] 🇬🇧01'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
