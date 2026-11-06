@@ -38,39 +38,41 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[297.8ms +/-1ms] US",
-        "[531.5ms +/-3ms] IT",
-        "[625.1ms +/-14ms] US",
-        "[540.1ms +/-5ms] IT",
-        "[602.6ms +/-5ms] IT",
-        "[610.9ms +/-5ms] IT",
-        "[664.0ms +/-36ms] IT",
-        "[786.9ms +/-1ms] ID",
-        "[723.0ms +/-134ms] IT",
-        "[1016.8ms +/-14ms] IT",
-        "[863.4ms +/-30ms] IT",
-        "[499.3ms +/-3ms] 🇬🇧01",
-        "[754.4ms +/-370ms] IT"
+        "[368.0ms +/-1ms] US",
+        "[517.0ms +/-1ms] IT",
+        "[536.4ms +/-7ms] IT",
+        "[534.8ms +/-8ms] IT",
+        "[553.0ms +/-5ms] IT",
+        "[618.2ms +/-3ms] IT",
+        "[537.1ms +/-73ms] IT",
+        "[720.5ms +/-43ms] IT",
+        "[768.7ms +/-0ms] ID",
+        "[482.7ms +/-1ms] 🇬🇧01",
+        "[429.6ms +/-141ms] CA",
+        "[678.6ms +/-311ms] IT",
+        "[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)",
+        "[1329.2ms +/-175ms] AT"
       ],
-      "default": "[297.8ms +/-1ms] US"
+      "default": "[368.0ms +/-1ms] US"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[297.8ms +/-1ms] US",
-        "[531.5ms +/-3ms] IT",
-        "[625.1ms +/-14ms] US",
-        "[540.1ms +/-5ms] IT",
-        "[602.6ms +/-5ms] IT",
-        "[610.9ms +/-5ms] IT",
-        "[664.0ms +/-36ms] IT",
-        "[786.9ms +/-1ms] ID",
-        "[723.0ms +/-134ms] IT",
-        "[1016.8ms +/-14ms] IT",
-        "[863.4ms +/-30ms] IT",
-        "[499.3ms +/-3ms] 🇬🇧01",
-        "[754.4ms +/-370ms] IT"
+        "[368.0ms +/-1ms] US",
+        "[517.0ms +/-1ms] IT",
+        "[536.4ms +/-7ms] IT",
+        "[534.8ms +/-8ms] IT",
+        "[553.0ms +/-5ms] IT",
+        "[618.2ms +/-3ms] IT",
+        "[537.1ms +/-73ms] IT",
+        "[720.5ms +/-43ms] IT",
+        "[768.7ms +/-0ms] ID",
+        "[482.7ms +/-1ms] 🇬🇧01",
+        "[429.6ms +/-141ms] CA",
+        "[678.6ms +/-311ms] IT",
+        "[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)",
+        "[1329.2ms +/-175ms] AT"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -79,19 +81,20 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[297.8ms +/-1ms] US",
-        "[531.5ms +/-3ms] IT",
-        "[625.1ms +/-14ms] US",
-        "[540.1ms +/-5ms] IT",
-        "[602.6ms +/-5ms] IT",
-        "[610.9ms +/-5ms] IT",
-        "[664.0ms +/-36ms] IT",
-        "[786.9ms +/-1ms] ID",
-        "[723.0ms +/-134ms] IT",
-        "[1016.8ms +/-14ms] IT",
-        "[863.4ms +/-30ms] IT",
-        "[499.3ms +/-3ms] 🇬🇧01",
-        "[754.4ms +/-370ms] IT"
+        "[368.0ms +/-1ms] US",
+        "[517.0ms +/-1ms] IT",
+        "[536.4ms +/-7ms] IT",
+        "[534.8ms +/-8ms] IT",
+        "[553.0ms +/-5ms] IT",
+        "[618.2ms +/-3ms] IT",
+        "[537.1ms +/-73ms] IT",
+        "[720.5ms +/-43ms] IT",
+        "[768.7ms +/-0ms] ID",
+        "[482.7ms +/-1ms] 🇬🇧01",
+        "[429.6ms +/-141ms] CA",
+        "[678.6ms +/-311ms] IT",
+        "[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)",
+        "[1329.2ms +/-175ms] AT"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -100,7 +103,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA",
       "type": "shadowsocks",
-      "tag": "[297.8ms +/-1ms] US",
+      "tag": "[368.0ms +/-1ms] US",
       "server": "88.216.254.18",
       "server_port": 1080
     },
@@ -108,7 +111,7 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[531.5ms +/-3ms] IT",
+      "tag": "[517.0ms +/-1ms] IT",
       "server": "202.50.253.90",
       "server_port": 19999
     },
@@ -116,15 +119,23 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[625.1ms +/-14ms] US",
-      "server": "185.215.132.18",
+      "tag": "[536.4ms +/-7ms] IT",
+      "server": "202.50.253.27",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[540.1ms +/-5ms] IT",
+      "tag": "[534.8ms +/-8ms] IT",
+      "server": "202.50.253.18",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[553.0ms +/-5ms] IT",
       "server": "202.50.253.36",
       "server_port": 19999
     },
@@ -132,15 +143,7 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[602.6ms +/-5ms] IT",
-      "server": "202.50.253.54",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[610.9ms +/-5ms] IT",
+      "tag": "[618.2ms +/-3ms] IT",
       "server": "202.50.253.45",
       "server_port": 19999
     },
@@ -148,8 +151,16 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[664.0ms +/-36ms] IT",
-      "server": "202.50.253.27",
+      "tag": "[537.1ms +/-73ms] IT",
+      "server": "202.50.253.81",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[720.5ms +/-43ms] IT",
+      "server": "202.50.253.72",
       "server_port": 19999
     },
     {
@@ -170,33 +181,9 @@
         }
       },
       "type": "vless",
-      "tag": "[786.9ms +/-1ms] ID",
+      "tag": "[768.7ms +/-0ms] ID",
       "server": "103.172.197.2",
       "server_port": 29172
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[723.0ms +/-134ms] IT",
-      "server": "202.50.253.81",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[1016.8ms +/-14ms] IT",
-      "server": "202.50.253.18",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[863.4ms +/-30ms] IT",
-      "server": "202.50.253.99",
-      "server_port": 19999
     },
     {
       "uuid": "40a86b1b-239d-455e-b53f-4c270788ba6e",
@@ -216,17 +203,66 @@
         }
       },
       "type": "vless",
-      "tag": "[499.3ms +/-3ms] 🇬🇧01",
+      "tag": "[482.7ms +/-1ms] 🇬🇧01",
       "server": "178.214.109.1",
       "server_port": 443
+    },
+    {
+      "uuid": "c83f15bf-1817-4ec8-a19f-6393d226434c",
+      "tls": {
+        "enabled": true,
+        "server_name": "fast.145779.xyz",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-tesla",
+        "headers": {
+          "Host": "fast.145779.xyz"
+        }
+      },
+      "type": "vless",
+      "tag": "[429.6ms +/-141ms] CA",
+      "server": "104.21.58.37",
+      "server_port": 2053
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[754.4ms +/-370ms] IT",
-      "server": "202.50.253.72",
+      "tag": "[678.6ms +/-311ms] IT",
+      "server": "202.50.253.63",
       "server_port": 19999
+    },
+    {
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "MGDwjQNej/F3JyPhRHgbsF3qHuX6RCqyatstS+TrTdM=:5ct3hbEvJLfEFG8sMr6gTiTPSkXDUlCyTAKfnWaQdYE=",
+      "type": "shadowsocks",
+      "tag": "[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)",
+      "server": "13.60.203.88",
+      "server_port": 79
+    },
+    {
+      "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "at1.japancase.site",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg",
+          "short_id": "41ae8e266bc3346f"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "type": "vless",
+      "tag": "[1329.2ms +/-175ms] AT",
+      "server": "178.22.31.72",
+      "server_port": 443
     },
     {
       "type": "direct",

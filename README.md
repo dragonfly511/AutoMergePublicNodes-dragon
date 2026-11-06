@@ -60,16 +60,16 @@ https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/o
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-11-07 02:53（北京时间） |
+| 更新时间 | 2026-11-07 03:39（北京时间） |
 | 订阅源（可用/总数） | 90/110 |
-| 原始节点 → 去重后 | 102664 → 34625 |
-| 送入测试 → 探活通过 → 真测通过 | 3000 → 400 → 311 |
-| 国内可达 / 不可达 / 未知 | 13 / 282 / 16 |
-| 国内检查缓存命中 | 100 |
-| **verified 输出** | 13 |
+| 原始节点 → 去重后 | 102663 → 34652 |
+| 送入测试 → 探活通过 → 真测通过 | 3000 → 402 → 312 |
+| 国内可达 / 不可达 / 未知 | 14 / 294 / 4 |
+| 国内检查缓存命中 | 267 |
+| **verified 输出** | 14 |
 | **global 输出** | 300 |
-| all 全量池 | 34625 |
-| 本轮耗时 | 306.6 秒 |
+| all 全量池 | 34652 |
+| 本轮耗时 | 299.7 秒 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -77,21 +77,21 @@ https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/o
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 85.59 | trojan | 271.1 | dragon |
-| 84.24 | vless | 225.5 | dragon2 |
-| 83.35 | shadowsocks | 260.1 | dragon2 |
-| 81.29 | shadowsocks | 264.4 | dragon |
-| 80.92 | vless | 277.1 | dragon2 |
+| 87.21 | shadowsocks | 259.2 | dragon |
+| 85.96 | shadowsocks | 253.7 | dragon3 |
+| 85.91 | shadowsocks | 259.6 | dragon3 |
+| 85.62 | shadowsocks | 259.9 | dragon3 |
+| 85.35 | shadowsocks | 276.1 | dragon3 |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon3 | 0.975 | 32 | prefer |
-| dragon2 | 0.843 | 336 | prefer |
-| dragon | 0.72 | 15 | prefer |
-| mheidari-all | 0.507 | 8 | observe |
-| Surfboard-tg-mixed | 0.489 | 6 | observe |
+| dragon2 | 0.845 | 339 | prefer |
+| dragon3 | 0.782 | 34 | prefer |
+| dragon | 0.714 | 12 | prefer |
+| mheidari-all | 0.606 | 9 | observe |
+| Surfboard-tg-mixed | 0.519 | 5 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
