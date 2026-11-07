@@ -2,119 +2,100 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[368.0ms +/-1ms] US'
+- name: '[500.8ms +/-4ms] US'
   server: 88.216.254.18
   port: 1080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
   udp: true
-- name: '[517.0ms +/-1ms] IT'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[536.4ms +/-7ms] IT'
+- name: '[640.4ms +/-16ms] @DeltaKroneckerGithub'
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[534.8ms +/-8ms] IT'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[553.0ms +/-5ms] IT'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[618.2ms +/-3ms] IT'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[537.1ms +/-73ms] IT'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[720.5ms +/-43ms] IT'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[768.7ms +/-0ms] ID'
-  server: 103.172.197.2
-  port: 29172
-  type: vless
-  uuid: 3977434d-6a9b-4858-8ced-80326ba5e367
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: aws.amazon.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ
-    short-id: ''
-  client-fingerprint: chrome
-- name: '[482.7ms +/-1ms] 🇬🇧01'
-  server: 178.214.109.1
-  port: 443
-  type: vless
-  uuid: 40a86b1b-239d-455e-b53f-4c270788ba6e
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: promo-digital.wb.ru
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
-    short-id: 1cfa55abe4d2dc7a
-  client-fingerprint: chrome
-- name: '[429.6ms +/-141ms] CA'
-  server: 104.21.58.37
-  port: 2053
-  type: vless
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  udp: true
-  tls: true
-  servername: fast.145779.xyz
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: '[678.6ms +/-311ms] IT'
+- name: '[619.6ms +/-3ms] 🇮🇹IT-202.50.253.63-0227'
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)'
-  server: 13.60.203.88
-  port: 79
+- name: '[620.0ms +/-4ms] 🇮🇹IT-202.50.253.36-0171'
+  server: 202.50.253.36
+  port: 19999
   type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: MGDwjQNej/F3JyPhRHgbsF3qHuX6RCqyatstS+TrTdM=:5ct3hbEvJLfEFG8sMr6gTiTPSkXDUlCyTAKfnWaQdYE=
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1329.2ms +/-175ms] AT'
+- name: '[623.4ms +/-2ms] 🇮🇹IT-202.50.253.18-0189'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[642.0ms +/-2ms] 🇮🇹IT-202.50.253.81-0200'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[681.9ms +/-3ms] 🇮🇹IT-202.50.253.90-0208'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[705.7ms +/-1ms] 🇮🇹IT-202.50.253.45-0191'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[623.7ms +/-16ms] 🇮🇹IT-202.50.253.99-0182'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[491.5ms +/-0ms] ES'
+  server: 213.182.201.18
+  port: 3090
+  type: vless
+  uuid: 8bac7917-b4d2-4338-bbfc-5d47bda8c5ab
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+- name: '[632.6ms +/-33ms] 🇮🇹IT-202.50.253.54-0179'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[816.4ms +/-1ms] RU'
+  server: 147.45.153.29
+  port: 443
+  type: vless
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: patch-46.topp-con.xyz
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
+    short-id: b9120cd53ffd7bba
+  client-fingerprint: firefox
+- name: '[1373.3ms +/-23ms] AT'
   server: 178.22.31.72
   port: 443
   type: vless
@@ -127,63 +108,169 @@ proxies:
   reality-opts:
     public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
     short-id: 41ae8e266bc3346f
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: '[1695.6ms +/-7ms] RU'
+  server: 188.130.209.204
+  port: 443
+  type: vless
+  uuid: 4a0812f0-f9d7-4afd-9ae3-6c38e1e59485
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: promo-digital.wb.ru
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
+    short-id: d3f314d0b692f63d
+  client-fingerprint: ios
+- name: '[1287.4ms +/-1ms] CA'
+  server: 172.67.156.147
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '[1583.3ms +/-158ms] TW'
+  server: 60.248.219.53
+  port: 443
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+- name: '[1247.7ms +/-90ms] 4Mohsen-818b6739cf'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.2fa.cat
+  sni: www.cloudflare.com
+  skip-cert-verify: true
+- name: '[1331.9ms +/-206ms] US'
+  server: 103.133.1.160
+  port: 80
+  type: vless
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: soft-shadow-1e33.xicav73335.workers.dev
+- name: '[1377.4ms +/-228ms] CA'
+  server: 104.24.0.1
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '[1520.4ms +/-284ms] CA'
+  server: 104.27.46.35
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[368.0ms +/-1ms] US'
-  - '[517.0ms +/-1ms] IT'
-  - '[536.4ms +/-7ms] IT'
-  - '[534.8ms +/-8ms] IT'
-  - '[553.0ms +/-5ms] IT'
-  - '[618.2ms +/-3ms] IT'
-  - '[537.1ms +/-73ms] IT'
-  - '[720.5ms +/-43ms] IT'
-  - '[768.7ms +/-0ms] ID'
-  - '[482.7ms +/-1ms] 🇬🇧01'
-  - '[429.6ms +/-141ms] CA'
-  - '[678.6ms +/-311ms] IT'
-  - '[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)'
-  - '[1329.2ms +/-175ms] AT'
+  - '[500.8ms +/-4ms] US'
+  - '[640.4ms +/-16ms] @DeltaKroneckerGithub'
+  - '[619.6ms +/-3ms] 🇮🇹IT-202.50.253.63-0227'
+  - '[620.0ms +/-4ms] 🇮🇹IT-202.50.253.36-0171'
+  - '[623.4ms +/-2ms] 🇮🇹IT-202.50.253.18-0189'
+  - '[642.0ms +/-2ms] 🇮🇹IT-202.50.253.81-0200'
+  - '[681.9ms +/-3ms] 🇮🇹IT-202.50.253.90-0208'
+  - '[705.7ms +/-1ms] 🇮🇹IT-202.50.253.45-0191'
+  - '[623.7ms +/-16ms] 🇮🇹IT-202.50.253.99-0182'
+  - '[491.5ms +/-0ms] ES'
+  - '[632.6ms +/-33ms] 🇮🇹IT-202.50.253.54-0179'
+  - '[816.4ms +/-1ms] RU'
+  - '[1373.3ms +/-23ms] AT'
+  - '[1695.6ms +/-7ms] RU'
+  - '[1287.4ms +/-1ms] CA'
+  - '[1583.3ms +/-158ms] TW'
+  - '[1247.7ms +/-90ms] 4Mohsen-818b6739cf'
+  - '[1331.9ms +/-206ms] US'
+  - '[1377.4ms +/-228ms] CA'
+  - '[1520.4ms +/-284ms] CA'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[368.0ms +/-1ms] US'
-  - '[517.0ms +/-1ms] IT'
-  - '[536.4ms +/-7ms] IT'
-  - '[534.8ms +/-8ms] IT'
-  - '[553.0ms +/-5ms] IT'
-  - '[618.2ms +/-3ms] IT'
-  - '[537.1ms +/-73ms] IT'
-  - '[720.5ms +/-43ms] IT'
-  - '[768.7ms +/-0ms] ID'
-  - '[482.7ms +/-1ms] 🇬🇧01'
-  - '[429.6ms +/-141ms] CA'
-  - '[678.6ms +/-311ms] IT'
-  - '[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)'
-  - '[1329.2ms +/-175ms] AT'
+  - '[500.8ms +/-4ms] US'
+  - '[640.4ms +/-16ms] @DeltaKroneckerGithub'
+  - '[619.6ms +/-3ms] 🇮🇹IT-202.50.253.63-0227'
+  - '[620.0ms +/-4ms] 🇮🇹IT-202.50.253.36-0171'
+  - '[623.4ms +/-2ms] 🇮🇹IT-202.50.253.18-0189'
+  - '[642.0ms +/-2ms] 🇮🇹IT-202.50.253.81-0200'
+  - '[681.9ms +/-3ms] 🇮🇹IT-202.50.253.90-0208'
+  - '[705.7ms +/-1ms] 🇮🇹IT-202.50.253.45-0191'
+  - '[623.7ms +/-16ms] 🇮🇹IT-202.50.253.99-0182'
+  - '[491.5ms +/-0ms] ES'
+  - '[632.6ms +/-33ms] 🇮🇹IT-202.50.253.54-0179'
+  - '[816.4ms +/-1ms] RU'
+  - '[1373.3ms +/-23ms] AT'
+  - '[1695.6ms +/-7ms] RU'
+  - '[1287.4ms +/-1ms] CA'
+  - '[1583.3ms +/-158ms] TW'
+  - '[1247.7ms +/-90ms] 4Mohsen-818b6739cf'
+  - '[1331.9ms +/-206ms] US'
+  - '[1377.4ms +/-228ms] CA'
+  - '[1520.4ms +/-284ms] CA'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[368.0ms +/-1ms] US'
-  - '[517.0ms +/-1ms] IT'
-  - '[536.4ms +/-7ms] IT'
-  - '[534.8ms +/-8ms] IT'
-  - '[553.0ms +/-5ms] IT'
-  - '[618.2ms +/-3ms] IT'
-  - '[537.1ms +/-73ms] IT'
-  - '[720.5ms +/-43ms] IT'
-  - '[768.7ms +/-0ms] ID'
-  - '[482.7ms +/-1ms] 🇬🇧01'
-  - '[429.6ms +/-141ms] CA'
-  - '[678.6ms +/-311ms] IT'
-  - '[532.8ms +/-0ms] 🇸🇪208450 | ⚡️Telegram = t.me(…)'
-  - '[1329.2ms +/-175ms] AT'
+  - '[500.8ms +/-4ms] US'
+  - '[640.4ms +/-16ms] @DeltaKroneckerGithub'
+  - '[619.6ms +/-3ms] 🇮🇹IT-202.50.253.63-0227'
+  - '[620.0ms +/-4ms] 🇮🇹IT-202.50.253.36-0171'
+  - '[623.4ms +/-2ms] 🇮🇹IT-202.50.253.18-0189'
+  - '[642.0ms +/-2ms] 🇮🇹IT-202.50.253.81-0200'
+  - '[681.9ms +/-3ms] 🇮🇹IT-202.50.253.90-0208'
+  - '[705.7ms +/-1ms] 🇮🇹IT-202.50.253.45-0191'
+  - '[623.7ms +/-16ms] 🇮🇹IT-202.50.253.99-0182'
+  - '[491.5ms +/-0ms] ES'
+  - '[632.6ms +/-33ms] 🇮🇹IT-202.50.253.54-0179'
+  - '[816.4ms +/-1ms] RU'
+  - '[1373.3ms +/-23ms] AT'
+  - '[1695.6ms +/-7ms] RU'
+  - '[1287.4ms +/-1ms] CA'
+  - '[1583.3ms +/-158ms] TW'
+  - '[1247.7ms +/-90ms] 4Mohsen-818b6739cf'
+  - '[1331.9ms +/-206ms] US'
+  - '[1377.4ms +/-228ms] CA'
+  - '[1520.4ms +/-284ms] CA'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
