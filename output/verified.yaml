@@ -2,158 +2,204 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[348.3ms +/-8ms] US'
-  server: 88.216.254.18
-  port: 1080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+- name: '[342.4ms +/-1ms] US'
+  server: 154.26.188.52
+  port: 443
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   udp: true
-- name: '[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208'
+  flow: xtls-rprx-vision
+  tls: true
+  servername: www.amazon.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
+    short-id: b46b142b
+  client-fingerprint: chrome
+- name: '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
+  server: 206.189.229.48
+  port: 443
+  type: hysteria2
+  password: YV1sd3tfCZngTtnvRmy7
+  sni: www.microsoft.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: ZuPf4OcXKvotJdDxlTus
+- name: '[525.5ms +/-9ms] IT'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[627.0ms +/-3ms] IT'
   server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200'
-  server: 202.50.253.81
+- name: '[552.1ms +/-50ms] IT'
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152
-  server: 66.81.247.8
-  port: 2087
-  type: trojan
-  password: em6lOI9zhk
-  sni: t0f.tupn.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /2087
-    headers:
-      Host: t0f.tupn.org
-- name: '[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[418.8ms +/-4ms] US'
-  server: 176.122.142.140
-  port: 443
-  type: vless
-  uuid: e60f4255-3cf2-483b-b6d3-3e302f431ef3
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: portal.citygrainla.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-  client-fingerprint: ios
-- name: '[374.3ms +/-1ms] US'
-  server: 176.122.188.184
-  port: 443
-  type: vless
-  uuid: e60f4255-3cf2-483b-b6d3-3e302f431ef3
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: portal.citygrainla.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-  client-fingerprint: ios
-- name: '[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[666.6ms +/-415ms] @DeltaKroneckerGithub'
+- name: '[655.3ms +/-19ms] IT'
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)'
-  server: 81.12.35.127
-  port: 45903
-  type: vless
-  uuid: 0d2d64a3-1d92-4c65-b293-d5a648d2b078
+- name: '[990.5ms +/-19ms] CA'
+  server: 104.24.0.1
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
   udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
+  server: 172.66.0.1
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
+- name: '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
+  server: 146.75.57.7
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: MiTiVPN-1-mitivpn.ac.ir
+- name: '[578.0ms +/-182ms] IT'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 [969.4ms +/-1ms] US
+  server: 199.232.78.160
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: Abu.ac.ir
+- name: '[1326.0ms +/-21ms] IT'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1283.1ms +/-1ms] US'
+  server: 151.101.36.7
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: Abu.ac.ir
+- name: '[1253.6ms +/-1096ms] CA'
+  server: 104.18.0.1
+  port: 2053
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: marvdasht.phonecomparisonblog.org
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[348.3ms +/-8ms] US'
-  - '[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208'
-  - '[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200'
-  - 🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152
-  - '[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179'
-  - '[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182'
-  - '[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227'
-  - '[418.8ms +/-4ms] US'
-  - '[374.3ms +/-1ms] US'
-  - '[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191'
-  - '[666.6ms +/-415ms] @DeltaKroneckerGithub'
-  - '[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)'
+  - '[342.4ms +/-1ms] US'
+  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
+  - '[525.5ms +/-9ms] IT'
+  - '[627.0ms +/-3ms] IT'
+  - '[552.1ms +/-50ms] IT'
+  - '[655.3ms +/-19ms] IT'
+  - '[990.5ms +/-19ms] CA'
+  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
+  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
+  - '[578.0ms +/-182ms] IT'
+  - 🇺🇸 [969.4ms +/-1ms] US
+  - '[1326.0ms +/-21ms] IT'
+  - '[1283.1ms +/-1ms] US'
+  - '[1253.6ms +/-1096ms] CA'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[348.3ms +/-8ms] US'
-  - '[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208'
-  - '[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200'
-  - 🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152
-  - '[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179'
-  - '[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182'
-  - '[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227'
-  - '[418.8ms +/-4ms] US'
-  - '[374.3ms +/-1ms] US'
-  - '[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191'
-  - '[666.6ms +/-415ms] @DeltaKroneckerGithub'
-  - '[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)'
+  - '[342.4ms +/-1ms] US'
+  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
+  - '[525.5ms +/-9ms] IT'
+  - '[627.0ms +/-3ms] IT'
+  - '[552.1ms +/-50ms] IT'
+  - '[655.3ms +/-19ms] IT'
+  - '[990.5ms +/-19ms] CA'
+  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
+  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
+  - '[578.0ms +/-182ms] IT'
+  - 🇺🇸 [969.4ms +/-1ms] US
+  - '[1326.0ms +/-21ms] IT'
+  - '[1283.1ms +/-1ms] US'
+  - '[1253.6ms +/-1096ms] CA'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[348.3ms +/-8ms] US'
-  - '[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208'
-  - '[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200'
-  - '[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179'
-  - '[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182'
-  - '[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227'
-  - '[418.8ms +/-4ms] US'
-  - '[374.3ms +/-1ms] US'
-  - '[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191'
-  - '[666.6ms +/-415ms] @DeltaKroneckerGithub'
-  - '[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)'
+  - '[342.4ms +/-1ms] US'
+  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
+  - '[525.5ms +/-9ms] IT'
+  - '[627.0ms +/-3ms] IT'
+  - '[552.1ms +/-50ms] IT'
+  - '[655.3ms +/-19ms] IT'
+  - '[990.5ms +/-19ms] CA'
+  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
+  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
+  - '[578.0ms +/-182ms] IT'
+  - '[1326.0ms +/-21ms] IT'
+  - '[1283.1ms +/-1ms] US'
+  - '[1253.6ms +/-1096ms] CA'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:

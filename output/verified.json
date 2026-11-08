@@ -38,37 +38,41 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[348.3ms +/-8ms] US",
-        "[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208",
-        "[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200",
-        "🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152",
-        "[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179",
-        "[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182",
-        "[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227",
-        "[418.8ms +/-4ms] US",
-        "[374.3ms +/-1ms] US",
-        "[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191",
-        "[666.6ms +/-415ms] @DeltaKroneckerGithub",
-        "[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)"
+        "[342.4ms +/-1ms] US",
+        "[261.1ms +/-1ms] 4Jadi-4413a67d9c",
+        "[525.5ms +/-9ms] IT",
+        "[627.0ms +/-3ms] IT",
+        "[552.1ms +/-50ms] IT",
+        "[655.3ms +/-19ms] IT",
+        "[990.5ms +/-19ms] CA",
+        "[1010.4ms +/-54ms] 4Sarina-eda8e3f01c",
+        "[1281.0ms +/-1ms] 4Sarina-e3759ff6de",
+        "[578.0ms +/-182ms] IT",
+        "🇺🇸 [969.4ms +/-1ms] US",
+        "[1326.0ms +/-21ms] IT",
+        "[1283.1ms +/-1ms] US",
+        "[1253.6ms +/-1096ms] CA"
       ],
-      "default": "[348.3ms +/-8ms] US"
+      "default": "[342.4ms +/-1ms] US"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[348.3ms +/-8ms] US",
-        "[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208",
-        "[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200",
-        "🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152",
-        "[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179",
-        "[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182",
-        "[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227",
-        "[418.8ms +/-4ms] US",
-        "[374.3ms +/-1ms] US",
-        "[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191",
-        "[666.6ms +/-415ms] @DeltaKroneckerGithub",
-        "[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)"
+        "[342.4ms +/-1ms] US",
+        "[261.1ms +/-1ms] 4Jadi-4413a67d9c",
+        "[525.5ms +/-9ms] IT",
+        "[627.0ms +/-3ms] IT",
+        "[552.1ms +/-50ms] IT",
+        "[655.3ms +/-19ms] IT",
+        "[990.5ms +/-19ms] CA",
+        "[1010.4ms +/-54ms] 4Sarina-eda8e3f01c",
+        "[1281.0ms +/-1ms] 4Sarina-e3759ff6de",
+        "[578.0ms +/-182ms] IT",
+        "🇺🇸 [969.4ms +/-1ms] US",
+        "[1326.0ms +/-21ms] IT",
+        "[1283.1ms +/-1ms] US",
+        "[1253.6ms +/-1096ms] CA"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -77,34 +81,74 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[348.3ms +/-8ms] US",
-        "[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208",
-        "[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200",
-        "[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179",
-        "[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182",
-        "[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227",
-        "[418.8ms +/-4ms] US",
-        "[374.3ms +/-1ms] US",
-        "[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191",
-        "[666.6ms +/-415ms] @DeltaKroneckerGithub",
-        "[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)"
+        "[342.4ms +/-1ms] US",
+        "[261.1ms +/-1ms] 4Jadi-4413a67d9c",
+        "[525.5ms +/-9ms] IT",
+        "[627.0ms +/-3ms] IT",
+        "[552.1ms +/-50ms] IT",
+        "[655.3ms +/-19ms] IT",
+        "[990.5ms +/-19ms] CA",
+        "[1010.4ms +/-54ms] 4Sarina-eda8e3f01c",
+        "[1281.0ms +/-1ms] 4Sarina-e3759ff6de",
+        "[578.0ms +/-182ms] IT",
+        "[1326.0ms +/-21ms] IT",
+        "[1283.1ms +/-1ms] US",
+        "[1253.6ms +/-1096ms] CA"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
     },
     {
-      "method": "chacha20-ietf-poly1305",
-      "password": "V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA",
-      "type": "shadowsocks",
-      "tag": "[348.3ms +/-8ms] US",
-      "server": "88.216.254.18",
-      "server_port": 1080
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc",
+          "short_id": "b46b142b"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "type": "vless",
+      "tag": "[342.4ms +/-1ms] US",
+      "server": "154.26.188.52",
+      "server_port": 443
+    },
+    {
+      "password": "YV1sd3tfCZngTtnvRmy7",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "ZuPf4OcXKvotJdDxlTus"
+      },
+      "type": "hysteria2",
+      "tag": "[261.1ms +/-1ms] 4Jadi-4413a67d9c",
+      "server": "206.189.229.48",
+      "server_port": 443
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[555.4ms +/-1ms] 🇮🇹IT-202.50.253.90-0208",
+      "tag": "[525.5ms +/-9ms] IT",
+      "server": "202.50.253.72",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[627.0ms +/-3ms] IT",
       "server": "202.50.253.90",
       "server_port": 19999
     },
@@ -112,119 +156,147 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[690.1ms +/-16ms] 🇮🇹IT-202.50.253.81-0200",
-      "server": "202.50.253.81",
-      "server_port": 19999
-    },
-    {
-      "password": "em6lOI9zhk",
-      "tls": {
-        "enabled": true,
-        "server_name": "t0f.tupn.org",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2087",
-        "headers": {
-          "Host": "t0f.tupn.org"
-        }
-      },
-      "type": "trojan",
-      "tag": "🇺🇸 [795.6ms +/-2ms] 4Nika-ea7c3aa152",
-      "server": "66.81.247.8",
-      "server_port": 2087
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[565.0ms +/-23ms] 🇮🇹IT-202.50.253.54-0179",
-      "server": "202.50.253.54",
+      "tag": "[552.1ms +/-50ms] IT",
+      "server": "202.50.253.36",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[817.4ms +/-3ms] 🇮🇹IT-202.50.253.99-0182",
-      "server": "202.50.253.99",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[696.8ms +/-106ms] 🇮🇹IT-202.50.253.63-0227",
-      "server": "202.50.253.63",
-      "server_port": 19999
-    },
-    {
-      "uuid": "e60f4255-3cf2-483b-b6d3-3e302f431ef3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "portal.citygrainla.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE",
-          "short_id": "051f20c2344a2dfd"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "type": "vless",
-      "tag": "[418.8ms +/-4ms] US",
-      "server": "176.122.142.140",
-      "server_port": 443
-    },
-    {
-      "uuid": "e60f4255-3cf2-483b-b6d3-3e302f431ef3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "portal.citygrainla.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE",
-          "short_id": "051f20c2344a2dfd"
-        },
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        }
-      },
-      "type": "vless",
-      "tag": "[374.3ms +/-1ms] US",
-      "server": "176.122.188.184",
-      "server_port": 443
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[1011.5ms +/-23ms] 🇮🇹IT-202.50.253.45-0191",
-      "server": "202.50.253.45",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[666.6ms +/-415ms] @DeltaKroneckerGithub",
+      "tag": "[655.3ms +/-19ms] IT",
       "server": "202.50.253.27",
       "server_port": 19999
     },
     {
-      "uuid": "0d2d64a3-1d92-4c65-b293-d5a648d2b078",
-      "type": "vless",
-      "tag": "[945.5ms +/-69ms] 🇮🇷209357 | ⚡️Telegram = t.m(…)",
-      "server": "81.12.35.127",
-      "server_port": 45903
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "type": "trojan",
+      "tag": "[990.5ms +/-19ms] CA",
+      "server": "104.24.0.1",
+      "server_port": 2053
+    },
+    {
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "type": "trojan",
+      "tag": "[1010.4ms +/-54ms] 4Sarina-eda8e3f01c",
+      "server": "172.66.0.1",
+      "server_port": 2053
+    },
+    {
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/---@MiTiVPN---@MiTiVPN",
+        "headers": {
+          "Host": "MiTiVPN-1-mitivpn.ac.ir"
+        }
+      },
+      "type": "trojan",
+      "tag": "[1281.0ms +/-1ms] 4Sarina-e3759ff6de",
+      "server": "146.75.57.7",
+      "server_port": 443
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[578.0ms +/-182ms] IT",
+      "server": "202.50.253.54",
+      "server_port": 19999
+    },
+    {
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/---@MiTiVPN---@MiTiVPN",
+        "headers": {
+          "Host": "Abu.ac.ir"
+        }
+      },
+      "type": "trojan",
+      "tag": "🇺🇸 [969.4ms +/-1ms] US",
+      "server": "199.232.78.160",
+      "server_port": 443
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[1326.0ms +/-21ms] IT",
+      "server": "202.50.253.81",
+      "server_port": 19999
+    },
+    {
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/---@MiTiVPN---@MiTiVPN",
+        "headers": {
+          "Host": "Abu.ac.ir"
+        }
+      },
+      "type": "trojan",
+      "tag": "[1283.1ms +/-1ms] US",
+      "server": "151.101.36.7",
+      "server_port": 443
+    },
+    {
+      "password": "gHQP0D7D15",
+      "tls": {
+        "enabled": true,
+        "server_name": "marvdasht.phonecomparisonblog.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "marvdasht.phonecomparisonblog.org"
+        }
+      },
+      "type": "trojan",
+      "tag": "[1253.6ms +/-1096ms] CA",
+      "server": "104.18.0.1",
+      "server_port": 2053
     },
     {
       "type": "direct",
