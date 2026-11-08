@@ -2,21 +2,53 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[342.4ms +/-1ms] US'
-  server: 154.26.188.52
+- name: '[299.5ms +/-3ms] US'
+  server: 195.211.98.43
   port: 443
   type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
   udp: true
   flow: xtls-rprx-vision
   tls: true
-  servername: www.amazon.com
+  servername: www.cloudflare.com
   skip-cert-verify: true
   reality-opts:
-    public-key: Njwb7fCl8PXKOs3owDB-gjzbmEyEewlL6JlMKwMTUQc
-    short-id: b46b142b
+    public-key: xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA
+    short-id: 9c56fddf237e8eaf
   client-fingerprint: chrome
-- name: '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
+- name: '[534.3ms +/-3ms] DK'
+  server: 193.233.253.180
+  port: 8444
+  type: vless
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  udp: true
+  tls: true
+  servername: github.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: ''
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: '[441.3ms +/-13ms] NL'
+  server: 79.182.39.131
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
+    short-id: d3bd772514c87d28
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
+- name: '[329.2ms +/-168ms] US'
   server: 206.189.229.48
   port: 443
   type: hysteria2
@@ -25,101 +57,97 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ZuPf4OcXKvotJdDxlTus
-- name: '[525.5ms +/-9ms] IT'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[627.0ms +/-3ms] IT'
+- name: '[566.6ms +/-0ms] ss-202.50.253.90'
   server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[552.1ms +/-50ms] IT'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[579.6ms +/-16ms] NL'
+  server: 94.249.195.155
+  port: 43000
+  type: vless
+  uuid: e6fd9735-069d-478f-a237-05a0571825e3
   udp: true
-- name: '[655.3ms +/-19ms] IT'
+  flow: xtls-rprx-vision
+  tls: true
+  servername: 94.249.195.155
+  skip-cert-verify: true
+  reality-opts:
+    public-key: QaPoY-5W4Z7NA_LUG37yjYNy3JWg53Ru7eWLTzec-nE
+    short-id: b62ac375
+  client-fingerprint: chrome
+- name: '[583.8ms +/-1ms] ss-202.50.253.27'
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[990.5ms +/-19ms] CA'
-  server: 104.24.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
-  server: 172.66.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: marvdasht.phonecomparisonblog.org
-- name: '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
-  server: 146.75.57.7
+- name: '[602.8ms +/-2ms] CH'
+  server: 46.19.138.214
   port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
+  type: vless
+  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
   udp: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: MiTiVPN-1-mitivpn.ac.ir
-- name: '[578.0ms +/-182ms] IT'
-  server: 202.50.253.54
+  flow: xtls-rprx-vision
+  tls: true
+  servername: perevodchiki.su
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
+    short-id: 428ef87fd47a3a32
+  client-fingerprint: firefox
+- name: '[596.0ms +/-30ms] NL'
+  server: 79.182.39.109
+  port: 443
+  type: vless
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  udp: true
+  tls: true
+  servername: 71b840t.de7.h1clayd.click
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
+    short-id: e572b6579ea525d4
+  client-fingerprint: firefox
+- name: '[635.0ms +/-3ms] ss-202.50.253.36'
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 [969.4ms +/-1ms] US
-  server: 199.232.78.160
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
+- name: '[836.1ms +/-1ms] @DeltaKroneckerGithub'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: Abu.ac.ir
-- name: '[1326.0ms +/-21ms] IT'
+- name: '[647.4ms +/-6ms] ss-202.50.253.81'
   server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1283.1ms +/-1ms] US'
+- name: 🇺🇸 [772.2ms +/-1ms] US
+  server: 146.75.57.7
+  port: 443
+  type: vless
+  uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
+  udp: true
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
+- name: 🇺🇸 [962.4ms +/-0ms] 4FreeIran-2628788ae8
   server: 151.101.36.7
   port: 443
   type: trojan
@@ -132,74 +160,221 @@ proxies:
     path: /---@MiTiVPN---@MiTiVPN
     headers:
       Host: Abu.ac.ir
-- name: '[1253.6ms +/-1096ms] CA'
-  server: 104.18.0.1
-  port: 2053
-  type: trojan
-  password: gHQP0D7D15
-  sni: marvdasht.phonecomparisonblog.org
-  skip-cert-verify: true
+- name: '[693.3ms +/-2ms] ss-202.50.253.54'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: '[580.9ms +/-3ms] ss-202.50.253.18'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[771.4ms +/-32ms] IS'
+  server: 93.95.226.159
+  port: 28150
+  type: vless
+  uuid: b4e69d67-9d41-417c-b465-ebf1591fb792
+  udp: true
+  tls: true
+  servername: google.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: KQW_o2BlCjMC8aH5lkNkO_rmMCAUykQIQCCIIehhsAo
+    short-id: '06'
+  client-fingerprint: firefox
+- name: '[972.3ms +/-95ms] TW'
+  server: 60.248.219.53
+  port: 443
+  type: vless
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  udp: true
+  tls: true
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
-      Host: marvdasht.phonecomparisonblog.org
+      Host: ty986gfazs.cainiaohub.xyz
+- name: '[841.2ms +/-110ms] 美国+V2CROSS.COM'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.best
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[778.2ms +/-200ms] @DeltaKroneckerGithub'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1208.8ms +/-3ms] JP'
+  server: 45.12.89.202
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
+  udp: true
+- name: '[739.8ms +/-406ms] ss-202.50.253.45'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[871.8ms +/-0ms] @FXxNET⚡️'
+  server: 177.1.187.227
+  port: 8443
+  type: vless
+  uuid: 8af1ac56-283b-4fc5-bb33-6892498a0592
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: ofd.ru
+  skip-cert-verify: true
+  reality-opts:
+    public-key: R4druLIO_Vb9TrkYUUWsof5S4e5kwaAjh9qQob2kLlI
+    short-id: ''
+  client-fingerprint: chrome
+- name: '[1109.2ms +/-164ms] NL'
+  server: 156.67.120.205
+  port: 51628
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
+  udp: true
+- name: '[1034.6ms +/-420ms] ss-202.50.253.63'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1152.5ms +/-9ms] Telegram'
+  server: 92.119.165.51
+  port: 6443
+  type: vless
+  uuid: 68a67906-5b37-4779-a6cc-58a1655f18b4
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: zug-net.locallynet.org
+  skip-cert-verify: true
+- name: '[1439.9ms +/-470ms] JP'
+  server: 154.36.158.197
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[342.4ms +/-1ms] US'
-  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
-  - '[525.5ms +/-9ms] IT'
-  - '[627.0ms +/-3ms] IT'
-  - '[552.1ms +/-50ms] IT'
-  - '[655.3ms +/-19ms] IT'
-  - '[990.5ms +/-19ms] CA'
-  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
-  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
-  - '[578.0ms +/-182ms] IT'
-  - 🇺🇸 [969.4ms +/-1ms] US
-  - '[1326.0ms +/-21ms] IT'
-  - '[1283.1ms +/-1ms] US'
-  - '[1253.6ms +/-1096ms] CA'
+  - 🇺🇸 美国
+  - '[299.5ms +/-3ms] US'
+  - '[534.3ms +/-3ms] DK'
+  - '[441.3ms +/-13ms] NL'
+  - '[329.2ms +/-168ms] US'
+  - '[566.6ms +/-0ms] ss-202.50.253.90'
+  - '[579.6ms +/-16ms] NL'
+  - '[583.8ms +/-1ms] ss-202.50.253.27'
+  - '[602.8ms +/-2ms] CH'
+  - '[596.0ms +/-30ms] NL'
+  - '[635.0ms +/-3ms] ss-202.50.253.36'
+  - '[836.1ms +/-1ms] @DeltaKroneckerGithub'
+  - '[647.4ms +/-6ms] ss-202.50.253.81'
+  - 🇺🇸 [772.2ms +/-1ms] US
+  - 🇺🇸 [962.4ms +/-0ms] 4FreeIran-2628788ae8
+  - '[693.3ms +/-2ms] ss-202.50.253.54'
+  - '[580.9ms +/-3ms] ss-202.50.253.18'
+  - '[771.4ms +/-32ms] IS'
+  - '[972.3ms +/-95ms] TW'
+  - '[841.2ms +/-110ms] 美国+V2CROSS.COM'
+  - '[778.2ms +/-200ms] @DeltaKroneckerGithub'
+  - '[1208.8ms +/-3ms] JP'
+  - '[739.8ms +/-406ms] ss-202.50.253.45'
+  - '[871.8ms +/-0ms] @FXxNET⚡️'
+  - '[1109.2ms +/-164ms] NL'
+  - '[1034.6ms +/-420ms] ss-202.50.253.63'
+  - '[1152.5ms +/-9ms] Telegram'
+  - '[1439.9ms +/-470ms] JP'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[342.4ms +/-1ms] US'
-  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
-  - '[525.5ms +/-9ms] IT'
-  - '[627.0ms +/-3ms] IT'
-  - '[552.1ms +/-50ms] IT'
-  - '[655.3ms +/-19ms] IT'
-  - '[990.5ms +/-19ms] CA'
-  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
-  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
-  - '[578.0ms +/-182ms] IT'
-  - 🇺🇸 [969.4ms +/-1ms] US
-  - '[1326.0ms +/-21ms] IT'
-  - '[1283.1ms +/-1ms] US'
-  - '[1253.6ms +/-1096ms] CA'
+  - '[299.5ms +/-3ms] US'
+  - '[534.3ms +/-3ms] DK'
+  - '[441.3ms +/-13ms] NL'
+  - '[329.2ms +/-168ms] US'
+  - '[566.6ms +/-0ms] ss-202.50.253.90'
+  - '[579.6ms +/-16ms] NL'
+  - '[583.8ms +/-1ms] ss-202.50.253.27'
+  - '[602.8ms +/-2ms] CH'
+  - '[596.0ms +/-30ms] NL'
+  - '[635.0ms +/-3ms] ss-202.50.253.36'
+  - '[836.1ms +/-1ms] @DeltaKroneckerGithub'
+  - '[647.4ms +/-6ms] ss-202.50.253.81'
+  - 🇺🇸 [772.2ms +/-1ms] US
+  - 🇺🇸 [962.4ms +/-0ms] 4FreeIran-2628788ae8
+  - '[693.3ms +/-2ms] ss-202.50.253.54'
+  - '[580.9ms +/-3ms] ss-202.50.253.18'
+  - '[771.4ms +/-32ms] IS'
+  - '[972.3ms +/-95ms] TW'
+  - '[841.2ms +/-110ms] 美国+V2CROSS.COM'
+  - '[778.2ms +/-200ms] @DeltaKroneckerGithub'
+  - '[1208.8ms +/-3ms] JP'
+  - '[739.8ms +/-406ms] ss-202.50.253.45'
+  - '[871.8ms +/-0ms] @FXxNET⚡️'
+  - '[1109.2ms +/-164ms] NL'
+  - '[1034.6ms +/-420ms] ss-202.50.253.63'
+  - '[1152.5ms +/-9ms] Telegram'
+  - '[1439.9ms +/-470ms] JP'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[342.4ms +/-1ms] US'
-  - '[261.1ms +/-1ms] 4Jadi-4413a67d9c'
-  - '[525.5ms +/-9ms] IT'
-  - '[627.0ms +/-3ms] IT'
-  - '[552.1ms +/-50ms] IT'
-  - '[655.3ms +/-19ms] IT'
-  - '[990.5ms +/-19ms] CA'
-  - '[1010.4ms +/-54ms] 4Sarina-eda8e3f01c'
-  - '[1281.0ms +/-1ms] 4Sarina-e3759ff6de'
-  - '[578.0ms +/-182ms] IT'
-  - '[1326.0ms +/-21ms] IT'
-  - '[1283.1ms +/-1ms] US'
-  - '[1253.6ms +/-1096ms] CA'
+  - '[299.5ms +/-3ms] US'
+  - '[534.3ms +/-3ms] DK'
+  - '[441.3ms +/-13ms] NL'
+  - '[329.2ms +/-168ms] US'
+  - '[566.6ms +/-0ms] ss-202.50.253.90'
+  - '[579.6ms +/-16ms] NL'
+  - '[583.8ms +/-1ms] ss-202.50.253.27'
+  - '[602.8ms +/-2ms] CH'
+  - '[596.0ms +/-30ms] NL'
+  - '[635.0ms +/-3ms] ss-202.50.253.36'
+  - '[836.1ms +/-1ms] @DeltaKroneckerGithub'
+  - '[647.4ms +/-6ms] ss-202.50.253.81'
+  - '[693.3ms +/-2ms] ss-202.50.253.54'
+  - '[580.9ms +/-3ms] ss-202.50.253.18'
+  - '[771.4ms +/-32ms] IS'
+  - '[972.3ms +/-95ms] TW'
+  - '[841.2ms +/-110ms] 美国+V2CROSS.COM'
+  - '[778.2ms +/-200ms] @DeltaKroneckerGithub'
+  - '[1208.8ms +/-3ms] JP'
+  - '[739.8ms +/-406ms] ss-202.50.253.45'
+  - '[871.8ms +/-0ms] @FXxNET⚡️'
+  - '[1109.2ms +/-164ms] NL'
+  - '[1034.6ms +/-420ms] ss-202.50.253.63'
+  - '[1152.5ms +/-9ms] Telegram'
+  - '[1439.9ms +/-470ms] JP'
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇺🇸 美国
+  type: url-test
+  proxies:
+  - 🇺🇸 [772.2ms +/-1ms] US
+  - 🇺🇸 [962.4ms +/-0ms] 4FreeIran-2628788ae8
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
