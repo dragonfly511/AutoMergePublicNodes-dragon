@@ -1,37 +1,7 @@
 {
-  "updated_at": "2026-11-07 22:06:38",
+  "updated_at": "2026-11-08 06:25:07",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-10-22 12:10:07",
-      "duration_sec": 306.2,
-      "nodes_raw": 95591,
-      "nodes_dedup": 26659,
-      "nodes_tcp_ok": 3000,
-      "nodes_real_ok": 383,
-      "nodes_verified_output": 123,
-      "nodes_global_output": 300,
-      "nodes_global_extra_from_cn_block": 9,
-      "real_test_errors": {
-        "204": 16,
-        "speed": 12,
-        "test_one_timeout": 68,
-        "cn-block": 11,
-        "geo": 6
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 117,
-          "proposed_count": 123
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 300,
-          "proposed_count": 300
-        }
-      }
-    },
     {
       "timestamp": "2026-10-22 17:24:24",
       "duration_sec": 293.4,
@@ -905,21 +875,46 @@
           "min_retain_ratio": 0.5
         }
       }
+    },
+    {
+      "timestamp": "2026-11-08 06:25:07",
+      "duration_sec": 246.7,
+      "nodes_raw": 101613,
+      "nodes_dedup": 34872,
+      "nodes_tcp_ok": 3000,
+      "nodes_real_ok": 135,
+      "nodes_verified_output": 12,
+      "nodes_global_output": 135,
+      "nodes_global_extra_from_cn_block": 0,
+      "real_test_errors": {
+        "204": 3,
+        "geo": 3,
+        "speed": 1,
+        "test_one_timeout": 13
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": true,
+          "preserved_streak": 2,
+          "reason": "min_retain_ratio",
+          "previous_count": 12,
+          "proposed_count": 5,
+          "min_retain_ratio": 0.5
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 174,
+          "proposed_count": 135
+        }
+      }
     }
   ],
   "alerts": [
     {
-      "type": "real_ok_drop_50pct",
-      "message": "real-test ok dropped from 171 to 44",
-      "previous": 171,
-      "current": 44
-    },
-    {
       "type": "output_guard_preserved",
       "message": "output shrink guard preserved previous files",
       "prefixes": [
-        "verified",
-        "global"
+        "verified"
       ]
     }
   ]
