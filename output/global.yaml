@@ -2,306 +2,7 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[315.0ms +/-0ms] @DeltaKroneckerGithub'
-  server: 37.19.198.160
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[232.0ms +/-0ms] @DeltaKroneckerGithub'
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[240.3ms +/-3ms] 🇺🇸'
-  server: 156.146.38.167
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[290.4ms +/-0ms] 🇺🇸'
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[276.3ms +/-58ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
-  server: 66.94.121.46
-  port: 443
-  type: hysteria2
-  password: gf1:gfhysteria2024
-  sni: 66.94.121.46
-  skip-cert-verify: true
-- name: '[287.8ms +/-1ms] ss-167.88.62.203'
-  server: 167.88.62.203
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [319.6ms +/-1ms] @DeltaKroneckerGithub
-  server: 66.163.112.242
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 66.163.112.242
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [497.0ms +/-0ms] 4FreeIran-0958623ccb
-  server: 199.68.156.250
-  port: 2087
-  type: trojan
-  password: 7bpe9s002exll38s
-  sni: nexoshop.netvia.ir
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: nexoshop.netvia.ir
-- name: '[302.1ms +/-1ms] 🇺🇸'
-  server: 37.19.198.244
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[330.4ms +/-1ms] ss-38.64.138.135'
-  server: 38.64.138.135
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[237.6ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 443'
-  server: 216.152.155.131
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-  udp: true
-- name: '[320.4ms +/-7ms] @DeltaKroneckerGithub'
-  server: 67.220.73.178
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[246.7ms +/-2ms] ss-137.184.89.151'
-  server: 137.184.89.151
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[303.8ms +/-0ms] ss-193.151.163.18'
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [324.3ms +/-0ms] 美国_1107193985+M50
-  server: 66.163.122.113
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: true
-  udp: true
-- name: '[377.9ms +/-1ms] ss-158.51.121.221'
-  server: 158.51.121.221
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[277.2ms +/-0ms] ss-95.215.201.18'
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[349.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 531'
-  server: 66.163.112.76
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[302.4ms +/-1ms] ss-172.111.38.72'
-  server: 172.111.38.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[298.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 398'
-  server: 66.163.112.147
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: true
-  udp: true
-- name: '[313.1ms +/-2ms] ss-149.40.57.134'
-  server: 149.40.57.134
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[319.4ms +/-1ms] ss-193.151.160.18'
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[369.4ms +/-0ms] ss-38.22.17.219'
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[344.8ms +/-3ms] ss-167.88.63.99'
-  server: 167.88.63.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[361.7ms +/-1ms] ss-185.230.230.18'
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[324.2ms +/-1ms] ss-193.151.160.9'
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[325.2ms +/-0ms] ss-169.197.140.247'
-  server: 169.197.140.247
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[357.3ms +/-1ms] ss-15.204.247.206'
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: '[356.4ms +/-1ms] ss-38.22.17.129'
-  server: 38.22.17.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[290.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
-  server: 170.101.101.19
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[238.3ms +/-7ms] 4Kian-9cb85f9a48'
-  server: 88.216.195.188
-  port: 443
-  type: hysteria2
-  password: 63e1b9462d708b56d5d5a0267cffecdc
-  sni: promo3.goonars.com
-  skip-cert-verify: true
-- name: '[257.5ms +/-0ms] 🇺🇸'
-  server: 38.145.220.193
-  port: 8443
-  type: ss
-  cipher: 2022-blake3-aes-128-gcm
-  password: jUbDNsFamcyDfpm+rI3Zyw==
-  udp: true
-- name: '[337.4ms +/-1ms] ss-38.91.107.57'
-  server: 38.91.107.57
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[354.5ms +/-0ms] @DeltaKroneckerGithub'
-  server: 51.79.64.198
-  port: 8119
-  type: ss
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: '[378.6ms +/-0ms] ss-38.121.43.225'
-  server: 38.121.43.225
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[371.4ms +/-0ms] ss-38.121.43.18'
-  server: 38.121.43.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[359.7ms +/-0ms] ss-172.111.36.123'
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[375.5ms +/-2ms] ss-38.22.17.139'
-  server: 38.22.17.139
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[380.4ms +/-1ms] ss-149.40.57.138'
-  server: 149.40.57.138
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[371.9ms +/-1ms] ss-38.91.100.39'
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[295.8ms +/-0ms] ss-169.197.142.68'
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [337.0ms +/-2ms] @ConfigV2RayNG
+- name: 🇺🇸 [245.2ms +/-3ms] @ConfigV2RayNG
   server: 66.163.122.46
   port: 443
   type: trojan
@@ -309,168 +10,14 @@ proxies:
   sni: 66.163.122.46
   skip-cert-verify: true
   udp: true
-- name: '[342.9ms +/-1ms] ss-23.150.152.38'
-  server: 23.150.152.38
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[344.7ms +/-0ms] 🇺🇸US-169.197.140.218-0151'
-  server: 169.197.140.218
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[367.1ms +/-0ms] ss-167.88.63.39'
-  server: 167.88.63.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[288.8ms +/-2ms] US'
-  server: 185.215.132.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[389.1ms +/-1ms] ss-38.91.107.19'
-  server: 38.91.107.19
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[342.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 326'
-  server: 169.197.140.214
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: true
-  udp: true
-- name: '[418.5ms +/-0ms] ss-162.251.62.31'
-  server: 162.251.62.31
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[403.1ms +/-6ms] ss-15.204.233.41'
-  server: 15.204.233.41
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[405.5ms +/-1ms] ss-38.91.107.188'
-  server: 38.91.107.188
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[289.0ms +/-3ms] v2go | 🇺🇸 US | TROJAN | 510'
-  server: 170.101.101.112
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[266.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 507'
-  server: 216.152.155.59
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  skip-cert-verify: true
-  udp: true
-- name: '[356.0ms +/-1ms] ss-149.40.57.135'
-  server: 149.40.57.135
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[325.5ms +/-1ms] ss-216.106.178.169'
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 [365.7ms +/-5ms] 🇺🇸
-  server: 37.19.198.243
+- name: '[240.0ms +/-16ms] @DeltaKroneckerGithub'
+  server: 37.19.198.160
   port: 443
   type: ss
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 [330.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
-  server: 170.101.101.131
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-  skip-cert-verify: true
-  udp: true
-- name: '[400.6ms +/-3ms] ss-66.163.125.120'
-  server: 66.163.125.120
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[295.8ms +/-1ms] ss-185.215.132.9'
-  server: 185.215.132.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[477.3ms +/-1ms] ss-82.38.31.61'
-  server: 82.38.31.61
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: '[245.2ms +/-1ms] ss-167.17.67.171'
-  server: 167.17.67.171
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[370.4ms +/-14ms] ss-51.222.136.236'
-  server: 51.222.136.236
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[292.2ms +/-2ms] trojan-170.101.101.237'
-  server: 170.101.101.237
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 170.101.101.237
-  skip-cert-verify: true
-  udp: true
-- name: '[324.1ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 538'
-  server: www.findlocaljobnetworkandbuildcommunityconnections.com
-  port: 443
-  type: trojan
-  password: 242a3d8eee5e4ed1a6bfa4141d549a25
-  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 [331.8ms +/-181ms] v2go | 🇺🇸 US | TROJAN |(…)
+- name: 🇺🇸 [282.1ms +/-5ms] v2go | 🇺🇸 US | TROJAN | 337
   server: 170.101.101.67
   port: 443
   type: trojan
@@ -478,52 +25,158 @@ proxies:
   sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
   skip-cert-verify: true
   udp: true
-- name: '[480.0ms +/-10ms] @DeltaKroneckerGithub'
-  server: 193.29.139.147
-  port: 8080
+- name: 🇺🇸 [253.0ms +/-39ms] 美国_1107193985+M50
+  server: 66.163.122.113
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+  udp: true
+- name: '[261.3ms +/-9ms] @DeltaKroneckerGithub'
+  server: 198.98.53.130
+  port: 443
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: eDfN7SODQceIOmIAbtJJtK
   udp: true
-- name: 🇺🇸 [319.0ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 478
-  server: 170.101.101.53
+- name: 🇺🇸 [339.3ms +/-2ms] @DeltaKroneckerGithub
+  server: 66.163.112.242
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
+  sni: 66.163.112.242
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 [368.9ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 455
-  server: 216.106.186.33
-  port: 443
-  type: trojan
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-- name: '[346.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 410'
-  server: 216.106.186.82
+- name: '[309.3ms +/-2ms] v2go | 🇺🇸 US | TROJAN | 326'
+  server: 169.197.140.214
   port: 443
   type: trojan
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.findlocaljobnetworkandbuildcommunityconnections.com
+  sni: courses.discoverfreshgraduatejobsstartyourprofessionaljourney.com
   skip-cert-verify: true
   udp: true
-- name: '[595.2ms +/-2ms] ss-38.121.43.231'
-  server: 38.121.43.231
+- name: '[260.2ms +/-2ms] 🇺🇸'
+  server: 37.19.198.244
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 [304.3ms +/-4ms] 🇺🇸
+  server: 37.19.198.243
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 [273.5ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
+  server: 170.101.101.131
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
+  skip-cert-verify: true
+  udp: true
+- name: '[225.7ms +/-0ms] ss-45.86.51.18'
+  server: 45.86.51.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[321.2ms +/-0ms] ss-167.88.62.56'
-  server: 167.88.62.56
+- name: '[250.1ms +/-3ms] ss-185.230.230.18'
+  server: 185.230.230.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[294.6ms +/-217ms] v2go | 🇺🇸 US | TROJAN | 361'
+- name: '[275.7ms +/-3ms] 🇺🇸'
+  server: 156.146.38.170
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[281.4ms +/-3ms] ss-172.111.38.72'
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[286.3ms +/-6ms] ss-193.151.163.18'
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[329.8ms +/-1ms] ss-193.151.160.18'
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[287.4ms +/-1ms] 🇺🇸'
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: '[326.8ms +/-2ms] ss-193.151.160.9'
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇺🇸 [337.7ms +/-7ms] @DeltaKroneckerGithub
+  server: 67.220.73.178
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[354.8ms +/-5ms] ss-158.51.121.221'
+  server: 158.51.121.221
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[358.5ms +/-5ms] ss-38.64.138.135'
+  server: 38.64.138.135
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[351.8ms +/-1ms] ss-38.91.107.188'
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[301.5ms +/-3ms] ss-38.91.107.57'
+  server: 38.91.107.57
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[300.2ms +/-3ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
+  server: 66.94.121.46
+  port: 443
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: 66.94.121.46
+  skip-cert-verify: true
+- name: '[434.4ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 361'
   server: 216.152.155.176
   port: 443
   type: trojan
@@ -531,28 +184,49 @@ proxies:
   sni: blog.nextjobopportunityandclaimyouridealrole.com
   skip-cert-verify: true
   udp: true
-- name: '[277.6ms +/-21ms] US'
-  server: 156.146.38.169
-  port: 443
+- name: '[412.0ms +/-4ms] ss-149.40.57.134'
+  server: 149.40.57.134
+  port: 19999
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[370.7ms +/-42ms] 4FreeIran-980fa79e9b'
-  server: 34.24.25.1
-  port: 443
-  type: hysteria2
-  password: 8dOHZ13sx33R1/PQbhTK/w==
-  sni: bing.com
-  skip-cert-verify: true
-- name: '[481.8ms +/-1ms] @DeltaKroneckerGithub'
-  server: 193.29.139.223
-  port: 8080
+- name: '[353.3ms +/-4ms] ss-162.251.62.31'
+  server: 162.251.62.31
+  port: 19999
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[281.2ms +/-1ms] US'
+- name: '[330.3ms +/-1ms] ss-167.88.62.203'
+  server: 167.88.62.203
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[367.0ms +/-1ms] ss-149.40.57.138'
+  server: 149.40.57.138
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[359.9ms +/-5ms] ss-38.91.107.19'
+  server: 38.91.107.19
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[299.8ms +/-2ms] 🇺🇸'
+  server: 38.145.220.193
+  port: 8443
+  type: ss
+  cipher: 2022-blake3-aes-128-gcm
+  password: jUbDNsFamcyDfpm+rI3Zyw==
+  udp: true
+- name: '[251.1ms +/-25ms] US'
   server: 206.189.229.48
   port: 443
   type: hysteria2
@@ -561,140 +235,424 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ZuPf4OcXKvotJdDxlTus
-- name: '[360.8ms +/-1ms] ss-38.143.66.146'
-  server: 38.143.66.146
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[416.0ms +/-1ms] ss-45.86.51.18'
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[327.2ms +/-16ms] ss-15.204.247.124'
-  server: 15.204.247.124
-  port: 2375
-  type: ss
-  cipher: aes-256-gcm
-  password: faBAoD54k87UJG7
-  udp: true
-- name: '[514.6ms +/-0ms] ss-193.108.119.3'
-  server: 193.108.119.3
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[357.9ms +/-2ms] US'
-  server: 15.204.246.132
-  port: 7307
-  type: ss
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: '[513.1ms +/-5ms] ss-185.176.204.18'
-  server: 185.176.204.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[472.9ms +/-0ms] @DeltaKroneckerGithub'
-  server: 149.88.106.73
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[537.8ms +/-1ms] @DeltaKroneckerGithub'
-  server: 82.38.31.162
+- name: 🇺🇸 [239.0ms +/-6ms] @DeltaKroneckerGithub
+  server: 37.19.198.236
   port: 443
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: '[703.0ms +/-3ms] @DeltaKroneckerGithub'
-  server: 82.38.31.47
-  port: 8080
+- name: '[244.7ms +/-5ms] ss-38.91.100.39'
+  server: 38.91.100.39
+  port: 19999
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[303.0ms +/-2ms] ss-38.128.66.32'
+- name: '[361.6ms +/-1ms] ss-167.17.67.171'
+  server: 167.17.67.171
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[272.8ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
+  server: 170.101.101.19
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
+  skip-cert-verify: true
+  udp: true
+- name: '[357.1ms +/-1ms] ss-167.88.62.56'
+  server: 167.88.62.56
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[360.9ms +/-3ms] ss-167.88.63.39'
+  server: 167.88.63.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[354.9ms +/-4ms] ss-38.128.66.32'
   server: 38.128.66.32
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[518.4ms +/-4ms] @DeltaKroneckerGithub'
-  server: 82.38.31.62
+- name: '[382.7ms +/-8ms] ss-216.106.178.169'
+  server: 216.106.178.169
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[388.3ms +/-2ms] ss-51.222.136.236'
+  server: 51.222.136.236
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: '[373.3ms +/-1ms] ss-167.88.63.99'
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[294.9ms +/-212ms] v2go | 🇺🇸 US | TROJAN | 333'
+  server: 216.152.147.74
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: api.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: true
+  udp: true
+- name: '[298.5ms +/-2ms] ss-185.215.132.9'
+  server: 185.215.132.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[354.4ms +/-0ms] ss-38.22.17.219'
+  server: 38.22.17.219
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[413.1ms +/-2ms] ss-66.163.125.120'
+  server: 66.163.125.120
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[424.4ms +/-10ms] @DeltaKroneckerGithub'
+  server: 82.38.31.47
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: '[533.5ms +/-0ms] ss-193.108.116.98'
-  server: 193.108.116.98
+- name: '[338.5ms +/-7ms] ss-23.150.152.38'
+  server: 23.150.152.38
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[535.2ms +/-1ms] ss-193.108.119.2'
-  server: 193.108.119.2
+- name: '[444.6ms +/-5ms] ss-38.121.43.231'
+  server: 38.121.43.231
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[492.9ms +/-1ms] ss-149.88.107.74'
-  server: 149.88.107.74
+- name: '[397.2ms +/-1ms] ss-172.111.36.123'
+  server: 172.111.36.123
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[537.8ms +/-7ms] ss-193.108.117.84'
-  server: 193.108.117.84
+- name: '[424.6ms +/-2ms] @DeltaKroneckerGithub'
+  server: 193.29.139.223
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[480.0ms +/-0ms] @DeltaKroneckerGithub'
+  server: 193.29.139.147
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[489.0ms +/-1ms] ss-82.38.31.61'
+  server: 82.38.31.61
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[235.9ms +/-10ms] 4Kian-9cb85f9a48'
+  server: 88.216.195.188
+  port: 443
+  type: hysteria2
+  password: 63e1b9462d708b56d5d5a0267cffecdc
+  sni: promo3.goonars.com
+  skip-cert-verify: true
+- name: '[372.7ms +/-5ms] ss-38.22.17.214'
+  server: 38.22.17.214
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[540.6ms +/-1ms] ss-167.17.64.22'
+- name: '[313.7ms +/-9ms] ss-95.215.201.18'
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[365.0ms +/-2ms] ss-38.22.17.129'
+  server: 38.22.17.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[375.1ms +/-10ms] ss-137.184.89.151'
+  server: 137.184.89.151
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[401.5ms +/-5ms] ss-169.197.142.68'
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[300.0ms +/-3ms] ss-169.197.140.247'
+  server: 169.197.140.247
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[298.7ms +/-1ms] US'
+  server: 185.215.132.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[404.6ms +/-73ms] ss-15.204.247.206'
+  server: 15.204.247.206
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: '[355.3ms +/-0ms] ss-38.22.17.139'
+  server: 38.22.17.139
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[327.5ms +/-220ms] ss-149.40.57.135'
+  server: 149.40.57.135
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[509.1ms +/-4ms] 🇩🇪05'
+  server: 45.77.54.204
+  port: 51520
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: 45.77.54.204
+  skip-cert-verify: true
+  udp: true
+- name: '[268.5ms +/-229ms] v2go | 🇺🇸 US | TROJAN | 443'
+  server: 216.152.155.131
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.nextjobopportunityandclaimyouridealrole.com
+  skip-cert-verify: true
+  udp: true
+- name: '[336.8ms +/-11ms] 4FreeIran-980fa79e9b'
+  server: 34.24.25.1
+  port: 443
+  type: hysteria2
+  password: 8dOHZ13sx33R1/PQbhTK/w==
+  sni: bing.com
+  skip-cert-verify: true
+- name: '[456.5ms +/-3ms] ss-167.17.64.27'
+  server: 167.17.64.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[465.3ms +/-1ms] ss-167.17.64.22'
   server: 167.17.64.22
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[530.5ms +/-3ms] ss-151.241.19.36'
-  server: 151.241.19.36
+- name: '[383.0ms +/-1ms] ss-15.204.233.41'
+  server: 15.204.233.41
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: '[466.6ms +/-3ms] ss-193.108.117.111'
+  server: 193.108.117.111
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[528.4ms +/-4ms] ss-23.157.88.43'
+- name: '[467.8ms +/-3ms] ss-193.108.116.98'
+  server: 193.108.116.98
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[267.4ms +/-16ms] US'
+  server: 159.89.87.21
+  port: 28190
+  type: vless
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: aws.amazon.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    short-id: ''
+  client-fingerprint: chrome
+- name: '[469.8ms +/-1ms] ss-193.108.119.83'
+  server: 193.108.119.83
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[462.9ms +/-7ms] ss-38.109.228.110'
+  server: 38.109.228.110
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 [476.1ms +/-2ms] @DeltaKroneckerGithub
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[305.1ms +/-13ms] US'
+  server: 138.197.89.234
+  port: 28960
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  udp: true
+- name: 🇳🇱 [484.6ms +/-1ms] @DeltaKroneckerGithub
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[492.3ms +/-7ms] ss-38.114.120.221'
+  server: 38.114.120.221
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[493.9ms +/-1ms] ss-193.108.117.84'
+  server: 193.108.117.84
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[493.6ms +/-3ms] ss-79.127.184.104'
+  server: 79.127.184.104
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[486.6ms +/-1ms] ss-186.190.215.251'
+  server: 186.190.215.251
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[493.9ms +/-1ms] ss-142.202.51.22'
+  server: 142.202.51.22
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[450.3ms +/-32ms] ss-149.50.215.234'
+  server: 149.50.215.234
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[487.9ms +/-12ms] ss-151.241.19.29'
+  server: 151.241.19.29
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[506.1ms +/-5ms] ss-79.127.139.242'
+  server: 79.127.139.242
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[528.5ms +/-11ms] ss-57.129.76.233'
+  server: 57.129.76.233
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[539.3ms +/-6ms] ss-23.157.88.43'
   server: 23.157.88.43
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇳🇱 [544.8ms +/-15ms] NL
+- name: '[522.0ms +/-7ms] ss-202.50.253.81'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 [447.1ms +/-1ms] NL
   server: 130.49.161.70
   port: 443
   type: hysteria2
@@ -703,421 +661,392 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: '[561.5ms +/-0ms] ss-82.110.60.9'
-  server: 82.110.60.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[414.8ms +/-0ms] FR'
-  server: 62.210.124.146
-  port: 22000
-  type: hysteria2
-  password: dongtaiwang.com
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: '[530.4ms +/-0ms] ss-149.88.106.74'
-  server: 149.88.106.74
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[551.4ms +/-0ms] ss-151.241.19.29'
-  server: 151.241.19.29
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[571.8ms +/-2ms] ss-62.93.179.117'
-  server: 62.93.179.117
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[584.5ms +/-1ms] ss-79.137.99.183'
-  server: 79.137.99.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[576.8ms +/-1ms] ss-202.50.253.27'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[587.9ms +/-1ms] ss-202.50.253.90'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[587.8ms +/-0ms] ss-149.50.215.234'
-  server: 149.50.215.234
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[605.6ms +/-1ms] ss-193.108.119.83'
-  server: 193.108.119.83
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[592.5ms +/-0ms] ss-79.127.139.242'
-  server: 79.127.139.242
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[580.3ms +/-1ms] ss-202.50.253.36'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[606.4ms +/-0ms] ss-193.108.118.247'
-  server: 193.108.118.247
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[593.9ms +/-1ms] ss-138.199.55.243'
-  server: 138.199.55.243
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[589.1ms +/-3ms] ss-23.166.88.127'
-  server: 23.166.88.127
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[286.1ms +/-3ms] US'
-  server: 173.244.56.9
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[622.9ms +/-1ms] ss-198.244.202.215'
+- name: '[567.8ms +/-3ms] ss-198.244.202.215'
   server: 198.244.202.215
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[604.4ms +/-6ms] ss-38.109.228.110'
-  server: 38.109.228.110
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[591.6ms +/-20ms] ss-202.50.253.63'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[584.3ms +/-8ms] ss-186.190.215.251'
-  server: 186.190.215.251
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[635.8ms +/-0ms] ss-57.129.83.85'
-  server: 57.129.83.85
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[601.3ms +/-1ms] ss-51.79.228.131'
-  server: 51.79.228.131
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[599.8ms +/-1ms] ss-15.235.164.133'
-  server: 15.235.164.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[639.5ms +/-1ms] ss-167.17.64.27'
-  server: 167.17.64.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[600.0ms +/-3ms] @DeltaKroneckerGithub'
-  server: 15.235.182.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[602.9ms +/-3ms] ss-202.50.253.54'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[653.5ms +/-0ms] ss-79.127.184.104'
-  server: 79.127.184.104
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[872.0ms +/-4ms] ss-38.22.17.214'
-  server: 38.22.17.214
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[635.4ms +/-3ms] ss-38.114.120.221'
-  server: 38.114.120.221
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[333.6ms +/-5ms] CA'
-  server: 149.22.95.183
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: '[649.2ms +/-2ms] ss-185.176.206.9'
+- name: '[409.3ms +/-1ms] FR'
+  server: 62.210.124.146
+  port: 22000
+  type: hysteria2
+  password: dongtaiwang.com
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: '[570.3ms +/-5ms] ss-185.176.206.9'
   server: 185.176.206.9
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[461.2ms +/-1ms] @FarazV2ray '
-  server: 67.220.95.3
-  port: 18000
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: aes-128-gcm
-  udp: true
-- name: '[627.3ms +/-0ms] ss-23.166.88.189'
-  server: 23.166.88.189
+- name: '[567.3ms +/-5ms] ss-193.108.118.247'
+  server: 193.108.118.247
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[670.8ms +/-0ms] ss-142.202.51.22'
-  server: 142.202.51.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[244.5ms +/-0ms] US'
-  server: 49.51.39.148
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: LCvps-199-168-136-193-bak8443
-  udp: true
-- name: '[364.9ms +/-0ms] US'
-  server: 107.173.237.146
-  port: 8443
-  type: vless
-  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
-  udp: true
-  tls: true
-  servername: updates.cdn-apple.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
-    short-id: df8611c07d
-  client-fingerprint: chrome
-- name: '[490.7ms +/-6ms] 4Mohsen-9ff156e3cc'
-  server: 95.143.196.97
-  port: 443
-  type: hysteria2
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  sni: se.mimowhat.online
-  skip-cert-verify: true
-- name: '[669.6ms +/-5ms] ss-84.20.27.183'
-  server: 84.20.27.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[628.3ms +/-5ms] ss-23.162.152.22'
-  server: 23.162.152.22
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[693.9ms +/-1ms] ss-57.129.76.233'
-  server: 57.129.76.233
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[663.8ms +/-8ms] ss-167.17.64.175'
+- name: '[512.9ms +/-34ms] ss-167.17.64.175'
   server: 167.17.64.175
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[645.8ms +/-25ms] ss-202.50.253.81'
-  server: 202.50.253.81
+- name: '[516.8ms +/-32ms] ss-151.241.19.36'
+  server: 151.241.19.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[659.3ms +/-23ms] ss-202.50.253.45'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[566.9ms +/-0ms] DE'
-  server: 185.226.172.8
-  port: 8008
-  type: ss
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: '[582.3ms +/-1ms] AT'
-  server: 152.53.1.57
-  port: 8388
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  udp: true
-- name: '[621.7ms +/-1ms] ss-172.99.189.142'
+- name: '[495.8ms +/-2ms] ss-172.99.189.142'
   server: 172.99.189.142
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 [572.8ms +/-8ms] IT
-  server: 185.164.175.81
+- name: '[569.9ms +/-1ms] ss-62.93.179.117'
+  server: 62.93.179.117
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[549.9ms +/-2ms] 🇩🇪05'
-  server: 45.77.54.204
-  port: 51520
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: 45.77.54.204
-  skip-cert-verify: true
-  udp: true
-- name: '[575.5ms +/-3ms] ss-167.17.71.167'
-  server: 167.17.71.167
+- name: '[495.4ms +/-44ms] ss-138.199.55.243'
+  server: 138.199.55.243
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  server: 202.50.253.99
+- name: '[544.1ms +/-18ms] ss-23.162.152.22'
+  server: 23.162.152.22
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[564.0ms +/-0ms] ss-202.50.253.18'
-  server: 202.50.253.18
+- name: '[561.5ms +/-1ms] ss-84.20.27.183'
+  server: 84.20.27.183
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[566.0ms +/-2ms] ss-66.163.118.103'
-  server: 66.163.118.103
+- name: '[584.3ms +/-1ms] ss-23.166.88.189'
+  server: 23.166.88.189
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[860.0ms +/-1ms] ss-62.93.179.97'
-  server: 62.93.179.97
+- name: '[599.4ms +/-8ms] ss-185.176.204.18'
+  server: 185.176.204.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[841.0ms +/-15ms] ss-15.204.246.108'
-  server: 15.204.246.108
-  port: 8881
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[834.0ms +/-2ms] ss-149.88.107.47'
+- name: '[542.1ms +/-1ms] ss-149.88.107.47'
   server: 149.88.107.47
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[691.6ms +/-5ms] 4Mohsen-30302633ac'
+- name: '[602.1ms +/-4ms] ss-202.50.253.36'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇬 [547.8ms +/-0ms] @DeltaKroneckerGithub
+  server: 149.88.106.73
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[547.2ms +/-48ms] ss-82.110.60.9'
+  server: 82.110.60.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[540.2ms +/-46ms] ss-62.93.179.97'
+  server: 62.93.179.97
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇳🇱 [421.3ms +/-0ms] NL
+  server: 193.29.139.235
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[555.5ms +/-2ms] ss-149.88.107.74'
+  server: 149.88.107.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[419.4ms +/-1ms] NL'
+  server: 82.38.31.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[593.5ms +/-10ms] ss-23.166.88.127'
+  server: 23.166.88.127
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[434.4ms +/-3ms] NO'
+  server: 185.213.23.63
+  port: 990
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: '[575.8ms +/-2ms] ss-198.244.201.129'
+  server: 198.244.201.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[442.5ms +/-1ms] NL'
+  server: 82.38.31.220
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[534.6ms +/-1ms] ss-202.50.253.18'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[436.6ms +/-2ms] NL'
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[630.2ms +/-1ms] ss-51.79.228.131'
+  server: 51.79.228.131
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[477.1ms +/-1ms] NL'
+  server: 82.38.31.157
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[533.6ms +/-31ms] ss-66.163.118.103'
+  server: 66.163.118.103
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[490.4ms +/-1ms] NL'
+  server: 82.38.31.165
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[637.4ms +/-3ms] ss-15.235.164.133'
+  server: 15.235.164.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[497.5ms +/-1ms] NL'
+  server: 82.38.31.171
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[481.7ms +/-5ms] NL'
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇸🇬 [651.9ms +/-0ms] @DeltaKroneckerGithub
+  server: 15.235.182.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[649.0ms +/-5ms] ss-149.88.106.74'
+  server: 149.88.106.74
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [502.3ms +/-0ms] IT
+  server: 185.164.175.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[404.2ms +/-6ms] US'
+  server: 216.105.168.18
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: bQZl7HDxSabr1FurTYQHFU
+  udp: true
+- name: '[312.4ms +/-16ms] US'
+  server: 49.51.39.148
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: LCvps-199-168-136-193-bak8443
+  udp: true
+- name: '[474.7ms +/-1ms] 4Mohsen-30302633ac'
   server: 5.129.235.85
   port: 443
   type: hysteria2
   password: gf1:gfhysteria2024
   sni: 5.129.235.85
   skip-cert-verify: true
-- name: '[534.7ms +/-1ms] CA'
-  server: 51.222.200.165
-  port: 5000
+- name: '[525.8ms +/-3ms] AT'
+  server: 152.53.1.57
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  udp: true
+- name: '[419.7ms +/-2ms] NL'
+  server: 193.29.139.234
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: '[408.0ms +/-63ms] US'
+  server: 15.204.246.132
+  port: 7307
   type: ss
   cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  password: FoOiGlkAA9yPEGP
   udp: true
-- name: '[954.6ms +/-0ms] ss-193.108.117.111'
-  server: 193.108.117.111
+- name: '[570.3ms +/-7ms] ss-167.17.71.167'
+  server: 167.17.71.167
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[725.6ms +/-2ms] NL 🇳🇱 | @Raydikalx | D31478'
+- name: '[517.2ms +/-184ms] ss-193.108.119.2'
+  server: 193.108.119.2
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[549.5ms +/-25ms] NL'
+  server: 82.38.31.170
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: '[568.8ms +/-162ms] ss-193.108.119.3'
+  server: 193.108.119.3
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[605.3ms +/-154ms] ss-202.50.253.54'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[600.7ms +/-159ms] ss-202.50.253.45'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[622.8ms +/-1ms] DE'
+  server: 185.226.172.8
+  port: 8008
+  type: ss
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: '[523.9ms +/-2ms] 4Jadi-ef994c815f'
+  server: 185.156.44.99
+  port: 443
+  type: hysteria2
+  password: gf1:gfhysteria2024
+  sni: 185.156.44.99
+  skip-cert-verify: true
+- name: '[553.2ms +/-225ms] ss-202.50.253.90'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[580.5ms +/-212ms] ss-202.50.253.27'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[740.3ms +/-0ms] NL'
+  server: 82.38.31.219
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: '[632.3ms +/-9ms] NL 🇳🇱 | @Raydikalx | D31478'
   server: 45.90.106.24
   port: 1234
   type: vmess
@@ -1128,14 +1057,56 @@ proxies:
   tls: true
   servername: 45.90.106.24
   skip-cert-verify: true
-- name: 🇰🇷 [661.4ms +/-71ms] ss-141.164.45.187
+- name: '[506.6ms +/-25ms] NL'
+  server: 185.4.115.146
+  port: 8044
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: H4JHkHU2pIRZ1sbruQ-p39Grh1z6nxY8
+  udp: true
+- name: '[638.0ms +/-70ms] CA'
+  server: 51.222.200.165
+  port: 5000
+  type: ss
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: '[1559.2ms +/-2ms] ss-38.121.43.18'
+  server: 38.121.43.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[710.5ms +/-118ms] ss-15.204.247.244'
+  server: 15.204.247.244
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇩🇪 [756.5ms +/-24ms] @DeltaKroneckerGithub
+  server: 57.129.113.16
+  port: 8388
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
+  udp: true
+- name: 🇰🇷 [860.0ms +/-20ms] ss-141.164.45.187
   server: 141.164.45.187
   port: 8119
   type: ss
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+- name: '[608.0ms +/-24ms] RU'
+  server: 185.22.153.117
+  port: 18443
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  udp: true
+- name: '[571.3ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
   server: 152.67.115.203
   port: 443
   type: hysteria2
@@ -1144,103 +1115,61 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: '[676.2ms +/-206ms] v2go | 🇸🇪 SE | TROJAN | 516'
+- name: '[687.4ms +/-60ms] 4Mohsen-9ff156e3cc'
   server: 95.143.196.97
   port: 443
-  type: trojan
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
-  sni: connect-se.mimowhat.online
+  type: hysteria2
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
   skip-cert-verify: true
-  udp: true
-- name: '[1799.3ms +/-43ms] @DeltaKroneckerGithub'
-  server: 198.98.53.130
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: '[906.7ms +/-15ms] ss-51.79.49.116'
-  server: 51.79.49.116
-  port: 8882
-  type: ss
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: '[1167.0ms +/-14ms] 🇨🇦CA-216.152.147.89-0590'
-  server: 216.152.147.89
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 216.152.147.89
-  skip-cert-verify: true
-  udp: true
-- name: '[582.0ms +/-97ms] NL'
-  server: 193.29.139.234
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: '[1426.1ms +/-30ms] v2go | 🇺🇸 US | TROJAN | 333'
-  server: 216.152.147.74
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇦 [1097.6ms +/-3ms] 🇨🇦CA-216.152.147.93-0589
-  server: 216.152.147.93
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇦 [1204.4ms +/-13ms] 🇨🇦CA-216.152.147.152-0592
-  server: 216.152.147.152
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 216.152.147.152
-  skip-cert-verify: true
-  udp: true
-- name: '[702.6ms +/-57ms] NL'
-  server: 104.239.12.81
-  port: 43385
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  udp: true
-- name: '[2184.1ms +/-0ms] ss-198.244.201.129'
-  server: 198.244.201.129
+- name: '[926.8ms +/-153ms] ss-202.50.253.63'
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇦 [1275.1ms +/-204ms] 🇨🇦CA-216.152.147.201-3037
-  server: 216.152.147.201
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: 216.152.147.201
-  skip-cert-verify: true
-  udp: true
-- name: '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
-  server: 136.243.249.198
-  port: 443
+- name: '[1055.9ms +/-129ms] ss-15.204.246.108'
+  server: 15.204.246.108
+  port: 8881
   type: ss
   cipher: aes-256-gcm
-  password: h8j6e3xuihn2epl9
+  password: kDWvXYZoTBcGkC4
   udp: true
-- name: '[1825.8ms +/-296ms] v2go | 🇨🇭 CH | TROJAN | 458'
-  server: 208.69.78.158
+- name: '[1481.2ms +/-1ms] ZA'
+  server: 102.37.156.224
   port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
+  udp: true
+- name: '[1037.0ms +/-20ms] NL'
+  server: 77.221.132.206
+  port: 24759
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: hCgbUnMaoAfSgvE8IKdnGu
+  udp: true
+- name: '[1098.5ms +/-104ms] NL'
+  server: 194.87.233.93
+  port: 46190
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe
+  udp: true
+- name: '[1650.3ms +/-394ms] ss-79.137.99.183'
+  server: 79.137.99.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[ 75.8ms +/-0ms] ss-38.121.43.225'
+  server: 38.121.43.225
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 proxy-groups:
 - name: 🚀 Proxy
@@ -1248,533 +1177,525 @@ proxy-groups:
   proxies:
   - ♻️ Auto
   - 其他
-  - 🇨🇦 加拿大
+  - 🇮🇹 其他
+  - 🇳🇱 荷兰
+  - 🇸🇬 新加坡
   - 🇺🇸 美国
-  - '[315.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[232.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[240.3ms +/-3ms] 🇺🇸'
-  - '[290.4ms +/-0ms] 🇺🇸'
-  - '[276.3ms +/-58ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
-  - '[287.8ms +/-1ms] ss-167.88.62.203'
-  - 🇺🇸 [319.6ms +/-1ms] @DeltaKroneckerGithub
-  - 🇺🇸 [497.0ms +/-0ms] 4FreeIran-0958623ccb
-  - '[302.1ms +/-1ms] 🇺🇸'
-  - '[330.4ms +/-1ms] ss-38.64.138.135'
-  - '[237.6ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 443'
-  - '[320.4ms +/-7ms] @DeltaKroneckerGithub'
-  - '[246.7ms +/-2ms] ss-137.184.89.151'
-  - '[303.8ms +/-0ms] ss-193.151.163.18'
-  - 🇺🇸 [324.3ms +/-0ms] 美国_1107193985+M50
-  - '[377.9ms +/-1ms] ss-158.51.121.221'
-  - '[277.2ms +/-0ms] ss-95.215.201.18'
-  - '[349.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 531'
-  - '[302.4ms +/-1ms] ss-172.111.38.72'
-  - '[298.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 398'
-  - '[313.1ms +/-2ms] ss-149.40.57.134'
-  - '[319.4ms +/-1ms] ss-193.151.160.18'
-  - '[369.4ms +/-0ms] ss-38.22.17.219'
-  - '[344.8ms +/-3ms] ss-167.88.63.99'
-  - '[361.7ms +/-1ms] ss-185.230.230.18'
-  - '[324.2ms +/-1ms] ss-193.151.160.9'
-  - '[325.2ms +/-0ms] ss-169.197.140.247'
-  - '[357.3ms +/-1ms] ss-15.204.247.206'
-  - '[356.4ms +/-1ms] ss-38.22.17.129'
-  - '[290.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
-  - '[238.3ms +/-7ms] 4Kian-9cb85f9a48'
-  - '[257.5ms +/-0ms] 🇺🇸'
-  - '[337.4ms +/-1ms] ss-38.91.107.57'
-  - '[354.5ms +/-0ms] @DeltaKroneckerGithub'
-  - '[378.6ms +/-0ms] ss-38.121.43.225'
-  - '[371.4ms +/-0ms] ss-38.121.43.18'
-  - '[359.7ms +/-0ms] ss-172.111.36.123'
-  - '[375.5ms +/-2ms] ss-38.22.17.139'
-  - '[380.4ms +/-1ms] ss-149.40.57.138'
-  - '[371.9ms +/-1ms] ss-38.91.100.39'
-  - '[295.8ms +/-0ms] ss-169.197.142.68'
-  - 🇺🇸 [337.0ms +/-2ms] @ConfigV2RayNG
-  - '[342.9ms +/-1ms] ss-23.150.152.38'
-  - '[344.7ms +/-0ms] 🇺🇸US-169.197.140.218-0151'
-  - '[367.1ms +/-0ms] ss-167.88.63.39'
-  - '[288.8ms +/-2ms] US'
-  - '[389.1ms +/-1ms] ss-38.91.107.19'
-  - '[342.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 326'
-  - '[418.5ms +/-0ms] ss-162.251.62.31'
-  - '[403.1ms +/-6ms] ss-15.204.233.41'
-  - '[405.5ms +/-1ms] ss-38.91.107.188'
-  - '[289.0ms +/-3ms] v2go | 🇺🇸 US | TROJAN | 510'
-  - '[266.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 507'
-  - '[356.0ms +/-1ms] ss-149.40.57.135'
-  - '[325.5ms +/-1ms] ss-216.106.178.169'
-  - 🇺🇸 [365.7ms +/-5ms] 🇺🇸
-  - 🇺🇸 [330.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
-  - '[400.6ms +/-3ms] ss-66.163.125.120'
-  - '[295.8ms +/-1ms] ss-185.215.132.9'
-  - '[477.3ms +/-1ms] ss-82.38.31.61'
-  - '[245.2ms +/-1ms] ss-167.17.67.171'
-  - '[370.4ms +/-14ms] ss-51.222.136.236'
-  - '[292.2ms +/-2ms] trojan-170.101.101.237'
-  - '[324.1ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 538'
-  - 🇺🇸 [331.8ms +/-181ms] v2go | 🇺🇸 US | TROJAN |(…)
-  - '[480.0ms +/-10ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [319.0ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 478
-  - 🇺🇸 [368.9ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 455
-  - '[346.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 410'
-  - '[595.2ms +/-2ms] ss-38.121.43.231'
-  - '[321.2ms +/-0ms] ss-167.88.62.56'
-  - '[294.6ms +/-217ms] v2go | 🇺🇸 US | TROJAN | 361'
-  - '[277.6ms +/-21ms] US'
-  - '[370.7ms +/-42ms] 4FreeIran-980fa79e9b'
-  - '[481.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.2ms +/-1ms] US'
-  - '[360.8ms +/-1ms] ss-38.143.66.146'
-  - '[416.0ms +/-1ms] ss-45.86.51.18'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[327.2ms +/-16ms] ss-15.204.247.124'
-  - '[514.6ms +/-0ms] ss-193.108.119.3'
-  - '[357.9ms +/-2ms] US'
-  - '[513.1ms +/-5ms] ss-185.176.204.18'
-  - '[472.9ms +/-0ms] @DeltaKroneckerGithub'
-  - '[537.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[703.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[303.0ms +/-2ms] ss-38.128.66.32'
-  - '[518.4ms +/-4ms] @DeltaKroneckerGithub'
-  - '[533.5ms +/-0ms] ss-193.108.116.98'
-  - '[535.2ms +/-1ms] ss-193.108.119.2'
-  - '[492.9ms +/-1ms] ss-149.88.107.74'
-  - '[537.8ms +/-7ms] ss-193.108.117.84'
-  - '[540.6ms +/-1ms] ss-167.17.64.22'
-  - '[530.5ms +/-3ms] ss-151.241.19.36'
-  - '[528.4ms +/-4ms] ss-23.157.88.43'
-  - 🇳🇱 [544.8ms +/-15ms] NL
-  - '[561.5ms +/-0ms] ss-82.110.60.9'
-  - '[414.8ms +/-0ms] FR'
-  - '[530.4ms +/-0ms] ss-149.88.106.74'
-  - '[551.4ms +/-0ms] ss-151.241.19.29'
-  - '[571.8ms +/-2ms] ss-62.93.179.117'
-  - '[584.5ms +/-1ms] ss-79.137.99.183'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[587.8ms +/-0ms] ss-149.50.215.234'
-  - '[605.6ms +/-1ms] ss-193.108.119.83'
-  - '[592.5ms +/-0ms] ss-79.127.139.242'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[606.4ms +/-0ms] ss-193.108.118.247'
-  - '[593.9ms +/-1ms] ss-138.199.55.243'
-  - '[589.1ms +/-3ms] ss-23.166.88.127'
-  - '[286.1ms +/-3ms] US'
-  - '[622.9ms +/-1ms] ss-198.244.202.215'
-  - '[604.4ms +/-6ms] ss-38.109.228.110'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[584.3ms +/-8ms] ss-186.190.215.251'
-  - '[635.8ms +/-0ms] ss-57.129.83.85'
-  - '[601.3ms +/-1ms] ss-51.79.228.131'
-  - '[599.8ms +/-1ms] ss-15.235.164.133'
-  - '[639.5ms +/-1ms] ss-167.17.64.27'
-  - '[600.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[653.5ms +/-0ms] ss-79.127.184.104'
-  - '[872.0ms +/-4ms] ss-38.22.17.214'
-  - '[635.4ms +/-3ms] ss-38.114.120.221'
-  - '[333.6ms +/-5ms] CA'
-  - '[649.2ms +/-2ms] ss-185.176.206.9'
-  - '[461.2ms +/-1ms] @FarazV2ray '
-  - '[627.3ms +/-0ms] ss-23.166.88.189'
-  - '[670.8ms +/-0ms] ss-142.202.51.22'
-  - '[244.5ms +/-0ms] US'
-  - '[364.9ms +/-0ms] US'
-  - '[490.7ms +/-6ms] 4Mohsen-9ff156e3cc'
-  - '[669.6ms +/-5ms] ss-84.20.27.183'
-  - '[628.3ms +/-5ms] ss-23.162.152.22'
-  - '[693.9ms +/-1ms] ss-57.129.76.233'
-  - '[663.8ms +/-8ms] ss-167.17.64.175'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.9ms +/-0ms] DE'
-  - '[582.3ms +/-1ms] AT'
-  - '[621.7ms +/-1ms] ss-172.99.189.142'
-  - 🇮🇹 [572.8ms +/-8ms] IT
-  - '[549.9ms +/-2ms] 🇩🇪05'
-  - '[575.5ms +/-3ms] ss-167.17.71.167'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[566.0ms +/-2ms] ss-66.163.118.103'
-  - '[860.0ms +/-1ms] ss-62.93.179.97'
-  - '[841.0ms +/-15ms] ss-15.204.246.108'
-  - '[834.0ms +/-2ms] ss-149.88.107.47'
-  - '[691.6ms +/-5ms] 4Mohsen-30302633ac'
-  - '[534.7ms +/-1ms] CA'
-  - '[954.6ms +/-0ms] ss-193.108.117.111'
-  - '[725.6ms +/-2ms] NL 🇳🇱 | @Raydikalx | D31478'
-  - 🇰🇷 [661.4ms +/-71ms] ss-141.164.45.187
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[676.2ms +/-206ms] v2go | 🇸🇪 SE | TROJAN | 516'
-  - '[1799.3ms +/-43ms] @DeltaKroneckerGithub'
-  - '[906.7ms +/-15ms] ss-51.79.49.116'
-  - '[1167.0ms +/-14ms] 🇨🇦CA-216.152.147.89-0590'
-  - '[582.0ms +/-97ms] NL'
-  - '[1426.1ms +/-30ms] v2go | 🇺🇸 US | TROJAN | 333'
-  - 🇨🇦 [1097.6ms +/-3ms] 🇨🇦CA-216.152.147.93-0589
-  - 🇨🇦 [1204.4ms +/-13ms] 🇨🇦CA-216.152.147.152-0592
-  - '[702.6ms +/-57ms] NL'
-  - '[2184.1ms +/-0ms] ss-198.244.201.129'
-  - 🇨🇦 [1275.1ms +/-204ms] 🇨🇦CA-216.152.147.201-3037
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
-  - '[1825.8ms +/-296ms] v2go | 🇨🇭 CH | TROJAN | 458'
+  - 🇺🇸 [245.2ms +/-3ms] @ConfigV2RayNG
+  - '[240.0ms +/-16ms] @DeltaKroneckerGithub'
+  - 🇺🇸 [282.1ms +/-5ms] v2go | 🇺🇸 US | TROJAN | 337
+  - 🇺🇸 [253.0ms +/-39ms] 美国_1107193985+M50
+  - '[261.3ms +/-9ms] @DeltaKroneckerGithub'
+  - 🇺🇸 [339.3ms +/-2ms] @DeltaKroneckerGithub
+  - '[309.3ms +/-2ms] v2go | 🇺🇸 US | TROJAN | 326'
+  - '[260.2ms +/-2ms] 🇺🇸'
+  - 🇺🇸 [304.3ms +/-4ms] 🇺🇸
+  - 🇺🇸 [273.5ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
+  - '[225.7ms +/-0ms] ss-45.86.51.18'
+  - '[250.1ms +/-3ms] ss-185.230.230.18'
+  - '[275.7ms +/-3ms] 🇺🇸'
+  - '[281.4ms +/-3ms] ss-172.111.38.72'
+  - '[286.3ms +/-6ms] ss-193.151.163.18'
+  - '[329.8ms +/-1ms] ss-193.151.160.18'
+  - '[287.4ms +/-1ms] 🇺🇸'
+  - '[326.8ms +/-2ms] ss-193.151.160.9'
+  - 🇺🇸 [337.7ms +/-7ms] @DeltaKroneckerGithub
+  - '[354.8ms +/-5ms] ss-158.51.121.221'
+  - '[358.5ms +/-5ms] ss-38.64.138.135'
+  - '[351.8ms +/-1ms] ss-38.91.107.188'
+  - '[301.5ms +/-3ms] ss-38.91.107.57'
+  - '[300.2ms +/-3ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
+  - '[434.4ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 361'
+  - '[412.0ms +/-4ms] ss-149.40.57.134'
+  - '[353.3ms +/-4ms] ss-162.251.62.31'
+  - '[330.3ms +/-1ms] ss-167.88.62.203'
+  - '[367.0ms +/-1ms] ss-149.40.57.138'
+  - '[359.9ms +/-5ms] ss-38.91.107.19'
+  - '[299.8ms +/-2ms] 🇺🇸'
+  - '[251.1ms +/-25ms] US'
+  - 🇺🇸 [239.0ms +/-6ms] @DeltaKroneckerGithub
+  - '[244.7ms +/-5ms] ss-38.91.100.39'
+  - '[361.6ms +/-1ms] ss-167.17.67.171'
+  - '[272.8ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
+  - '[357.1ms +/-1ms] ss-167.88.62.56'
+  - '[360.9ms +/-3ms] ss-167.88.63.39'
+  - '[354.9ms +/-4ms] ss-38.128.66.32'
+  - '[382.7ms +/-8ms] ss-216.106.178.169'
+  - '[388.3ms +/-2ms] ss-51.222.136.236'
+  - '[373.3ms +/-1ms] ss-167.88.63.99'
+  - '[294.9ms +/-212ms] v2go | 🇺🇸 US | TROJAN | 333'
+  - '[298.5ms +/-2ms] ss-185.215.132.9'
+  - '[354.4ms +/-0ms] ss-38.22.17.219'
+  - '[413.1ms +/-2ms] ss-66.163.125.120'
+  - '[424.4ms +/-10ms] @DeltaKroneckerGithub'
+  - '[338.5ms +/-7ms] ss-23.150.152.38'
+  - '[444.6ms +/-5ms] ss-38.121.43.231'
+  - '[397.2ms +/-1ms] ss-172.111.36.123'
+  - '[424.6ms +/-2ms] @DeltaKroneckerGithub'
+  - '[480.0ms +/-0ms] @DeltaKroneckerGithub'
+  - '[489.0ms +/-1ms] ss-82.38.31.61'
+  - '[235.9ms +/-10ms] 4Kian-9cb85f9a48'
+  - '[372.7ms +/-5ms] ss-38.22.17.214'
+  - '[313.7ms +/-9ms] ss-95.215.201.18'
+  - '[365.0ms +/-2ms] ss-38.22.17.129'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[375.1ms +/-10ms] ss-137.184.89.151'
+  - '[401.5ms +/-5ms] ss-169.197.142.68'
+  - '[300.0ms +/-3ms] ss-169.197.140.247'
+  - '[298.7ms +/-1ms] US'
+  - '[404.6ms +/-73ms] ss-15.204.247.206'
+  - '[355.3ms +/-0ms] ss-38.22.17.139'
+  - '[327.5ms +/-220ms] ss-149.40.57.135'
+  - '[509.1ms +/-4ms] 🇩🇪05'
+  - '[268.5ms +/-229ms] v2go | 🇺🇸 US | TROJAN | 443'
+  - '[336.8ms +/-11ms] 4FreeIran-980fa79e9b'
+  - '[456.5ms +/-3ms] ss-167.17.64.27'
+  - '[465.3ms +/-1ms] ss-167.17.64.22'
+  - '[383.0ms +/-1ms] ss-15.204.233.41'
+  - '[466.6ms +/-3ms] ss-193.108.117.111'
+  - '[467.8ms +/-3ms] ss-193.108.116.98'
+  - '[267.4ms +/-16ms] US'
+  - '[469.8ms +/-1ms] ss-193.108.119.83'
+  - '[462.9ms +/-7ms] ss-38.109.228.110'
+  - 🇳🇱 [476.1ms +/-2ms] @DeltaKroneckerGithub
+  - '[305.1ms +/-13ms] US'
+  - 🇳🇱 [484.6ms +/-1ms] @DeltaKroneckerGithub
+  - '[492.3ms +/-7ms] ss-38.114.120.221'
+  - '[493.9ms +/-1ms] ss-193.108.117.84'
+  - '[493.6ms +/-3ms] ss-79.127.184.104'
+  - '[486.6ms +/-1ms] ss-186.190.215.251'
+  - '[493.9ms +/-1ms] ss-142.202.51.22'
+  - '[450.3ms +/-32ms] ss-149.50.215.234'
+  - '[487.9ms +/-12ms] ss-151.241.19.29'
+  - '[506.1ms +/-5ms] ss-79.127.139.242'
+  - '[528.5ms +/-11ms] ss-57.129.76.233'
+  - '[539.3ms +/-6ms] ss-23.157.88.43'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - 🇳🇱 [447.1ms +/-1ms] NL
+  - '[567.8ms +/-3ms] ss-198.244.202.215'
+  - '[409.3ms +/-1ms] FR'
+  - '[570.3ms +/-5ms] ss-185.176.206.9'
+  - '[567.3ms +/-5ms] ss-193.108.118.247'
+  - '[512.9ms +/-34ms] ss-167.17.64.175'
+  - '[516.8ms +/-32ms] ss-151.241.19.36'
+  - '[495.8ms +/-2ms] ss-172.99.189.142'
+  - '[569.9ms +/-1ms] ss-62.93.179.117'
+  - '[495.4ms +/-44ms] ss-138.199.55.243'
+  - '[544.1ms +/-18ms] ss-23.162.152.22'
+  - '[561.5ms +/-1ms] ss-84.20.27.183'
+  - '[584.3ms +/-1ms] ss-23.166.88.189'
+  - '[599.4ms +/-8ms] ss-185.176.204.18'
+  - '[542.1ms +/-1ms] ss-149.88.107.47'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - 🇸🇬 [547.8ms +/-0ms] @DeltaKroneckerGithub
+  - '[547.2ms +/-48ms] ss-82.110.60.9'
+  - '[540.2ms +/-46ms] ss-62.93.179.97'
+  - 🇳🇱 [421.3ms +/-0ms] NL
+  - '[555.5ms +/-2ms] ss-149.88.107.74'
+  - 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  - '[419.4ms +/-1ms] NL'
+  - '[593.5ms +/-10ms] ss-23.166.88.127'
+  - '[434.4ms +/-3ms] NO'
+  - '[575.8ms +/-2ms] ss-198.244.201.129'
+  - '[442.5ms +/-1ms] NL'
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[436.6ms +/-2ms] NL'
+  - '[630.2ms +/-1ms] ss-51.79.228.131'
+  - '[477.1ms +/-1ms] NL'
+  - '[533.6ms +/-31ms] ss-66.163.118.103'
+  - '[490.4ms +/-1ms] NL'
+  - '[637.4ms +/-3ms] ss-15.235.164.133'
+  - '[497.5ms +/-1ms] NL'
+  - '[481.7ms +/-5ms] NL'
+  - 🇸🇬 [651.9ms +/-0ms] @DeltaKroneckerGithub
+  - '[649.0ms +/-5ms] ss-149.88.106.74'
+  - 🇮🇹 [502.3ms +/-0ms] IT
+  - '[404.2ms +/-6ms] US'
+  - '[312.4ms +/-16ms] US'
+  - '[474.7ms +/-1ms] 4Mohsen-30302633ac'
+  - '[525.8ms +/-3ms] AT'
+  - '[419.7ms +/-2ms] NL'
+  - '[408.0ms +/-63ms] US'
+  - '[570.3ms +/-7ms] ss-167.17.71.167'
+  - '[517.2ms +/-184ms] ss-193.108.119.2'
+  - '[549.5ms +/-25ms] NL'
+  - '[568.8ms +/-162ms] ss-193.108.119.3'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[622.8ms +/-1ms] DE'
+  - '[523.9ms +/-2ms] 4Jadi-ef994c815f'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[580.5ms +/-212ms] ss-202.50.253.27'
+  - '[740.3ms +/-0ms] NL'
+  - '[632.3ms +/-9ms] NL 🇳🇱 | @Raydikalx | D31478'
+  - '[506.6ms +/-25ms] NL'
+  - '[638.0ms +/-70ms] CA'
+  - '[1559.2ms +/-2ms] ss-38.121.43.18'
+  - '[710.5ms +/-118ms] ss-15.204.247.244'
+  - 🇩🇪 [756.5ms +/-24ms] @DeltaKroneckerGithub
+  - 🇰🇷 [860.0ms +/-20ms] ss-141.164.45.187
+  - '[608.0ms +/-24ms] RU'
+  - '[571.3ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - '[687.4ms +/-60ms] 4Mohsen-9ff156e3cc'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
+  - '[1055.9ms +/-129ms] ss-15.204.246.108'
+  - '[1481.2ms +/-1ms] ZA'
+  - '[1037.0ms +/-20ms] NL'
+  - '[1098.5ms +/-104ms] NL'
+  - '[1650.3ms +/-394ms] ss-79.137.99.183'
+  - '[ 75.8ms +/-0ms] ss-38.121.43.225'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[315.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[232.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[240.3ms +/-3ms] 🇺🇸'
-  - '[290.4ms +/-0ms] 🇺🇸'
-  - '[276.3ms +/-58ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
-  - '[287.8ms +/-1ms] ss-167.88.62.203'
-  - 🇺🇸 [319.6ms +/-1ms] @DeltaKroneckerGithub
-  - 🇺🇸 [497.0ms +/-0ms] 4FreeIran-0958623ccb
-  - '[302.1ms +/-1ms] 🇺🇸'
-  - '[330.4ms +/-1ms] ss-38.64.138.135'
-  - '[237.6ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 443'
-  - '[320.4ms +/-7ms] @DeltaKroneckerGithub'
-  - '[246.7ms +/-2ms] ss-137.184.89.151'
-  - '[303.8ms +/-0ms] ss-193.151.163.18'
-  - 🇺🇸 [324.3ms +/-0ms] 美国_1107193985+M50
-  - '[377.9ms +/-1ms] ss-158.51.121.221'
-  - '[277.2ms +/-0ms] ss-95.215.201.18'
-  - '[349.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 531'
-  - '[302.4ms +/-1ms] ss-172.111.38.72'
-  - '[298.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 398'
-  - '[313.1ms +/-2ms] ss-149.40.57.134'
-  - '[319.4ms +/-1ms] ss-193.151.160.18'
-  - '[369.4ms +/-0ms] ss-38.22.17.219'
-  - '[344.8ms +/-3ms] ss-167.88.63.99'
-  - '[361.7ms +/-1ms] ss-185.230.230.18'
-  - '[324.2ms +/-1ms] ss-193.151.160.9'
-  - '[325.2ms +/-0ms] ss-169.197.140.247'
-  - '[357.3ms +/-1ms] ss-15.204.247.206'
-  - '[356.4ms +/-1ms] ss-38.22.17.129'
-  - '[290.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
-  - '[238.3ms +/-7ms] 4Kian-9cb85f9a48'
-  - '[257.5ms +/-0ms] 🇺🇸'
-  - '[337.4ms +/-1ms] ss-38.91.107.57'
-  - '[354.5ms +/-0ms] @DeltaKroneckerGithub'
-  - '[378.6ms +/-0ms] ss-38.121.43.225'
-  - '[371.4ms +/-0ms] ss-38.121.43.18'
-  - '[359.7ms +/-0ms] ss-172.111.36.123'
-  - '[375.5ms +/-2ms] ss-38.22.17.139'
-  - '[380.4ms +/-1ms] ss-149.40.57.138'
-  - '[371.9ms +/-1ms] ss-38.91.100.39'
-  - '[295.8ms +/-0ms] ss-169.197.142.68'
-  - 🇺🇸 [337.0ms +/-2ms] @ConfigV2RayNG
-  - '[342.9ms +/-1ms] ss-23.150.152.38'
-  - '[344.7ms +/-0ms] 🇺🇸US-169.197.140.218-0151'
-  - '[367.1ms +/-0ms] ss-167.88.63.39'
-  - '[288.8ms +/-2ms] US'
-  - '[389.1ms +/-1ms] ss-38.91.107.19'
-  - '[342.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 326'
-  - '[418.5ms +/-0ms] ss-162.251.62.31'
-  - '[403.1ms +/-6ms] ss-15.204.233.41'
-  - '[405.5ms +/-1ms] ss-38.91.107.188'
-  - '[289.0ms +/-3ms] v2go | 🇺🇸 US | TROJAN | 510'
-  - '[266.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 507'
-  - '[356.0ms +/-1ms] ss-149.40.57.135'
-  - '[325.5ms +/-1ms] ss-216.106.178.169'
-  - 🇺🇸 [365.7ms +/-5ms] 🇺🇸
-  - 🇺🇸 [330.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
-  - '[400.6ms +/-3ms] ss-66.163.125.120'
-  - '[295.8ms +/-1ms] ss-185.215.132.9'
-  - '[477.3ms +/-1ms] ss-82.38.31.61'
-  - '[245.2ms +/-1ms] ss-167.17.67.171'
-  - '[370.4ms +/-14ms] ss-51.222.136.236'
-  - '[292.2ms +/-2ms] trojan-170.101.101.237'
-  - '[324.1ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 538'
-  - 🇺🇸 [331.8ms +/-181ms] v2go | 🇺🇸 US | TROJAN |(…)
-  - '[480.0ms +/-10ms] @DeltaKroneckerGithub'
-  - 🇺🇸 [319.0ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 478
-  - 🇺🇸 [368.9ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 455
-  - '[346.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 410'
-  - '[595.2ms +/-2ms] ss-38.121.43.231'
-  - '[321.2ms +/-0ms] ss-167.88.62.56'
-  - '[294.6ms +/-217ms] v2go | 🇺🇸 US | TROJAN | 361'
-  - '[277.6ms +/-21ms] US'
-  - '[370.7ms +/-42ms] 4FreeIran-980fa79e9b'
-  - '[481.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.2ms +/-1ms] US'
-  - '[360.8ms +/-1ms] ss-38.143.66.146'
-  - '[416.0ms +/-1ms] ss-45.86.51.18'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[327.2ms +/-16ms] ss-15.204.247.124'
-  - '[514.6ms +/-0ms] ss-193.108.119.3'
-  - '[357.9ms +/-2ms] US'
-  - '[513.1ms +/-5ms] ss-185.176.204.18'
-  - '[472.9ms +/-0ms] @DeltaKroneckerGithub'
-  - '[537.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[703.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[303.0ms +/-2ms] ss-38.128.66.32'
-  - '[518.4ms +/-4ms] @DeltaKroneckerGithub'
-  - '[533.5ms +/-0ms] ss-193.108.116.98'
-  - '[535.2ms +/-1ms] ss-193.108.119.2'
-  - '[492.9ms +/-1ms] ss-149.88.107.74'
-  - '[537.8ms +/-7ms] ss-193.108.117.84'
-  - '[540.6ms +/-1ms] ss-167.17.64.22'
-  - '[530.5ms +/-3ms] ss-151.241.19.36'
-  - '[528.4ms +/-4ms] ss-23.157.88.43'
-  - 🇳🇱 [544.8ms +/-15ms] NL
-  - '[561.5ms +/-0ms] ss-82.110.60.9'
-  - '[414.8ms +/-0ms] FR'
-  - '[530.4ms +/-0ms] ss-149.88.106.74'
-  - '[551.4ms +/-0ms] ss-151.241.19.29'
-  - '[571.8ms +/-2ms] ss-62.93.179.117'
-  - '[584.5ms +/-1ms] ss-79.137.99.183'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[587.8ms +/-0ms] ss-149.50.215.234'
-  - '[605.6ms +/-1ms] ss-193.108.119.83'
-  - '[592.5ms +/-0ms] ss-79.127.139.242'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[606.4ms +/-0ms] ss-193.108.118.247'
-  - '[593.9ms +/-1ms] ss-138.199.55.243'
-  - '[589.1ms +/-3ms] ss-23.166.88.127'
-  - '[286.1ms +/-3ms] US'
-  - '[622.9ms +/-1ms] ss-198.244.202.215'
-  - '[604.4ms +/-6ms] ss-38.109.228.110'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[584.3ms +/-8ms] ss-186.190.215.251'
-  - '[635.8ms +/-0ms] ss-57.129.83.85'
-  - '[601.3ms +/-1ms] ss-51.79.228.131'
-  - '[599.8ms +/-1ms] ss-15.235.164.133'
-  - '[639.5ms +/-1ms] ss-167.17.64.27'
-  - '[600.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[653.5ms +/-0ms] ss-79.127.184.104'
-  - '[872.0ms +/-4ms] ss-38.22.17.214'
-  - '[635.4ms +/-3ms] ss-38.114.120.221'
-  - '[333.6ms +/-5ms] CA'
-  - '[649.2ms +/-2ms] ss-185.176.206.9'
-  - '[461.2ms +/-1ms] @FarazV2ray '
-  - '[627.3ms +/-0ms] ss-23.166.88.189'
-  - '[670.8ms +/-0ms] ss-142.202.51.22'
-  - '[244.5ms +/-0ms] US'
-  - '[364.9ms +/-0ms] US'
-  - '[490.7ms +/-6ms] 4Mohsen-9ff156e3cc'
-  - '[669.6ms +/-5ms] ss-84.20.27.183'
-  - '[628.3ms +/-5ms] ss-23.162.152.22'
-  - '[693.9ms +/-1ms] ss-57.129.76.233'
-  - '[663.8ms +/-8ms] ss-167.17.64.175'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.9ms +/-0ms] DE'
-  - '[582.3ms +/-1ms] AT'
-  - '[621.7ms +/-1ms] ss-172.99.189.142'
-  - 🇮🇹 [572.8ms +/-8ms] IT
-  - '[549.9ms +/-2ms] 🇩🇪05'
-  - '[575.5ms +/-3ms] ss-167.17.71.167'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[566.0ms +/-2ms] ss-66.163.118.103'
-  - '[860.0ms +/-1ms] ss-62.93.179.97'
-  - '[841.0ms +/-15ms] ss-15.204.246.108'
-  - '[834.0ms +/-2ms] ss-149.88.107.47'
-  - '[691.6ms +/-5ms] 4Mohsen-30302633ac'
-  - '[534.7ms +/-1ms] CA'
-  - '[954.6ms +/-0ms] ss-193.108.117.111'
-  - '[725.6ms +/-2ms] NL 🇳🇱 | @Raydikalx | D31478'
-  - 🇰🇷 [661.4ms +/-71ms] ss-141.164.45.187
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[676.2ms +/-206ms] v2go | 🇸🇪 SE | TROJAN | 516'
-  - '[1799.3ms +/-43ms] @DeltaKroneckerGithub'
-  - '[906.7ms +/-15ms] ss-51.79.49.116'
-  - '[1167.0ms +/-14ms] 🇨🇦CA-216.152.147.89-0590'
-  - '[582.0ms +/-97ms] NL'
-  - '[1426.1ms +/-30ms] v2go | 🇺🇸 US | TROJAN | 333'
-  - 🇨🇦 [1097.6ms +/-3ms] 🇨🇦CA-216.152.147.93-0589
-  - 🇨🇦 [1204.4ms +/-13ms] 🇨🇦CA-216.152.147.152-0592
-  - '[702.6ms +/-57ms] NL'
-  - '[2184.1ms +/-0ms] ss-198.244.201.129'
-  - 🇨🇦 [1275.1ms +/-204ms] 🇨🇦CA-216.152.147.201-3037
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
-  - '[1825.8ms +/-296ms] v2go | 🇨🇭 CH | TROJAN | 458'
+  - 🇺🇸 [245.2ms +/-3ms] @ConfigV2RayNG
+  - '[240.0ms +/-16ms] @DeltaKroneckerGithub'
+  - 🇺🇸 [282.1ms +/-5ms] v2go | 🇺🇸 US | TROJAN | 337
+  - 🇺🇸 [253.0ms +/-39ms] 美国_1107193985+M50
+  - '[261.3ms +/-9ms] @DeltaKroneckerGithub'
+  - 🇺🇸 [339.3ms +/-2ms] @DeltaKroneckerGithub
+  - '[309.3ms +/-2ms] v2go | 🇺🇸 US | TROJAN | 326'
+  - '[260.2ms +/-2ms] 🇺🇸'
+  - 🇺🇸 [304.3ms +/-4ms] 🇺🇸
+  - 🇺🇸 [273.5ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
+  - '[225.7ms +/-0ms] ss-45.86.51.18'
+  - '[250.1ms +/-3ms] ss-185.230.230.18'
+  - '[275.7ms +/-3ms] 🇺🇸'
+  - '[281.4ms +/-3ms] ss-172.111.38.72'
+  - '[286.3ms +/-6ms] ss-193.151.163.18'
+  - '[329.8ms +/-1ms] ss-193.151.160.18'
+  - '[287.4ms +/-1ms] 🇺🇸'
+  - '[326.8ms +/-2ms] ss-193.151.160.9'
+  - 🇺🇸 [337.7ms +/-7ms] @DeltaKroneckerGithub
+  - '[354.8ms +/-5ms] ss-158.51.121.221'
+  - '[358.5ms +/-5ms] ss-38.64.138.135'
+  - '[351.8ms +/-1ms] ss-38.91.107.188'
+  - '[301.5ms +/-3ms] ss-38.91.107.57'
+  - '[300.2ms +/-3ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
+  - '[434.4ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 361'
+  - '[412.0ms +/-4ms] ss-149.40.57.134'
+  - '[353.3ms +/-4ms] ss-162.251.62.31'
+  - '[330.3ms +/-1ms] ss-167.88.62.203'
+  - '[367.0ms +/-1ms] ss-149.40.57.138'
+  - '[359.9ms +/-5ms] ss-38.91.107.19'
+  - '[299.8ms +/-2ms] 🇺🇸'
+  - '[251.1ms +/-25ms] US'
+  - 🇺🇸 [239.0ms +/-6ms] @DeltaKroneckerGithub
+  - '[244.7ms +/-5ms] ss-38.91.100.39'
+  - '[361.6ms +/-1ms] ss-167.17.67.171'
+  - '[272.8ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
+  - '[357.1ms +/-1ms] ss-167.88.62.56'
+  - '[360.9ms +/-3ms] ss-167.88.63.39'
+  - '[354.9ms +/-4ms] ss-38.128.66.32'
+  - '[382.7ms +/-8ms] ss-216.106.178.169'
+  - '[388.3ms +/-2ms] ss-51.222.136.236'
+  - '[373.3ms +/-1ms] ss-167.88.63.99'
+  - '[294.9ms +/-212ms] v2go | 🇺🇸 US | TROJAN | 333'
+  - '[298.5ms +/-2ms] ss-185.215.132.9'
+  - '[354.4ms +/-0ms] ss-38.22.17.219'
+  - '[413.1ms +/-2ms] ss-66.163.125.120'
+  - '[424.4ms +/-10ms] @DeltaKroneckerGithub'
+  - '[338.5ms +/-7ms] ss-23.150.152.38'
+  - '[444.6ms +/-5ms] ss-38.121.43.231'
+  - '[397.2ms +/-1ms] ss-172.111.36.123'
+  - '[424.6ms +/-2ms] @DeltaKroneckerGithub'
+  - '[480.0ms +/-0ms] @DeltaKroneckerGithub'
+  - '[489.0ms +/-1ms] ss-82.38.31.61'
+  - '[235.9ms +/-10ms] 4Kian-9cb85f9a48'
+  - '[372.7ms +/-5ms] ss-38.22.17.214'
+  - '[313.7ms +/-9ms] ss-95.215.201.18'
+  - '[365.0ms +/-2ms] ss-38.22.17.129'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[375.1ms +/-10ms] ss-137.184.89.151'
+  - '[401.5ms +/-5ms] ss-169.197.142.68'
+  - '[300.0ms +/-3ms] ss-169.197.140.247'
+  - '[298.7ms +/-1ms] US'
+  - '[404.6ms +/-73ms] ss-15.204.247.206'
+  - '[355.3ms +/-0ms] ss-38.22.17.139'
+  - '[327.5ms +/-220ms] ss-149.40.57.135'
+  - '[509.1ms +/-4ms] 🇩🇪05'
+  - '[268.5ms +/-229ms] v2go | 🇺🇸 US | TROJAN | 443'
+  - '[336.8ms +/-11ms] 4FreeIran-980fa79e9b'
+  - '[456.5ms +/-3ms] ss-167.17.64.27'
+  - '[465.3ms +/-1ms] ss-167.17.64.22'
+  - '[383.0ms +/-1ms] ss-15.204.233.41'
+  - '[466.6ms +/-3ms] ss-193.108.117.111'
+  - '[467.8ms +/-3ms] ss-193.108.116.98'
+  - '[267.4ms +/-16ms] US'
+  - '[469.8ms +/-1ms] ss-193.108.119.83'
+  - '[462.9ms +/-7ms] ss-38.109.228.110'
+  - 🇳🇱 [476.1ms +/-2ms] @DeltaKroneckerGithub
+  - '[305.1ms +/-13ms] US'
+  - 🇳🇱 [484.6ms +/-1ms] @DeltaKroneckerGithub
+  - '[492.3ms +/-7ms] ss-38.114.120.221'
+  - '[493.9ms +/-1ms] ss-193.108.117.84'
+  - '[493.6ms +/-3ms] ss-79.127.184.104'
+  - '[486.6ms +/-1ms] ss-186.190.215.251'
+  - '[493.9ms +/-1ms] ss-142.202.51.22'
+  - '[450.3ms +/-32ms] ss-149.50.215.234'
+  - '[487.9ms +/-12ms] ss-151.241.19.29'
+  - '[506.1ms +/-5ms] ss-79.127.139.242'
+  - '[528.5ms +/-11ms] ss-57.129.76.233'
+  - '[539.3ms +/-6ms] ss-23.157.88.43'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - 🇳🇱 [447.1ms +/-1ms] NL
+  - '[567.8ms +/-3ms] ss-198.244.202.215'
+  - '[409.3ms +/-1ms] FR'
+  - '[570.3ms +/-5ms] ss-185.176.206.9'
+  - '[567.3ms +/-5ms] ss-193.108.118.247'
+  - '[512.9ms +/-34ms] ss-167.17.64.175'
+  - '[516.8ms +/-32ms] ss-151.241.19.36'
+  - '[495.8ms +/-2ms] ss-172.99.189.142'
+  - '[569.9ms +/-1ms] ss-62.93.179.117'
+  - '[495.4ms +/-44ms] ss-138.199.55.243'
+  - '[544.1ms +/-18ms] ss-23.162.152.22'
+  - '[561.5ms +/-1ms] ss-84.20.27.183'
+  - '[584.3ms +/-1ms] ss-23.166.88.189'
+  - '[599.4ms +/-8ms] ss-185.176.204.18'
+  - '[542.1ms +/-1ms] ss-149.88.107.47'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - 🇸🇬 [547.8ms +/-0ms] @DeltaKroneckerGithub
+  - '[547.2ms +/-48ms] ss-82.110.60.9'
+  - '[540.2ms +/-46ms] ss-62.93.179.97'
+  - 🇳🇱 [421.3ms +/-0ms] NL
+  - '[555.5ms +/-2ms] ss-149.88.107.74'
+  - 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  - '[419.4ms +/-1ms] NL'
+  - '[593.5ms +/-10ms] ss-23.166.88.127'
+  - '[434.4ms +/-3ms] NO'
+  - '[575.8ms +/-2ms] ss-198.244.201.129'
+  - '[442.5ms +/-1ms] NL'
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[436.6ms +/-2ms] NL'
+  - '[630.2ms +/-1ms] ss-51.79.228.131'
+  - '[477.1ms +/-1ms] NL'
+  - '[533.6ms +/-31ms] ss-66.163.118.103'
+  - '[490.4ms +/-1ms] NL'
+  - '[637.4ms +/-3ms] ss-15.235.164.133'
+  - '[497.5ms +/-1ms] NL'
+  - '[481.7ms +/-5ms] NL'
+  - 🇸🇬 [651.9ms +/-0ms] @DeltaKroneckerGithub
+  - '[649.0ms +/-5ms] ss-149.88.106.74'
+  - 🇮🇹 [502.3ms +/-0ms] IT
+  - '[404.2ms +/-6ms] US'
+  - '[312.4ms +/-16ms] US'
+  - '[474.7ms +/-1ms] 4Mohsen-30302633ac'
+  - '[525.8ms +/-3ms] AT'
+  - '[419.7ms +/-2ms] NL'
+  - '[408.0ms +/-63ms] US'
+  - '[570.3ms +/-7ms] ss-167.17.71.167'
+  - '[517.2ms +/-184ms] ss-193.108.119.2'
+  - '[549.5ms +/-25ms] NL'
+  - '[568.8ms +/-162ms] ss-193.108.119.3'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[622.8ms +/-1ms] DE'
+  - '[523.9ms +/-2ms] 4Jadi-ef994c815f'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[580.5ms +/-212ms] ss-202.50.253.27'
+  - '[740.3ms +/-0ms] NL'
+  - '[632.3ms +/-9ms] NL 🇳🇱 | @Raydikalx | D31478'
+  - '[506.6ms +/-25ms] NL'
+  - '[638.0ms +/-70ms] CA'
+  - '[1559.2ms +/-2ms] ss-38.121.43.18'
+  - '[710.5ms +/-118ms] ss-15.204.247.244'
+  - 🇩🇪 [756.5ms +/-24ms] @DeltaKroneckerGithub
+  - 🇰🇷 [860.0ms +/-20ms] ss-141.164.45.187
+  - '[608.0ms +/-24ms] RU'
+  - '[571.3ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - '[687.4ms +/-60ms] 4Mohsen-9ff156e3cc'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
+  - '[1055.9ms +/-129ms] ss-15.204.246.108'
+  - '[1481.2ms +/-1ms] ZA'
+  - '[1037.0ms +/-20ms] NL'
+  - '[1098.5ms +/-104ms] NL'
+  - '[1650.3ms +/-394ms] ss-79.137.99.183'
+  - '[ 75.8ms +/-0ms] ss-38.121.43.225'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[315.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[232.0ms +/-0ms] @DeltaKroneckerGithub'
-  - '[240.3ms +/-3ms] 🇺🇸'
-  - '[290.4ms +/-0ms] 🇺🇸'
-  - '[276.3ms +/-58ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
-  - '[287.8ms +/-1ms] ss-167.88.62.203'
-  - '[302.1ms +/-1ms] 🇺🇸'
-  - '[330.4ms +/-1ms] ss-38.64.138.135'
-  - '[237.6ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 443'
-  - '[320.4ms +/-7ms] @DeltaKroneckerGithub'
-  - '[246.7ms +/-2ms] ss-137.184.89.151'
-  - '[303.8ms +/-0ms] ss-193.151.163.18'
-  - '[377.9ms +/-1ms] ss-158.51.121.221'
-  - '[277.2ms +/-0ms] ss-95.215.201.18'
-  - '[349.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 531'
-  - '[302.4ms +/-1ms] ss-172.111.38.72'
-  - '[298.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 398'
-  - '[313.1ms +/-2ms] ss-149.40.57.134'
-  - '[319.4ms +/-1ms] ss-193.151.160.18'
-  - '[369.4ms +/-0ms] ss-38.22.17.219'
-  - '[344.8ms +/-3ms] ss-167.88.63.99'
-  - '[361.7ms +/-1ms] ss-185.230.230.18'
-  - '[324.2ms +/-1ms] ss-193.151.160.9'
-  - '[325.2ms +/-0ms] ss-169.197.140.247'
-  - '[357.3ms +/-1ms] ss-15.204.247.206'
-  - '[356.4ms +/-1ms] ss-38.22.17.129'
-  - '[290.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
-  - '[238.3ms +/-7ms] 4Kian-9cb85f9a48'
-  - '[257.5ms +/-0ms] 🇺🇸'
-  - '[337.4ms +/-1ms] ss-38.91.107.57'
-  - '[354.5ms +/-0ms] @DeltaKroneckerGithub'
-  - '[378.6ms +/-0ms] ss-38.121.43.225'
-  - '[371.4ms +/-0ms] ss-38.121.43.18'
-  - '[359.7ms +/-0ms] ss-172.111.36.123'
-  - '[375.5ms +/-2ms] ss-38.22.17.139'
-  - '[380.4ms +/-1ms] ss-149.40.57.138'
-  - '[371.9ms +/-1ms] ss-38.91.100.39'
-  - '[295.8ms +/-0ms] ss-169.197.142.68'
-  - '[342.9ms +/-1ms] ss-23.150.152.38'
-  - '[344.7ms +/-0ms] 🇺🇸US-169.197.140.218-0151'
-  - '[367.1ms +/-0ms] ss-167.88.63.39'
-  - '[288.8ms +/-2ms] US'
-  - '[389.1ms +/-1ms] ss-38.91.107.19'
-  - '[342.4ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 326'
-  - '[418.5ms +/-0ms] ss-162.251.62.31'
-  - '[403.1ms +/-6ms] ss-15.204.233.41'
-  - '[405.5ms +/-1ms] ss-38.91.107.188'
-  - '[289.0ms +/-3ms] v2go | 🇺🇸 US | TROJAN | 510'
-  - '[266.1ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 507'
-  - '[356.0ms +/-1ms] ss-149.40.57.135'
-  - '[325.5ms +/-1ms] ss-216.106.178.169'
-  - '[400.6ms +/-3ms] ss-66.163.125.120'
-  - '[295.8ms +/-1ms] ss-185.215.132.9'
-  - '[477.3ms +/-1ms] ss-82.38.31.61'
-  - '[245.2ms +/-1ms] ss-167.17.67.171'
-  - '[370.4ms +/-14ms] ss-51.222.136.236'
-  - '[292.2ms +/-2ms] trojan-170.101.101.237'
-  - '[324.1ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 538'
-  - '[480.0ms +/-10ms] @DeltaKroneckerGithub'
-  - '[346.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 410'
-  - '[595.2ms +/-2ms] ss-38.121.43.231'
-  - '[321.2ms +/-0ms] ss-167.88.62.56'
-  - '[294.6ms +/-217ms] v2go | 🇺🇸 US | TROJAN | 361'
-  - '[277.6ms +/-21ms] US'
-  - '[370.7ms +/-42ms] 4FreeIran-980fa79e9b'
-  - '[481.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[281.2ms +/-1ms] US'
-  - '[360.8ms +/-1ms] ss-38.143.66.146'
-  - '[416.0ms +/-1ms] ss-45.86.51.18'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[327.2ms +/-16ms] ss-15.204.247.124'
-  - '[514.6ms +/-0ms] ss-193.108.119.3'
-  - '[357.9ms +/-2ms] US'
-  - '[513.1ms +/-5ms] ss-185.176.204.18'
-  - '[472.9ms +/-0ms] @DeltaKroneckerGithub'
-  - '[537.8ms +/-1ms] @DeltaKroneckerGithub'
-  - '[703.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[303.0ms +/-2ms] ss-38.128.66.32'
-  - '[518.4ms +/-4ms] @DeltaKroneckerGithub'
-  - '[533.5ms +/-0ms] ss-193.108.116.98'
-  - '[535.2ms +/-1ms] ss-193.108.119.2'
-  - '[492.9ms +/-1ms] ss-149.88.107.74'
-  - '[537.8ms +/-7ms] ss-193.108.117.84'
-  - '[540.6ms +/-1ms] ss-167.17.64.22'
-  - '[530.5ms +/-3ms] ss-151.241.19.36'
-  - '[528.4ms +/-4ms] ss-23.157.88.43'
-  - '[561.5ms +/-0ms] ss-82.110.60.9'
-  - '[414.8ms +/-0ms] FR'
-  - '[530.4ms +/-0ms] ss-149.88.106.74'
-  - '[551.4ms +/-0ms] ss-151.241.19.29'
-  - '[571.8ms +/-2ms] ss-62.93.179.117'
-  - '[584.5ms +/-1ms] ss-79.137.99.183'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[587.8ms +/-0ms] ss-149.50.215.234'
-  - '[605.6ms +/-1ms] ss-193.108.119.83'
-  - '[592.5ms +/-0ms] ss-79.127.139.242'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[606.4ms +/-0ms] ss-193.108.118.247'
-  - '[593.9ms +/-1ms] ss-138.199.55.243'
-  - '[589.1ms +/-3ms] ss-23.166.88.127'
-  - '[286.1ms +/-3ms] US'
-  - '[622.9ms +/-1ms] ss-198.244.202.215'
-  - '[604.4ms +/-6ms] ss-38.109.228.110'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[584.3ms +/-8ms] ss-186.190.215.251'
-  - '[635.8ms +/-0ms] ss-57.129.83.85'
-  - '[601.3ms +/-1ms] ss-51.79.228.131'
-  - '[599.8ms +/-1ms] ss-15.235.164.133'
-  - '[639.5ms +/-1ms] ss-167.17.64.27'
-  - '[600.0ms +/-3ms] @DeltaKroneckerGithub'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[653.5ms +/-0ms] ss-79.127.184.104'
-  - '[872.0ms +/-4ms] ss-38.22.17.214'
-  - '[635.4ms +/-3ms] ss-38.114.120.221'
-  - '[333.6ms +/-5ms] CA'
-  - '[649.2ms +/-2ms] ss-185.176.206.9'
-  - '[461.2ms +/-1ms] @FarazV2ray '
-  - '[627.3ms +/-0ms] ss-23.166.88.189'
-  - '[670.8ms +/-0ms] ss-142.202.51.22'
-  - '[244.5ms +/-0ms] US'
-  - '[364.9ms +/-0ms] US'
-  - '[490.7ms +/-6ms] 4Mohsen-9ff156e3cc'
-  - '[669.6ms +/-5ms] ss-84.20.27.183'
-  - '[628.3ms +/-5ms] ss-23.162.152.22'
-  - '[693.9ms +/-1ms] ss-57.129.76.233'
-  - '[663.8ms +/-8ms] ss-167.17.64.175'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.9ms +/-0ms] DE'
-  - '[582.3ms +/-1ms] AT'
-  - '[621.7ms +/-1ms] ss-172.99.189.142'
-  - '[549.9ms +/-2ms] 🇩🇪05'
-  - '[575.5ms +/-3ms] ss-167.17.71.167'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[566.0ms +/-2ms] ss-66.163.118.103'
-  - '[860.0ms +/-1ms] ss-62.93.179.97'
-  - '[841.0ms +/-15ms] ss-15.204.246.108'
-  - '[834.0ms +/-2ms] ss-149.88.107.47'
-  - '[691.6ms +/-5ms] 4Mohsen-30302633ac'
-  - '[534.7ms +/-1ms] CA'
-  - '[954.6ms +/-0ms] ss-193.108.117.111'
-  - '[725.6ms +/-2ms] NL 🇳🇱 | @Raydikalx | D31478'
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[676.2ms +/-206ms] v2go | 🇸🇪 SE | TROJAN | 516'
-  - '[1799.3ms +/-43ms] @DeltaKroneckerGithub'
-  - '[906.7ms +/-15ms] ss-51.79.49.116'
-  - '[1167.0ms +/-14ms] 🇨🇦CA-216.152.147.89-0590'
-  - '[582.0ms +/-97ms] NL'
-  - '[1426.1ms +/-30ms] v2go | 🇺🇸 US | TROJAN | 333'
-  - '[702.6ms +/-57ms] NL'
-  - '[2184.1ms +/-0ms] ss-198.244.201.129'
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
-  - '[1825.8ms +/-296ms] v2go | 🇨🇭 CH | TROJAN | 458'
+  - '[240.0ms +/-16ms] @DeltaKroneckerGithub'
+  - '[261.3ms +/-9ms] @DeltaKroneckerGithub'
+  - '[309.3ms +/-2ms] v2go | 🇺🇸 US | TROJAN | 326'
+  - '[260.2ms +/-2ms] 🇺🇸'
+  - '[225.7ms +/-0ms] ss-45.86.51.18'
+  - '[250.1ms +/-3ms] ss-185.230.230.18'
+  - '[275.7ms +/-3ms] 🇺🇸'
+  - '[281.4ms +/-3ms] ss-172.111.38.72'
+  - '[286.3ms +/-6ms] ss-193.151.163.18'
+  - '[329.8ms +/-1ms] ss-193.151.160.18'
+  - '[287.4ms +/-1ms] 🇺🇸'
+  - '[326.8ms +/-2ms] ss-193.151.160.9'
+  - '[354.8ms +/-5ms] ss-158.51.121.221'
+  - '[358.5ms +/-5ms] ss-38.64.138.135'
+  - '[351.8ms +/-1ms] ss-38.91.107.188'
+  - '[301.5ms +/-3ms] ss-38.91.107.57'
+  - '[300.2ms +/-3ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini'
+  - '[434.4ms +/-4ms] v2go | 🇺🇸 US | TROJAN | 361'
+  - '[412.0ms +/-4ms] ss-149.40.57.134'
+  - '[353.3ms +/-4ms] ss-162.251.62.31'
+  - '[330.3ms +/-1ms] ss-167.88.62.203'
+  - '[367.0ms +/-1ms] ss-149.40.57.138'
+  - '[359.9ms +/-5ms] ss-38.91.107.19'
+  - '[299.8ms +/-2ms] 🇺🇸'
+  - '[251.1ms +/-25ms] US'
+  - '[244.7ms +/-5ms] ss-38.91.100.39'
+  - '[361.6ms +/-1ms] ss-167.17.67.171'
+  - '[272.8ms +/-1ms] v2go | 🇺🇸 US | TROJAN | 353'
+  - '[357.1ms +/-1ms] ss-167.88.62.56'
+  - '[360.9ms +/-3ms] ss-167.88.63.39'
+  - '[354.9ms +/-4ms] ss-38.128.66.32'
+  - '[382.7ms +/-8ms] ss-216.106.178.169'
+  - '[388.3ms +/-2ms] ss-51.222.136.236'
+  - '[373.3ms +/-1ms] ss-167.88.63.99'
+  - '[294.9ms +/-212ms] v2go | 🇺🇸 US | TROJAN | 333'
+  - '[298.5ms +/-2ms] ss-185.215.132.9'
+  - '[354.4ms +/-0ms] ss-38.22.17.219'
+  - '[413.1ms +/-2ms] ss-66.163.125.120'
+  - '[424.4ms +/-10ms] @DeltaKroneckerGithub'
+  - '[338.5ms +/-7ms] ss-23.150.152.38'
+  - '[444.6ms +/-5ms] ss-38.121.43.231'
+  - '[397.2ms +/-1ms] ss-172.111.36.123'
+  - '[424.6ms +/-2ms] @DeltaKroneckerGithub'
+  - '[480.0ms +/-0ms] @DeltaKroneckerGithub'
+  - '[489.0ms +/-1ms] ss-82.38.31.61'
+  - '[235.9ms +/-10ms] 4Kian-9cb85f9a48'
+  - '[372.7ms +/-5ms] ss-38.22.17.214'
+  - '[313.7ms +/-9ms] ss-95.215.201.18'
+  - '[365.0ms +/-2ms] ss-38.22.17.129'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[375.1ms +/-10ms] ss-137.184.89.151'
+  - '[401.5ms +/-5ms] ss-169.197.142.68'
+  - '[300.0ms +/-3ms] ss-169.197.140.247'
+  - '[298.7ms +/-1ms] US'
+  - '[404.6ms +/-73ms] ss-15.204.247.206'
+  - '[355.3ms +/-0ms] ss-38.22.17.139'
+  - '[327.5ms +/-220ms] ss-149.40.57.135'
+  - '[509.1ms +/-4ms] 🇩🇪05'
+  - '[268.5ms +/-229ms] v2go | 🇺🇸 US | TROJAN | 443'
+  - '[336.8ms +/-11ms] 4FreeIran-980fa79e9b'
+  - '[456.5ms +/-3ms] ss-167.17.64.27'
+  - '[465.3ms +/-1ms] ss-167.17.64.22'
+  - '[383.0ms +/-1ms] ss-15.204.233.41'
+  - '[466.6ms +/-3ms] ss-193.108.117.111'
+  - '[467.8ms +/-3ms] ss-193.108.116.98'
+  - '[267.4ms +/-16ms] US'
+  - '[469.8ms +/-1ms] ss-193.108.119.83'
+  - '[462.9ms +/-7ms] ss-38.109.228.110'
+  - '[305.1ms +/-13ms] US'
+  - '[492.3ms +/-7ms] ss-38.114.120.221'
+  - '[493.9ms +/-1ms] ss-193.108.117.84'
+  - '[493.6ms +/-3ms] ss-79.127.184.104'
+  - '[486.6ms +/-1ms] ss-186.190.215.251'
+  - '[493.9ms +/-1ms] ss-142.202.51.22'
+  - '[450.3ms +/-32ms] ss-149.50.215.234'
+  - '[487.9ms +/-12ms] ss-151.241.19.29'
+  - '[506.1ms +/-5ms] ss-79.127.139.242'
+  - '[528.5ms +/-11ms] ss-57.129.76.233'
+  - '[539.3ms +/-6ms] ss-23.157.88.43'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - '[567.8ms +/-3ms] ss-198.244.202.215'
+  - '[409.3ms +/-1ms] FR'
+  - '[570.3ms +/-5ms] ss-185.176.206.9'
+  - '[567.3ms +/-5ms] ss-193.108.118.247'
+  - '[512.9ms +/-34ms] ss-167.17.64.175'
+  - '[516.8ms +/-32ms] ss-151.241.19.36'
+  - '[495.8ms +/-2ms] ss-172.99.189.142'
+  - '[569.9ms +/-1ms] ss-62.93.179.117'
+  - '[495.4ms +/-44ms] ss-138.199.55.243'
+  - '[544.1ms +/-18ms] ss-23.162.152.22'
+  - '[561.5ms +/-1ms] ss-84.20.27.183'
+  - '[584.3ms +/-1ms] ss-23.166.88.189'
+  - '[599.4ms +/-8ms] ss-185.176.204.18'
+  - '[542.1ms +/-1ms] ss-149.88.107.47'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - '[547.2ms +/-48ms] ss-82.110.60.9'
+  - '[540.2ms +/-46ms] ss-62.93.179.97'
+  - '[555.5ms +/-2ms] ss-149.88.107.74'
+  - '[419.4ms +/-1ms] NL'
+  - '[593.5ms +/-10ms] ss-23.166.88.127'
+  - '[434.4ms +/-3ms] NO'
+  - '[575.8ms +/-2ms] ss-198.244.201.129'
+  - '[442.5ms +/-1ms] NL'
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[436.6ms +/-2ms] NL'
+  - '[630.2ms +/-1ms] ss-51.79.228.131'
+  - '[477.1ms +/-1ms] NL'
+  - '[533.6ms +/-31ms] ss-66.163.118.103'
+  - '[490.4ms +/-1ms] NL'
+  - '[637.4ms +/-3ms] ss-15.235.164.133'
+  - '[497.5ms +/-1ms] NL'
+  - '[481.7ms +/-5ms] NL'
+  - '[649.0ms +/-5ms] ss-149.88.106.74'
+  - '[404.2ms +/-6ms] US'
+  - '[312.4ms +/-16ms] US'
+  - '[474.7ms +/-1ms] 4Mohsen-30302633ac'
+  - '[525.8ms +/-3ms] AT'
+  - '[419.7ms +/-2ms] NL'
+  - '[408.0ms +/-63ms] US'
+  - '[570.3ms +/-7ms] ss-167.17.71.167'
+  - '[517.2ms +/-184ms] ss-193.108.119.2'
+  - '[549.5ms +/-25ms] NL'
+  - '[568.8ms +/-162ms] ss-193.108.119.3'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[622.8ms +/-1ms] DE'
+  - '[523.9ms +/-2ms] 4Jadi-ef994c815f'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[580.5ms +/-212ms] ss-202.50.253.27'
+  - '[740.3ms +/-0ms] NL'
+  - '[632.3ms +/-9ms] NL 🇳🇱 | @Raydikalx | D31478'
+  - '[506.6ms +/-25ms] NL'
+  - '[638.0ms +/-70ms] CA'
+  - '[1559.2ms +/-2ms] ss-38.121.43.18'
+  - '[710.5ms +/-118ms] ss-15.204.247.244'
+  - '[608.0ms +/-24ms] RU'
+  - '[571.3ms +/-0ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
+  - '[687.4ms +/-60ms] 4Mohsen-9ff156e3cc'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
+  - '[1055.9ms +/-129ms] ss-15.204.246.108'
+  - '[1481.2ms +/-1ms] ZA'
+  - '[1037.0ms +/-20ms] NL'
+  - '[1098.5ms +/-104ms] NL'
+  - '[1650.3ms +/-394ms] ss-79.137.99.183'
+  - '[ 75.8ms +/-0ms] ss-38.121.43.225'
   url: https://www.gstatic.com/generate_204
   interval: 600
-- name: 🇨🇦 加拿大
+- name: 🇮🇹 其他
   type: url-test
   proxies:
-  - 🇨🇦 [1097.6ms +/-3ms] 🇨🇦CA-216.152.147.93-0589
-  - 🇨🇦 [1204.4ms +/-13ms] 🇨🇦CA-216.152.147.152-0592
-  - 🇨🇦 [1275.1ms +/-204ms] 🇨🇦CA-216.152.147.201-3037
+  - 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  - 🇮🇹 [502.3ms +/-0ms] IT
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇳🇱 荷兰
+  type: url-test
+  proxies:
+  - 🇳🇱 [476.1ms +/-2ms] @DeltaKroneckerGithub
+  - 🇳🇱 [484.6ms +/-1ms] @DeltaKroneckerGithub
+  - 🇳🇱 [447.1ms +/-1ms] NL
+  - 🇳🇱 [421.3ms +/-0ms] NL
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇸🇬 新加坡
+  type: url-test
+  proxies:
+  - 🇸🇬 [547.8ms +/-0ms] @DeltaKroneckerGithub
+  - 🇸🇬 [651.9ms +/-0ms] @DeltaKroneckerGithub
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇺🇸 美国
   type: url-test
   proxies:
-  - 🇺🇸 [319.6ms +/-1ms] @DeltaKroneckerGithub
-  - 🇺🇸 [497.0ms +/-0ms] 4FreeIran-0958623ccb
-  - 🇺🇸 [324.3ms +/-0ms] 美国_1107193985+M50
-  - 🇺🇸 [337.0ms +/-2ms] @ConfigV2RayNG
-  - 🇺🇸 [365.7ms +/-5ms] 🇺🇸
-  - 🇺🇸 [330.3ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
-  - 🇺🇸 [331.8ms +/-181ms] v2go | 🇺🇸 US | TROJAN |(…)
-  - 🇺🇸 [319.0ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 478
-  - 🇺🇸 [368.9ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 455
+  - 🇺🇸 [245.2ms +/-3ms] @ConfigV2RayNG
+  - 🇺🇸 [282.1ms +/-5ms] v2go | 🇺🇸 US | TROJAN | 337
+  - 🇺🇸 [253.0ms +/-39ms] 美国_1107193985+M50
+  - 🇺🇸 [339.3ms +/-2ms] @DeltaKroneckerGithub
+  - 🇺🇸 [304.3ms +/-4ms] 🇺🇸
+  - 🇺🇸 [273.5ms +/-0ms] v2go | 🇺🇸 US | TROJAN | 367
+  - 🇺🇸 [337.7ms +/-7ms] @DeltaKroneckerGithub
+  - 🇺🇸 [239.0ms +/-6ms] @DeltaKroneckerGithub
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:

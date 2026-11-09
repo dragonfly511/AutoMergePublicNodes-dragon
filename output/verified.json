@@ -38,39 +38,33 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[281.2ms +/-1ms] US",
-        "[585.8ms +/-5ms] @DeltaKroneckerGithub",
-        "[576.8ms +/-1ms] ss-202.50.253.27",
-        "[587.9ms +/-1ms] ss-202.50.253.90",
-        "[580.3ms +/-1ms] ss-202.50.253.36",
-        "[591.6ms +/-20ms] ss-202.50.253.63",
-        "[602.9ms +/-3ms] ss-202.50.253.54",
-        "[645.8ms +/-25ms] ss-202.50.253.81",
-        "[659.3ms +/-23ms] ss-202.50.253.45",
-        "[566.3ms +/-11ms] @DeltaKroneckerGithub",
-        "[564.0ms +/-0ms] ss-202.50.253.18",
-        "[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01",
-        "[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)"
+        "[251.1ms +/-25ms] US",
+        "[510.2ms +/-3ms] @DeltaKroneckerGithub",
+        "[522.0ms +/-7ms] ss-202.50.253.81",
+        "[602.1ms +/-4ms] ss-202.50.253.36",
+        "🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub",
+        "[534.6ms +/-1ms] ss-202.50.253.18",
+        "[605.3ms +/-154ms] ss-202.50.253.54",
+        "[600.7ms +/-159ms] ss-202.50.253.45",
+        "[553.2ms +/-225ms] ss-202.50.253.90",
+        "[926.8ms +/-153ms] ss-202.50.253.63"
       ],
-      "default": "[281.2ms +/-1ms] US"
+      "default": "[251.1ms +/-25ms] US"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[281.2ms +/-1ms] US",
-        "[585.8ms +/-5ms] @DeltaKroneckerGithub",
-        "[576.8ms +/-1ms] ss-202.50.253.27",
-        "[587.9ms +/-1ms] ss-202.50.253.90",
-        "[580.3ms +/-1ms] ss-202.50.253.36",
-        "[591.6ms +/-20ms] ss-202.50.253.63",
-        "[602.9ms +/-3ms] ss-202.50.253.54",
-        "[645.8ms +/-25ms] ss-202.50.253.81",
-        "[659.3ms +/-23ms] ss-202.50.253.45",
-        "[566.3ms +/-11ms] @DeltaKroneckerGithub",
-        "[564.0ms +/-0ms] ss-202.50.253.18",
-        "[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01",
-        "[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)"
+        "[251.1ms +/-25ms] US",
+        "[510.2ms +/-3ms] @DeltaKroneckerGithub",
+        "[522.0ms +/-7ms] ss-202.50.253.81",
+        "[602.1ms +/-4ms] ss-202.50.253.36",
+        "🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub",
+        "[534.6ms +/-1ms] ss-202.50.253.18",
+        "[605.3ms +/-154ms] ss-202.50.253.54",
+        "[600.7ms +/-159ms] ss-202.50.253.45",
+        "[553.2ms +/-225ms] ss-202.50.253.90",
+        "[926.8ms +/-153ms] ss-202.50.253.63"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -79,19 +73,15 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[281.2ms +/-1ms] US",
-        "[585.8ms +/-5ms] @DeltaKroneckerGithub",
-        "[576.8ms +/-1ms] ss-202.50.253.27",
-        "[587.9ms +/-1ms] ss-202.50.253.90",
-        "[580.3ms +/-1ms] ss-202.50.253.36",
-        "[591.6ms +/-20ms] ss-202.50.253.63",
-        "[602.9ms +/-3ms] ss-202.50.253.54",
-        "[645.8ms +/-25ms] ss-202.50.253.81",
-        "[659.3ms +/-23ms] ss-202.50.253.45",
-        "[566.3ms +/-11ms] @DeltaKroneckerGithub",
-        "[564.0ms +/-0ms] ss-202.50.253.18",
-        "[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01",
-        "[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)"
+        "[251.1ms +/-25ms] US",
+        "[510.2ms +/-3ms] @DeltaKroneckerGithub",
+        "[522.0ms +/-7ms] ss-202.50.253.81",
+        "[602.1ms +/-4ms] ss-202.50.253.36",
+        "[534.6ms +/-1ms] ss-202.50.253.18",
+        "[605.3ms +/-154ms] ss-202.50.253.54",
+        "[600.7ms +/-159ms] ss-202.50.253.45",
+        "[553.2ms +/-225ms] ss-202.50.253.90",
+        "[926.8ms +/-153ms] ss-202.50.253.63"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -108,7 +98,7 @@
         "password": "ZuPf4OcXKvotJdDxlTus"
       },
       "type": "hysteria2",
-      "tag": "[281.2ms +/-1ms] US",
+      "tag": "[251.1ms +/-25ms] US",
       "server": "206.189.229.48",
       "server_port": 443
     },
@@ -116,7 +106,7 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[585.8ms +/-5ms] @DeltaKroneckerGithub",
+      "tag": "[510.2ms +/-3ms] @DeltaKroneckerGithub",
       "server": "202.50.253.72",
       "server_port": 19999
     },
@@ -124,47 +114,7 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[576.8ms +/-1ms] ss-202.50.253.27",
-      "server": "202.50.253.27",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[587.9ms +/-1ms] ss-202.50.253.90",
-      "server": "202.50.253.90",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[580.3ms +/-1ms] ss-202.50.253.36",
-      "server": "202.50.253.36",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[591.6ms +/-20ms] ss-202.50.253.63",
-      "server": "202.50.253.63",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[602.9ms +/-3ms] ss-202.50.253.54",
-      "server": "202.50.253.54",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[645.8ms +/-25ms] ss-202.50.253.81",
+      "tag": "[522.0ms +/-7ms] ss-202.50.253.81",
       "server": "202.50.253.81",
       "server_port": 19999
     },
@@ -172,15 +122,15 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[659.3ms +/-23ms] ss-202.50.253.45",
-      "server": "202.50.253.45",
+      "tag": "[602.1ms +/-4ms] ss-202.50.253.36",
+      "server": "202.50.253.36",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[566.3ms +/-11ms] @DeltaKroneckerGithub",
+      "tag": "🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub",
       "server": "202.50.253.99",
       "server_port": 19999
     },
@@ -188,33 +138,41 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[564.0ms +/-0ms] ss-202.50.253.18",
+      "tag": "[534.6ms +/-1ms] ss-202.50.253.18",
       "server": "202.50.253.18",
       "server_port": 19999
     },
     {
-      "password": "633bc3be486b646190661ac2387c150a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "850a3fb1cd33a28f12d837578ae1a2e7"
-      },
-      "type": "hysteria2",
-      "tag": "[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01",
-      "server": "152.67.115.203",
-      "server_port": 443
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[605.3ms +/-154ms] ss-202.50.253.54",
+      "server": "202.50.253.54",
+      "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
-      "password": "h8j6e3xuihn2epl9",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)",
-      "server": "136.243.249.198",
-      "server_port": 443
+      "tag": "[600.7ms +/-159ms] ss-202.50.253.45",
+      "server": "202.50.253.45",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[553.2ms +/-225ms] ss-202.50.253.90",
+      "server": "202.50.253.90",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[926.8ms +/-153ms] ss-202.50.253.63",
+      "server": "202.50.253.63",
+      "server_port": 19999
     },
     {
       "type": "direct",

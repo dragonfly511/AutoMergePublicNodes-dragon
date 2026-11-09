@@ -2,7 +2,7 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[281.2ms +/-1ms] US'
+- name: '[251.1ms +/-25ms] US'
   server: 206.189.229.48
   port: 443
   type: hysteria2
@@ -11,91 +11,68 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: ZuPf4OcXKvotJdDxlTus
-- name: '[585.8ms +/-5ms] @DeltaKroneckerGithub'
+- name: '[510.2ms +/-3ms] @DeltaKroneckerGithub'
   server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[576.8ms +/-1ms] ss-202.50.253.27'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[587.9ms +/-1ms] ss-202.50.253.90'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[580.3ms +/-1ms] ss-202.50.253.36'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[591.6ms +/-20ms] ss-202.50.253.63'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[602.9ms +/-3ms] ss-202.50.253.54'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[645.8ms +/-25ms] ss-202.50.253.81'
+- name: '[522.0ms +/-7ms] ss-202.50.253.81'
   server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[659.3ms +/-23ms] ss-202.50.253.45'
-  server: 202.50.253.45
+- name: '[602.1ms +/-4ms] ss-202.50.253.36'
+  server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[566.3ms +/-11ms] @DeltaKroneckerGithub'
+- name: 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[564.0ms +/-0ms] ss-202.50.253.18'
+- name: '[534.6ms +/-1ms] ss-202.50.253.18'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  server: 152.67.115.203
-  port: 443
-  type: hysteria2
-  password: 633bc3be486b646190661ac2387c150a
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
-  server: 136.243.249.198
-  port: 443
+- name: '[605.3ms +/-154ms] ss-202.50.253.54'
+  server: 202.50.253.54
+  port: 19999
   type: ss
   cipher: aes-256-gcm
-  password: h8j6e3xuihn2epl9
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[600.7ms +/-159ms] ss-202.50.253.45'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[553.2ms +/-225ms] ss-202.50.253.90'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[926.8ms +/-153ms] ss-202.50.253.63'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 proxy-groups:
 - name: 🚀 Proxy
@@ -103,53 +80,43 @@ proxy-groups:
   proxies:
   - ♻️ Auto
   - 其他
-  - '[281.2ms +/-1ms] US'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
+  - '[251.1ms +/-25ms] US'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[281.2ms +/-1ms] US'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
+  - '[251.1ms +/-25ms] US'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - 🇮🇹 [506.6ms +/-5ms] @DeltaKroneckerGithub
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[281.2ms +/-1ms] US'
-  - '[585.8ms +/-5ms] @DeltaKroneckerGithub'
-  - '[576.8ms +/-1ms] ss-202.50.253.27'
-  - '[587.9ms +/-1ms] ss-202.50.253.90'
-  - '[580.3ms +/-1ms] ss-202.50.253.36'
-  - '[591.6ms +/-20ms] ss-202.50.253.63'
-  - '[602.9ms +/-3ms] ss-202.50.253.54'
-  - '[645.8ms +/-25ms] ss-202.50.253.81'
-  - '[659.3ms +/-23ms] ss-202.50.253.45'
-  - '[566.3ms +/-11ms] @DeltaKroneckerGithub'
-  - '[564.0ms +/-0ms] ss-202.50.253.18'
-  - '[634.4ms +/-1ms] 🇦🇺AU_4|123KB/s|R002-260618 01'
-  - '[630.4ms +/-43ms] 🇩🇪210618 | ⚡️Telegram = t.m(…)'
+  - '[251.1ms +/-25ms] US'
+  - '[510.2ms +/-3ms] @DeltaKroneckerGithub'
+  - '[522.0ms +/-7ms] ss-202.50.253.81'
+  - '[602.1ms +/-4ms] ss-202.50.253.36'
+  - '[534.6ms +/-1ms] ss-202.50.253.18'
+  - '[605.3ms +/-154ms] ss-202.50.253.54'
+  - '[600.7ms +/-159ms] ss-202.50.253.45'
+  - '[553.2ms +/-225ms] ss-202.50.253.90'
+  - '[926.8ms +/-153ms] ss-202.50.253.63'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
