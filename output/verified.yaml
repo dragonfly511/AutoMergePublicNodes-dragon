@@ -2,113 +2,64 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[212.0ms +/-1ms] US'
-  server: 104.36.69.105
-  port: 443
-  type: vless
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: portal.citygrainla.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-  client-fingerprint: firefox
-- name: '[635.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+- name: '[484.7ms +/-3ms] @DeltaKroneckerGithub'
   server: 202.50.253.36
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[618.2ms +/-14ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[671.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[638.6ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+- name: '[485.2ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[281.3ms +/-0ms] US'
-  server: 104.225.239.235
-  port: 443
-  type: vless
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: portal.citygrainla.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-  client-fingerprint: firefox
-- name: '[781.9ms +/-36ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[762.1ms +/-20ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[687.7ms +/-284ms] SHADOWSOCKS | @PulseConfig(…)'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[584.7ms +/-4ms] @filembad'
-  server: 138.124.251.98
-  port: 443
-  type: vless
-  uuid: 1d1eda2e-0bd7-4478-877b-1c5425c6c4dd
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: tradingview.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38
-    short-id: 8f3c6e2a1b5d4f09
-  client-fingerprint: chrome
-- name: '[1095.3ms +/-420ms] @DeltaKroneckerGithub'
+- name: '[488.5ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1198.6ms +/-475ms] SHADOWSOCKS | @PulseConfi(…)'
+- name: 🇮🇹 [497.0ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[488.7ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[508.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 [1266.3ms +/-629ms] SHADOWSOCKS | @PulseCo(…)
-  server: 202.50.253.99
+- name: '[529.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[510.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[541.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
@@ -120,52 +71,40 @@ proxy-groups:
   proxies:
   - ♻️ Auto
   - 其他
-  - '[212.0ms +/-1ms] US'
-  - '[635.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[618.2ms +/-14ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[671.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.6ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[281.3ms +/-0ms] US'
-  - '[781.9ms +/-36ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[762.1ms +/-20ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[687.7ms +/-284ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[584.7ms +/-4ms] @filembad'
-  - '[1095.3ms +/-420ms] @DeltaKroneckerGithub'
-  - '[1198.6ms +/-475ms] SHADOWSOCKS | @PulseConfi(…)'
-  - 🇮🇹 [1266.3ms +/-629ms] SHADOWSOCKS | @PulseCo(…)
+  - '[484.7ms +/-3ms] @DeltaKroneckerGithub'
+  - '[485.2ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[488.5ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - 🇮🇹 [497.0ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[488.7ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[508.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[529.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[510.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[541.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[212.0ms +/-1ms] US'
-  - '[635.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[618.2ms +/-14ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[671.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.6ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[281.3ms +/-0ms] US'
-  - '[781.9ms +/-36ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[762.1ms +/-20ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[687.7ms +/-284ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[584.7ms +/-4ms] @filembad'
-  - '[1095.3ms +/-420ms] @DeltaKroneckerGithub'
-  - '[1198.6ms +/-475ms] SHADOWSOCKS | @PulseConfi(…)'
-  - 🇮🇹 [1266.3ms +/-629ms] SHADOWSOCKS | @PulseCo(…)
+  - '[484.7ms +/-3ms] @DeltaKroneckerGithub'
+  - '[485.2ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[488.5ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - 🇮🇹 [497.0ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[488.7ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[508.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[529.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[510.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[541.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[212.0ms +/-1ms] US'
-  - '[635.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[618.2ms +/-14ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[671.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.6ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[281.3ms +/-0ms] US'
-  - '[781.9ms +/-36ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[762.1ms +/-20ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[687.7ms +/-284ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[584.7ms +/-4ms] @filembad'
-  - '[1095.3ms +/-420ms] @DeltaKroneckerGithub'
-  - '[1198.6ms +/-475ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[484.7ms +/-3ms] @DeltaKroneckerGithub'
+  - '[485.2ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[488.5ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[488.7ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[508.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[529.2ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[510.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[541.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
