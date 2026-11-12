@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 07:31:33",
+  "generated_at": "2026-11-12 20:13:22",
   "min_tested": 5,
   "disable_dead_threshold": 2,
   "summary": {
@@ -18,7 +18,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 418,
+        "consecutive_dead": 419,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -29,7 +29,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 413,
+        "consecutive_dead": 414,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -40,7 +40,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 296,
+        "consecutive_dead": 297,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -51,7 +51,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 274,
+        "consecutive_dead": 275,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -62,7 +62,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 273,
+        "consecutive_dead": 274,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -73,7 +73,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 265,
+        "consecutive_dead": 266,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -84,7 +84,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 243,
+        "consecutive_dead": 244,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -95,7 +95,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 238,
+        "consecutive_dead": 239,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -106,7 +106,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 162,
+        "consecutive_dead": 163,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -117,7 +117,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 149,
+        "consecutive_dead": 150,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -128,7 +128,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 143,
+        "consecutive_dead": 144,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -139,7 +139,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 85,
+        "consecutive_dead": 86,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -150,7 +150,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 47,
+        "consecutive_dead": 48,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -161,7 +161,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 34,
+        "consecutive_dead": 35,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -172,7 +172,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 34,
+        "consecutive_dead": 35,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -183,7 +183,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 34,
+        "consecutive_dead": 35,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -194,7 +194,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 34,
+        "consecutive_dead": 35,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -205,7 +205,7 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 32,
+        "consecutive_dead": 33,
         "reason": "连续死亡次数 >= 2"
       },
       {
@@ -216,30 +216,30 @@
         "tested": 0,
         "pass_rate": null,
         "parsed_nodes": 0,
-        "consecutive_dead": 20,
+        "consecutive_dead": 21,
         "reason": "连续死亡次数 >= 2"
       }
     ],
     "downweight": [],
     "prefer": [
       {
-        "name": "dragon",
-        "url": "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt",
-        "score": 0.962,
+        "name": "dragon2",
+        "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs_base64.txt?utm_source=chatgpt.com",
+        "score": 0.982,
         "recommendation": "prefer",
-        "tested": 167,
-        "pass_rate": 0.886,
+        "tested": 131,
+        "pass_rate": 0.908,
         "parsed_nodes": 10000,
         "consecutive_dead": 0,
         "reason": "源评分较高"
       },
       {
-        "name": "dragon2",
-        "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs_base64.txt?utm_source=chatgpt.com",
-        "score": 0.96,
+        "name": "dragon",
+        "url": "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt",
+        "score": 0.792,
         "recommendation": "prefer",
-        "tested": 148,
-        "pass_rate": 0.885,
+        "tested": 123,
+        "pass_rate": 0.715,
         "parsed_nodes": 10000,
         "consecutive_dead": 0,
         "reason": "源评分较高"
@@ -264,7 +264,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 4981,
+        "parsed_nodes": 4998,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -297,7 +297,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 2629,
+        "parsed_nodes": 2737,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -308,7 +308,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 3998,
+        "parsed_nodes": 3999,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -337,11 +337,11 @@
       {
         "name": "Pawdroid",
         "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-        "score": 0.176,
+        "score": 0.175,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 20,
+        "parsed_nodes": 5,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -352,18 +352,18 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 11526,
+        "parsed_nodes": 11515,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "Surfboard-tg-mixed",
         "url": "https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed",
-        "score": 0.255,
+        "score": 0.373,
         "recommendation": "observe",
-        "tested": 0,
-        "pass_rate": null,
-        "parsed_nodes": 8783,
+        "tested": 5,
+        "pass_rate": 0.6,
+        "parsed_nodes": 8770,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -374,7 +374,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 6596,
+        "parsed_nodes": 6332,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -407,7 +407,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 6775,
+        "parsed_nodes": 6555,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -418,17 +418,17 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 248,
+        "parsed_nodes": 254,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "dragon3",
         "url": "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/top100.txt?utm_source=chatgpt.com",
-        "score": 0.398,
+        "score": 0.658,
         "recommendation": "observe",
-        "tested": 10,
-        "pass_rate": 0.6,
+        "tested": 14,
+        "pass_rate": 0.857,
         "parsed_nodes": 100,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
@@ -436,22 +436,22 @@
       {
         "name": "ermaozi",
         "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
-        "score": 0.199,
+        "score": 0.198,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 596,
+        "parsed_nodes": 579,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "ermaozi-get_subscribe",
         "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml",
-        "score": 0.194,
+        "score": 0.192,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 468,
+        "parsed_nodes": 433,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -473,18 +473,18 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 4595,
+        "parsed_nodes": 4618,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
       {
         "name": "mheidari-all",
         "url": "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
-        "score": 0.557,
+        "score": 0.465,
         "recommendation": "observe",
-        "tested": 6,
-        "pass_rate": 1.0,
-        "parsed_nodes": 14005,
+        "tested": 7,
+        "pass_rate": 0.714,
+        "parsed_nodes": 14228,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -539,7 +539,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 130,
+        "parsed_nodes": 126,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -722,11 +722,11 @@
       {
         "name": "tg-LonUp_M",
         "url": "https://t.me/s/LonUp_M",
-        "score": 0.262,
+        "score": 0.182,
         "recommendation": "observe",
-        "tested": 1,
-        "pass_rate": 1.0,
-        "parsed_nodes": 167,
+        "tested": 0,
+        "pass_rate": null,
+        "parsed_nodes": 169,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -748,7 +748,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 174,
+        "parsed_nodes": 183,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -825,7 +825,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 117,
+        "parsed_nodes": 116,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -836,7 +836,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 48,
+        "parsed_nodes": 61,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -880,7 +880,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 93,
+        "parsed_nodes": 90,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -946,7 +946,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 98,
+        "parsed_nodes": 88,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -968,7 +968,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 18,
+        "parsed_nodes": 29,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -979,7 +979,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 23,
+        "parsed_nodes": 17,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -990,7 +990,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 146,
+        "parsed_nodes": 154,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1023,7 +1023,7 @@
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 61,
+        "parsed_nodes": 60,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1074,11 +1074,11 @@
       {
         "name": "tg-v2raying",
         "url": "https://t.me/s/v2raying",
-        "score": 0.177,
+        "score": 0.176,
         "recommendation": "observe",
         "tested": 0,
         "pass_rate": null,
-        "parsed_nodes": 43,
+        "parsed_nodes": 34,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"
       },
@@ -1206,10 +1206,10 @@
       {
         "name": "xiaoji235-airport-v2ray-all",
         "url": "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt",
-        "score": 0.335,
+        "score": 0.287,
         "recommendation": "observe",
-        "tested": 1,
-        "pass_rate": 1.0,
+        "tested": 2,
+        "pass_rate": 0.5,
         "parsed_nodes": 6752,
         "consecutive_dead": 0,
         "reason": "证据不足或评分中性"

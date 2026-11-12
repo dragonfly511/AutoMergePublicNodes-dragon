@@ -39,37 +39,41 @@
         "♻️ Auto",
         "其他",
         "🇮🇹 其他",
-        "[549.0ms +/-1ms] IT",
-        "[546.7ms +/-1ms] IT",
-        "[549.8ms +/-2ms] IT",
-        "[568.4ms +/-21ms] IT",
-        "[566.5ms +/-18ms] IT",
-        "🇮🇹 [602.6ms +/-7ms] IT",
-        "[595.6ms +/-3ms] IT",
-        "🇮🇹 [599.5ms +/-46ms] IT",
-        "[579.7ms +/-4ms] IT",
-        "[732.5ms +/-41ms] IT",
-        "[475.0ms +/-2ms] 4Sarina-f84972c260",
-        "[747.9ms +/-17ms] 🇩🇪212880 | ⚡️Telegram = t.m(…)"
+        "[362.7ms +/-1ms] US",
+        "[679.5ms +/-6ms] IT",
+        "[685.2ms +/-9ms] IT",
+        "[679.4ms +/-39ms] IT",
+        "[719.4ms +/-87ms] IT",
+        "[704.3ms +/-22ms] IT",
+        "🇮🇹 [784.9ms +/-53ms] IT",
+        "🇮🇹 [857.9ms +/-6ms] IT",
+        "[918.1ms +/-42ms] IT",
+        "[972.4ms +/-38ms] IT",
+        "[981.7ms +/-73ms] IT",
+        "[727.6ms +/-131ms] IT",
+        "[1110.0ms +/-282ms] IR",
+        "[852.3ms +/-2ms] @VPsave"
       ],
-      "default": "[549.0ms +/-1ms] IT"
+      "default": "[362.7ms +/-1ms] US"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[549.0ms +/-1ms] IT",
-        "[546.7ms +/-1ms] IT",
-        "[549.8ms +/-2ms] IT",
-        "[568.4ms +/-21ms] IT",
-        "[566.5ms +/-18ms] IT",
-        "🇮🇹 [602.6ms +/-7ms] IT",
-        "[595.6ms +/-3ms] IT",
-        "🇮🇹 [599.5ms +/-46ms] IT",
-        "[579.7ms +/-4ms] IT",
-        "[732.5ms +/-41ms] IT",
-        "[475.0ms +/-2ms] 4Sarina-f84972c260",
-        "[747.9ms +/-17ms] 🇩🇪212880 | ⚡️Telegram = t.m(…)"
+        "[362.7ms +/-1ms] US",
+        "[679.5ms +/-6ms] IT",
+        "[685.2ms +/-9ms] IT",
+        "[679.4ms +/-39ms] IT",
+        "[719.4ms +/-87ms] IT",
+        "[704.3ms +/-22ms] IT",
+        "🇮🇹 [784.9ms +/-53ms] IT",
+        "🇮🇹 [857.9ms +/-6ms] IT",
+        "[918.1ms +/-42ms] IT",
+        "[972.4ms +/-38ms] IT",
+        "[981.7ms +/-73ms] IT",
+        "[727.6ms +/-131ms] IT",
+        "[1110.0ms +/-282ms] IR",
+        "[852.3ms +/-2ms] @VPsave"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -78,16 +82,18 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[549.0ms +/-1ms] IT",
-        "[546.7ms +/-1ms] IT",
-        "[549.8ms +/-2ms] IT",
-        "[568.4ms +/-21ms] IT",
-        "[566.5ms +/-18ms] IT",
-        "[595.6ms +/-3ms] IT",
-        "[579.7ms +/-4ms] IT",
-        "[732.5ms +/-41ms] IT",
-        "[475.0ms +/-2ms] 4Sarina-f84972c260",
-        "[747.9ms +/-17ms] 🇩🇪212880 | ⚡️Telegram = t.m(…)"
+        "[362.7ms +/-1ms] US",
+        "[679.5ms +/-6ms] IT",
+        "[685.2ms +/-9ms] IT",
+        "[679.4ms +/-39ms] IT",
+        "[719.4ms +/-87ms] IT",
+        "[704.3ms +/-22ms] IT",
+        "[918.1ms +/-42ms] IT",
+        "[972.4ms +/-38ms] IT",
+        "[981.7ms +/-73ms] IT",
+        "[727.6ms +/-131ms] IT",
+        "[1110.0ms +/-282ms] IR",
+        "[852.3ms +/-2ms] @VPsave"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -96,33 +102,39 @@
       "type": "url-test",
       "tag": "🇮🇹 其他",
       "outbounds": [
-        "🇮🇹 [602.6ms +/-7ms] IT",
-        "🇮🇹 [599.5ms +/-46ms] IT"
+        "🇮🇹 [784.9ms +/-53ms] IT",
+        "🇮🇹 [857.9ms +/-6ms] IT"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
     },
     {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[549.0ms +/-1ms] IT",
-      "server": "202.50.253.72",
-      "server_port": 19999
+      "uuid": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "assets-32.topp-con.xyz",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "66-TFe0f5ub9A27G6hLPLm-KRZ4LGixHi8IA_Nv7jVM",
+          "short_id": "81d36ba71dddfc3e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "type": "vless",
+      "tag": "[362.7ms +/-1ms] US",
+      "server": "179.254.92.190",
+      "server_port": 443
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[546.7ms +/-1ms] IT",
-      "server": "202.50.253.18",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[549.8ms +/-2ms] IT",
+      "tag": "[679.5ms +/-6ms] IT",
       "server": "202.50.253.90",
       "server_port": 19999
     },
@@ -130,15 +142,7 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[568.4ms +/-21ms] IT",
-      "server": "202.50.253.54",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[566.5ms +/-18ms] IT",
+      "tag": "[685.2ms +/-9ms] IT",
       "server": "202.50.253.27",
       "server_port": 19999
     },
@@ -146,31 +150,23 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "🇮🇹 [602.6ms +/-7ms] IT",
-      "server": "202.50.253.36",
+      "tag": "[679.4ms +/-39ms] IT",
+      "server": "202.50.253.72",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[595.6ms +/-3ms] IT",
-      "server": "202.50.253.63",
+      "tag": "[719.4ms +/-87ms] IT",
+      "server": "202.50.253.54",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "🇮🇹 [599.5ms +/-46ms] IT",
-      "server": "202.50.253.99",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[579.7ms +/-4ms] IT",
+      "tag": "[704.3ms +/-22ms] IT",
       "server": "202.50.253.45",
       "server_port": 19999
     },
@@ -178,36 +174,75 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[732.5ms +/-41ms] IT",
+      "tag": "🇮🇹 [784.9ms +/-53ms] IT",
+      "server": "202.50.253.36",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "🇮🇹 [857.9ms +/-6ms] IT",
+      "server": "202.50.253.99",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[918.1ms +/-42ms] IT",
+      "server": "202.50.253.63",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[972.4ms +/-38ms] IT",
+      "server": "202.50.253.18",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[981.7ms +/-73ms] IT",
       "server": "202.50.253.81",
       "server_port": 19999
     },
     {
-      "password": "qtMKhrFAMrVZUfupkc5CFHmRKYtNPSjt",
-      "tls": {
-        "enabled": true,
-        "server_name": "165.154.193.165",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "d7897b996af77eeecb7ac010361d74fb"
-      },
-      "type": "hysteria2",
-      "tag": "[475.0ms +/-2ms] 4Sarina-f84972c260",
-      "server": "165.154.193.165",
-      "server_port": 443
+      "method": "chacha20-ietf-poly1305",
+      "password": "mx81glqbtlwuhcjo",
+      "type": "shadowsocks",
+      "tag": "[727.6ms +/-131ms] IT",
+      "server": "57.131.4.13",
+      "server_port": 8080
     },
     {
-      "password": "2be4ee40-0d2a-43cb-a267-8769df96da2a",
+      "method": "chacha20-ietf-poly1305",
+      "password": "vo3RvC8ZVdsmoxxrpwWoK4_ZPmgi1YK5",
+      "type": "shadowsocks",
+      "tag": "[1110.0ms +/-282ms] IR",
+      "server": "94.184.22.198",
+      "server_port": 2050
+    },
+    {
+      "uuid": "67cd3349-f789-4cbb-8b91-4b6b1654ce7c",
       "tls": {
         "enabled": true,
-        "server_name": "va.stream-room.com",
+        "server_name": "dkfsoyk9ju2as.cloudfront.net",
         "insecure": true
       },
-      "type": "hysteria2",
-      "tag": "[747.9ms +/-17ms] 🇩🇪212880 | ⚡️Telegram = t.m(…)",
-      "server": "45.88.12.158",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dkfsoyk9ju2as.cloudfront.net"
+        }
+      },
+      "type": "vless",
+      "tag": "[852.3ms +/-2ms] @VPsave",
+      "server": "3.168.218.6",
       "server_port": 443
     },
     {
