@@ -2,105 +2,174 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[362.7ms +/-1ms] US'
-  server: 179.254.92.190
-  port: 443
-  type: vless
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: assets-32.topp-con.xyz
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 66-TFe0f5ub9A27G6hLPLm-KRZ4LGixHi8IA_Nv7jVM
-    short-id: 81d36ba71dddfc3e
-  client-fingerprint: firefox
-- name: '[679.5ms +/-6ms] IT'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[685.2ms +/-9ms] IT'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[679.4ms +/-39ms] IT'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[719.4ms +/-87ms] IT'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[704.3ms +/-22ms] IT'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [784.9ms +/-53ms] IT
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [857.9ms +/-6ms] IT
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[918.1ms +/-42ms] IT'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[972.4ms +/-38ms] IT'
+- name: '[507.3ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[981.7ms +/-73ms] IT'
+- name: '[492.3ms +/-4ms] DE'
+  server: 77.90.0.22
+  port: 2087
+  type: vless
+  uuid: ead4a562-edf2-40cf-ad33-13ae98546226
+  udp: true
+  tls: true
+  servername: dl.google.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lN4gxtu1uZUH0d-RFC35FHoAwKZ6bNGV7I68JCAbGF4
+    short-id: c0e1f54d
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[513.9ms +/-4ms] 🇮🇹IT-202.50.253.72-0181'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [508.7ms +/-9ms] 🇮🇹IT-202.50.253.36-0167
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[512.6ms +/-13ms] 🇮🇹IT-202.50.253.27-0183'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[520.9ms +/-9ms] 🇮🇹IT-202.50.253.63-0247'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[521.1ms +/-12ms] 🇮🇹IT-202.50.253.54-0234'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 [540.8ms +/-3ms] 🇮🇹IT-202.50.253.99-0177
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[577.2ms +/-1ms] 🇮🇹IT-202.50.253.90-0114'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[575.1ms +/-3ms] 🇮🇹IT-202.50.253.81-0176'
   server: 202.50.253.81
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[727.6ms +/-131ms] IT'
+- name: '[537.7ms +/-3ms] 🇮🇹IT-202.50.253.45-0194'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[593.3ms +/-1ms] SG'
+  server: whitepanel-ui-production-8f6a54a4.up.railway.app
+  port: 443
+  type: vless
+  uuid: f690892b-745f-47fa-3f2b-8f7729e47d0a
+  udp: true
+  tls: true
+  servername: whitepanel-ui-production-8f6a54a4.up.railway.app
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws/f690892b-745f-47fa-3f2b-8f7729e47d0a
+    headers:
+      Host: whitepanel-ui-production-8f6a54a4.up.railway.app
+- name: '[744.9ms +/-1ms] 🔒'
+  server: 3.168.217.190
+  port: 443
+  type: vless
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  tls: true
+  servername: d1afk2ndm8pox3.cloudfront.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d1afk2ndm8pox3.cloudfront.net
+- name: '[616.0ms +/-22ms] GB'
+  server: 18.171.57.116
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: '[708.3ms +/-1ms] EE'
+  server: 178.214.125.1
+  port: 443
+  type: vless
+  uuid: 3f3160a0-747d-4fed-bf3d-4d884bfa964d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: conf.emaar.ru
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+    short-id: 6172ba9cffe9c22f
+  client-fingerprint: chrome
+- name: '[676.7ms +/-1ms] IT'
   server: 57.131.4.13
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: mx81glqbtlwuhcjo
   udp: true
-- name: '[1110.0ms +/-282ms] IR'
-  server: 94.184.22.198
-  port: 2050
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: vo3RvC8ZVdsmoxxrpwWoK4_ZPmgi1YK5
+- name: '[771.7ms +/-1ms] RU'
+  server: 72.56.38.83
+  port: 443
+  type: vless
+  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
   udp: true
-- name: '[852.3ms +/-2ms] @VPsave'
+  flow: xtls-rprx-vision
+  tls: true
+  servername: absolute-disaster.org
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8
+    short-id: ''
+  client-fingerprint: chrome
+- name: '[755.5ms +/-1ms] CA'
+  server: 104.18.20.212
+  port: 8080
+  type: vless
+  uuid: ab5a19cf-cadc-4648-a5e9-b510aca8f732
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: akanode.madvpn.us.kg
+- name: '[774.7ms +/-203ms] DE'
   server: 3.168.218.6
   port: 443
   type: vless
@@ -114,6 +183,20 @@ proxies:
     path: /
     headers:
       Host: dkfsoyk9ju2as.cloudfront.net
+- name: '[1054.4ms +/-31ms] RU'
+  server: 176.53.254.217
+  port: 443
+  type: vless
+  uuid: 820fa845-a1eb-4a83-b613-e6714cea8a1a
+  udp: true
+  tls: true
+  servername: falmero.store
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /api/de6/stream
+    headers:
+      Host: falmero.store
 proxy-groups:
 - name: 🚀 Proxy
   type: select
@@ -121,61 +204,79 @@ proxy-groups:
   - ♻️ Auto
   - 其他
   - 🇮🇹 其他
-  - '[362.7ms +/-1ms] US'
-  - '[679.5ms +/-6ms] IT'
-  - '[685.2ms +/-9ms] IT'
-  - '[679.4ms +/-39ms] IT'
-  - '[719.4ms +/-87ms] IT'
-  - '[704.3ms +/-22ms] IT'
-  - 🇮🇹 [784.9ms +/-53ms] IT
-  - 🇮🇹 [857.9ms +/-6ms] IT
-  - '[918.1ms +/-42ms] IT'
-  - '[972.4ms +/-38ms] IT'
-  - '[981.7ms +/-73ms] IT'
-  - '[727.6ms +/-131ms] IT'
-  - '[1110.0ms +/-282ms] IR'
-  - '[852.3ms +/-2ms] @VPsave'
+  - '[507.3ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[492.3ms +/-4ms] DE'
+  - '[513.9ms +/-4ms] 🇮🇹IT-202.50.253.72-0181'
+  - 🇮🇹 [508.7ms +/-9ms] 🇮🇹IT-202.50.253.36-0167
+  - '[512.6ms +/-13ms] 🇮🇹IT-202.50.253.27-0183'
+  - '[520.9ms +/-9ms] 🇮🇹IT-202.50.253.63-0247'
+  - '[521.1ms +/-12ms] 🇮🇹IT-202.50.253.54-0234'
+  - 🇮🇹 [540.8ms +/-3ms] 🇮🇹IT-202.50.253.99-0177
+  - '[577.2ms +/-1ms] 🇮🇹IT-202.50.253.90-0114'
+  - '[575.1ms +/-3ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[537.7ms +/-3ms] 🇮🇹IT-202.50.253.45-0194'
+  - '[593.3ms +/-1ms] SG'
+  - '[744.9ms +/-1ms] 🔒'
+  - '[616.0ms +/-22ms] GB'
+  - '[708.3ms +/-1ms] EE'
+  - '[676.7ms +/-1ms] IT'
+  - '[771.7ms +/-1ms] RU'
+  - '[755.5ms +/-1ms] CA'
+  - '[774.7ms +/-203ms] DE'
+  - '[1054.4ms +/-31ms] RU'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[362.7ms +/-1ms] US'
-  - '[679.5ms +/-6ms] IT'
-  - '[685.2ms +/-9ms] IT'
-  - '[679.4ms +/-39ms] IT'
-  - '[719.4ms +/-87ms] IT'
-  - '[704.3ms +/-22ms] IT'
-  - 🇮🇹 [784.9ms +/-53ms] IT
-  - 🇮🇹 [857.9ms +/-6ms] IT
-  - '[918.1ms +/-42ms] IT'
-  - '[972.4ms +/-38ms] IT'
-  - '[981.7ms +/-73ms] IT'
-  - '[727.6ms +/-131ms] IT'
-  - '[1110.0ms +/-282ms] IR'
-  - '[852.3ms +/-2ms] @VPsave'
+  - '[507.3ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[492.3ms +/-4ms] DE'
+  - '[513.9ms +/-4ms] 🇮🇹IT-202.50.253.72-0181'
+  - 🇮🇹 [508.7ms +/-9ms] 🇮🇹IT-202.50.253.36-0167
+  - '[512.6ms +/-13ms] 🇮🇹IT-202.50.253.27-0183'
+  - '[520.9ms +/-9ms] 🇮🇹IT-202.50.253.63-0247'
+  - '[521.1ms +/-12ms] 🇮🇹IT-202.50.253.54-0234'
+  - 🇮🇹 [540.8ms +/-3ms] 🇮🇹IT-202.50.253.99-0177
+  - '[577.2ms +/-1ms] 🇮🇹IT-202.50.253.90-0114'
+  - '[575.1ms +/-3ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[537.7ms +/-3ms] 🇮🇹IT-202.50.253.45-0194'
+  - '[593.3ms +/-1ms] SG'
+  - '[744.9ms +/-1ms] 🔒'
+  - '[616.0ms +/-22ms] GB'
+  - '[708.3ms +/-1ms] EE'
+  - '[676.7ms +/-1ms] IT'
+  - '[771.7ms +/-1ms] RU'
+  - '[755.5ms +/-1ms] CA'
+  - '[774.7ms +/-203ms] DE'
+  - '[1054.4ms +/-31ms] RU'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[362.7ms +/-1ms] US'
-  - '[679.5ms +/-6ms] IT'
-  - '[685.2ms +/-9ms] IT'
-  - '[679.4ms +/-39ms] IT'
-  - '[719.4ms +/-87ms] IT'
-  - '[704.3ms +/-22ms] IT'
-  - '[918.1ms +/-42ms] IT'
-  - '[972.4ms +/-38ms] IT'
-  - '[981.7ms +/-73ms] IT'
-  - '[727.6ms +/-131ms] IT'
-  - '[1110.0ms +/-282ms] IR'
-  - '[852.3ms +/-2ms] @VPsave'
+  - '[507.3ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[492.3ms +/-4ms] DE'
+  - '[513.9ms +/-4ms] 🇮🇹IT-202.50.253.72-0181'
+  - '[512.6ms +/-13ms] 🇮🇹IT-202.50.253.27-0183'
+  - '[520.9ms +/-9ms] 🇮🇹IT-202.50.253.63-0247'
+  - '[521.1ms +/-12ms] 🇮🇹IT-202.50.253.54-0234'
+  - '[577.2ms +/-1ms] 🇮🇹IT-202.50.253.90-0114'
+  - '[575.1ms +/-3ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[537.7ms +/-3ms] 🇮🇹IT-202.50.253.45-0194'
+  - '[593.3ms +/-1ms] SG'
+  - '[744.9ms +/-1ms] 🔒'
+  - '[616.0ms +/-22ms] GB'
+  - '[708.3ms +/-1ms] EE'
+  - '[676.7ms +/-1ms] IT'
+  - '[771.7ms +/-1ms] RU'
+  - '[755.5ms +/-1ms] CA'
+  - '[774.7ms +/-203ms] DE'
+  - '[1054.4ms +/-31ms] RU'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇮🇹 其他
   type: url-test
   proxies:
-  - 🇮🇹 [784.9ms +/-53ms] IT
-  - 🇮🇹 [857.9ms +/-6ms] IT
+  - 🇮🇹 [508.7ms +/-9ms] 🇮🇹IT-202.50.253.36-0167
+  - 🇮🇹 [540.8ms +/-3ms] 🇮🇹IT-202.50.253.99-0177
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
