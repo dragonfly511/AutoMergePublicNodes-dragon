@@ -60,38 +60,38 @@ https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/data/o
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-11-14 03:57（北京时间） |
-| 订阅源（可用/总数） | 89/110 |
-| 原始节点 → 去重后 | 103409 → 34464 |
-| 送入测试 → 探活通过 → 真测通过 | 3000 → 290 → 245 |
-| 国内可达 / 不可达 / 未知 | 15 / 205 / 25 |
-| 国内检查缓存命中 | 91 |
+| 更新时间 | 2026-11-14 14:49（北京时间） |
+| 订阅源（可用/总数） | 90/110 |
+| 原始节点 → 去重后 | 103939 → 34517 |
+| 送入测试 → 探活通过 → 真测通过 | 3000 → 114 → 82 |
+| 国内可达 / 不可达 / 未知 | 2 / 47 / 33 |
+| 国内检查缓存命中 | 32 |
 | **verified 输出** | 15 |
 | **global 输出** | 246 |
-| all 全量池 | 34464 |
-| 本轮耗时 | 264.7 秒 |
+| all 全量池 | 34517 |
+| 本轮耗时 | 271.6 秒 |
 
-> 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
+> 输出保护：verified, global。完整报告见 `output/health_report.md`、`output/stats.json`。
 
 ### Top 节点评分
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 90.33 | shadowsocks | 328.5 | dragon |
-| 89.6 | shadowsocks | 256.8 | dragon |
-| 89.21 | shadowsocks | 298.0 | dragon |
-| 88.96 | shadowsocks | 401.1 | dragon |
-| 88.37 | shadowsocks | 249.6 | dragon |
+| 84.11 | hysteria2 | 274.9 | dragon |
+| 82.67 | hysteria2 | 294.7 | dragon |
+| 82.35 | shadowsocks | 360.1 | dragon |
+| 81.5 | hysteria2 | 401.3 | dragon |
+| 79.03 | trojan | 302.9 | dragon |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| dragon | 0.926 | 271 | prefer |
-| dragon2 | 0.48 | 4 | observe |
-| mheidari-all | 0.438 | 3 | observe |
-| dragon3 | 0.413 | 6 | observe |
-| xiaoji235-airport-v2ray-all | 0.391 | 2 | observe |
+| dragon2 | 0.958 | 39 | prefer |
+| dragon | 0.734 | 50 | prefer |
+| dragon3 | 0.536 | 16 | observe |
+| ermaozi | 0.335 | 2 | observe |
+| mheidari-all | 0.287 | 2 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
