@@ -38,37 +38,38 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[684.1ms +/-10ms] @i10VPN⁴",
-        "[885.2ms +/-38ms] 🔒",
-        "[882.9ms +/-34ms] @i10VPN²",
-        "[720.5ms +/-184ms] SHADOWSOCKS | @PulseConfig(…)",
-        "[524.4ms +/-25ms] CA",
-        "[796.7ms +/-71ms] 4Mohsen-818b6739cf",
-        "[1021.6ms +/-222ms] @i10VPN⁵",
-        "[850.6ms +/-399ms] @DeltaKroneckerGithub",
-        "[1132.4ms +/-208ms] SHADOWSOCKS | @PulseConfi(…)",
-        "🇮🇹 [1619.0ms +/-168ms] SHADOWSOCKS | @PulseCo(…)",
-        "[1200.2ms +/-212ms] @i10VPN⁴",
-        "[1315.5ms +/-363ms] SHADOWSOCKS | @PulseConfi(…)"
+        "🇮🇹 其他",
+        "[571.1ms +/-1ms] [✅]",
+        "🇮🇹 [569.4ms +/-4ms] [✅]",
+        "[577.8ms +/-1ms] [✅]",
+        "[575.7ms +/-4ms] [✅]",
+        "[585.5ms +/-8ms] [✅]",
+        "[590.8ms +/-17ms] [✅]",
+        "[604.7ms +/-11ms] [✅]",
+        "[578.0ms +/-2ms] [✅]",
+        "[589.7ms +/-36ms] @DeltaKroneckerGithub",
+        "🇮🇹 [602.0ms +/-34ms] @DeltaKroneckerGithub",
+        "[1038.9ms +/-229ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini",
+        "[1467.2ms +/-701ms] 🇩🇪216783 | ⚡️Telegram = t(…)"
       ],
-      "default": "[684.1ms +/-10ms] @i10VPN⁴"
+      "default": "[571.1ms +/-1ms] [✅]"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[684.1ms +/-10ms] @i10VPN⁴",
-        "[885.2ms +/-38ms] 🔒",
-        "[882.9ms +/-34ms] @i10VPN²",
-        "[720.5ms +/-184ms] SHADOWSOCKS | @PulseConfig(…)",
-        "[524.4ms +/-25ms] CA",
-        "[796.7ms +/-71ms] 4Mohsen-818b6739cf",
-        "[1021.6ms +/-222ms] @i10VPN⁵",
-        "[850.6ms +/-399ms] @DeltaKroneckerGithub",
-        "[1132.4ms +/-208ms] SHADOWSOCKS | @PulseConfi(…)",
-        "🇮🇹 [1619.0ms +/-168ms] SHADOWSOCKS | @PulseCo(…)",
-        "[1200.2ms +/-212ms] @i10VPN⁴",
-        "[1315.5ms +/-363ms] SHADOWSOCKS | @PulseConfi(…)"
+        "[571.1ms +/-1ms] [✅]",
+        "🇮🇹 [569.4ms +/-4ms] [✅]",
+        "[577.8ms +/-1ms] [✅]",
+        "[575.7ms +/-4ms] [✅]",
+        "[585.5ms +/-8ms] [✅]",
+        "[590.8ms +/-17ms] [✅]",
+        "[604.7ms +/-11ms] [✅]",
+        "[578.0ms +/-2ms] [✅]",
+        "[589.7ms +/-36ms] @DeltaKroneckerGithub",
+        "🇮🇹 [602.0ms +/-34ms] @DeltaKroneckerGithub",
+        "[1038.9ms +/-229ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini",
+        "[1467.2ms +/-701ms] 🇩🇪216783 | ⚡️Telegram = t(…)"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -77,17 +78,26 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[684.1ms +/-10ms] @i10VPN⁴",
-        "[885.2ms +/-38ms] 🔒",
-        "[882.9ms +/-34ms] @i10VPN²",
-        "[720.5ms +/-184ms] SHADOWSOCKS | @PulseConfig(…)",
-        "[524.4ms +/-25ms] CA",
-        "[796.7ms +/-71ms] 4Mohsen-818b6739cf",
-        "[1021.6ms +/-222ms] @i10VPN⁵",
-        "[850.6ms +/-399ms] @DeltaKroneckerGithub",
-        "[1132.4ms +/-208ms] SHADOWSOCKS | @PulseConfi(…)",
-        "[1200.2ms +/-212ms] @i10VPN⁴",
-        "[1315.5ms +/-363ms] SHADOWSOCKS | @PulseConfi(…)"
+        "[571.1ms +/-1ms] [✅]",
+        "[577.8ms +/-1ms] [✅]",
+        "[575.7ms +/-4ms] [✅]",
+        "[585.5ms +/-8ms] [✅]",
+        "[590.8ms +/-17ms] [✅]",
+        "[604.7ms +/-11ms] [✅]",
+        "[578.0ms +/-2ms] [✅]",
+        "[589.7ms +/-36ms] @DeltaKroneckerGithub",
+        "[1038.9ms +/-229ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini",
+        "[1467.2ms +/-701ms] 🇩🇪216783 | ⚡️Telegram = t(…)"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": 600
+    },
+    {
+      "type": "url-test",
+      "tag": "🇮🇹 其他",
+      "outbounds": [
+        "🇮🇹 [569.4ms +/-4ms] [✅]",
+        "🇮🇹 [602.0ms +/-34ms] @DeltaKroneckerGithub"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -96,97 +106,23 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[684.1ms +/-10ms] @i10VPN⁴",
-      "server": "202.50.253.63",
-      "server_port": 19999
-    },
-    {
-      "password": "jcTG9WSWMJAmR4rv10xpww",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER",
-        "headers": {
-          "Host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net."
-        }
-      },
-      "type": "trojan",
-      "tag": "[885.2ms +/-38ms] 🔒",
-      "server": "151.101.69.109",
-      "server_port": 443
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[882.9ms +/-34ms] @i10VPN²",
-      "server": "202.50.253.27",
+      "tag": "[571.1ms +/-1ms] [✅]",
+      "server": "202.50.253.72",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[720.5ms +/-184ms] SHADOWSOCKS | @PulseConfig(…)",
-      "server": "202.50.253.90",
-      "server_port": 19999
-    },
-    {
-      "uuid": "7e0e7ca3-7aab-420e-9b40-c15a228ef33a",
-      "tls": {
-        "enabled": true,
-        "server_name": "ws137.mydosss.ccwu.cc",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/3b575ddc8596",
-        "headers": {
-          "Host": "ws137.mydosss.ccwu.cc"
-        }
-      },
-      "type": "vless",
-      "tag": "[524.4ms +/-25ms] CA",
-      "server": "ws137.mydosss.ccwu.cc",
-      "server_port": 443
-    },
-    {
-      "password": "https://xship.2fa.cat",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true
-      },
-      "type": "hysteria2",
-      "tag": "[796.7ms +/-71ms] 4Mohsen-818b6739cf",
-      "server": "starlink-ft.251313.xyz",
-      "server_port": 443
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[1021.6ms +/-222ms] @i10VPN⁵",
-      "server": "202.50.253.45",
+      "tag": "🇮🇹 [569.4ms +/-4ms] [✅]",
+      "server": "202.50.253.36",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[850.6ms +/-399ms] @DeltaKroneckerGithub",
-      "server": "202.50.253.54",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[1132.4ms +/-208ms] SHADOWSOCKS | @PulseConfi(…)",
+      "tag": "[577.8ms +/-1ms] [✅]",
       "server": "202.50.253.18",
       "server_port": 19999
     },
@@ -194,15 +130,47 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "🇮🇹 [1619.0ms +/-168ms] SHADOWSOCKS | @PulseCo(…)",
-      "server": "202.50.253.99",
+      "tag": "[575.7ms +/-4ms] [✅]",
+      "server": "202.50.253.90",
       "server_port": 19999
     },
     {
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[1200.2ms +/-212ms] @i10VPN⁴",
+      "tag": "[585.5ms +/-8ms] [✅]",
+      "server": "202.50.253.45",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[590.8ms +/-17ms] [✅]",
+      "server": "202.50.253.27",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[604.7ms +/-11ms] [✅]",
+      "server": "202.50.253.63",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[578.0ms +/-2ms] [✅]",
+      "server": "202.50.253.54",
+      "server_port": 19999
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "type": "shadowsocks",
+      "tag": "[589.7ms +/-36ms] @DeltaKroneckerGithub",
       "server": "202.50.253.81",
       "server_port": 19999
     },
@@ -210,9 +178,42 @@
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
       "type": "shadowsocks",
-      "tag": "[1315.5ms +/-363ms] SHADOWSOCKS | @PulseConfi(…)",
-      "server": "202.50.253.72",
+      "tag": "🇮🇹 [602.0ms +/-34ms] @DeltaKroneckerGithub",
+      "server": "202.50.253.99",
       "server_port": 19999
+    },
+    {
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "tls": {
+        "enabled": true,
+        "server_name": "0592efg.us8.h1clayd.click",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk",
+          "short_id": "bd8f712209a9c283"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "99f2107b03f8"
+      },
+      "type": "vless",
+      "tag": "[1038.9ms +/-229ms] ®️SHΞN™ᴢᴇʀᴏ🌐T.me/Shervini",
+      "server": "162.35.101.177",
+      "server_port": 443
+    },
+    {
+      "method": "chacha20-ietf-poly1305",
+      "password": "CISgSGkMRO3EWSnRv36bBaPhM_Vn2vvn",
+      "type": "shadowsocks",
+      "tag": "[1467.2ms +/-701ms] 🇩🇪216783 | ⚡️Telegram = t(…)",
+      "server": "185.190.54.64",
+      "server_port": 191
     },
     {
       "type": "direct",
