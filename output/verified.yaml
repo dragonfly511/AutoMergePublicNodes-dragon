@@ -2,138 +2,150 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: 🇮🇹 [475.7ms +/-8ms] SHADOWSOCKS | @PulseConfi(…)
+- name: 🇮🇹 [703.4ms +/-0ms] SHADOWSOCKS | @PulseConfi(…)
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 [497.2ms +/-6ms] SHADOWSOCKS | @PulseConfi(…)
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[508.4ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[498.2ms +/-11ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[514.9ms +/-53ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[643.2ms +/-9ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[599.8ms +/-8ms] @DeltaKroneckerGithub'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[774.0ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[469.6ms +/-0ms] 𔒰‎ ＳＥＧＡＲＯ'
-  server: 167.17.179.175
-  port: 443
-  type: hysteria2
-  password: SW_COSMOS:sYcUMf7G9g67Zuho
-  sni: spacearea.onthewifi.com
-  skip-cert-verify: true
-- name: '[549.8ms +/-167ms] SHADOWSOCKS | @PulseConfig(…)'
+- name: '[700.3ms +/-26ms] SHADOWSOCKS | @PulseConfigs(…)'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[643.0ms +/-9ms] US'
-  server: 23.129.180.171
+- name: 🇮🇹 [783.1ms +/-5ms] SHADOWSOCKS | @PulseConfi(…)
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[756.5ms +/-62ms] SHADOWSOCKS | @PulseConfigs(…)'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[945.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[718.8ms +/-211ms] SHADOWSOCKS | @PulseConfig(…)'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[782.6ms +/-217ms] @DeltaKroneckerGithub'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[749.6ms +/-100ms] 🇺🇸 机场推荐:dafei.de 美国 97'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[506.0ms +/-8ms] @VPsave'
+  server: 48.103.231.8
   port: 443
   type: vless
-  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
   udp: true
-  flow: xtls-rprx-vision
   tls: true
-  servername: us5.gofizzin.com
+  servername: ec7a81g.de15.h1clayd.click
   skip-cert-verify: true
   reality-opts:
-    public-key: tKA5ivaRbvqJ9RcSgp1ZtcCNfHAAuhWfve3tjMXse2w
-    short-id: 678ce913b8266e
-  client-fingerprint: firefox
-- name: '[559.3ms +/-3ms] 🇬🇧217478 | ⚡️Telegram = t.me(…)'
-  server: 18.175.120.120
+    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
+    short-id: 7a8e24da4eb2c1b5
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 43f41cd7fee0
+- name: '[636.2ms +/-2ms] 🇩🇪217916 | ⚡️Telegram = t.me(…)'
+  server: 130.61.145.251
+  port: 59924
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: uou5NTq+xna9PBIG+8jtSSyQ6idxiXZgeK+Uw52qopY=
+  udp: true
+- name: '[653.0ms +/-5ms] 🇬🇧217918 | ⚡️Telegram = t.me(…)'
+  server: 129.151.82.175
+  port: 61312
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: iXCjp4xDS0peZbXuug3rNopAlTQsVF/86+PkbFTv5JI=
+  udp: true
+- name: '[663.3ms +/-18ms] 🇩🇪217914 | ⚡️Telegram = t.m(…)'
+  server: 63.189.231.176
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: '[672.2ms +/-12ms] 🇳🇱217913 | ⚡️Telegram = t.m(…)'
+  server: 144.21.35.158
+  port: 45819
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
+  udp: true
+- name: '[1238.8ms +/-353ms] SHADOWSOCKS | @PulseConfi(…)'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1126.7ms +/-264ms] SHADOWSOCKS | @PulseConfi(…)'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[817.5ms +/-100ms] 🇬🇧217915 | ⚡️Telegram = t.(…)'
+  server: 35.176.112.173
   port: 443
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- name: '[502.6ms +/-1ms] 立陶宛+V2CROSS.COM'
-  server: 88.216.214.159
+- name: '[918.5ms +/-48ms] 🇩🇪217934 | ⚡️Telegram = t.m(…)'
+  server: 3.121.208.76
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: '[822.2ms +/-85ms] 🇮🇪'
+  server: 108.131.170.67
+  port: 80
+  type: vless
+  uuid: 6daa0b95-9210-4f29-be40-8c6db00bc5bb
+  udp: true
+- name: '[1031.1ms +/-751ms] 🇵🇱PL-🚀@VPNine1'
+  server: 179.253.101.162
   port: 443
   type: vless
-  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: api-svc-mgr.galioncc.com
+  servername: app.streamru17.net
   skip-cert-verify: true
-  reality-opts:
-    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-    short-id: a7c92e4b10d6f835
-  client-fingerprint: firefox
-- name: '[1119.1ms +/-569ms] 4Nika-c8f96e3fad'
-  server: 104.21.23.29
-  port: 443
-  type: vless
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-  udp: true
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: '[1192.4ms +/-627ms] 4Sarina-16162d7862'
-  server: 172.67.208.118
-  port: 443
-  type: vless
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-  udp: true
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
 proxy-groups:
 - name: 🚀 Proxy
   type: select
@@ -141,64 +153,76 @@ proxy-groups:
   - ♻️ Auto
   - 其他
   - 🇮🇹 其他
-  - 🇮🇹 [475.7ms +/-8ms] SHADOWSOCKS | @PulseConfi(…)
-  - 🇮🇹 [497.2ms +/-6ms] SHADOWSOCKS | @PulseConfi(…)
-  - '[508.4ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[498.2ms +/-11ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[514.9ms +/-53ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[643.2ms +/-9ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[599.8ms +/-8ms] @DeltaKroneckerGithub'
-  - '[774.0ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[469.6ms +/-0ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[549.8ms +/-167ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[643.0ms +/-9ms] US'
-  - '[559.3ms +/-3ms] 🇬🇧217478 | ⚡️Telegram = t.me(…)'
-  - '[502.6ms +/-1ms] 立陶宛+V2CROSS.COM'
-  - '[1119.1ms +/-569ms] 4Nika-c8f96e3fad'
-  - '[1192.4ms +/-627ms] 4Sarina-16162d7862'
+  - 🇮🇹 [703.4ms +/-0ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[700.3ms +/-26ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - 🇮🇹 [783.1ms +/-5ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[756.5ms +/-62ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[945.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[718.8ms +/-211ms] SHADOWSOCKS | @PulseConfig(…)'
+  - '[782.6ms +/-217ms] @DeltaKroneckerGithub'
+  - '[749.6ms +/-100ms] 🇺🇸 机场推荐:dafei.de 美国 97'
+  - '[506.0ms +/-8ms] @VPsave'
+  - '[636.2ms +/-2ms] 🇩🇪217916 | ⚡️Telegram = t.me(…)'
+  - '[653.0ms +/-5ms] 🇬🇧217918 | ⚡️Telegram = t.me(…)'
+  - '[663.3ms +/-18ms] 🇩🇪217914 | ⚡️Telegram = t.m(…)'
+  - '[672.2ms +/-12ms] 🇳🇱217913 | ⚡️Telegram = t.m(…)'
+  - '[1238.8ms +/-353ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[1126.7ms +/-264ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[817.5ms +/-100ms] 🇬🇧217915 | ⚡️Telegram = t.(…)'
+  - '[918.5ms +/-48ms] 🇩🇪217934 | ⚡️Telegram = t.m(…)'
+  - '[822.2ms +/-85ms] 🇮🇪'
+  - '[1031.1ms +/-751ms] 🇵🇱PL-🚀@VPNine1'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇮🇹 [475.7ms +/-8ms] SHADOWSOCKS | @PulseConfi(…)
-  - 🇮🇹 [497.2ms +/-6ms] SHADOWSOCKS | @PulseConfi(…)
-  - '[508.4ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[498.2ms +/-11ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[514.9ms +/-53ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[643.2ms +/-9ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[599.8ms +/-8ms] @DeltaKroneckerGithub'
-  - '[774.0ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[469.6ms +/-0ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[549.8ms +/-167ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[643.0ms +/-9ms] US'
-  - '[559.3ms +/-3ms] 🇬🇧217478 | ⚡️Telegram = t.me(…)'
-  - '[502.6ms +/-1ms] 立陶宛+V2CROSS.COM'
-  - '[1119.1ms +/-569ms] 4Nika-c8f96e3fad'
-  - '[1192.4ms +/-627ms] 4Sarina-16162d7862'
+  - 🇮🇹 [703.4ms +/-0ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[700.3ms +/-26ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - 🇮🇹 [783.1ms +/-5ms] SHADOWSOCKS | @PulseConfi(…)
+  - '[756.5ms +/-62ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[945.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[718.8ms +/-211ms] SHADOWSOCKS | @PulseConfig(…)'
+  - '[782.6ms +/-217ms] @DeltaKroneckerGithub'
+  - '[749.6ms +/-100ms] 🇺🇸 机场推荐:dafei.de 美国 97'
+  - '[506.0ms +/-8ms] @VPsave'
+  - '[636.2ms +/-2ms] 🇩🇪217916 | ⚡️Telegram = t.me(…)'
+  - '[653.0ms +/-5ms] 🇬🇧217918 | ⚡️Telegram = t.me(…)'
+  - '[663.3ms +/-18ms] 🇩🇪217914 | ⚡️Telegram = t.m(…)'
+  - '[672.2ms +/-12ms] 🇳🇱217913 | ⚡️Telegram = t.m(…)'
+  - '[1238.8ms +/-353ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[1126.7ms +/-264ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[817.5ms +/-100ms] 🇬🇧217915 | ⚡️Telegram = t.(…)'
+  - '[918.5ms +/-48ms] 🇩🇪217934 | ⚡️Telegram = t.m(…)'
+  - '[822.2ms +/-85ms] 🇮🇪'
+  - '[1031.1ms +/-751ms] 🇵🇱PL-🚀@VPNine1'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[508.4ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[498.2ms +/-11ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[514.9ms +/-53ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[643.2ms +/-9ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[599.8ms +/-8ms] @DeltaKroneckerGithub'
-  - '[774.0ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[469.6ms +/-0ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[549.8ms +/-167ms] SHADOWSOCKS | @PulseConfig(…)'
-  - '[643.0ms +/-9ms] US'
-  - '[559.3ms +/-3ms] 🇬🇧217478 | ⚡️Telegram = t.me(…)'
-  - '[502.6ms +/-1ms] 立陶宛+V2CROSS.COM'
-  - '[1119.1ms +/-569ms] 4Nika-c8f96e3fad'
-  - '[1192.4ms +/-627ms] 4Sarina-16162d7862'
+  - '[700.3ms +/-26ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[756.5ms +/-62ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[945.0ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[718.8ms +/-211ms] SHADOWSOCKS | @PulseConfig(…)'
+  - '[782.6ms +/-217ms] @DeltaKroneckerGithub'
+  - '[749.6ms +/-100ms] 🇺🇸 机场推荐:dafei.de 美国 97'
+  - '[506.0ms +/-8ms] @VPsave'
+  - '[636.2ms +/-2ms] 🇩🇪217916 | ⚡️Telegram = t.me(…)'
+  - '[653.0ms +/-5ms] 🇬🇧217918 | ⚡️Telegram = t.me(…)'
+  - '[663.3ms +/-18ms] 🇩🇪217914 | ⚡️Telegram = t.m(…)'
+  - '[672.2ms +/-12ms] 🇳🇱217913 | ⚡️Telegram = t.m(…)'
+  - '[1238.8ms +/-353ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[1126.7ms +/-264ms] SHADOWSOCKS | @PulseConfi(…)'
+  - '[817.5ms +/-100ms] 🇬🇧217915 | ⚡️Telegram = t.(…)'
+  - '[918.5ms +/-48ms] 🇩🇪217934 | ⚡️Telegram = t.m(…)'
+  - '[822.2ms +/-85ms] 🇮🇪'
+  - '[1031.1ms +/-751ms] 🇵🇱PL-🚀@VPNine1'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇮🇹 其他
   type: url-test
   proxies:
-  - 🇮🇹 [475.7ms +/-8ms] SHADOWSOCKS | @PulseConfi(…)
-  - 🇮🇹 [497.2ms +/-6ms] SHADOWSOCKS | @PulseConfi(…)
+  - 🇮🇹 [703.4ms +/-0ms] SHADOWSOCKS | @PulseConfi(…)
+  - 🇮🇹 [783.1ms +/-5ms] SHADOWSOCKS | @PulseConfi(…)
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
