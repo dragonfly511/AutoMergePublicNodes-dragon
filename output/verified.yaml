@@ -2,94 +2,104 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[637.3ms +/-2ms] 🇮🇹IT-202.50.253.27-0138'
+- name: '[550.8ms +/-7ms] 🇺🇸 机场推荐:dafei.de 美国 68'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[572.9ms +/-20ms] 🇮🇹IT-202.50.253.27-0138'
   server: 202.50.253.27
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 [639.4ms +/-4ms] 🇮🇹IT-202.50.253.99-0145
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[646.0ms +/-12ms] 🇮🇹IT-202.50.253.63-0177'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[655.0ms +/-13ms] 🇮🇹IT-202.50.253.81-0176'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [662.2ms +/-26ms] 🇮🇹IT-202.50.253.36-0152
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[664.4ms +/-26ms] 🇮🇹IT-202.50.253.90-0169'
+- name: '[970.4ms +/-28ms] 🇮🇹IT-202.50.253.90-0169'
   server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[671.3ms +/-13ms] @DeltaKroneckerGithub'
+- name: 🇮🇹 [1143.7ms +/-2ms] 🇮🇹IT-202.50.253.99-0145
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[911.7ms +/-130ms] 🇮🇹IT-202.50.253.63-0177'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1241.9ms +/-119ms] 🇮🇹IT-202.50.253.81-0176'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[531.0ms +/-3ms] 🇦🇹AT-🚀@VPNine1'
+  server: 89.58.16.116
+  port: 2342
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: wuW04H6Tq10Zw7ZVOUg6j1
+  udp: true
+- name: '[751.2ms +/-365ms] @DeltaKroneckerGithub'
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[675.8ms +/-17ms] 🇮🇹IT-202.50.253.45-0156'
+- name: '[1432.2ms +/-321ms] 🇮🇹IT-202.50.253.45-0156'
   server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[683.0ms +/-16ms] 🇮🇹IT-202.50.253.72-0141'
+- name: '[1363.2ms +/-296ms] 🇮🇹IT-202.50.253.72-0141'
   server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[658.9ms +/-89ms] 🇮🇹IT-202.50.253.18-0186'
+- name: 🇮🇹 [1294.7ms +/-412ms] 🇮🇹IT-202.50.253.36-0152
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1558.3ms +/-526ms] 🇮🇹IT-202.50.253.18-0186'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[307.7ms +/-1ms] 4Jadi-5d923b8fb3'
-  server: 172.236.231.45
+- name: '[755.8ms +/-26ms] 🇺🇸US-🚀@VPNine1'
+  server: 179.253.85.127
   port: 443
   type: vless
-  uuid: 4c4f7955-3b05-4795-b3b7-6c83b7f82b0f
+  uuid: 0c1c6550-08ee-49fd-8ef8-df2776cca31f
   udp: true
+  flow: xtls-rprx-vision
   tls: true
-  servername: itunes.apple.com
+  servername: 212.192.156.15
   skip-cert-verify: true
   reality-opts:
-    public-key: M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ
-    short-id: 8353867a
+    public-key: a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U
+    short-id: 5fd3245e96291c37
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 Proxy
   type: select
@@ -97,52 +107,58 @@ proxy-groups:
   - ♻️ Auto
   - 其他
   - 🇮🇹 其他
-  - '[637.3ms +/-2ms] 🇮🇹IT-202.50.253.27-0138'
-  - 🇮🇹 [639.4ms +/-4ms] 🇮🇹IT-202.50.253.99-0145
-  - '[646.0ms +/-12ms] 🇮🇹IT-202.50.253.63-0177'
-  - '[655.0ms +/-13ms] 🇮🇹IT-202.50.253.81-0176'
-  - 🇮🇹 [662.2ms +/-26ms] 🇮🇹IT-202.50.253.36-0152
-  - '[664.4ms +/-26ms] 🇮🇹IT-202.50.253.90-0169'
-  - '[671.3ms +/-13ms] @DeltaKroneckerGithub'
-  - '[675.8ms +/-17ms] 🇮🇹IT-202.50.253.45-0156'
-  - '[683.0ms +/-16ms] 🇮🇹IT-202.50.253.72-0141'
-  - '[658.9ms +/-89ms] 🇮🇹IT-202.50.253.18-0186'
-  - '[307.7ms +/-1ms] 4Jadi-5d923b8fb3'
+  - '[550.8ms +/-7ms] 🇺🇸 机场推荐:dafei.de 美国 68'
+  - '[572.9ms +/-20ms] 🇮🇹IT-202.50.253.27-0138'
+  - '[970.4ms +/-28ms] 🇮🇹IT-202.50.253.90-0169'
+  - 🇮🇹 [1143.7ms +/-2ms] 🇮🇹IT-202.50.253.99-0145
+  - '[911.7ms +/-130ms] 🇮🇹IT-202.50.253.63-0177'
+  - '[1241.9ms +/-119ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[531.0ms +/-3ms] 🇦🇹AT-🚀@VPNine1'
+  - '[751.2ms +/-365ms] @DeltaKroneckerGithub'
+  - '[1432.2ms +/-321ms] 🇮🇹IT-202.50.253.45-0156'
+  - '[1363.2ms +/-296ms] 🇮🇹IT-202.50.253.72-0141'
+  - 🇮🇹 [1294.7ms +/-412ms] 🇮🇹IT-202.50.253.36-0152
+  - '[1558.3ms +/-526ms] 🇮🇹IT-202.50.253.18-0186'
+  - '[755.8ms +/-26ms] 🇺🇸US-🚀@VPNine1'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[637.3ms +/-2ms] 🇮🇹IT-202.50.253.27-0138'
-  - 🇮🇹 [639.4ms +/-4ms] 🇮🇹IT-202.50.253.99-0145
-  - '[646.0ms +/-12ms] 🇮🇹IT-202.50.253.63-0177'
-  - '[655.0ms +/-13ms] 🇮🇹IT-202.50.253.81-0176'
-  - 🇮🇹 [662.2ms +/-26ms] 🇮🇹IT-202.50.253.36-0152
-  - '[664.4ms +/-26ms] 🇮🇹IT-202.50.253.90-0169'
-  - '[671.3ms +/-13ms] @DeltaKroneckerGithub'
-  - '[675.8ms +/-17ms] 🇮🇹IT-202.50.253.45-0156'
-  - '[683.0ms +/-16ms] 🇮🇹IT-202.50.253.72-0141'
-  - '[658.9ms +/-89ms] 🇮🇹IT-202.50.253.18-0186'
-  - '[307.7ms +/-1ms] 4Jadi-5d923b8fb3'
+  - '[550.8ms +/-7ms] 🇺🇸 机场推荐:dafei.de 美国 68'
+  - '[572.9ms +/-20ms] 🇮🇹IT-202.50.253.27-0138'
+  - '[970.4ms +/-28ms] 🇮🇹IT-202.50.253.90-0169'
+  - 🇮🇹 [1143.7ms +/-2ms] 🇮🇹IT-202.50.253.99-0145
+  - '[911.7ms +/-130ms] 🇮🇹IT-202.50.253.63-0177'
+  - '[1241.9ms +/-119ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[531.0ms +/-3ms] 🇦🇹AT-🚀@VPNine1'
+  - '[751.2ms +/-365ms] @DeltaKroneckerGithub'
+  - '[1432.2ms +/-321ms] 🇮🇹IT-202.50.253.45-0156'
+  - '[1363.2ms +/-296ms] 🇮🇹IT-202.50.253.72-0141'
+  - 🇮🇹 [1294.7ms +/-412ms] 🇮🇹IT-202.50.253.36-0152
+  - '[1558.3ms +/-526ms] 🇮🇹IT-202.50.253.18-0186'
+  - '[755.8ms +/-26ms] 🇺🇸US-🚀@VPNine1'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[637.3ms +/-2ms] 🇮🇹IT-202.50.253.27-0138'
-  - '[646.0ms +/-12ms] 🇮🇹IT-202.50.253.63-0177'
-  - '[655.0ms +/-13ms] 🇮🇹IT-202.50.253.81-0176'
-  - '[664.4ms +/-26ms] 🇮🇹IT-202.50.253.90-0169'
-  - '[671.3ms +/-13ms] @DeltaKroneckerGithub'
-  - '[675.8ms +/-17ms] 🇮🇹IT-202.50.253.45-0156'
-  - '[683.0ms +/-16ms] 🇮🇹IT-202.50.253.72-0141'
-  - '[658.9ms +/-89ms] 🇮🇹IT-202.50.253.18-0186'
-  - '[307.7ms +/-1ms] 4Jadi-5d923b8fb3'
+  - '[550.8ms +/-7ms] 🇺🇸 机场推荐:dafei.de 美国 68'
+  - '[572.9ms +/-20ms] 🇮🇹IT-202.50.253.27-0138'
+  - '[970.4ms +/-28ms] 🇮🇹IT-202.50.253.90-0169'
+  - '[911.7ms +/-130ms] 🇮🇹IT-202.50.253.63-0177'
+  - '[1241.9ms +/-119ms] 🇮🇹IT-202.50.253.81-0176'
+  - '[531.0ms +/-3ms] 🇦🇹AT-🚀@VPNine1'
+  - '[751.2ms +/-365ms] @DeltaKroneckerGithub'
+  - '[1432.2ms +/-321ms] 🇮🇹IT-202.50.253.45-0156'
+  - '[1363.2ms +/-296ms] 🇮🇹IT-202.50.253.72-0141'
+  - '[1558.3ms +/-526ms] 🇮🇹IT-202.50.253.18-0186'
+  - '[755.8ms +/-26ms] 🇺🇸US-🚀@VPNine1'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🇮🇹 其他
   type: url-test
   proxies:
-  - 🇮🇹 [639.4ms +/-4ms] 🇮🇹IT-202.50.253.99-0145
-  - 🇮🇹 [662.2ms +/-26ms] 🇮🇹IT-202.50.253.36-0152
+  - 🇮🇹 [1143.7ms +/-2ms] 🇮🇹IT-202.50.253.99-0145
+  - 🇮🇹 [1294.7ms +/-412ms] 🇮🇹IT-202.50.253.36-0152
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
