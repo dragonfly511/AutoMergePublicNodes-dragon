@@ -2,142 +2,138 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[573.5ms +/-3ms] RU'
-  server: 201.24.116.192
-  port: 443
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+- name: 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  servername: vps3.nemnogogo.com
-  skip-cert-verify: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: mobile.api.Event
-- name: '[759.7ms +/-0ms] FI'
-  server: 85.192.49.30
-  port: 443
-  type: vless
-  uuid: b384d216-9efa-4fd0-a5ef-bd3c37475e4d
+- name: '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: fl-sec.anonch.org
-  skip-cert-verify: true
-  reality-opts:
-    public-key: U4emEOkDFbLtjL-zw7iOti2IRrLjSBGcvRHK1edC-VI
-    short-id: 886b97976d1e42cc
-  client-fingerprint: firefox
-- name: '[938.3ms +/-3ms] RU'
-  server: 46.243.205.192
-  port: 443
-  type: vless
-  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+- name: 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  servername: 46.243.205.192
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /catalog/feed/H9eui7WsW3xS
-    headers:
-      Host: 46.243.205.192
-- name: '[995.8ms +/-2ms] KZ'
-  server: 91.224.74.146
-  port: 443
-  type: vless
-  uuid: e44962da-9e02-41aa-b86f-a83a521875b6
+- name: '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: 212.192.156.15
-  skip-cert-verify: true
-  reality-opts:
-    public-key: a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U
-    short-id: 5fd3245e96291c37
-  client-fingerprint: firefox
-- name: '[1643.3ms +/-2ms] NL'
-  server: 185.207.198.151
-  port: 443
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-e56923ade28f
+- name: '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  servername: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/e56923ade28f/loc-1
-    headers:
-      Host: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-- name: '[1231.8ms +/-36ms] RU'
-  server: 72.56.238.90
-  port: 443
-  type: vless
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+- name: '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  servername: sequoia.merlano.monster
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /api/de1/stream
-    headers:
-      Host: vellum.merlano.monster
-- name: '[1092.7ms +/-303ms] GB'
-  server: 189.30.65.203
-  port: 2083
-  type: vless
-  uuid: 490dc3b4-8d1d-49fd-840e-bd5277b41557
+- name: '[614.2ms +/-8ms] @DeltaKroneckerGithub'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: service-41f6a2a01377
-- name: '[933.6ms +/-340ms] 4FreeIran-d9a7dc08a5'
-  server: 168.113.254.247
+- name: '[585.5ms +/-41ms] @DeltaKroneckerGithub'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
+  server: 89.117.172.45
   port: 443
   type: hysteria2
-  password: b006650f-8771-0001-b7fa-e18fc6e80ef1
-  sni: vcerx-ru-67sb.my-fade.cloud
+  password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
+  sni: eth.todsm.com
   skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
+- name: '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[573.5ms +/-3ms] RU'
-  - '[759.7ms +/-0ms] FI'
-  - '[938.3ms +/-3ms] RU'
-  - '[995.8ms +/-2ms] KZ'
-  - '[1643.3ms +/-2ms] NL'
-  - '[1231.8ms +/-36ms] RU'
-  - '[1092.7ms +/-303ms] GB'
-  - '[933.6ms +/-340ms] 4FreeIran-d9a7dc08a5'
+  - 🇮🇹 其他
+  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
+  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
+  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
+  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
+  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
+  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
+  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
+  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
+  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
+  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
+  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[573.5ms +/-3ms] RU'
-  - '[759.7ms +/-0ms] FI'
-  - '[938.3ms +/-3ms] RU'
-  - '[995.8ms +/-2ms] KZ'
-  - '[1643.3ms +/-2ms] NL'
-  - '[1231.8ms +/-36ms] RU'
-  - '[1092.7ms +/-303ms] GB'
-  - '[933.6ms +/-340ms] 4FreeIran-d9a7dc08a5'
+  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
+  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
+  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
+  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
+  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
+  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
+  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
+  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
+  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
+  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
+  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[573.5ms +/-3ms] RU'
-  - '[759.7ms +/-0ms] FI'
-  - '[938.3ms +/-3ms] RU'
-  - '[995.8ms +/-2ms] KZ'
-  - '[1643.3ms +/-2ms] NL'
-  - '[1231.8ms +/-36ms] RU'
-  - '[1092.7ms +/-303ms] GB'
-  - '[933.6ms +/-340ms] 4FreeIran-d9a7dc08a5'
+  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
+  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
+  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
+  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
+  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
+  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
+  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
+  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
+  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇮🇹 其他
+  type: url-test
+  proxies:
+  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
+  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
