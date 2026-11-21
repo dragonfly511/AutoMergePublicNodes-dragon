@@ -2,63 +2,44 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[561.5ms +/-1ms] vless-193.233.89.130'
+  server: 193.233.89.130
+  port: 8443
+  type: vless
+  uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
   udp: true
-- name: '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
+  tls: true
+  servername: g.play2go.gay
+  skip-cert-verify: true
+  reality-opts:
+    public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
+    short-id: ''
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: '[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)'
   server: 202.50.253.72
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[776.4ms +/-6ms] 🔒'
+  server: 104.17.145.145
+  port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-- name: '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[614.2ms +/-8ms] @DeltaKroneckerGithub'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[585.5ms +/-41ms] @DeltaKroneckerGithub'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
+  tls: true
+  servername: vipfree.dr-ping.ir
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: '[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ'
   server: 89.117.172.45
   port: 443
   type: hysteria2
@@ -67,73 +48,74 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
-- name: '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
-  server: 202.50.253.81
+- name: '[832.2ms +/-6ms] @DeltaKroneckerGithub'
+  server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
-  server: 202.50.253.54
+- name: '[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)'
+  server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: '[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)'
+  server: 46.8.100.213
+  port: 4380
+  type: vless
+  uuid: 78eb9435-b337-473b-bef3-b0351d5fd62f
+  udp: true
+- name: '[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ'
+  server: 43.133.167.153
+  port: 443
+  type: vless
+  uuid: 516f305b-abb4-4e20-f70f-322ee3d7177d
+  udp: true
+  flow: xtls-rprx-vision
+  tls: true
+  servername: r.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - 🇮🇹 其他
-  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
-  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
-  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
-  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
-  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
-  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
-  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
-  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
-  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
-  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
+  - '[561.5ms +/-1ms] vless-193.233.89.130'
+  - '[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)'
+  - '[776.4ms +/-6ms] 🔒'
+  - '[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[832.2ms +/-6ms] @DeltaKroneckerGithub'
+  - '[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)'
+  - '[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)'
+  - '[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
-  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
-  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
-  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
-  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
-  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
-  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
-  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
-  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
-  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
+  - '[561.5ms +/-1ms] vless-193.233.89.130'
+  - '[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)'
+  - '[776.4ms +/-6ms] 🔒'
+  - '[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[832.2ms +/-6ms] @DeltaKroneckerGithub'
+  - '[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)'
+  - '[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)'
+  - '[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[612.9ms +/-13ms] 🇮🇹IT-202.50.253.72-0132'
-  - '[647.1ms +/-86ms] 🇮🇹IT-202.50.253.90-0175'
-  - '[622.4ms +/-105ms] 🇮🇹IT-202.50.253.63-0143'
-  - '[599.8ms +/-199ms] 🇮🇹IT-202.50.253.18-0138'
-  - '[614.2ms +/-8ms] @DeltaKroneckerGithub'
-  - '[585.5ms +/-41ms] @DeltaKroneckerGithub'
-  - '[363.0ms +/-3ms] 🇺🇸US-🚀@VPNine1'
-  - '[1060.3ms +/-1ms] @DeltaKroneckerGithub'
-  - '[1044.7ms +/-310ms] 🇮🇹IT-202.50.253.54-0161'
-  url: https://www.gstatic.com/generate_204
-  interval: 600
-- name: 🇮🇹 其他
-  type: url-test
-  proxies:
-  - 🇮🇹 [555.7ms +/-29ms] 🇮🇹IT-202.50.253.99-0186
-  - 🇮🇹 [582.8ms +/-47ms] 🇮🇹IT-202.50.253.36-0203
+  - '[561.5ms +/-1ms] vless-193.233.89.130'
+  - '[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)'
+  - '[776.4ms +/-6ms] 🔒'
+  - '[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ'
+  - '[832.2ms +/-6ms] @DeltaKroneckerGithub'
+  - '[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)'
+  - '[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)'
+  - '[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
