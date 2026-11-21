@@ -38,29 +38,23 @@
       "outbounds": [
         "♻️ Auto",
         "其他",
-        "[561.5ms +/-1ms] vless-193.233.89.130",
-        "[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)",
-        "[776.4ms +/-6ms] 🔒",
-        "[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ",
-        "[832.2ms +/-6ms] @DeltaKroneckerGithub",
-        "[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)",
-        "[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)",
-        "[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ"
+        "[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)",
+        "[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)",
+        "[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)",
+        "[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)",
+        "[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)"
       ],
-      "default": "[561.5ms +/-1ms] vless-193.233.89.130"
+      "default": "[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)"
     },
     {
       "type": "url-test",
       "tag": "♻️ Auto",
       "outbounds": [
-        "[561.5ms +/-1ms] vless-193.233.89.130",
-        "[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)",
-        "[776.4ms +/-6ms] 🔒",
-        "[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ",
-        "[832.2ms +/-6ms] @DeltaKroneckerGithub",
-        "[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)",
-        "[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)",
-        "[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ"
+        "[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)",
+        "[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)",
+        "[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)",
+        "[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)",
+        "[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
@@ -69,120 +63,153 @@
       "type": "url-test",
       "tag": "其他",
       "outbounds": [
-        "[561.5ms +/-1ms] vless-193.233.89.130",
-        "[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)",
-        "[776.4ms +/-6ms] 🔒",
-        "[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ",
-        "[832.2ms +/-6ms] @DeltaKroneckerGithub",
-        "[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)",
-        "[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)",
-        "[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ"
+        "[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)",
+        "[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)",
+        "[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)",
+        "[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)",
+        "[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": 600
     },
     {
-      "uuid": "7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe",
+      "uuid": "4444e77e-3d2a-4dc9-bf31-936f038f5570",
       "tls": {
         "enabled": true,
-        "server_name": "g.play2go.gay",
+        "server_name": "itunes.apple.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c",
-          "short_id": ""
+          "public_key": "ZZwZGoX0Us8t6nLvckDWskC1c25F9rL0_nUXmd8BFxQ",
+          "short_id": "8dd324c1"
         },
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
-      },
-      "type": "vless",
-      "tag": "[561.5ms +/-1ms] vless-193.233.89.130",
-      "server": "193.233.89.130",
-      "server_port": 8443
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[523.8ms +/-4ms] 🇮🇹 [701.4ms +/-64ms] shadows(…)",
-      "server": "202.50.253.72",
-      "server_port": 19999
-    },
-    {
-      "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
-      "tls": {
-        "enabled": true,
-        "server_name": "vipfree.dr-ping.ir",
-        "insecure": true
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/ws",
         "headers": {
-          "Host": "vipfree.dr-ping.ir"
+          "Host": "itunes.apple.com"
         }
       },
       "type": "vless",
-      "tag": "[776.4ms +/-6ms] 🔒",
-      "server": "104.17.145.145",
-      "server_port": 2083
-    },
-    {
-      "password": "HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON",
-      "tls": {
-        "enabled": true,
-        "server_name": "eth.todsm.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN"
-      },
-      "type": "hysteria2",
-      "tag": "[701.9ms +/-1ms] 𔒰‎ ＳＥＧＡＲＯ",
-      "server": "89.117.172.45",
+      "tag": "[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)",
+      "server": "107.191.58.86",
       "server_port": 443
     },
     {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[832.2ms +/-6ms] @DeltaKroneckerGithub",
-      "server": "202.50.253.63",
-      "server_port": 19999
-    },
-    {
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "type": "shadowsocks",
-      "tag": "[1182.2ms +/-27ms] 🇮🇹 [855.6ms +/-31ms] shado(…)",
-      "server": "202.50.253.90",
-      "server_port": 19999
-    },
-    {
-      "uuid": "78eb9435-b337-473b-bef3-b0351d5fd62f",
-      "type": "vless",
-      "tag": "[440.9ms +/-49ms] 🇦🇪221556 | ⚡️Telegram = t.m(…)",
-      "server": "46.8.100.213",
-      "server_port": 4380
-    },
-    {
-      "uuid": "516f305b-abb4-4e20-f70f-322ee3d7177d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "21117a67-21c2-4e2a-ba8f-bc49e23b0ae8",
       "tls": {
         "enabled": true,
-        "server_name": "r.bing.com",
-        "insecure": true
+        "server_name": "itunes.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs",
+          "short_id": "51ecfe9e"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
       },
       "type": "vless",
-      "tag": "[706.7ms +/-393ms] ᴛᴇʟᴇɢʀᴀᴍ",
-      "server": "43.133.167.153",
+      "tag": "[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)",
+      "server": "172.236.241.130",
+      "server_port": 443
+    },
+    {
+      "uuid": "40a4b915-5e6f-4316-9bb1-e899f30608e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4",
+          "short_id": "5818adc3"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      },
+      "type": "vless",
+      "tag": "[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)",
+      "server": "172.233.129.172",
+      "server_port": 443
+    },
+    {
+      "uuid": "61e3954d-0d66-4b69-b6cd-9b4fc2352303",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY",
+          "short_id": "4206512a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      },
+      "type": "vless",
+      "tag": "[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)",
+      "server": "172.233.142.149",
+      "server_port": 443
+    },
+    {
+      "uuid": "4c4f7955-3b05-4795-b3b7-6c83b7f82b0f",
+      "tls": {
+        "enabled": true,
+        "server_name": "itunes.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ",
+          "short_id": "8353867a"
+        },
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "itunes.apple.com"
+        }
+      },
+      "type": "vless",
+      "tag": "[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)",
+      "server": "172.236.231.45",
       "server_port": 443
     },
     {
