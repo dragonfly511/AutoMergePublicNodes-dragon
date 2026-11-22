@@ -2,125 +2,82 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)'
-  server: 107.191.58.86
+- name: '[570.7ms +/-0ms] 日本_112201032'
+  server: 139.162.101.74
   port: 443
   type: vless
-  uuid: 4444e77e-3d2a-4dc9-bf31-936f038f5570
+  uuid: 1e709d98-d4c3-45c1-bdcc-4268cf83eff8
   udp: true
   tls: true
   servername: itunes.apple.com
   skip-cert-verify: true
   reality-opts:
-    public-key: ZZwZGoX0Us8t6nLvckDWskC1c25F9rL0_nUXmd8BFxQ
-    short-id: 8dd324c1
+    public-key: jd8UNLpim43LVV-iEzIXlUgTVuvi9Pf7E0kgQb3o0CI
+    short-id: 7e1e09f4
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: '[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)'
-  server: 172.236.241.130
+- name: '[623.5ms +/-1ms] 日本_112201029'
+  server: 139.162.91.224
   port: 443
   type: vless
-  uuid: 21117a67-21c2-4e2a-ba8f-bc49e23b0ae8
+  uuid: ff3038b1-a2f5-428f-89cd-5d5e4efba8e7
   udp: true
   tls: true
   servername: itunes.apple.com
   skip-cert-verify: true
   reality-opts:
-    public-key: ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs
-    short-id: 51ecfe9e
+    public-key: wmbc3kcjbG9-A9Fi7zaHuRVPH7A7UQkKNNvqyqJtMEk
+    short-id: e5b03494
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: '[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)'
-  server: 172.233.129.172
+- name: '[653.9ms +/-14ms] 🇭🇰 香港 | HKG 2'
+  server: ibsdsf.df6h451rh.xin
   port: 443
-  type: vless
-  uuid: 40a4b915-5e6f-4316-9bb1-e899f30608e3
-  udp: true
-  tls: true
-  servername: itunes.apple.com
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: LWfC_chpo4uDtzJ9VVnuTcf6zTzWKx-LCJAE2Ltl7h4
-    short-id: 5818adc3
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: '[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)'
-  server: 172.233.142.149
+- name: '[1647.5ms +/-2ms] 🇹🇼 🇨🇳 台湾 | TWN 2'
+  server: rtifgjdr.df6h451rh.xin
   port: 443
-  type: vless
-  uuid: 61e3954d-0d66-4b69-b6cd-9b4fc2352303
-  udp: true
-  tls: true
-  servername: itunes.apple.com
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: f9D1ZzG6vP1HgjCaCIutbykWkab8VEDuitwuwaeuBgY
-    short-id: 4206512a
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: '[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)'
-  server: 172.236.231.45
-  port: 443
-  type: vless
-  uuid: 4c4f7955-3b05-4795-b3b7-6c83b7f82b0f
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ
-    short-id: 8353867a
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)'
-  - '[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)'
-  - '[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)'
-  - '[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)'
-  - '[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)'
+  - '[570.7ms +/-0ms] 日本_112201032'
+  - '[623.5ms +/-1ms] 日本_112201029'
+  - '[653.9ms +/-14ms] 🇭🇰 香港 | HKG 2'
+  - '[1647.5ms +/-2ms] 🇹🇼 🇨🇳 台湾 | TWN 2'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)'
-  - '[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)'
-  - '[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)'
-  - '[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)'
-  - '[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)'
+  - '[570.7ms +/-0ms] 日本_112201032'
+  - '[623.5ms +/-1ms] 日本_112201029'
+  - '[653.9ms +/-14ms] 🇭🇰 香港 | HKG 2'
+  - '[1647.5ms +/-2ms] 🇹🇼 🇨🇳 台湾 | TWN 2'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[332.4ms +/-0ms] [283.7ms +/-2ms] 4Sarina-0b4(…)'
-  - '[364.6ms +/-2ms] [289.6ms +/-5ms] 4Mohsen-a33(…)'
-  - '[369.7ms +/-9ms] [296.1ms +/-1ms] 4Nika-41ceb(…)'
-  - '[374.6ms +/-2ms] [287.4ms +/-2ms] 4Sarina-f2e(…)'
-  - '[429.1ms +/-4ms] [346.6ms +/-3ms] 4Jadi-5d923(…)'
+  - '[570.7ms +/-0ms] 日本_112201032'
+  - '[623.5ms +/-1ms] 日本_112201029'
+  - '[653.9ms +/-14ms] 🇭🇰 香港 | HKG 2'
+  - '[1647.5ms +/-2ms] 🇹🇼 🇨🇳 台湾 | TWN 2'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
