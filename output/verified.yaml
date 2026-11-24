@@ -2,143 +2,301 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[611.6ms +/-3ms] ss-202.50.253.27'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[612.7ms +/-2ms] ss-202.50.253.72'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[569.8ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [584.1ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[576.4ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[580.3ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[582.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[583.7ms +/-10ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[647.1ms +/-24ms] SHADOWSOCKS | @PulseConfigs(…)'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[1091.3ms +/-3ms] vless-109.120.155.155'
-  server: 109.120.155.155
-  port: 444
-  type: vless
-  uuid: 99ab6748-3d57-4562-9451-843c15960b9b
-  udp: true
-  tls: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+- name: '[928.9ms +/-1ms] Config'
+  server: 104.24.137.130
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
   skip-cert-verify: true
+  udp: true
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /trojan-ws
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
-- name: '[912.3ms +/-10ms] 🇬🇧 United Kingdom 670'
-  server: 104.21.14.228
+      Host: mhpanel.kigaping.com
+- name: '[846.6ms +/-1ms] 🔒'
+  server: 172.64.150.28
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[870.4ms +/-3ms] 🔒'
+  server: 104.16.114.7
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[866.6ms +/-1ms] 🔒'
+  server: 104.25.39.241
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[865.3ms +/-2ms] 🔒'
+  server: 104.16.242.176
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[885.2ms +/-3ms] 🔒'
+  server: 104.19.70.201
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: 🇸🇦 [915.8ms +/-1ms] 🔒
+  server: 91.209.253.54
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[935.1ms +/-10ms] 🔒'
+  server: 162.159.144.209
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[917.2ms +/-2ms] 🔒'
+  server: 172.66.3.191
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[931.3ms +/-2ms] 🔒'
+  server: 104.25.211.29
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[923.9ms +/-1ms] 🔒'
+  server: 104.16.26.10
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[917.7ms +/-1ms] 🔒'
+  server: 104.16.106.252
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[950.4ms +/-8ms] 🔒'
+  server: 172.66.193.96
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[849.4ms +/-1ms] 🔒'
+  server: 104.25.224.90
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
+  server: 159.246.55.228
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
+  server: 141.11.202.143
+  port: 443
+  type: trojan
+  password: 1vkFHbQX_gN1U8V8jVc
+  sni: mhpanel.kigaping.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: mhpanel.kigaping.com
+- name: '[802.4ms +/-5ms] @ConfigV2RayNG'
+  server: 162.159.254.201
   port: 443
   type: vless
-  uuid: 443b1e88-41fa-43bb-ff6c-982544254b74
+  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
   udp: true
   tls: true
-  servername: wandering-river-cd33.mramezanian1375.workers.dev
+  servername: o685y.save-node.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /87fab74555d6e093
+    path: /api/se1k2rfxlsuer3ry4u6e84kl8rqp721p
     headers:
-      Host: wandering-river-cd33.mramezanian1375.workers.dev
+      Host: o685y.save-node.com
+- name: '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
+  server: 64.49.15.224
+  port: 32845
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: UsFmaxEHVwUa025jmmwLG7du-zLVqZK0
+  udp: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[611.6ms +/-3ms] ss-202.50.253.27'
-  - '[612.7ms +/-2ms] ss-202.50.253.72'
-  - '[569.8ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - 🇮🇹 [584.1ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
-  - '[576.4ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[580.3ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[582.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[583.7ms +/-10ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[647.1ms +/-24ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[1091.3ms +/-3ms] vless-109.120.155.155'
-  - '[912.3ms +/-10ms] 🇬🇧 United Kingdom 670'
+  - '[928.9ms +/-1ms] Config'
+  - '[846.6ms +/-1ms] 🔒'
+  - '[870.4ms +/-3ms] 🔒'
+  - '[866.6ms +/-1ms] 🔒'
+  - '[865.3ms +/-2ms] 🔒'
+  - '[885.2ms +/-3ms] 🔒'
+  - 🇸🇦 [915.8ms +/-1ms] 🔒
+  - '[935.1ms +/-10ms] 🔒'
+  - '[917.2ms +/-2ms] 🔒'
+  - '[931.3ms +/-2ms] 🔒'
+  - '[923.9ms +/-1ms] 🔒'
+  - '[917.7ms +/-1ms] 🔒'
+  - '[950.4ms +/-8ms] 🔒'
+  - '[849.4ms +/-1ms] 🔒'
+  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
+  - 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
+  - '[802.4ms +/-5ms] @ConfigV2RayNG'
+  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[611.6ms +/-3ms] ss-202.50.253.27'
-  - '[612.7ms +/-2ms] ss-202.50.253.72'
-  - '[569.8ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - 🇮🇹 [584.1ms +/-1ms] SHADOWSOCKS | @PulseConfi(…)
-  - '[576.4ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[580.3ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[582.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[583.7ms +/-10ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[647.1ms +/-24ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[1091.3ms +/-3ms] vless-109.120.155.155'
-  - '[912.3ms +/-10ms] 🇬🇧 United Kingdom 670'
+  - '[928.9ms +/-1ms] Config'
+  - '[846.6ms +/-1ms] 🔒'
+  - '[870.4ms +/-3ms] 🔒'
+  - '[866.6ms +/-1ms] 🔒'
+  - '[865.3ms +/-2ms] 🔒'
+  - '[885.2ms +/-3ms] 🔒'
+  - 🇸🇦 [915.8ms +/-1ms] 🔒
+  - '[935.1ms +/-10ms] 🔒'
+  - '[917.2ms +/-2ms] 🔒'
+  - '[931.3ms +/-2ms] 🔒'
+  - '[923.9ms +/-1ms] 🔒'
+  - '[917.7ms +/-1ms] 🔒'
+  - '[950.4ms +/-8ms] 🔒'
+  - '[849.4ms +/-1ms] 🔒'
+  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
+  - 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
+  - '[802.4ms +/-5ms] @ConfigV2RayNG'
+  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[611.6ms +/-3ms] ss-202.50.253.27'
-  - '[612.7ms +/-2ms] ss-202.50.253.72'
-  - '[569.8ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[576.4ms +/-7ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[580.3ms +/-5ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[582.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[583.7ms +/-10ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[647.1ms +/-24ms] SHADOWSOCKS | @PulseConfigs(…)'
-  - '[1091.3ms +/-3ms] vless-109.120.155.155'
-  - '[912.3ms +/-10ms] 🇬🇧 United Kingdom 670'
+  - '[928.9ms +/-1ms] Config'
+  - '[846.6ms +/-1ms] 🔒'
+  - '[870.4ms +/-3ms] 🔒'
+  - '[866.6ms +/-1ms] 🔒'
+  - '[865.3ms +/-2ms] 🔒'
+  - '[885.2ms +/-3ms] 🔒'
+  - '[935.1ms +/-10ms] 🔒'
+  - '[917.2ms +/-2ms] 🔒'
+  - '[931.3ms +/-2ms] 🔒'
+  - '[923.9ms +/-1ms] 🔒'
+  - '[917.7ms +/-1ms] 🔒'
+  - '[950.4ms +/-8ms] 🔒'
+  - '[849.4ms +/-1ms] 🔒'
+  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
+  - '[802.4ms +/-5ms] @ConfigV2RayNG'
+  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
