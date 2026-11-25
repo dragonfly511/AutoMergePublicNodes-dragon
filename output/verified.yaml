@@ -2,301 +2,166 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[928.9ms +/-1ms] Config'
-  server: 104.24.137.130
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[846.6ms +/-1ms] 🔒'
-  server: 172.64.150.28
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[870.4ms +/-3ms] 🔒'
-  server: 104.16.114.7
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[866.6ms +/-1ms] 🔒'
-  server: 104.25.39.241
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[865.3ms +/-2ms] 🔒'
-  server: 104.16.242.176
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[885.2ms +/-3ms] 🔒'
-  server: 104.19.70.201
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: 🇸🇦 [915.8ms +/-1ms] 🔒
-  server: 91.209.253.54
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[935.1ms +/-10ms] 🔒'
-  server: 162.159.144.209
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[917.2ms +/-2ms] 🔒'
-  server: 172.66.3.191
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[931.3ms +/-2ms] 🔒'
-  server: 104.25.211.29
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+- name: '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[923.9ms +/-1ms] 🔒'
-  server: 104.16.26.10
+- name: '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
+  server: 35.178.82.244
   port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[917.7ms +/-1ms] 🔒'
-  server: 104.16.106.252
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[950.4ms +/-8ms] 🔒'
-  server: 172.66.193.96
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[849.4ms +/-1ms] 🔒'
-  server: 104.25.224.90
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
-  server: 159.246.55.228
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
-  server: 141.11.202.143
-  port: 443
-  type: trojan
-  password: 1vkFHbQX_gN1U8V8jVc
-  sni: mhpanel.kigaping.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: mhpanel.kigaping.com
-- name: '[802.4ms +/-5ms] @ConfigV2RayNG'
-  server: 162.159.254.201
-  port: 443
+- name: '[800.6ms +/-17ms] 🚀@VPNine1'
+  server: 172.64.150.205
+  port: 2083
   type: vless
-  uuid: 88e79aa6-f431-4453-8dcc-652a0c747198
+  uuid: bd6c11e0-0233-4fb1-ba97-8d5f16d7155f
   udp: true
   tls: true
-  servername: o685y.save-node.com
+  servername: site.check-looks.space
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /api/se1k2rfxlsuer3ry4u6e84kl8rqp721p
+    path: /
     headers:
-      Host: o685y.save-node.com
-- name: '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
-  server: 64.49.15.224
-  port: 32845
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: UsFmaxEHVwUa025jmmwLG7du-zLVqZK0
-  udp: true
+      Host: site.check-looks.space
+- name: '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 2902c46c8493
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 2902c46c8493
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[928.9ms +/-1ms] Config'
-  - '[846.6ms +/-1ms] 🔒'
-  - '[870.4ms +/-3ms] 🔒'
-  - '[866.6ms +/-1ms] 🔒'
-  - '[865.3ms +/-2ms] 🔒'
-  - '[885.2ms +/-3ms] 🔒'
-  - 🇸🇦 [915.8ms +/-1ms] 🔒
-  - '[935.1ms +/-10ms] 🔒'
-  - '[917.2ms +/-2ms] 🔒'
-  - '[931.3ms +/-2ms] 🔒'
-  - '[923.9ms +/-1ms] 🔒'
-  - '[917.7ms +/-1ms] 🔒'
-  - '[950.4ms +/-8ms] 🔒'
-  - '[849.4ms +/-1ms] 🔒'
-  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
-  - 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
-  - '[802.4ms +/-5ms] @ConfigV2RayNG'
-  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
+  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
+  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
+  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
+  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
+  - '[800.6ms +/-17ms] 🚀@VPNine1'
+  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[928.9ms +/-1ms] Config'
-  - '[846.6ms +/-1ms] 🔒'
-  - '[870.4ms +/-3ms] 🔒'
-  - '[866.6ms +/-1ms] 🔒'
-  - '[865.3ms +/-2ms] 🔒'
-  - '[885.2ms +/-3ms] 🔒'
-  - 🇸🇦 [915.8ms +/-1ms] 🔒
-  - '[935.1ms +/-10ms] 🔒'
-  - '[917.2ms +/-2ms] 🔒'
-  - '[931.3ms +/-2ms] 🔒'
-  - '[923.9ms +/-1ms] 🔒'
-  - '[917.7ms +/-1ms] 🔒'
-  - '[950.4ms +/-8ms] 🔒'
-  - '[849.4ms +/-1ms] 🔒'
-  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
-  - 🇭🇺 [870.3ms +/-5ms] 🇩🇪 Germany 0431
-  - '[802.4ms +/-5ms] @ConfigV2RayNG'
-  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
+  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
+  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
+  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
+  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
+  - '[800.6ms +/-17ms] 🚀@VPNine1'
+  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[928.9ms +/-1ms] Config'
-  - '[846.6ms +/-1ms] 🔒'
-  - '[870.4ms +/-3ms] 🔒'
-  - '[866.6ms +/-1ms] 🔒'
-  - '[865.3ms +/-2ms] 🔒'
-  - '[885.2ms +/-3ms] 🔒'
-  - '[935.1ms +/-10ms] 🔒'
-  - '[917.2ms +/-2ms] 🔒'
-  - '[931.3ms +/-2ms] 🔒'
-  - '[923.9ms +/-1ms] 🔒'
-  - '[917.7ms +/-1ms] 🔒'
-  - '[950.4ms +/-8ms] 🔒'
-  - '[849.4ms +/-1ms] 🔒'
-  - '[865.4ms +/-3ms] 🇩🇪 Germany 0432'
-  - '[802.4ms +/-5ms] @ConfigV2RayNG'
-  - '[1407.5ms +/-143ms] 🇹🇷229924 | ⚡️Telegram = t(…)'
+  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
+  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
+  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
+  - '[800.6ms +/-17ms] 🚀@VPNine1'
+  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
