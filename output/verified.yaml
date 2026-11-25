@@ -2,110 +2,103 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+- name: '[506.8ms +/-1ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
   server: 202.50.253.90
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+- name: '[510.8ms +/-1ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
   server: 202.50.253.18
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+- name: '[511.3ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[510.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[518.2ms +/-1ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[512.5ms +/-3ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[591.5ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[526.1ms +/-0ms] [582.6ms +/-1ms] 4FreeIran-f(…)'
+  server: 47.85.227.36
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+  udp: true
+- name: '[429.4ms +/-3ms] 🇺🇸 机场推荐:dafei.de 美国 90'
+  server: starlink-ft.251313.xyz
+  port: 443
+  type: hysteria2
+  password: https://xship.best
+  sni: xship.top
+  skip-cert-verify: true
+- name: '[519.0ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
-  server: 35.178.82.244
+- name: '[590.8ms +/-24ms] 🇹🇼TW_1|1.2MB/s'
+  server: er8u54dh.df6h451rh.xin
   port: 443
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  udp: true
-- name: '[800.6ms +/-17ms] 🚀@VPNine1'
-  server: 172.64.150.205
-  port: 2083
-  type: vless
-  uuid: bd6c11e0-0233-4fb1-ba97-8d5f16d7155f
-  udp: true
-  tls: true
-  servername: site.check-looks.space
+  type: anytls
+  password: 2902c46c8493
+  sni: px.ads.linkedin.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: site.check-looks.space
-- name: '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
+- name: '[699.9ms +/-14ms] 🇹🇼 🇨🇳 台湾 | TWN'
   server: rtifgjdr.df6h451rh.xin
   port: 443
   type: anytls
   password: 2902c46c8493
   sni: docs.microsoft.com
   skip-cert-verify: true
-- name: '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
-  server: er8u54dh.df6h451rh.xin
+- name: '[2069.6ms +/-334ms] 🔒'
+  server: 47.254.128.109
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: '[1266.7ms +/-52ms] 🇨🇦 加拿大 | CAN'
+  server: im.lovehk.xyz
   port: 443
   type: anytls
-  password: 2902c46c8493
-  sni: px.ads.linkedin.com
+  password: f00f8f7d-ef35-42ac-b10f-680a7a3f81ed
+  sni: im.lovehk.xyz
   skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Proxy
@@ -113,55 +106,56 @@ proxy-groups:
   proxies:
   - ♻️ Auto
   - 其他
-  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
-  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
-  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
-  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
-  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
-  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
-  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
-  - 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
-  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
-  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
-  - '[800.6ms +/-17ms] 🚀@VPNine1'
-  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
-  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
+  - '[506.8ms +/-1ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[510.8ms +/-1ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[511.3ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[510.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹'
+  - '[518.2ms +/-1ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[512.5ms +/-3ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - '[591.5ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[526.1ms +/-0ms] [582.6ms +/-1ms] 4FreeIran-f(…)'
+  - '[429.4ms +/-3ms] 🇺🇸 机场推荐:dafei.de 美国 90'
+  - '[519.0ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-24ms] 🇹🇼TW_1|1.2MB/s'
+  - '[699.9ms +/-14ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[2069.6ms +/-334ms] 🔒'
+  - '[1266.7ms +/-52ms] 🇨🇦 加拿大 | CAN'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
-  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
-  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
-  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
-  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
-  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
-  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
-  - 🇮🇹 [670.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹
-  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
-  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
-  - '[800.6ms +/-17ms] 🚀@VPNine1'
-  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
-  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
+  - '[506.8ms +/-1ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[510.8ms +/-1ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[511.3ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[510.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹'
+  - '[518.2ms +/-1ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[512.5ms +/-3ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - '[591.5ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[526.1ms +/-0ms] [582.6ms +/-1ms] 4FreeIran-f(…)'
+  - '[429.4ms +/-3ms] 🇺🇸 机场推荐:dafei.de 美国 90'
+  - '[519.0ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-24ms] 🇹🇼TW_1|1.2MB/s'
+  - '[699.9ms +/-14ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[2069.6ms +/-334ms] 🔒'
+  - '[1266.7ms +/-52ms] 🇨🇦 加拿大 | CAN'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[610.5ms +/-1ms] 🇮🇹 [634.5ms +/-1ms] 🇮🇹'
-  - '[598.1ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
-  - '[595.7ms +/-4ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
-  - '[598.5ms +/-2ms] 🇮🇹 [635.9ms +/-2ms] shadowso(…)'
-  - '[610.2ms +/-2ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
-  - '[665.8ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
-  - '[601.2ms +/-4ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
-  - '[647.2ms +/-170ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
-  - '[608.7ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[853.6ms +/-16ms] 🇩🇪 Frankfurt am Main 10'
-  - '[800.6ms +/-17ms] 🚀@VPNine1'
-  - '[713.1ms +/-16ms] 🇹🇼 🇨🇳 台湾 | TWN'
-  - '[987.2ms +/-17ms] 🇹🇼TW_4|1.8MB/s'
+  - '[506.8ms +/-1ms] 🇮🇹 [676.4ms +/-0ms] shadowso(…)'
+  - '[510.8ms +/-1ms] 🇮🇹 [681.7ms +/-1ms] @vpnbaz'
+  - '[511.3ms +/-1ms] 🇮🇹 [618.7ms +/-2ms] 🇮🇹'
+  - '[510.7ms +/-3ms] 🇮🇹 [648.0ms +/-0ms] 🇮🇹'
+  - '[518.2ms +/-1ms] 🇮🇹 [679.4ms +/-0ms] shadowso(…)'
+  - '[512.5ms +/-3ms] 🇮🇹 [683.3ms +/-5ms] shadowso(…)'
+  - '[591.5ms +/-0ms] 🇮🇹 [687.2ms +/-1ms] shadowso(…)'
+  - '[526.1ms +/-0ms] [582.6ms +/-1ms] 4FreeIran-f(…)'
+  - '[429.4ms +/-3ms] 🇺🇸 机场推荐:dafei.de 美国 90'
+  - '[519.0ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-24ms] 🇹🇼TW_1|1.2MB/s'
+  - '[699.9ms +/-14ms] 🇹🇼 🇨🇳 台湾 | TWN'
+  - '[2069.6ms +/-334ms] 🔒'
+  - '[1266.7ms +/-52ms] 🇨🇦 加拿大 | CAN'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
