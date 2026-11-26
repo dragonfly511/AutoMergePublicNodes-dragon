@@ -2,177 +2,215 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[628.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: '[283.5ms +/-2ms] vless-172.235.40.143'
+  server: 172.235.40.143
+  port: 443
+  type: vless
+  uuid: 44fd6b93-9cc5-4ca1-9c2d-77a6497eaf7c
   udp: true
-- name: '[638.9ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[632.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[638.8ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[640.8ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[638.7ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[638.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[639.0ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
+  tls: true
+  servername: itunes.apple.com
+  skip-cert-verify: true
+  reality-opts:
+    public-key: JbbnGIAzXawujJHGI4QWdKMGDi01uSjyasC3VhpMMQU
+    short-id: f0d46c7f
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: '[587.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.63
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[645.0ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+- name: '[597.4ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[590.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[603.2ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[602.1ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[630.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[645.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.54
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[645.7ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+- name: '[648.3ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[649.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
   server: 202.50.253.45
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[596.7ms +/-12ms] 🇹🇼 🇨🇳 台湾 | TWN 3'
+- name: '[652.3ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[428.1ms +/-1ms] 4FreeIran-980fa79e9b'
+  server: 34.24.25.1
+  port: 443
+  type: hysteria2
+  password: 8dOHZ13sx33R1/PQbhTK/w==
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇺🇸 [271.2ms +/-0ms] US
+  server: 66.163.114.106
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸 [267.1ms +/-2ms] US
+  server: 66.163.114.114
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: 66.163.114.114
+  skip-cert-verify: true
+  udp: true
+- name: '[272.2ms +/-1ms] US'
+  server: 66.163.114.166
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.findconnectwithemployersandbuildprofessionalnetwork.com
+  skip-cert-verify: true
+  udp: true
+- name: '[237.5ms +/-3ms] 🇺🇸 美国 | USA 4'
+  server: 3x-sub.linzhonghong.com
+  port: 443
+  type: trojan
+  password: c48qMRRfLJ3kwD4P_XpgfIq6
+  sni: 3x-sub.linzhonghong.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /tjbbb7eab89c9a
+    headers: {}
+- name: '[542.1ms +/-24ms] 🇹🇼TW_1|1.3MB/s'
   server: er8u54dh.df6h451rh.xin
   port: 443
   type: anytls
   password: 2902c46c8493
   sni: px.ads.linkedin.com
   skip-cert-verify: true
-- name: '[595.8ms +/-14ms] 4Jadi-cdbe277f6c'
-  server: 201.24.117.111
-  port: 443
-  type: hysteria2
-  password: 48818046-00b5-4576-bbe8-d2971fe0f844
-  sni: 201.24.117.111
-  skip-cert-verify: true
-- name: '[703.2ms +/-18ms] 🇹🇼 🇨🇳 台湾 | TWN 4'
-  server: rtifgjdr.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 2902c46c8493
-  sni: docs.microsoft.com
-  skip-cert-verify: true
-- name: '[1172.5ms +/-404ms] 🇩🇪[www.v2nodes.com] ss-DE(…)'
-  server: 47.254.167.157
-  port: 443
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: '[849.9ms +/-1ms] 🇷🇺RU-🚀@VPNine1'
-  server: 5.42.104.42
-  port: 443
-  type: vless
-  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
-  udp: true
-  flow: xtls-rprx-vision
-  tls: true
-  servername: rugermicro2.gangplatform.com
-  skip-cert-verify: true
-  reality-opts:
-    public-key: nPYLh9nRxKK0OQVQrboJyKN4Y3DViI412cbN9Tbz9AQ
-    short-id: 53668ac88eefee81
-  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[628.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.9ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[632.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.8ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[640.8ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.7ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[639.0ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.0ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.7ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[596.7ms +/-12ms] 🇹🇼 🇨🇳 台湾 | TWN 3'
-  - '[595.8ms +/-14ms] 4Jadi-cdbe277f6c'
-  - '[703.2ms +/-18ms] 🇹🇼 🇨🇳 台湾 | TWN 4'
-  - '[1172.5ms +/-404ms] 🇩🇪[www.v2nodes.com] ss-DE(…)'
-  - '[849.9ms +/-1ms] 🇷🇺RU-🚀@VPNine1'
+  - 🇺🇸 美国
+  - '[283.5ms +/-2ms] vless-172.235.40.143'
+  - '[587.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[597.4ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[603.2ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[602.1ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[630.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[645.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[648.3ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[649.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[652.3ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[428.1ms +/-1ms] 4FreeIran-980fa79e9b'
+  - 🇺🇸 [271.2ms +/-0ms] US
+  - 🇺🇸 [267.1ms +/-2ms] US
+  - '[272.2ms +/-1ms] US'
+  - '[237.5ms +/-3ms] 🇺🇸 美国 | USA 4'
+  - '[542.1ms +/-24ms] 🇹🇼TW_1|1.3MB/s'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[628.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.9ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[632.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.8ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[640.8ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.7ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[639.0ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.0ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.7ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[596.7ms +/-12ms] 🇹🇼 🇨🇳 台湾 | TWN 3'
-  - '[595.8ms +/-14ms] 4Jadi-cdbe277f6c'
-  - '[703.2ms +/-18ms] 🇹🇼 🇨🇳 台湾 | TWN 4'
-  - '[1172.5ms +/-404ms] 🇩🇪[www.v2nodes.com] ss-DE(…)'
-  - '[849.9ms +/-1ms] 🇷🇺RU-🚀@VPNine1'
+  - '[283.5ms +/-2ms] vless-172.235.40.143'
+  - '[587.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[597.4ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[603.2ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[602.1ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[630.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[645.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[648.3ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[649.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[652.3ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[428.1ms +/-1ms] 4FreeIran-980fa79e9b'
+  - 🇺🇸 [271.2ms +/-0ms] US
+  - 🇺🇸 [267.1ms +/-2ms] US
+  - '[272.2ms +/-1ms] US'
+  - '[237.5ms +/-3ms] 🇺🇸 美国 | USA 4'
+  - '[542.1ms +/-24ms] 🇹🇼TW_1|1.3MB/s'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[628.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.9ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[632.1ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.8ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[640.8ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.7ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[638.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[639.0ms +/-4ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.0ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[645.7ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
-  - '[596.7ms +/-12ms] 🇹🇼 🇨🇳 台湾 | TWN 3'
-  - '[595.8ms +/-14ms] 4Jadi-cdbe277f6c'
-  - '[703.2ms +/-18ms] 🇹🇼 🇨🇳 台湾 | TWN 4'
-  - '[1172.5ms +/-404ms] 🇩🇪[www.v2nodes.com] ss-DE(…)'
-  - '[849.9ms +/-1ms] 🇷🇺RU-🚀@VPNine1'
+  - '[283.5ms +/-2ms] vless-172.235.40.143'
+  - '[587.1ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[597.4ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[590.8ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[603.2ms +/-3ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[602.1ms +/-18ms] SHADOWSOCKS | @PulseConfigs(…)'
+  - '[630.9ms +/-2ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[645.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[648.3ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[649.7ms +/-1ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[652.3ms +/-0ms] SHADOWSOCKS | @PulseConfigs (…)'
+  - '[428.1ms +/-1ms] 4FreeIran-980fa79e9b'
+  - '[272.2ms +/-1ms] US'
+  - '[237.5ms +/-3ms] 🇺🇸 美国 | USA 4'
+  - '[542.1ms +/-24ms] 🇹🇼TW_1|1.3MB/s'
+  url: https://www.gstatic.com/generate_204
+  interval: 600
+- name: 🇺🇸 美国
+  type: url-test
+  proxies:
+  - 🇺🇸 [271.2ms +/-0ms] US
+  - 🇺🇸 [267.1ms +/-2ms] US
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
