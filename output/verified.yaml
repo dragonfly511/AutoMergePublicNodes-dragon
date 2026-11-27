@@ -2,170 +2,266 @@ mixed-port: 7890
 allow-lan: false
 mode: rule
 proxies:
-- name: '[333.4ms +/-3ms] 𔒰‎ ＳＥＧＡＲＯ'
-  server: 34.24.25.1
-  port: 443
-  type: hysteria2
-  password: 8dOHZ13sx33R1/PQbhTK/w==
-  sni: bing.com
-  skip-cert-verify: true
-- name: '[485.3ms +/-2ms] 🇮🇹IT-202.50.253.72-0108'
-  server: 202.50.253.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[487.5ms +/-1ms] 🇮🇹IT-202.50.253.36-0117'
-  server: 202.50.253.36
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[487.1ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
-  server: 202.50.253.63
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[487.7ms +/-1ms] 🇮🇹IT-202.50.253.27-0114'
-  server: 202.50.253.27
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[486.0ms +/-4ms] 🇮🇹IT-202.50.253.81-0102'
-  server: 202.50.253.81
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[492.5ms +/-0ms] 🇮🇹IT-202.50.253.18-0101'
-  server: 202.50.253.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[488.8ms +/-6ms] 🇮🇹IT-202.50.253.54-0116'
-  server: 202.50.253.54
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[492.8ms +/-2ms] 🇮🇹IT-202.50.253.45-0115'
-  server: 202.50.253.45
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[495.8ms +/-1ms] 🇮🇹IT-202.50.253.90-0100'
-  server: 202.50.253.90
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: '[491.4ms +/-2ms] 🇮🇹IT-202.50.253.99-0099'
+- name: '[548.7ms +/-1ms] 🇮🇹IT-202.50.253.99-0099'
   server: 202.50.253.99
   port: 19999
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: '[477.0ms +/-2ms] 🇺🇸 机场推荐:dafei.de 美国 86'
+- name: '[550.0ms +/-1ms] 🇮🇹IT-202.50.253.45-0115'
+  server: 202.50.253.45
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[551.5ms +/-0ms] 🇮🇹IT-202.50.253.72-0108'
+  server: 202.50.253.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[571.2ms +/-3ms] 🇮🇹IT-202.50.253.27-0114'
+  server: 202.50.253.27
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[563.3ms +/-0ms] 🇮🇹IT-202.50.253.81-0102'
+  server: 202.50.253.81
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[572.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0117'
+  server: 202.50.253.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[566.4ms +/-1ms] 🇮🇹IT-202.50.253.54-0116'
+  server: 202.50.253.54
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[566.2ms +/-2ms] 🇮🇹IT-202.50.253.90-0100'
+  server: 202.50.253.90
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[571.9ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
+  server: 202.50.253.63
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[626.4ms +/-1ms] 🇮🇹IT-202.50.253.18-0101'
+  server: 202.50.253.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: '[378.5ms +/-21ms] 🇺🇸 机场推荐:dafei.de 美国 86'
   server: starlink-ft.251313.xyz
   port: 443
   type: hysteria2
   password: https://xship.best
   sni: xship.top
   skip-cert-verify: true
-- name: 🇸🇬 [679.9ms +/-2ms] 🇸🇬SG-43.156.36.253-5689
-  server: 43.156.36.253
+- name: '[758.9ms +/-1ms] 🇮🇹 Italy, Milan | [BL]'
+  server: italy.astroapps.io
   port: 443
-  type: trojan
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  sni: tx-hy2
-  skip-cert-verify: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 034b5d9404b79a2df62fcb77a49cf748306765448d8b5e93
   udp: true
-- name: '[487.7ms +/-35ms] 🇩🇪232098 | ⚡️Telegram = t.m(…)'
-  server: 8.209.80.17
+- name: '[817.7ms +/-4ms] 🇧🇪 Belgium, Zaventem | [BL]'
+  server: belgium.astroapps.io
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c40d60d1c847e63098058c7524680f349c9042f932d8e79c
+  udp: true
+- name: '[829.2ms +/-3ms] 🇪🇪 Estonia, Tallinn | [BL]'
+  server: estonia.astroapps.io
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 104243d8a410f4e54013b7fdb57c4b688d929c7b5b89e86b
+  udp: true
+- name: '[779.2ms +/-36ms] 🇩🇰 Denmark, Copenhagen | [BL]'
+  server: denmark.astroapps.io
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c917b96e084ea67a0f21031f1284f9ee9e1d837321ce6362
+  udp: true
+- name: '[835.5ms +/-1ms] 🇭🇰 Hong Kong, Hong Kong | [BL]'
+  server: hongkong.astroapps.io
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f8256fdf607a8015a02b46df1563c2f35ebaff0d56f2923a
+  udp: true
+- name: '[487.9ms +/-0ms] 🇺🇸'
+  server: 135.126.21.107
+  port: 443
+  type: hysteria2
+  password: 6ac6d17d-040c-4fab-940e-8f5d72c3fed6
+  sni: de2-balance.rezproffx.ru
+  skip-cert-verify: true
+- name: '[561.8ms +/-1ms] 112-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  server: a54ge.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: docs.microsoft.com
+  skip-cert-verify: true
+- name: '[642.1ms +/-2ms] 110-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  server: mfjh645drfj1dr6j5.df6h451rh.xin
+  port: 443
+  type: anytls
+  password: 0324fbc29561
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: '[623.7ms +/-2ms] 🇬🇧232556 | ⚡️Telegram = t.me(…)'
+  server: 18.135.5.220
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  udp: true
+- name: '[769.7ms +/-0ms] 🇩🇪232563 | ⚡️Telegram = t.me(…)'
+  server: 8.209.115.219
   port: 443
   type: ss
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: '[797.2ms +/-1ms] 🇮🇷232040 | ⚡️Telegram = t.me(…)'
-  server: 2.144.31.62
-  port: 43123
+- name: '[762.0ms +/-350ms] 🇩🇪232554 | ⚡️Telegram = t.(…)'
+  server: 8.211.56.24
+  port: 443
   type: ss
-  cipher: 2022-blake3-aes-256-gcm
-  password: mnW7Q5HYqXgnLQO9UbBa/Hyk497TaOfQ8bTocv4HuG8=:pHotuRcxo5MS3H8GjY5f5pm3uDbzb8gMqYpr1HOWWug=
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
+- name: '[749.2ms +/-719ms] 🇩🇪232569 | ⚡️Telegram = t.(…)'
+  server: 8.211.8.225
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: '[1780.6ms +/-211ms] @VPsave'
+  server: 13.141.36.10
+  port: 443
+  type: vless
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  skip-cert-verify: true
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🚀 Proxy
   type: select
   proxies:
   - ♻️ Auto
   - 其他
-  - '[333.4ms +/-3ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[485.3ms +/-2ms] 🇮🇹IT-202.50.253.72-0108'
-  - '[487.5ms +/-1ms] 🇮🇹IT-202.50.253.36-0117'
-  - '[487.1ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
-  - '[487.7ms +/-1ms] 🇮🇹IT-202.50.253.27-0114'
-  - '[486.0ms +/-4ms] 🇮🇹IT-202.50.253.81-0102'
-  - '[492.5ms +/-0ms] 🇮🇹IT-202.50.253.18-0101'
-  - '[488.8ms +/-6ms] 🇮🇹IT-202.50.253.54-0116'
-  - '[492.8ms +/-2ms] 🇮🇹IT-202.50.253.45-0115'
-  - '[495.8ms +/-1ms] 🇮🇹IT-202.50.253.90-0100'
-  - '[491.4ms +/-2ms] 🇮🇹IT-202.50.253.99-0099'
-  - '[477.0ms +/-2ms] 🇺🇸 机场推荐:dafei.de 美国 86'
-  - 🇸🇬 [679.9ms +/-2ms] 🇸🇬SG-43.156.36.253-5689
-  - '[487.7ms +/-35ms] 🇩🇪232098 | ⚡️Telegram = t.m(…)'
-  - '[797.2ms +/-1ms] 🇮🇷232040 | ⚡️Telegram = t.me(…)'
+  - '[548.7ms +/-1ms] 🇮🇹IT-202.50.253.99-0099'
+  - '[550.0ms +/-1ms] 🇮🇹IT-202.50.253.45-0115'
+  - '[551.5ms +/-0ms] 🇮🇹IT-202.50.253.72-0108'
+  - '[571.2ms +/-3ms] 🇮🇹IT-202.50.253.27-0114'
+  - '[563.3ms +/-0ms] 🇮🇹IT-202.50.253.81-0102'
+  - '[572.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0117'
+  - '[566.4ms +/-1ms] 🇮🇹IT-202.50.253.54-0116'
+  - '[566.2ms +/-2ms] 🇮🇹IT-202.50.253.90-0100'
+  - '[571.9ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
+  - '[626.4ms +/-1ms] 🇮🇹IT-202.50.253.18-0101'
+  - '[378.5ms +/-21ms] 🇺🇸 机场推荐:dafei.de 美国 86'
+  - '[758.9ms +/-1ms] 🇮🇹 Italy, Milan | [BL]'
+  - '[817.7ms +/-4ms] 🇧🇪 Belgium, Zaventem | [BL]'
+  - '[829.2ms +/-3ms] 🇪🇪 Estonia, Tallinn | [BL]'
+  - '[779.2ms +/-36ms] 🇩🇰 Denmark, Copenhagen | [BL]'
+  - '[835.5ms +/-1ms] 🇭🇰 Hong Kong, Hong Kong | [BL]'
+  - '[487.9ms +/-0ms] 🇺🇸'
+  - '[561.8ms +/-1ms] 112-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[642.1ms +/-2ms] 110-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[623.7ms +/-2ms] 🇬🇧232556 | ⚡️Telegram = t.me(…)'
+  - '[769.7ms +/-0ms] 🇩🇪232563 | ⚡️Telegram = t.me(…)'
+  - '[762.0ms +/-350ms] 🇩🇪232554 | ⚡️Telegram = t.(…)'
+  - '[749.2ms +/-719ms] 🇩🇪232569 | ⚡️Telegram = t.(…)'
+  - '[1780.6ms +/-211ms] @VPsave'
 - name: ♻️ Auto
   type: url-test
   proxies:
-  - '[333.4ms +/-3ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[485.3ms +/-2ms] 🇮🇹IT-202.50.253.72-0108'
-  - '[487.5ms +/-1ms] 🇮🇹IT-202.50.253.36-0117'
-  - '[487.1ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
-  - '[487.7ms +/-1ms] 🇮🇹IT-202.50.253.27-0114'
-  - '[486.0ms +/-4ms] 🇮🇹IT-202.50.253.81-0102'
-  - '[492.5ms +/-0ms] 🇮🇹IT-202.50.253.18-0101'
-  - '[488.8ms +/-6ms] 🇮🇹IT-202.50.253.54-0116'
-  - '[492.8ms +/-2ms] 🇮🇹IT-202.50.253.45-0115'
-  - '[495.8ms +/-1ms] 🇮🇹IT-202.50.253.90-0100'
-  - '[491.4ms +/-2ms] 🇮🇹IT-202.50.253.99-0099'
-  - '[477.0ms +/-2ms] 🇺🇸 机场推荐:dafei.de 美国 86'
-  - 🇸🇬 [679.9ms +/-2ms] 🇸🇬SG-43.156.36.253-5689
-  - '[487.7ms +/-35ms] 🇩🇪232098 | ⚡️Telegram = t.m(…)'
-  - '[797.2ms +/-1ms] 🇮🇷232040 | ⚡️Telegram = t.me(…)'
+  - '[548.7ms +/-1ms] 🇮🇹IT-202.50.253.99-0099'
+  - '[550.0ms +/-1ms] 🇮🇹IT-202.50.253.45-0115'
+  - '[551.5ms +/-0ms] 🇮🇹IT-202.50.253.72-0108'
+  - '[571.2ms +/-3ms] 🇮🇹IT-202.50.253.27-0114'
+  - '[563.3ms +/-0ms] 🇮🇹IT-202.50.253.81-0102'
+  - '[572.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0117'
+  - '[566.4ms +/-1ms] 🇮🇹IT-202.50.253.54-0116'
+  - '[566.2ms +/-2ms] 🇮🇹IT-202.50.253.90-0100'
+  - '[571.9ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
+  - '[626.4ms +/-1ms] 🇮🇹IT-202.50.253.18-0101'
+  - '[378.5ms +/-21ms] 🇺🇸 机场推荐:dafei.de 美国 86'
+  - '[758.9ms +/-1ms] 🇮🇹 Italy, Milan | [BL]'
+  - '[817.7ms +/-4ms] 🇧🇪 Belgium, Zaventem | [BL]'
+  - '[829.2ms +/-3ms] 🇪🇪 Estonia, Tallinn | [BL]'
+  - '[779.2ms +/-36ms] 🇩🇰 Denmark, Copenhagen | [BL]'
+  - '[835.5ms +/-1ms] 🇭🇰 Hong Kong, Hong Kong | [BL]'
+  - '[487.9ms +/-0ms] 🇺🇸'
+  - '[561.8ms +/-1ms] 112-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[642.1ms +/-2ms] 110-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[623.7ms +/-2ms] 🇬🇧232556 | ⚡️Telegram = t.me(…)'
+  - '[769.7ms +/-0ms] 🇩🇪232563 | ⚡️Telegram = t.me(…)'
+  - '[762.0ms +/-350ms] 🇩🇪232554 | ⚡️Telegram = t.(…)'
+  - '[749.2ms +/-719ms] 🇩🇪232569 | ⚡️Telegram = t.(…)'
+  - '[1780.6ms +/-211ms] @VPsave'
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 其他
   type: url-test
   proxies:
-  - '[333.4ms +/-3ms] 𔒰‎ ＳＥＧＡＲＯ'
-  - '[485.3ms +/-2ms] 🇮🇹IT-202.50.253.72-0108'
-  - '[487.5ms +/-1ms] 🇮🇹IT-202.50.253.36-0117'
-  - '[487.1ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
-  - '[487.7ms +/-1ms] 🇮🇹IT-202.50.253.27-0114'
-  - '[486.0ms +/-4ms] 🇮🇹IT-202.50.253.81-0102'
-  - '[492.5ms +/-0ms] 🇮🇹IT-202.50.253.18-0101'
-  - '[488.8ms +/-6ms] 🇮🇹IT-202.50.253.54-0116'
-  - '[492.8ms +/-2ms] 🇮🇹IT-202.50.253.45-0115'
-  - '[495.8ms +/-1ms] 🇮🇹IT-202.50.253.90-0100'
-  - '[491.4ms +/-2ms] 🇮🇹IT-202.50.253.99-0099'
-  - '[477.0ms +/-2ms] 🇺🇸 机场推荐:dafei.de 美国 86'
-  - '[487.7ms +/-35ms] 🇩🇪232098 | ⚡️Telegram = t.m(…)'
-  - '[797.2ms +/-1ms] 🇮🇷232040 | ⚡️Telegram = t.me(…)'
+  - '[548.7ms +/-1ms] 🇮🇹IT-202.50.253.99-0099'
+  - '[550.0ms +/-1ms] 🇮🇹IT-202.50.253.45-0115'
+  - '[551.5ms +/-0ms] 🇮🇹IT-202.50.253.72-0108'
+  - '[571.2ms +/-3ms] 🇮🇹IT-202.50.253.27-0114'
+  - '[563.3ms +/-0ms] 🇮🇹IT-202.50.253.81-0102'
+  - '[572.1ms +/-3ms] 🇮🇹IT-202.50.253.36-0117'
+  - '[566.4ms +/-1ms] 🇮🇹IT-202.50.253.54-0116'
+  - '[566.2ms +/-2ms] 🇮🇹IT-202.50.253.90-0100'
+  - '[571.9ms +/-2ms] 🇮🇹IT-202.50.253.63-0109'
+  - '[626.4ms +/-1ms] 🇮🇹IT-202.50.253.18-0101'
+  - '[378.5ms +/-21ms] 🇺🇸 机场推荐:dafei.de 美国 86'
+  - '[758.9ms +/-1ms] 🇮🇹 Italy, Milan | [BL]'
+  - '[817.7ms +/-4ms] 🇧🇪 Belgium, Zaventem | [BL]'
+  - '[829.2ms +/-3ms] 🇪🇪 Estonia, Tallinn | [BL]'
+  - '[779.2ms +/-36ms] 🇩🇰 Denmark, Copenhagen | [BL]'
+  - '[835.5ms +/-1ms] 🇭🇰 Hong Kong, Hong Kong | [BL]'
+  - '[487.9ms +/-0ms] 🇺🇸'
+  - '[561.8ms +/-1ms] 112-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[642.1ms +/-2ms] 110-🇨🇳 CN tls ✂️@GheychiAmoo(…)'
+  - '[623.7ms +/-2ms] 🇬🇧232556 | ⚡️Telegram = t.me(…)'
+  - '[769.7ms +/-0ms] 🇩🇪232563 | ⚡️Telegram = t.me(…)'
+  - '[762.0ms +/-350ms] 🇩🇪232554 | ⚡️Telegram = t.(…)'
+  - '[749.2ms +/-719ms] 🇩🇪232569 | ⚡️Telegram = t.(…)'
+  - '[1780.6ms +/-211ms] @VPsave'
   url: https://www.gstatic.com/generate_204
   interval: 600
 dns:
